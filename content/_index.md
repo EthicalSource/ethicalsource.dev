@@ -1,5 +1,5 @@
 +++
-title = "Ethical Source"
+title = "An Ethical Evolution of Open Source"
 +++
 
 ## An Ethical Evolution of Open Source
