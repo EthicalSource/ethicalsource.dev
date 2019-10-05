@@ -10,7 +10,7 @@ EnableMissingTranslationPlaceholders = true
 
 uglyURLs = true
 
-googleAnalytics = "UA-101929377-4"
+googleAnalytics = "UA-56802475-3"
 
 [mediaTypes]
 [mediaTypes."text/markdown"]
