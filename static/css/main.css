@@ -37,16 +37,16 @@ body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  width: 60%;
+  width: 75%;
   margin: 0 auto 0 auto;
 }
 
 header,
 section {
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0 auto 1rem auto;
   max-width: 52rem;
-  padding: 1.5rem;
+  padding: 3rem;
 }
 
 #navigation {
@@ -88,7 +88,7 @@ li {
 
 header {
   color: var(--color-white);
-  height: 12rem;
+  height: 19rem;
 }
 
 footer {
@@ -307,8 +307,9 @@ abbr {
 
 header figure {
   line-height: 3rem;
-  padding-top: 3rem;
-  margin-bottom: .5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: .25rem;
 }
 
 header figcaption {
