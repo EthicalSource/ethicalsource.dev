@@ -1,7 +1,7 @@
 # Logo Info
 
-The file `logo.svg` contains the white-on-transparent SVG logo.
-Additionally, `logo-inverted.svg` contains a purple-on-transparent SVG logo.
+The file `logo.png` contains the white-on-transparent PNG logo.
+Additionally, `logo-inverted.png` contains a teal-on-transparent SVG logo.
 Finally, `mask-icon.svg` contains a 16×16 monochrome icon, for Safari.
 
 ## Creating the Favicon
@@ -9,7 +9,7 @@ Finally, `mask-icon.svg` contains a 16×16 monochrome icon, for Safari.
 To convert one of the SVGs to a multiple-size favicon, use the following ImageMagick incantation:
 
 ```
-convert -background none -density 256x256 logo-inverted.svg -define icon:auto-resize favicon.ico
+convert -background none -density 256x256 logo-inverted.png -define icon:auto-resize favicon.ico
 ```
 
 ## Creating the Apple Touch Icons
@@ -17,7 +17,15 @@ convert -background none -density 256x256 logo-inverted.svg -define icon:auto-re
 At the time of writing, here are [the sizes](https://developer.apple.com/ios/human-interface-guidelines/graphics/app-icon/#app-icon-sizes).
 
 ```
-convert -background '#994444' -density 256x256 -gravity center -scale 135x135 -extent 180x180 logo.svg apple-touch-icon-180.png
+convert -background '#449999' -density 256x256 -gravity center -scale 135x135 -extent 57x57 logo.png apple-touch-icon-57.png
+convert -background '#449999' -density 256x256 -gravity center -scale 135x135 -extent 60x60 logo.png apple-touch-icon-60.png
+convert -background '#449999' -density 256x256 -gravity center -scale 135x135 -extent 72x72 logo.png apple-touch-icon-72.png
+convert -background '#449999' -density 256x256 -gravity center -scale 135x135 -extent 76x76 logo.png apple-touch-icon-76.png
+convert -background '#449999' -density 256x256 -gravity center -scale 135x135 -extent 114x114 logo.png apple-touch-icon-114.png
+convert -background '#449999' -density 256x256 -gravity center -scale 135x135 -extent 120x120 logo.png apple-touch-icon-120.png
+convert -background '#449999' -density 256x256 -gravity center -scale 135x135 -extent 144x144 logo.png apple-touch-icon-144.png
+convert -background '#449999' -density 256x256 -gravity center -scale 135x135 -extent 152x152 logo.png apple-touch-icon-152.png
+convert -background '#449999' -density 256x256 -gravity center -scale 135x135 -extent 180x180 logo.png apple-touch-icon-180.png
 ```
 
 Do this for every desired size with appropriate padding (`scale / extent ≈ 0.75` seems good .)
