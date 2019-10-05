@@ -1,7 +1,7 @@
-baseURL = "https://firstdonoharm.dev"
+baseURL = "https://ethicalsource.dev"
 # canonifyURLs = true
 languageCode = "en-us"
-title = "The Hippocratic License"
+title = "Ethical Source"
 disableKinds = ["RSS"]
 
 DefaultContentLanguage = "en"

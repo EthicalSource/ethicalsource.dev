@@ -1,3 +1,7 @@
++++
+title = "Ethical Source Definition"
++++
+
 ## The Ethical Source Definition
 
 Software is considered Ethical Source if it meets the following five criteria:
