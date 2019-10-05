@@ -9,7 +9,7 @@
       </tr>
     </thead>
     <tbody>
-      {{ $latest := ( where $.Site.RegularPages "Section" "translations" ).Reverse }}
+      {{ $latest := ( where $.Site.RegularPages "Section" "definition" ).Reverse }}
       {{ range $latest }}
         {{ if $.Page.Scratch.Get .Language.LanguageName }}
         {{ else }}

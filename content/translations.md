@@ -1,7 +1,7 @@
 +++
 title = "Ethical Source Definition Translations"
 aliases = ["i18n"]
-layout = "translations"
+layout = "definition"
 description = "You can view translations of the Ethical Source Definition here."
 +++
 
