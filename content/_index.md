@@ -4,7 +4,7 @@ title = "An Ethical Evolution of Open Source"
 
 ## An Ethical Evolution of Open Source
 
-The Open Source Definition (OSD) was created by the Open Source Initiative to facilitate the adoption of software intended for free use by other developers and institutions. But the emphasis of the OSD is on practical licensing requirements, which while important, do not define the practice of open source as experienced by millions of developers around the world. The definition of open source needs to be broader than simple licensing concerns.
+The Open Source Definition (OSD) was created by the Open Source Initiative to facilitate the adoption of software intended for free use by other developers and institutions. But the emphasis of the OSD is on practical licensing requirements, which, while important, do not define the practice of open source as experienced by millions of developers around the world. The definition of open source needs to be broader than simple licensing concerns.
 
 Over time, the community has developed its own working definition of open source: code that is written collaboratively in public and intended for use and reuse by our fellow developers. For two decades, the delta between the official definition and the more practical definition has not been a source of significant conflict.
 
