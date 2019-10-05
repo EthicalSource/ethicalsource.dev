@@ -336,13 +336,44 @@ header a:hover {
   color: var(--color-primary-lightest);
 }
 
+@media (min-width: 300px) {
+  header nav li:first-child {
+    display: initial;
+  }
+
+  body {
+    width: 90%;
+  }
+
+  header figcaption {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    margin-top: .5rem;
+  }
+
+  .logo {
+    display: block;
+    float: none;
+    height: 8rem;
+    width: 8rem;
+    margin-top: -3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header {
+    color: var(--color-white);
+    height: 19rem;
+    text-align: center;
+  }
+}
+
 @media (min-width: 414px) {
   header nav li:first-child {
     display: initial;
   }
 
   header figcaption {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .logo {
@@ -356,7 +387,7 @@ header a:hover {
   }
   header {
     color: var(--color-white);
-    height: 18rem;
+    height: 22rem;
     text-align: center;
   }
 }
@@ -380,4 +411,11 @@ header a:hover {
     -webkit-column-count: 2;
     column-count: 2;
   }
+
+  header {
+    color: var(--color-white);
+    height: 18rem;
+    text-align: center;
+  }
+
 }
