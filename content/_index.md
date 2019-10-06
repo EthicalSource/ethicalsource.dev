@@ -1,8 +1,8 @@
 +++
-title = "An Ethical Evolution of Open Source"
+title = "The Ethical Evolution of Open Source"
 +++
 
-## An Ethical Evolution of Open Source
+## The Ethical Evolution of Open Source
 
 The Open Source Definition (OSD) was written in 1998 by the Open Source Initiative to promote the adoption of software intended for free use by users, other developers, and institutions. But the emphasis of the OSD is on technical licensing requirements, which, while important, do not define the practice of open source as experienced by millions of developers around the world over the past two decades. The definition of open source is broader than simply licensing concerns.
 
