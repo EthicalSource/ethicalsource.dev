@@ -2,48 +2,14 @@
 aliases = ["/translations/es"]
 +++
 
-# Código de Conducta convenido para Contribuyentes
+## La Definición de Ethical Source
 
-## Nuestro compromiso
+El software es considerado un *Ethical source* (fuente ética) si contiene los siguientes cinco criterios:
 
-En el interés de fomentar una comunidad abierta y acogedora, nosotros como contribuyentes y administradores nos comprometemos a hacer de la participación en nuestro proyecto y nuestra comunidad una experiencia libre de acoso para todos, independientemente de la edad, dimensión corporal, discapacidad, etnia, identidad y expresión de género, nivel de experiencia, nacionalidad, apariencia física, raza, religión, identidad u orientación sexual.
+1. Es libremente distribuido con código fuente y puede ser combinado o usado en conjunción con otro software sin una regalía o cuota.
+2. Es desarrollado en público y tiene un proceso para aceptar contribuciones comunitarias.
+3.  Su comunidad es regida porun código de conducta que es aplicado de manera consistente y justa.
+4. Sus creadores tienen el derecho de prohibir su uso a individuos o instituciones involucradas en violacines de los derechos humanos u otra práácticas que consideren poco éticas.
+5. Sus creadores pueden solicitar una compensación rasonable y voluntaria de las comunidades o instituciones que se beneficien del software.
 
-## Nuestros estándares
-
-Ejemplos de comportamiento que contribuyen a crear un ambiente positivo:
-
-* Uso de lenguaje amable e inclusivo
-* Respeto a diferentes puntos de vista y experiencias
-* Aceptación de críticas constructivas
-* Enfocarse en lo que es mejor para la comunidad
-* Mostrar empatía a otros miembros de la comunidad
-
-Ejemplos de comportamiento inaceptable por participantes:
-
-* Uso de lenguaje o imágenes sexuales y atención sexual no deseada
-* Comentarios insultantes o despectivos (*trolling*) y ataques personales o políticos
-* Acoso público o privado
-* Publicación de información privada de terceros sin su consentimiento, como direcciones físicas o electrónicas
-* Otros tipos de conducta que pudieran considerarse inapropiadas en un entorno profesional.
-
-## Nuestras responsabilidades
-
-Los administradores del proyecto son responsables de clarificar los estándares de comportamiento aceptable y se espera que tomen medidas correctivas y apropiadas en respuesta a situaciones de conducta inaceptable.
-
-Los administradores del proyecto tienen el derecho y la responsabilidad de eliminar, editar o rechazar comentarios, *commits*, código, ediciones de documentación, *issues*, y otras contribuciones que no estén alineadas con este Código de Conducta, o de prohibir temporal o permanentemente a cualquier colaborador cuyo comportamiento sea inapropiado, amenazante, ofensivo o perjudicial.
-
-## Alcance
-
-Este código de conducta aplica tanto a espacios del proyecto como a espacios públicos donde un individuo esté en representación del proyecto o comunidad. Ejemplos de esto incluye el uso de la cuenta oficial de correo electrónico, publicaciones a través de las redes sociales oficiales, o presentaciones con personas designadas en eventos *online* u *offline*. La representación del proyecto puede ser clarificada explicitamente por los administradores del proyecto.
-
-## Aplicación
-
-Ejemplos de abuso, acoso u otro tipo de comportamiento inaceptable puede ser reportado al equipo del proyecto en [INSERTE CORREO AQUÍ]. Todas las quejas serán revisadas e investigadas, generando un resultado apropiado a las circunstancias. El equipo del proyecto está obligado a mantener confidencialidad de la persona que reportó el incidente. Detalles específicos acerca de las políticas de aplicación pueden ser publicadas por separado.
-
-Administradores que no sigan o que no hagan cumplir este Código de Conducta pueden ser eliminados de forma temporal o permanente del equipo administrador.
-
-## Atribución
-
-Este Código de Conducta es una adaptación del [Contributor Covenant][homepage], versión 1.4, disponible en https://www.contributor-covenant.org/es/version/1/4/code-of-conduct.html
-
-[homepage]: https://www.contributor-covenant.org
+La Definición de *Ethical Source* es un documento viviente. La comunidad de la *Ethical Source* es propietaria de esta definición y puede mejorarla y evolucionarla contribuyendo con *issues* y revisiones en [our Github repository](https://github.com/ContributorCovenant/ethicalsource "Ethical Source Definition source code").

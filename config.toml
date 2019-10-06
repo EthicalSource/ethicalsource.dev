@@ -48,3 +48,8 @@ page = ["html", "markdown", "plaintext", "asciidoc"]
 languageName = "English"
 languageCode = "en"
 weight = 1
+
+[Languages.es]
+languageName = "Español"
+languageCode = "es-mx"
+weight = 1
