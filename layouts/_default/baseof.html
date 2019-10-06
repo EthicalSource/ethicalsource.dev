@@ -16,16 +16,10 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180.png">
     <link rel="mask-icon" href="/images/mask-icon.svg" color="#5e0c72">
-    <!-- Make live reloading work better during development (pass the -D flag to hugo server) -->
-    {{ if .Site.BuildDrafts }}
-      <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}">
-      <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
-    {{ else }}
-      <style>
-        {{ readFile "static/css/fonts.css" | safeCSS }}
-        {{ readFile "static/css/main.css" | safeCSS }}
-      </style>
-    {{ end }}
+    <style>
+      {{ readFile "static/css/fonts.css" | safeCSS }}
+      {{ readFile "static/css/main.css" | safeCSS }}
+    </style>
   </head>
   <body{{ with .Section }} id="{{ . }}"{{ end }}>
     <div>
@@ -41,8 +35,8 @@
         <nav id="navigation">
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="{{ ref . "definition.md" }}">Definition</a></li>
-            <li><a href="{{ ref . "translations.md" }}">Translations</a></li>
+            <li><a href="/definition">Definition</a></li>
+            <li><a href="/translations">Translations</a></li>
             <li><a href="https://github.com/ContributorCovenant/ethicalsource">Source</a></li>
           </ul>
         </nav>
