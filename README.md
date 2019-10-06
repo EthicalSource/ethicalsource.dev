@@ -14,7 +14,10 @@ You should also check the [issues](https://github.com/ContributorCovenant/ethica
 for the latest discussions involving the evolution of the definition.
 
 To build the website locally, first [install Hugo](https://gohugo.io/getting-started/installing)
-using your package manager of choice.  
+using your package manager of choice. Note that currently the site will only work
+with Hugo 0.31. There is an [open issue](https://github.com/ContributorCovenant/ethicalsource/issues/2),
+so a pull request to upgrade the site for the latest version would be most welcome!
+
 For example, on Debian/Ubuntu:
 ```
 apt-get install hugo
