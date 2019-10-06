@@ -14,4 +14,4 @@ Historically, we in the open source community have not had the tools to enforce 
 
 The organizations that claim ownership of the definition of free and open source software have ignored their obligations to the community and failed to address our growing concerns. The time has come to reclaim authority over what it means to develop software in the open while not compromising our needs and ideals as creators.
 
-We are at the beginning of the era of [Ethical Source Software]({{< ref "definition.md" >}}).
+We are at the beginning of the era of [Ethical Source Software](/definition/).

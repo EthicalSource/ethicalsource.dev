@@ -1,6 +1,4 @@
 +++
-title = "La définition d'Ethical Source"
-aliases = ["/translations/fr"]
 +++
 
 ## La définition d'Ethical Source

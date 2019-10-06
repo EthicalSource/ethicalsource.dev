@@ -1,5 +1,4 @@
 +++
-aliases = ["/translations/de"]
 +++
 
 ## Die Definition von Ethical Source
