@@ -56,3 +56,11 @@ languageCode = "es-mx"
 [Languages.fr]
 languageName = "French"
 languageCode = "fr-fr"
+
+[Languages.pt-br]
+languageName = "Português"
+languageCode = "pt-br"
+
+[Languages.de]
+languageName = "Deutsch"
+languageCode = "de"
