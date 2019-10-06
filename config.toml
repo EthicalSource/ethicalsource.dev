@@ -54,8 +54,8 @@ languageName = "Español"
 languageCode = "es-mx"
 
 [Languages.fr]
-languageName = "French"
-languageCode = "fr-fr"
+languageName = "Français"
+languageCode = "fr"
 
 [Languages.pt-br]
 languageName = "Português"
