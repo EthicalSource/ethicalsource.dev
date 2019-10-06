@@ -10,7 +10,7 @@ In the twenty years since Christine Peterson first coined the term, our communit
 
 But today is different. There is an increasing demand from open source developers to take control of how our software is being used. We don’t want our code used to aid those who commit human rights violations or other unethical behavior. We believe that the organizations that benefit from our labor have a moral obligation to give back to our community, whether through contributions to the software or material support for the people who create and maintain the code they build their businesses on.
 
-Historically, we in the open source community have not had the tools to enforce fair, ethical, and community-minded terms on those who benefit from our labor. And the Open Source Initiative with its OSD continually undermines our efforts to develop these tools, prioritizing software freedom over individual freedom.
+Historically, we in the open source community have not had the tools to enforce fair, ethical, and community-minded terms for those who benefit from our labor. And the Open Source Initiative continually undermines our efforts to develop these tools, prioritizing software freedom over individual freedom.
 
 The organizations that claim ownership of the definition of free and open source software have ignored their obligations to the community and failed to address our growing concerns. The time has come to reclaim authority over what it means to develop software in the open while not compromising our needs and ideals as creators.
 
