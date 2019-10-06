@@ -2,7 +2,7 @@
 title = "Ethical Source Definition Translations"
 aliases = ["i18n"]
 layout = "definition"
-description = "You can view translations of the Ethical Source Definition here."
+description = "Available translations:"
 +++
 
 We're always looking for new localizations of the Ethical Source Definition and are thankful to the volunteers who spend their time on translations.

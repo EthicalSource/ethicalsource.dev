@@ -3,11 +3,6 @@
   <h2>{{ .Title }}</h2>
   <p>{{ .Description }}</p>
   <table class="translations">
-    <thead>
-      <tr>
-        <th>Language</th><th>Formats</th>
-      </tr>
-    </thead>
     <tbody>
       {{ $latest := ( where $.Site.RegularPages "Section" "definition" ).Reverse }}
       {{ range $latest }}

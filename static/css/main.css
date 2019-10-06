@@ -127,6 +127,7 @@ td,
 th {
   vertical-align: initial;
   white-space: nowrap;
+  border-bottom: 1px solid #aaa;
 }
 
 /* Headers */
@@ -295,7 +296,6 @@ abbr {
   font-size: .625rem;
   font-weight: 600;
   letter-spacing: .125rem;
-  line-height: .625rem;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
