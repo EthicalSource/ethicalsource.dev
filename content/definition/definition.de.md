@@ -4,12 +4,12 @@ aliases = ["/translations/de"]
 
 ## Die Definition von Ethical Source
 
-Software wird als _Ethical Source_ betrachtet wenn sie folgende Kriterien erfüllt:
+Software gilt als _Ethical Source_, wenn folgende Kriterien erfüllt sind:
 
-1. Sie wird kostenlos samt Quellcode vertrieben und kann ohne Gebühren oder Gewinnbeteiligung mit anderer Software genutzt oder kombiniert werden.
-1. Sie wird offen zugänglich entwickelt und lädt Dritte zum Beitragen ein.
-1. Ihre Gemeinde von Beitragenden wird durch einen Verhaltenskodex geregelt, welcher konsistent und gerecht durchgesetzt wird.
-1. Ihre Urheber haben das Recht die Nutzung durch Einzelpersonen oder Organisationen zu verbieten, falls diese Menschenrechtsverletzungen begehen oder nach Auffassung der Urheber anderes unethisches Verhalten zu Tage legen.
-1. Ihre Urheber haben das Recht von profitierenden Nutzern oder Organisationen um eine angemessene und freiwillige Vergütung zu beten.
+1. Sie wird kostenlos samt Quellencode vertrieben und kann ohne Lizenz- oder Nutzungsgebüren mit anderer Software kombiniert werden.
+1. Sie wird öffentlich zugänglich entwickelt und lädt Dritte zur Beteiligung an der Weiterentwicklung ein.
+1. Diejenigen, die zur Weiterentwicklung beitragen, unterliegen einem Verhaltenskodex, der einheitlich und angemessen durchgesetzt wird.
+1. Die Urheber_innen der Software sind berechtigt, natürlichen und juristischen Personen die Nutzung der Software zu verbieten, wenn die Nutzer_innen gegen Menschenrechte verstoßen oder nach Auffassung der Urheber_innen unethisches Verhalten aufweisen.
+1. Die Urheber_innen der Software sind berechtigt, angemessene freiwillige Spenden von natürlichen und juristischen Personen zu erbeten, die die Software zu ihren Gunsten einsetzen.
 
-Die Definition von _Ethical Source_ ist ein lebendes Dokument und offen für Änderungsvorschläge. Die _Ethical Source_ Gemeinde als ganzes besitzt die Definition und kann zu ihrer Verbesserung und Weiterentwicklung in [unserem Github repository](https://github.com/ContributorCovenant/ethicalsource "Ethical Source Definition source code") beitragen.
+Diese Definition bleibt ein lebendiges Dokument, die von der Gemeinschaft der _Ethical Source_ -Entwickler_innen jederzeit verbessert und weiterentwickelt werden darf. Wir laden zur Beteiligung in unserem [unserem Github repository](https://github.com/ContributorCovenant/ethicalsource "Quellcode der Definition von Ethical Source") ein.
