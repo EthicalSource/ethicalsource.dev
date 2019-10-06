@@ -12,6 +12,6 @@ But today is different. There is an increasing demand from open source developer
 
 Historically, the open source community has not had the tools to enforce fair, ethical, and community-minded terms with those who benefit from our labor. And the Open Source Initiative with its OSD works against efforts to develop these tools by prioritizing software freedom over individual freedom.
 
-The organizations that claim to own the definition of what is and is not free and open source software have ignored their obligations to the community and failed to address our growing concerns. The time has come to reclaim authority over what it means to develop software in the open while not compromising on our needs and ideals as creators.
+The organizations that claim ownership of the definition of free and open source software have ignored their obligations to the community and failed to address our growing concerns. The time has come to reclaim authority over what it means to develop software in the open while not compromising on our needs and ideals as creators.
 
 We are at the beginning of the era of [Ethical Source Software]({{< ref "definition.md" >}}).
