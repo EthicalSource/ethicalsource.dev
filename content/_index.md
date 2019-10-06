@@ -4,7 +4,7 @@ title = "The Ethical Evolution of Open Source"
 
 ## The Ethical Evolution of Open Source
 
-The Open Source Definition (OSD) was written in 1998 by the Open Source Initiative to promote the adoption of software with source intended for free use by anyone. But the emphasis of the OSD is on technical licensing requirements, which, while important, do not define the practice of open source as experienced by millions of developers around the world over the past two decades. The true definition of open source is broader than simply licensing concerns.
+The Open Source Definition (OSD) was written in 1998 by the Open Source Initiative to promote the adoption of software with source licensed for free use by anyone. But the emphasis of the OSD is on technical licensing requirements, which, while important, do not really define the practice of open source as experienced by millions of developers around the world over the past two decades. The true definition of open source is broader than simply licensing concerns.
 
 In the twenty years since Christine Peterson first coined the term, our community has developed its own working definition of open source: code that is written collaboratively, in the open, and is distributed for use, combination, or remixing. For a long time, the distinction between the "official" definition and our more practical one was not a source of significant conflict.
 
