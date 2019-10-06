@@ -53,6 +53,10 @@ weight = 1
 languageName = "Español"
 languageCode = "es-mx"
 
+[Languages.fr]
+languageName = "Français"
+languageCode = "fr"
+
 [Languages.pt-br]
 languageName = "Português"
 languageCode = "pt-br"
