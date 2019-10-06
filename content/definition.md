@@ -1,5 +1,6 @@
 +++
 title = "Ethical Source Definition"
+template = "definition"
 +++
 
 ## The Ethical Source Definition
