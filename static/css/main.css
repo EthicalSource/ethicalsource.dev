@@ -127,7 +127,9 @@ td,
 th {
   vertical-align: initial;
   white-space: nowrap;
-  border-bottom: 1px solid #aaa;
+  background-color: #eee;
+  border-bottom: 3px solid #fff;
+  padding: .25rem;
 }
 
 /* Headers */
