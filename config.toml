@@ -60,3 +60,7 @@ languageCode = "pt-br"
 [Languages.de]
 languageName = "Deutsch"
 languageCode = "de"
+
+[Languages.zh-tw]
+languageName = "中文-台灣"
+languageCode = "zh-tw"
