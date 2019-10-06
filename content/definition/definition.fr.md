@@ -1,5 +1,5 @@
 +++
-title = "Ethical Source Definition"
+title = "La définition d'Ethical Source"
 aliases = ["/translations/fr"]
 +++
 
