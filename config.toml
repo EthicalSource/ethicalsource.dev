@@ -42,3 +42,7 @@ languageCode = "pt-br"
 [Languages.de]
 languageName = "Deutsch"
 languageCode = "de"
+
+[Languages.ro]
+languageName = "Română"
+languageCode = "ro"
