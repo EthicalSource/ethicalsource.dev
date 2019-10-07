@@ -46,3 +46,7 @@ languageCode = "de"
 [languages.it]
 languageName = "Italiano"
 languageCode = "it"
+
+[Languages.ro]
+languageName = "Română"
+languageCode = "ro"
