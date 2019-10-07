@@ -54,3 +54,4 @@ languageCode = "ro"
 [Languages.ar]
 languageName = "العربية"
 languageCode = "ar"
+writingDirection = "rtl"
