@@ -6,7 +6,7 @@
       {{ range .Site.Home.AllTranslations }}
         {{ if eq .Language.Lang "en" }}
         {{ else }}
-          <li><a href="/definition/{{ .Language.Lang }}">{{ .Language.LanguageName }}</a></li>
+          <li><a href="/{{ .Language.Lang }}/definition">{{ .Language.LanguageName }}</a></li>
         {{ end }}
       {{ end }}
     </ul>
