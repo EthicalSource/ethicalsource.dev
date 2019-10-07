@@ -50,3 +50,7 @@ languageCode = "it"
 [Languages.ro]
 languageName = "Română"
 languageCode = "ro"
+
+[Languages.ar]
+languageName = "العربية"
+languageCode = "ar"
