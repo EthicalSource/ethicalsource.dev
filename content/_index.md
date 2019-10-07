@@ -12,6 +12,8 @@ There is a growing demand from open source developers to take control of how our
 
 But we lack the tools to enforce fair, ethical, and community-minded terms for those who benefit from our software, and the Open Source Initiative continually undermines our efforts to develop these tools by insisting on prioritizing software freedom over human freedom.
 
-The organizations that claim ownership of the definition of free and open source software have ignored their obligations to the community, closed their eyes to the reality of the world we live in today, and failed to address our rising concerns. The time has come to reclaim authority over what it means to develop software in the open without compromising ourselves or the [universal values of human rights](https://www.un.org/en/universal-declaration-human-rights/).
+The organizations that claim ownership of the definition of free and open source software have ignored their obligations to the community, closed their eyes to the reality of the world we live in today, and failed to address our rising concerns.
+
+The time has come to reclaim authority over what it means to develop software in the open without compromising ourselves or the [universal values of human rights](https://www.un.org/en/universal-declaration-human-rights/).
 
 We are at the beginning of the era of [Ethical Source Software](/definition/).
