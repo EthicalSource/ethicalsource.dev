@@ -43,7 +43,7 @@ languageCode = "pt-br"
 languageName = "Deutsch"
 languageCode = "de"
 
-[languages.it]
+[Languages.it]
 languageName = "Italiano"
 languageCode = "it"
 
