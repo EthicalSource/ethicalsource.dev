@@ -1,5 +1,5 @@
 +++
-title = "Definição de Ethical Source"
+title = "A Definição de Ethical Source"
 +++
 
 ## A Definição de Ethical Source

@@ -8,39 +8,17 @@ DefaultContentLanguage = "en"
 hasCJKLanguage = true
 EnableMissingTranslationPlaceholders = true
 
-uglyURLs = true
+uglyURLs = false
 
 googleAnalytics = "UA-56802475-3"
 
 [mediaTypes]
 [mediaTypes."text/markdown"]
-suffix = "md"
-
-[mediaTypes."text/plain"]
-suffix = "txt"
-
-[mediaTypes."text/asciidoc"]
-suffix = "adoc"
-
-[outputFormats]
-[outputFormats.Markdown]
-mediaType = "text/markdown"
-isPlainText = true
-baseName = "LICENSE"
-
-[outputFormats.PlainText]
-mediaType = "text/plain"
-isPlainText = true
-baseName = "LICENSE"
-
-[outputFormats.AsciiDoc]
-mediaType = "text/asciidoc"
-isPlainText = true
-baseName = "LICENSE"
+suffixes = ["md"]
 
 [outputs]
 home = ["html"]
-page = ["html", "markdown", "plaintext", "asciidoc"]
+page = ["html"]
 
 # Add all translated languages here.
 [Languages]
@@ -53,6 +31,10 @@ weight = 1
 languageName = "Español"
 languageCode = "es-mx"
 
+[Languages.fr]
+languageName = "Français"
+languageCode = "fr"
+
 [Languages.pt-br]
 languageName = "Português"
 languageCode = "pt-br"
@@ -64,3 +46,16 @@ languageCode = "de"
 [Languages.zh-tw]
 languageName = "中文-台灣"
 languageCode = "zh-tw"
+
+[Languages.it]
+languageName = "Italiano"
+languageCode = "it"
+
+[Languages.ro]
+languageName = "Română"
+languageCode = "ro"
+
+[Languages.ar]
+languageName = "العربية"
+languageCode = "ar"
+writingDirection = "rtl"
