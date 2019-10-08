@@ -43,6 +43,10 @@ languageCode = "pt-br"
 languageName = "Deutsch"
 languageCode = "de"
 
+[Languages.zh-tw]
+languageName = "中文-台灣"
+languageCode = "zh-tw"
+
 [Languages.it]
 languageName = "Italiano"
 languageCode = "it"
