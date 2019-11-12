@@ -4,7 +4,7 @@ title = "The Ethical Evolution of Open Source"
 
 ## The Ethical Evolution of Open Source
 
-In the twenty years since the term "open source" was coined, our community has grown astronomically, all the while learning from its successes and failures. A lot has changed for open source developers in the past two decades. But the political and technological landscape has also changed.
+In the twenty years since the term "open source" was coined by Christine Peterson, our community has grown astronomically, all the while learning from its successes and failures. A lot has changed for open source developers in the past two decades. But the political and technological landscape has also changed.
 
 Open source software today is increasingly playing a critical role in mass surveillance, anti-immigrant violence, protester suppression, racist policing, and the development of weapons used to kill marginalized people all over the world, among other humans rights abuses.  
 
