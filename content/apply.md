@@ -13,7 +13,7 @@ Note that this space is for collaboration and community, so if you're skeptical 
 
 Use this form to submit an application to join our Slack community via email. In your message, please provide a brief bio, an explanation of why you're interested in Ethical Source, and a Twitter handle (if you have one). This information helps us vet our members and keep the trolls at bay. Thank you in advance.
 
-<form name="notify" method="post" action="/" data-modal-id="modal-notify" data-netlify="true" netlify-honeypot="bot-field">
+<form name="apply" method="post" action="/" data-modal-id="modal-notify" data-netlify="true" netlify-honeypot="bot-field">
   <fieldset>
     <label class="hidden">
       <span>For bots only</span>

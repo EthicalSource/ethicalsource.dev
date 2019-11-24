@@ -7,7 +7,7 @@ description = "Contact the Ethical Source maintainers."
 
 If you are interested in writing or podcasting about Ethical Source, please use this form to get in touch with us.
 
-<form name="notify" method="post" action="/" data-modal-id="modal-notify" data-netlify="true" netlify-honeypot="bot-field">
+<form name="press" method="post" action="/" data-modal-id="modal-notify" data-netlify="true" netlify-honeypot="bot-field">
   <fieldset>
     <label class="hidden">
       <span>For bots only</span>
