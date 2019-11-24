@@ -3,7 +3,7 @@ title = "Ethical Source Definition"
 template = "definition"
 +++
 
-## The Ethical Source Definition
+## Ethical Source Definition
 
 Software is considered Ethical Source if it meets the following criteria:
 
@@ -13,4 +13,4 @@ Software is considered Ethical Source if it meets the following criteria:
 1. Creators have the right to prohibit use by individuals or organizations engaged in human rights violations or other behavior deemed unethical.
 1. Creators have the right to solicit reasonable and voluntary compensation from the communities or institutions that benefit from the software.
 
-The Ethical Source Definition is a living document. The Ethical Source community at large owns this definition and may improve and evolve it by contributing issues and revisions in [our Github repository](https://github.com/ContributorCovenant/ethicalsource "Source Code: Ethical Source - Definition").
+This definition is managed, improved and evolved by the community at large via issues and revisions to the [Github repository](https://github.com/ContributorCovenant/ethicalsource "Source Code: Ethical Source - Definition").
