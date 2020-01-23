@@ -10,6 +10,7 @@ title = "Resources, Press, & Related Projects"
 * [Six Myths about "ethical" open source licenses](https://hackernoon.com/6-myths-about-ethical-open-source-licenses-3bfbd042b1dc)
 * [Open Source is Broken](https://medium.com/@degoodmanwilson/open-source-is-broken-d836efbceb4f)
 * [Don't Just Do Something, Stand There](https://anonymoushash.vmbrasseur.com/2019/09/22/dont-just-do-something-stand-there/)
+* [Ethical Licensing Talking Points](https://talkingpoints.kemitchell.com/ethical-licenses.html)
 
 ## In the Press
 
