@@ -29,6 +29,7 @@ title = "Resources, Press, & Related Projects"
 
 ## Related Efforts
 
+* [Hippocratic License](https://firstdonoharm.dev)
 * [Corporate Accountability Lab (CAL) Ethical IP licencing](https://legaldesign.org/ethical-ip). An overview of IP-related tools for tech workers who care about human rights.
 * [966.ICU](https://github.com/996icu/996.ICU). An open source software license that advocates workers' rights.
 * [Do No Harm License](https://github.com/raisely/NoHarm). A license for developers who write open source code to make the world a better place.
