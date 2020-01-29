@@ -1,6 +1,15 @@
 +++
-title = "Resources, Press, & Related Projects"
+title = "Ethical Source Licenses, Resources, and Press"
 +++
+
+## Related Licensing Efforts
+
+* [Hippocratic License](https://firstdonoharm.dev)
+* [Corporate Accountability Lab (CAL) Ethical IP licencing](https://legaldesign.org/ethical-ip). An overview of IP-related tools for tech workers who care about human rights.
+* [966.ICU](https://github.com/996icu/996.ICU). An open source software license that advocates workers' rights.
+* [Do No Harm License](https://github.com/raisely/NoHarm). A license for developers who write open source code to make the world a better place.
+* [inno3](https://framagit.org/inno3/tm-contract-for-oss-maintainers). A trademark-based contract for OSS maintainers.
+* [Atmosphere Licenses](https://www.open-austin.org/atmosphere-license/about/index.html)
 
 ## Blog Posts
 
@@ -26,11 +35,3 @@ title = "Resources, Press, & Related Projects"
 * [Ethical Open Source Licence dilemma](https://openuk.uk/ethical-open-source-licence-dilemma-andrew-katz-pro-bono-gc-openuk/) (Open UK)
 * [The Great Open Source Divide: ICE, Hippocratic License and the Controversy](https://itsfoss.com/hippocratic-license/) (It's FOSS)
 * [You can't open-source license morality](https://www.zdnet.com/article/you-cant-open-source-license-morality/) (ZDNet)
-
-## Related Efforts
-
-* [Hippocratic License](https://firstdonoharm.dev)
-* [Corporate Accountability Lab (CAL) Ethical IP licencing](https://legaldesign.org/ethical-ip). An overview of IP-related tools for tech workers who care about human rights.
-* [966.ICU](https://github.com/996icu/996.ICU). An open source software license that advocates workers' rights.
-* [Do No Harm License](https://github.com/raisely/NoHarm). A license for developers who write open source code to make the world a better place.
-* [inno3](https://framagit.org/inno3/tm-contract-for-oss-maintainers). A trademark-based contract for OSS maintainers.
