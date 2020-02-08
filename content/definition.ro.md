@@ -3,8 +3,6 @@ title = "Definiția Sursei Etice"
 template = "definition"
 +++
 
-## Definiția Sursei Etice
-
 Software-ul este considerat o Sursă Etică dacă îndeplinește următoare cinci criterii:
 
 1. Este distribuit în mod liber însoțit de codul sursă și poate fi folosit sau combinat cu alt software, fără redevență sau plată.

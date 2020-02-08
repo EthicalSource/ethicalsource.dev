@@ -2,29 +2,19 @@
 title = "Ethical Source Licenses, Resources, and Press"
 +++
 
-## Related Licensing Efforts
+## Related Licenses and Licensing Efforts
 
-* [Hippocratic License](https://firstdonoharm.dev)
-* [Corporate Accountability Lab (CAL) Ethical IP licencing](https://legaldesign.org/ethical-ip). An overview of IP-related tools for tech workers who care about human rights.
-* [966.ICU](https://github.com/996icu/996.ICU). An open source software license that advocates workers' rights.
+* [Hippocratic License](https://firstdonoharm.dev). A that prohibits use of the software to violate international human rights guidelines.
+* [966.ICU](https://github.com/996icu/996.ICU). A license that advocates for workers' rights.
 * [Do No Harm License](https://github.com/raisely/NoHarm). A license for developers who write open source code to make the world a better place.
 * [inno3](https://framagit.org/inno3/tm-contract-for-oss-maintainers). A trademark-based contract for OSS maintainers.
 * [Atmosphere Licenses](https://www.open-austin.org/atmosphere-license/about/index.html)
-
-## Blog Posts
-
-* ["Ethical Source at WeTransfer"](https://bastiaan.cc/notes/ethical-source-at-wetransfer/)
-* ["Do We Need to Rethink What Free Software Is?"](https://mjg59.dreamwidth.org/52907.html)
-* ["#wontfix: endorsements can't fix the Open Source Definition"](https://writing.kemitchell.com/2019/04/23/OSD-wontfix.html)
-* [Six Myths about "ethical" open source licenses](https://hackernoon.com/6-myths-about-ethical-open-source-licenses-3bfbd042b1dc)
-* [Open Source is Broken](https://medium.com/@degoodmanwilson/open-source-is-broken-d836efbceb4f)
-* [Don't Just Do Something, Stand There](https://anonymoushash.vmbrasseur.com/2019/09/22/dont-just-do-something-stand-there/)
-* [Ethical Licensing Talking Points](https://talkingpoints.kemitchell.com/ethical-licenses.html)
+* [Corporate Accountability Lab (CAL) Ethical IP licencing](https://legaldesign.org/ethical-ip). An overview of IP-related tools for tech workers who care about human rights.
 
 ## In the Press
 
-* [Ethical source-available licenses challenge open source](https://www.computerweekly.com/blog/Open-Source-Insider/Open-source-licence-series-Tidelift-Ethical-source-available-licenses-challenge-open-source)
-* [The Schism at the Heart of the Open-Source Movement](https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/)
+* [Ethical source-available licenses challenge open source](https://www.computerweekly.com/blog/Open-Source-Insider/Open-source-licence-series-Tidelift-Ethical-source-available-licenses-challenge-open-source) (Computer Weekly)
+* [The Schism at the Heart of the Open-Source Movement](https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/) (The Atlantic)
 * [Software freedom vs human freedom: A surge of activism is rocking open source developers, as programmers fight to stop their software from being used for 'evil'](https://outline.com/2Bh7JJ) (Business Insider)
 * [Ethical Open Source: Is the world ready?](https://www.torkinmanes.com/our-resources/publications-presentations/publication/ethical-open-source-is-the-world-ready)
 * [Open source et Défense : les liaisons dangereuses sur fond d'éthique](https://www.lemondeinformatique.fr/actualites/lire-open-source-et-defense-les-liaisons-dangereuses-sur-fond-d-ethique-76658.html) (Lemonde Informatique)
@@ -36,3 +26,13 @@ title = "Ethical Source Licenses, Resources, and Press"
 * [Ethical Open Source Licence dilemma](https://openuk.uk/ethical-open-source-licence-dilemma-andrew-katz-pro-bono-gc-openuk/) (Open UK)
 * [The Great Open Source Divide: ICE, Hippocratic License and the Controversy](https://itsfoss.com/hippocratic-license/) (It's FOSS)
 * [You can't open-source license morality](https://www.zdnet.com/article/you-cant-open-source-license-morality/) (ZDNet)
+
+## Blog Posts
+
+* ["Ethical Source at WeTransfer"](https://bastiaan.cc/notes/ethical-source-at-wetransfer/)
+* ["Do We Need to Rethink What Free Software Is?"](https://mjg59.dreamwidth.org/52907.html)
+* ["#wontfix: endorsements can't fix the Open Source Definition"](https://writing.kemitchell.com/2019/04/23/OSD-wontfix.html)
+* [Six Myths about "ethical" open source licenses](https://hackernoon.com/6-myths-about-ethical-open-source-licenses-3bfbd042b1dc)
+* [Open Source is Broken](https://medium.com/@degoodmanwilson/open-source-is-broken-d836efbceb4f)
+* [Don't Just Do Something, Stand There](https://anonymoushash.vmbrasseur.com/2019/09/22/dont-just-do-something-stand-there/)
+* [Ethical Licensing Talking Points](https://talkingpoints.kemitchell.com/ethical-licenses.html)

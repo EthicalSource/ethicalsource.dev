@@ -3,8 +3,6 @@ title = "La definizione di Sorgente Etica"
 template = "definition"
 +++
 
-## La definizione di Sorgente Etica
-
 Un Software è considerato Sorgente Etica (_Ethical Source_) se rispetta i seguenti criteri:
 
 1. E' liberamente distribuito con il codice sorgente e puó essere utilizzato o combinato con altri software senza alcuna licenza o prezzo.

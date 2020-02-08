@@ -57,18 +57,16 @@
           <!-- End of menu icon toggler -->
 
           <!-- Begin of logo/brand -->
-          <a class="navbar-brand" href="./#">
+          <a class="navbar-brand" href="/">
             <span class="logo">
-              <img class="light-logo" src="img/logo.png" alt="Logo">
+              <img class="light-logo" src="/img/logo.png" alt="Logo">
             </span>
             <span class="text">
               <span class="line">The Ethical Source Movement</span>
-              <span class="line sub">The Next Great Hack in Open Source</span>
             </span>
           </a>
           <!-- End of logo/brand -->
 
-          <!-- begin of menu wrapper -->
           <div class="all-menu-wrapper" id="navbarMenu">
             <!-- Begin of top menu -->
             <nav class="navbar-topmenu">
@@ -102,15 +100,20 @@
                   <a class="nav-link" href="/apply">Working Group</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/contact">Press Inquiries</a>
+                  <a class="nav-link" href="/contact">Contact</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/resources">Resources</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://github.com/ContributorCovenant/ethicalsource" target="_new">Source</a>
+                  <a class="nav-link" href="https://github.com/ContributorCovenant/ethicalsource" target="_new">Source Code</a>
                 </li>
               </ul>
+              <p class="note nav-note">
+                &copy; Copyright 2020 <a href="http://where.coraline.codes/" title="Coraline Ada Ehmke">Coraline Ada Ehmke</a>.<br>
+                Support this and related initiatives through <a href="https://www.patreon.com/coraline" title="Patreon">our Patreon</a> or on
+                <a href="https://opencollective.com/contributor-covenant">Open Collective</a>.
+              </p>
             </nav>
             <!-- End of hamburger mainmenu menu -->
 
@@ -138,35 +141,24 @@
                   <div class="col-12 col-lg-6 text-left">
                     <!-- title and description -->
                     <div class="title-desc">
-                      <h1 class="display-4 display-title home-title decor anim-1">The Ethical Source Movement</h1>
+                      <h1 class="display-4 display-title home-title decor anim-1">
+                        {{ .Title }}
+                      </h1>
                     </div>
 
                     <!-- Action button -->
                     <div class="btns-action anim-3">
-                      <a class="btn btn-circicon btn-primary" href="#about">
+                      <a class="btn btn-circicon btn-primary" href="#more">
                         <span class="icon">
                           <i class="ion ion-chevron-down"></i>
                         </span>
-                        <span class="text">Learn More</span>
+                        <span class="text">More</span>
                       </a>
                     </div>
                   </div>
 
                 </div>
               </div>
-
-              <div class="section-aside aside-bottom">
-                <div class="text-right">
-
-                </div>
-                <!-- Action button -->
-                <div class="btns-action anim-3 text-right">
-                  <a class="btn btn-outline-white btn-round" href="/contact">
-                    Contact
-                  </a>
-                </div>
-              </div>
-
 
               <!-- Arrows scroll down/up -->
               <footer class="section-footer scrolldown">
@@ -181,7 +173,7 @@
           <!-- End of home section -->
 
           <!-- Begin of description section -->
-          <div class="section section-description fp-auto-height-responsive " data-section="about">
+          <div class="section section-description fp-auto-height-responsive " data-section="more">
             <!-- Begin of section wrapper -->
             <div class="section-wrapper fullwidth with-margin">
 
@@ -191,115 +183,15 @@
                   <div class="col-12 col-md-6 text-left">
                     <!-- title and description -->
                     <div class="title-desc">
-                      <h1 class="display-4 display-title anim-1">Why Ethical Source?</h1>
+                      <h1 class="display-4 display-title anim-1">{{ .Description }}</h1>
                       {{ block "main" . }}
                       {{ end }}
                     </div>
-
-                    <div class="btns-action anim-3">
-                      <a class="btn btn-outline-white btn-primary" href="/definition">
-                        <span class="icon" style="margin-right: 1em;">
-                          <i class="ion ion-chevron-right"></i>
-                        </span>
-                        <span class="text">The Ethical Source Definition</span>
-                      </a>
-                    </div>
-                    <div class="btns-action anim-3">
-                      <a class="btn btn-outline-white btn-primary" href="/translations">
-                        <span class="icon" style="margin-right: 1em;">
-                          <i class="ion ion-chevron-right"></i>
-                        </span>
-                        <span class="text">Translations</span>
-                      </a>
-                    </div>
-                    <div class="btns-action anim-3">
-                      <a class="btn btn-outline-white btn-primary" href="/apply">
-                        <span class="icon" style="margin-right: 1em;">
-                          <i class="ion ion-chevron-right"></i>
-                        </span>
-                        <span class="text">Ethical Source Working Group</span>
-                      </a>
-                    </div>
-                    <div class="btns-action anim-3">
-                      <a class="btn btn-outline-white btn-primary" href="/contact">
-                        <span class="icon" style="margin-right: 1em;">
-                          <i class="ion ion-chevron-right"></i>
-                        </span>
-                        <span class="text">Press Inquiries</span>
-                      </a>
-                    </div>
-                    <div class="btns-action anim-3">
-                      <a class="btn btn-outline-white btn-primary" href="/resources">
-                        <span class="icon" style="margin-right: 1em;">
-                          <i class="ion ion-chevron-right"></i>
-                        </span>
-                        <span class="text">Resources</span>
-                      </a>
-                    </div>
-                    <div class="btns-action anim-3">
-                      <a class="btn btn-outline-white btn-primary" href="https://github.com/ContributorCovenant/ethicalsource" target="_new">
-                        <span class="icon" style="margin-right: 1em;">
-                          <i class="ion ion-chevron-right"></i>
-                        </span>
-                        <span class="text">Source Code</span>
-                      </a>
-                    </div>
                   </div>
-
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="section section-list-feature fp-auto-height-responsive " data-section="services">
-              <!-- Begin of section wrapper -->
-              <div class="section-wrapper fullwidth with-margin">
-                  <!-- content -->
-                  <div class="section-content anim">
-                      <div class="row">
-                          <div class="col-12 col-lg-6 text-left">
-                              <!-- title and description -->
-                              <div class="title-desc">
-                                  <h2 class="display-4 display-title anim-1">Learn More</h2>
-                              </div>
-                          </div>
-                      </div>
-
-                      <!-- service list -->
-                      <div class="service-list grid-1 grid-md-2 grid-lg-4 anim-list decor">
-                          <!-- an item -->
-                          <div class="item media">
-                              <div class="img">
-                                  <i class="icon ion-code-working"></i>
-                              </div>
-                              <div class="media-body">
-                                  <h4>The Ethical Source Definition</h4>
-                                  <p>An awesome service that we offer to you. This is just a placeholder text.
-                                  </p>
-
-                                  <a class="btn btn-transp-arrow btn-primary" href="">
-                                      <span class="text">Details</span>
-                                      <span class="icon arrow-right"></span>
-                                  </a>
-                              </div>
-                          </div>
-                          <!-- an item -->
-                          ...
-                      </div>
-
-                  </div>
-
-                  <!-- Arrows scroll down/up -->
-                  <footer class="section-footer scrolldown">
-                      <a class="down">
-                          <span class="icon"></span>
-                          <span class="txt">Projects</span>
-                      </a>
-                  </footer>
-              </div>
-              <!-- End of section wrapper -->
-          </div>
-
         </main>
         <!-- END OF page main content -->
 
@@ -308,6 +200,62 @@
 
           <!-- Right content -->
           <div class="footer-right">
+            <div class="btns-action nav-menu anim-3">
+              <a class="btn btn-outline-white btn-primary" href="/">
+                <span class="icon" style="margin-right: 1em;">
+                  <i class="ion ion-chevron-right"></i>
+                </span>
+                <span class="text">Home</span>
+              </a>
+            </div>
+            <div class="btns-action anim-3">
+              <a class="btn btn-outline-white btn-primary" href="/definition">
+                <span class="icon" style="margin-right: 1em;">
+                  <i class="ion ion-chevron-right"></i>
+                </span>
+                <span class="text">The Ethical Source Definition</span>
+              </a>
+            </div>
+            <div class="btns-action anim-3">
+              <a class="btn btn-outline-white btn-primary" href="/translations">
+                <span class="icon" style="margin-right: 1em;">
+                  <i class="ion ion-chevron-right"></i>
+                </span>
+                <span class="text">Translations</span>
+              </a>
+            </div>
+            <div class="btns-action anim-3">
+              <a class="btn btn-outline-white btn-primary" href="/apply">
+                <span class="icon" style="margin-right: 1em;">
+                  <i class="ion ion-chevron-right"></i>
+                </span>
+                <span class="text">Ethical Source Working Group</span>
+              </a>
+            </div>
+            <div class="btns-action anim-3">
+              <a class="btn btn-outline-white btn-primary" href="/contact">
+                <span class="icon" style="margin-right: 1em;">
+                  <i class="ion ion-chevron-right"></i>
+                </span>
+                <span class="text">Contact</span>
+              </a>
+            </div>
+            <div class="btns-action anim-3">
+              <a class="btn btn-outline-white btn-primary" href="/resources">
+                <span class="icon" style="margin-right: 1em;">
+                  <i class="ion ion-chevron-right"></i>
+                </span>
+                <span class="text">Resources</span>
+              </a>
+            </div>
+            <div class="btns-action anim-3">
+              <a class="btn btn-outline-white btn-primary" href="https://github.com/ContributorCovenant/ethicalsource" target="_new">
+                <span class="icon" style="margin-right: 1em;">
+                  <i class="ion ion-chevron-right"></i>
+                </span>
+                <span class="text">Source Code</span>
+              </a>
+            </div>
             <p class="note">
               &copy; Copyright 2020 <a href="http://where.coraline.codes/" title="Coraline Ada Ehmke">Coraline Ada Ehmke</a>.<br>
               Support this and related initiatives through <a href="https://www.patreon.com/coraline" title="Patreon">our Patreon</a> or on
