@@ -1,0 +1,113 @@
+
+// form container
+.form-container-transparent{
+    background: none;
+    border-radius: 8px;
+    @media (min-width: $medium-up) {
+        padding: 0rem;
+    }
+    &.shadow{
+        box-shadow: 0 0 40px rgba(0,0,0,0.15);
+    }
+    .avatar{
+        $imgW: 120px;
+        margin: 32px auto;
+        display: block;
+        // overflow: hidden;
+        width: $imgW + 16;
+        height: $imgW + 16;
+        border-radius: 400px;
+        border: 8px solid $primary;
+        position: relative;
+        .img-box{
+            overflow: hidden;
+            border-radius: 400px;
+        }
+        img{
+            z-index: 1;
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+        &:before{
+            content: "";
+            position: absolute;
+            z-index: 0;
+            border-radius: 400px;
+            top: -16px;
+            left: -16px;
+            width: $imgW + 32;
+            height: $imgW + 32;
+            background: transparentize($primary, 0.8);
+        }
+        &:after{
+            content: "";
+            position: absolute;
+            z-index: 0;
+            border-radius: 400px;
+            top: -16px - 8px;
+            left: -16px - 8px;
+            width: $imgW + 32 + 16;
+            height: $imgW + 32 + 16;
+            background: transparentize($primary, 0.9);
+        }
+    }
+    .form-desc{
+        h4{
+        }
+        p{
+            opacity: 1;
+        }
+    }
+    .form-input{
+        text-align: left;
+        label{
+            font-size: 1rem;
+            color: $primary;
+            font-weight: bold;
+        }
+        .line{
+            margin-bottom: 1rem;
+        }
+        .btn-full{
+            width: 100%;
+        }
+    }
+}
+
+// mixins
+@mixin form-container-transparent($color: $primary, $textColor: currentColor, $background: $white){
+    color: $textColor;
+    .avatar{
+        border: 8px solid $color;
+        &:before{
+            background: transparentize($color, 0.8);
+        }
+        &:after{
+            background: transparentize($color, 0.9);
+        }
+    }
+    .form-desc{
+        h4{
+            color: $color;
+        }
+    }
+    .form-input{
+        label{
+            color: $color;
+        }
+    }
+}
+
+// alternative colors
+@each $color, $value in $theme-colors {
+  @if $value == $white {
+    .form-container-transparent.form-container-white {
+      @include form-container-transparent($value, currentColor, $white);
+    }
+  } @else {
+    .form-container-transparent.form-container-#{""+$color} {
+      @include form-container-transparent($value, currentColor, $white);
+    }
+  }
+}

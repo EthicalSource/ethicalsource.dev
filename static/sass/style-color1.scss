@@ -1,0 +1,320 @@
+
+@import "variables";
+
+$black : #3d3d3d;
+$light-black : #5d5d5d;
+$dark-black : #1d1d1d;
+$color1 : #61b8ff;
+// $color1 : #ff6167;
+// $color1 : #f8204b;
+// white background and black text : overwrite black and white colors
+.body-page{
+    background-color: $white;
+    color: $black;
+}
+.body-item{
+    background-color: $white;
+    color: $black;
+}
+.section-item{
+    background-color: $white;
+}
+.section-gallery{
+    background-color: $white;
+}
+a{
+    color: $color1;
+    &:hover{
+        color: transparentize($color1, 0.2)
+    }
+}
+
+/* Home page  */
+#mainpage .section-home{
+    background: url("../img/bg-home-portrait.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    @media (min-width: $large-up) {
+        background: url("../img/bg-home-landscape.jpg");
+        background-repeat: none;
+        background-position: center;
+        background-size: cover;
+    }
+}
+/* menu icon */
+.menu-icon{
+    opacity: 1;
+    @media (min-width: $medium-up) {
+        background: rgba($white,0.5);
+    }
+}
+.menu-icon .bars .bar1, .menu-icon .bars .bar2, .menu-icon .bars .bar3{
+    // background: $black;
+    // background: $dark-black;
+    background: #1d1d1d;
+    // background: $color1;
+}
+
+/* navigations */
+// nav menu
+.body-item .page-header-alpha .navbar-brand{
+    color: $white;
+}
+.page-header-alpha .all-menu-wrapper{
+    background: $white;
+}
+.page-header-alpha .navbar-mainmenu {
+    // background: $white;
+    .nav-item a{
+        color: $black;
+        &:hover{
+            color: $color1;
+        }
+    }
+}
+.page-header-alpha .navbar-sidebar .nav-item{
+    opacity: 1;
+}
+.page-header-alpha .all-menu-wrapper .navbar-nav .nav-item a{
+    opacity: 1;
+}
+// nav icon
+.body-page .page-header-alpha .navbar-sidebar .nav-item .icon{
+    background: transparentize($black, 0.8);
+    color: $black;
+}
+.body-page .page-header-alpha .navbar-sidebar .nav-item:hover .icon,
+.body-page .page-header-alpha .navbar-sidebar .nav-item.active .icon{
+    background: $color1;
+    color: $white;
+}
+.body-page .page-header-alpha .navbar-sidebar .nav-item.active .txt{
+    color: $color1;
+}
+.page-header-alpha .navbar-sidebar .nav-item .txt{
+    font-weight: 400;
+}
+
+/* section content */
+h1, h2, h3, h4{
+    text-shadow: none;
+}
+.section p{
+    color: $black;
+}
+.section-content h4{
+    font-weight: bold;
+}
+.section-wrapper .form-desc .display-title,
+.section-wrapper .title-desc .display-title{
+    color: $dark-black;
+}
+.section-title .title-bg{
+    color: $color1;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+.section.active .title-bg{
+    opacity: 0.05;
+    opacity: 0.1;
+}
+.slide-wrapper .legend h3{
+    color: $dark-black;
+}
+.slide-wrapper .legend a,
+.slide-wrapper .legend h4{color: $black;}
+.display-title{
+    font-weight: bold;
+}
+.cover-content{
+    p{
+        color: rgba($white, 0.75);
+    }
+}
+.section-cover-full.mask-layer:before {
+    background: rgba($white, 0.3);
+}
+.service-list.decor{
+    border-color: $color1;
+}
+.img-frame-normal .img-1 .price{
+    color: $white;
+}
+.img-frame-normal .img-1 .price.bottom{
+    color: $color1;
+
+}
+.img-frame-normal .legend.decor::after {
+    border-color: $color1;
+}
+.section{
+    &.bg-level-1{
+        background: $white;
+    }
+    &.bg-level-2{
+        background: #f5f6f7;
+    }
+}
+.section-home-item{
+    .section-wrapper .form-desc .display-title, .section-wrapper .title-desc .display-title{
+        color: $white;
+    }
+    p,
+    .title-desc{
+        color: $white;
+    }
+    .btn-outline-white {
+        color: #fff;
+        border-color: rgba($white, 0.2);
+    }
+}
+/* slider */
+.carousel-swiper-alpha .slider-container .legend{
+    color: $black;
+    h3{
+        color: $dark-black;
+    }
+}
+.carousel-swiper-beta .slider-container .swiper-slide:before {
+    background: transparentize($black, 0.95);
+}
+.carousel-swiper-beta .slider-container .legend {
+    color: $color1;
+    h3{
+        font-weight: bold;
+    }
+}
+// images and icons
+.img-frame-normal .img-1.shadow,
+.img-frame-legend-alpha .img-1.shadow{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+.img-frame-legend-alpha .legend{
+    @media (min-width: $medium-up) {
+        color: $white;
+        p{
+            color: rgba($white, 0.75);
+        }
+    }
+    
+}
+/* buttons */
+.media-project{
+    .btn-transp-arrow{
+        color: $white;
+        &:hover{
+            color: $white !important;
+        }
+    }
+}
+.media .icon{
+    color: $color1;
+}
+.icon-btn{
+    color: $black;
+    &:hover{
+        color: $color1;
+    }
+}
+.btn-circicon.btn-primary{
+    color: $black;
+}
+.btn-circicon.btn-primary .icon{
+    color: $color1;
+}
+.btn-circicon > .icon:before {
+    background: $color1;
+}
+.btn-circicon.btn-primary .icon{
+    background: $dark-black;
+}
+.btn-transp-arrow{
+    color: $black;
+}
+.btn-outline-white{
+    // color: $black;
+    // border-color: rgba($black, 0.3);
+    color: #5d5d5d;
+    border-color: rgba(#8d8d8d, 0.3);
+    &:hover,
+    &:focus{
+        color: rgba($color1, 1);
+        border-color: currentColor;
+    }
+}
+.btn-white {
+    color: $white;
+    border: 1px solid transparent;
+    background-color: $color1;
+    &:hover{
+        background-color: transparentize($color1, 0.2);
+        color: $white;
+    }
+}
+.btn-transp-arrow.btn-primary.active, .btn-transp-arrow.btn-primary:active,
+.btn-transp-arrow.btn-primary:hover{
+    background-color: transparentize($black, 0.95);
+    color: $black;
+    box-shadow: none;
+}
+/* subscription form */
+.form-container-transparent.form-container-white .form-desc h4{
+    color: $black;
+}
+.form-container-transparent.form-container-white .form-input label{
+    color: $black;
+}
+.form-control-line.form-control-white{
+    border-color: $color1;
+}
+// message form
+.form-control-outline,
+.form-control-line{
+    border-color: $color1;
+    &:focus{
+        border-color: #adadad;
+    }
+}
+
+/* scroll down */
+.scrolldown{
+    color: $black;
+    a:before{
+        background: $black;
+    }
+    a:hover:before{
+        background: $black;
+    }
+    a:after{
+        border-color: transparentize($color1, 0.2);
+    }
+}
+
+/* footer */
+.page-footer .footer-left p{
+    color: transparentize($black, 0.5);
+}
+.page-footer .footer-right .social a{
+    color: transparentize($black, 0.5);
+}
+.page-footer .footer-right .social a:hover{
+    color: $black;
+    color: $color1;
+}
+.page-footer .footer-right p{
+    color: $black;
+}
+.page-footer .footer-right p .marked{
+    color: $color1;
+}
+/* dot nav at right */
+#fp-nav ul li a span{
+    background: transparentize($black, 0);
+}
+#fp-nav li .active span, .fp-slidesNav .active span{
+    background: transparentize($black, 0);
+}
+#fp-nav span:after, .fp-slidesNav span:after{
+    background: transparentize($black, 0.8);
+}

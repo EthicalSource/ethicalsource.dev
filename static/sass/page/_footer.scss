@@ -1,0 +1,83 @@
+// web page footer
+.page-footer{
+    @media (min-width: 768px) and (max-width: 768px) {
+		// visibility: hidden;
+	}
+    .footer-left, .footer-right{
+        transition: 0.3s;
+    }
+    .footer-left{
+        position: fixed;
+        left: 16px;
+        z-index: 10;
+        bottom: 8px;
+        @media (min-width: $medium-up) {
+            left: 64px;
+            bottom: 32px;
+        }
+        p{
+            margin-bottom: 0;
+            font-size: $text-small;
+            color: transparentize($white, 0.5);
+            .marked{
+                font-weight: bold;
+            }
+        }
+    }
+    .footer-right{
+        position: fixed;
+        bottom: 8px;
+        right: 16px;
+        z-index: 10;
+        @media (min-width: $medium-up) {
+            right: 64px;
+            bottom: 32px;
+        }
+        .note{
+            display: inline-block;
+        }
+        p{
+            margin-bottom: 0;
+            font-size: $text-small;
+            color: transparentize($white, 0.5);
+            .marked{
+                font-weight: bold;
+                color: $white;
+            }
+        }
+        .social{
+            display: inline-flex;
+            flex-direction: row;
+            margin-right: -8px;
+            padding-left: 16px;
+            a{
+                padding-left: 8px;
+                padding-right: 8px;
+                display: inline-block;
+                color: transparentize($white, 0.5);
+                &:hover {
+                    color: $white
+                }
+            }
+            .icon{
+                font-size: 24px;
+            }
+        }
+    }
+    &.scrolled{
+        .footer-left, .footer-right{
+            transform: translateY(20px);
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+    &.fp-scrolled{
+        .footer-left, .footer-right{
+            @media (min-width: 768px) and (max-width: 1200px) and (orientation: landscape){
+                transform: translateY(20px);
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+}

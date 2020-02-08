@@ -1,0 +1,59 @@
+// typo graphy
+@mixin condensed {
+	font-family: $condensed;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+@mixin text-normal{
+	font-size: 1rem;
+    @media (min-width: $medium-up) {
+        font-size: 0.875rem;
+    }
+    @media (min-width: $large-up) {
+        font-size: 1rem;
+    }
+}
+@mixin text-article {
+	font-family: $sans;
+	font-size: 1rem;
+	@media (min-width: $medium-up) {
+		font-size: 1rem;
+	}
+	@media (min-width: $large-up) {
+		// font-size: 1.125rem;
+		font-size: 1rem;
+	}
+	&.italic{
+		font-style: italic
+	}
+}
+@mixin marked {
+	background: $white;
+	color: $black;
+	padding-left: 0.3em;
+	padding-right: 0.3em;
+	font-weight: bold;
+}
+
+@mixin text-border($color) {
+	position: relative;
+	padding-left: 1.5em;
+	&:before{
+		position: absolute;
+		border-top: 2px solid $color;
+		width: 1em;
+		height: 0;
+		left: 0;
+		top: 0.5em;
+		content: "";
+	}
+}
+// text color
+.text-black{
+	color: $black !important;
+}
+@each $color, $value in $theme-colors {
+	.text-#{""+$color} {
+		color: $value !important;
+	}
+}

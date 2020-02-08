@@ -1,0 +1,31 @@
+// default page layout for .page-fullpage
+.page-fullpage{
+    .section{
+        // min-height: 100vh;
+    }
+}
+
+.body-page{
+    position: relative;
+    .cursor-ball{
+        position: absolute;
+        z-index: 0;
+        content: "";
+        // width: 300px;
+        width: 50vw;
+        height: 100vh;
+        // height: 300px;
+        // margin-top: -150px;
+        // margin-left: -150px;
+        margin-left: -25vw;
+        left: 0;
+        top: 0;
+        background: rgba(255,255,255,0.05);
+        // border-radius: 400px;
+        transition: 0.05s ease-in-out;
+        // transform: translate(10px,10px);
+        transform: translateX(0);
+        // box-shadow: 0 0 100px rgba(255,255,255,0.2);
+        // filter: blur(40px);
+    }
+}

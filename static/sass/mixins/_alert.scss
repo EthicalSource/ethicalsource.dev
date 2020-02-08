@@ -1,0 +1,12 @@
+// alert normal style
+@mixin alert-variant($backgroundColor, $borderColor, $textColor) {
+    color: $textColor;
+    background-color: $backgroundColor;
+    border-color: $borderColor;
+    hr {
+        border-top-color: darken($borderColor, 5%);
+    }
+    .alert-link{
+        color: darken($textColor, 10%);
+    }
+}

@@ -1,0 +1,8 @@
+// input
+// normal
+@mixin form-control-normal($color, $focusColor: $primary) {
+    color: $color;
+    &:focus{
+        color: $focusColor;
+    }
+}

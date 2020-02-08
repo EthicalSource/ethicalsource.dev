@@ -1,0 +1,122 @@
+.article {
+    $maxWidth: 720px;
+    .article-header {
+        .wrapper {
+            width: 100%;
+            max-width: $maxWidth;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        margin-bottom: 2rem;
+    }
+    .article-content {
+        margin-top: 2rem;
+        .wrapper {
+            width: 100%;
+            max-width: $maxWidth;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .article-footer {
+        .article-details{
+            margin-top: 2rem;
+            padding-top: 2rem;
+            width: 100%;
+            max-width: $maxWidth;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    
+}
+.article .media{
+    .icon{
+        font-size: 4.5rem;
+        display: block;
+        width: 1em;
+        height: 1em;
+        line-height: 1;
+    }
+    img{
+        width: 4.5rem;
+        height: auto;
+    }
+}
+
+.media-article-title{
+    .media-image{
+        // flex: 0 0 auto;
+    }
+    .media-body{
+        // flex: 1 1 auto;
+        overflow: hidden;
+        .media-title{
+            font-size: 1rem;
+        }
+        p{
+            font-size: 0.75rem;
+        }
+    }
+}
+
+
+// code highlight
+.code-highlight{
+    border-radius: 4px;
+    border: 1px solid $light-gray;
+    overflow: hidden;
+    .code-title{
+        &:before{
+            content: ">>";
+            margin-right: 0.5rem;
+            color: $gray;
+        }
+        padding: 2px 1rem;
+        font-size: 0.875rem;
+        border-bottom: none;
+        background: $light-gray;
+        font-family: $code;
+        color: $black;
+        font-weight: bold;
+        border-radius: 4px 4px 0 0 ;
+        // color: $gray;
+    }
+    pre{
+        padding: 1rem;
+        font-size: 0.875rem;
+        max-height: 600px;
+        overflow: auto;
+        background: $white-gray;
+        color: $black;
+        font-family: $code;
+        margin-bottom: 0;
+        // tab-size: 2;
+    }
+}
+.code-highlight-beta{
+    .code-title{
+        padding: 2px 1rem;
+        font-size: 0.875rem;
+        border: 2px solid $white-gray;
+        border-bottom: none;
+        background: $white;
+        font-family: $code;
+        color: $black;
+        font-weight: bold;
+    }
+    pre{
+        padding: 1rem;
+        font-size: 0.875rem;
+        max-height: 600px;
+        overflow: auto;
+        // border: 1px solid $light-gray;
+        background: $white-gray;
+        color: $black;
+        font-family: $code;
+        // tab-size: 2;
+    }
+}
+
+@import 'article/article-light';
+@import 'article/article-doc';

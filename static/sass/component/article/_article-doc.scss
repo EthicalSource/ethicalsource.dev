@@ -1,0 +1,47 @@
+// bootstrap doc style layout for article
+.article-doc{
+
+    h2{
+        margin-top: 3rem;
+    }
+    // > h2:not(:first-child) {
+    //     margin-top: 3rem;
+    // }
+    h3{
+        margin-top: 1.5rem;
+    }
+    h2, h3{
+        // margin adjust for #anchor
+        &:before{
+            display: block;
+            height: 6rem;
+            margin-top: -6rem;
+            visibility: hidden;
+            content: "";
+        }
+    }
+    img{
+        max-width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .article-content{
+        ol, p, ul{
+            max-width: 80%;
+            opacity: 1;
+        }
+        ul{
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        hr{
+            width: 100%;
+            margin: 1rem 0;
+            border-top: 2px solid $light-gray;
+        }
+        blockquote{
+            border-left:  2px solid $light-gray;
+            padding-left: 2rem;
+        }
+    }
+}

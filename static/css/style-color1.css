@@ -1,0 +1,270 @@
+.body-page {
+  background-color: #ffffff;
+  color: #3d3d3d; }
+
+.body-item {
+  background-color: #ffffff;
+  color: #3d3d3d; }
+
+.section-item {
+  background-color: #ffffff; }
+
+.section-gallery {
+  background-color: #ffffff; }
+
+a {
+  color: #61b8ff; }
+  a:hover {
+    color: rgba(97, 184, 255, 0.8); }
+
+/* Home page  */
+#mainpage .section-home {
+  background: url("/images/bg-home-portrait.jpg");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover; }
+  @media (min-width: 960px) {
+    #mainpage .section-home {
+      background: url("/images/bg-home-landscape.jpg");
+      background-repeat: none;
+      background-position: center;
+      background-size: cover; } }
+
+/* menu icon */
+.menu-icon {
+  opacity: 1; }
+  @media (min-width: 768px) {
+    .menu-icon {
+      background: rgba(255, 255, 255, 0.5); } }
+
+.menu-icon .bars .bar1, .menu-icon .bars .bar2, .menu-icon .bars .bar3 {
+  background: #1d1d1d; }
+
+/* navigations */
+.body-item .page-header-alpha .navbar-brand {
+  color: #ffffff; }
+
+.page-header-alpha .all-menu-wrapper {
+  background: #ffffff; }
+
+.page-header-alpha .navbar-mainmenu .nav-item a {
+  color: #3d3d3d; }
+  .page-header-alpha .navbar-mainmenu .nav-item a:hover {
+    color: #61b8ff; }
+
+.page-header-alpha .navbar-sidebar .nav-item {
+  opacity: 1; }
+
+.page-header-alpha .all-menu-wrapper .navbar-nav .nav-item a {
+  opacity: 1; }
+
+.body-page .page-header-alpha .navbar-sidebar .nav-item .icon {
+  background: rgba(61, 61, 61, 0.2);
+  color: #3d3d3d; }
+
+.body-page .page-header-alpha .navbar-sidebar .nav-item:hover .icon,
+.body-page .page-header-alpha .navbar-sidebar .nav-item.active .icon {
+  background: #61b8ff;
+  color: #ffffff; }
+
+.body-page .page-header-alpha .navbar-sidebar .nav-item.active .txt {
+  color: #61b8ff; }
+
+.page-header-alpha .navbar-sidebar .nav-item .txt {
+  font-weight: 400; }
+
+/* section content */
+h1, h2, h3, h4 {
+  text-shadow: none; }
+
+.section p {
+  color: #3d3d3d; }
+
+.section-content h4 {
+  font-weight: bold; }
+
+.section-wrapper .form-desc .display-title,
+.section-wrapper .title-desc .display-title {
+  color: #1d1d1d; }
+
+.section-title .title-bg {
+  color: #61b8ff;
+  letter-spacing: 0;
+  font-weight: bold; }
+
+.section.active .title-bg {
+  opacity: 0.05;
+  opacity: 0.1; }
+
+.slide-wrapper .legend h3 {
+  color: #1d1d1d; }
+
+.slide-wrapper .legend a,
+.slide-wrapper .legend h4 {
+  color: #3d3d3d; }
+
+.display-title {
+  font-weight: bold; }
+
+.cover-content p {
+  color: rgba(255, 255, 255, 0.75); }
+
+.section-cover-full.mask-layer:before {
+  background: rgba(255, 255, 255, 0.3); }
+
+.service-list.decor {
+  border-color: #61b8ff; }
+
+.img-frame-normal .img-1 .price {
+  color: #ffffff; }
+
+.img-frame-normal .img-1 .price.bottom {
+  color: #61b8ff; }
+
+.img-frame-normal .legend.decor::after {
+  border-color: #61b8ff; }
+
+.section.bg-level-1 {
+  background: #ffffff; }
+
+.section.bg-level-2 {
+  background: #f5f6f7; }
+
+.section-home-item .section-wrapper .form-desc .display-title, .section-home-item .section-wrapper .title-desc .display-title {
+  color: #ffffff; }
+
+.section-home-item p,
+.section-home-item .title-desc {
+  color: #ffffff; }
+
+.section-home-item .btn-outline-white {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.2); }
+
+/* slider */
+.carousel-swiper-alpha .slider-container .legend {
+  color: #3d3d3d; }
+  .carousel-swiper-alpha .slider-container .legend h3 {
+    color: #1d1d1d; }
+
+.carousel-swiper-beta .slider-container .swiper-slide:before {
+  background: rgba(61, 61, 61, 0.05); }
+
+.carousel-swiper-beta .slider-container .legend {
+  color: #61b8ff; }
+  .carousel-swiper-beta .slider-container .legend h3 {
+    font-weight: bold; }
+
+.img-frame-normal .img-1.shadow,
+.img-frame-legend-alpha .img-1.shadow {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1); }
+
+@media (min-width: 768px) {
+  .img-frame-legend-alpha .legend {
+    color: #ffffff; }
+    .img-frame-legend-alpha .legend p {
+      color: rgba(255, 255, 255, 0.75); } }
+
+/* buttons */
+.media-project .btn-transp-arrow {
+  color: #ffffff; }
+  .media-project .btn-transp-arrow:hover {
+    color: #ffffff !important; }
+
+.media .icon {
+  color: #61b8ff; }
+
+.icon-btn {
+  color: #3d3d3d; }
+  .icon-btn:hover {
+    color: #61b8ff; }
+
+.btn-circicon.btn-primary {
+  color: #3d3d3d; }
+
+.btn-circicon.btn-primary .icon {
+  color: #61b8ff; }
+
+.btn-circicon > .icon:before {
+  background: #61b8ff; }
+
+.btn-circicon.btn-primary .icon {
+  background: #1d1d1d; }
+
+.btn-transp-arrow {
+  color: #3d3d3d; }
+
+.btn-outline-white {
+  color: #5d5d5d;
+  border-color: rgba(141, 141, 141, 0.3); }
+  .btn-outline-white:hover, .btn-outline-white:focus {
+    color: #61b8ff;
+    border-color: currentColor; }
+
+.btn-white {
+  color: #ffffff;
+  border: 1px solid transparent;
+  background-color: #61b8ff; }
+  .btn-white:hover {
+    background-color: rgba(97, 184, 255, 0.8);
+    color: #ffffff; }
+
+.btn-transp-arrow.btn-primary.active, .btn-transp-arrow.btn-primary:active,
+.btn-transp-arrow.btn-primary:hover {
+  background-color: rgba(61, 61, 61, 0.05);
+  color: #3d3d3d;
+  box-shadow: none; }
+
+/* subscription form */
+.form-container-transparent.form-container-white .form-desc h4 {
+  color: #3d3d3d; }
+
+.form-container-transparent.form-container-white .form-input label {
+  color: #3d3d3d; }
+
+.form-control-line.form-control-white {
+  border-color: #61b8ff; }
+
+.form-control-outline,
+.form-control-line {
+  border-color: #61b8ff; }
+  .form-control-outline:focus,
+  .form-control-line:focus {
+    border-color: #adadad; }
+
+/* scroll down */
+.scrolldown {
+  color: #3d3d3d; }
+  .scrolldown a:before {
+    background: #3d3d3d; }
+  .scrolldown a:hover:before {
+    background: #3d3d3d; }
+  .scrolldown a:after {
+    border-color: rgba(97, 184, 255, 0.8); }
+
+/* footer */
+.page-footer .footer-left p {
+  color: rgba(61, 61, 61, 0.5); }
+
+.page-footer .footer-right .social a {
+  color: rgba(61, 61, 61, 0.5); }
+
+.page-footer .footer-right .social a:hover {
+  color: #3d3d3d;
+  color: #61b8ff; }
+
+.page-footer .footer-right p {
+  color: #3d3d3d; }
+
+.page-footer .footer-right p .marked {
+  color: #61b8ff; }
+
+/* dot nav at right */
+#fp-nav ul li a span {
+  background: #3d3d3d; }
+
+#fp-nav li .active span, .fp-slidesNav .active span {
+  background: #3d3d3d; }
+
+#fp-nav span:after, .fp-slidesNav span:after {
+  background: rgba(61, 61, 61, 0.2); }

@@ -1,0 +1,133 @@
+// page background cover
+.page-cover {
+	width: 100%;
+	position: fixed;
+	height: 120%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	overflow: hidden;
+	.cover-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+	/*  Page cover background image,color */
+		background: url(../img/bg-default.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		z-index: -1;
+		//overflow: hidden;
+	}
+    .cover-bg-mask{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+	
+	.cover-bg.bg-color {
+	/* Page cover  background mask */
+		background-image: none;
+		z-index: -1;
+	}
+	.cover-bg.cover-bg-mask {
+		background: rgba(0, 0, 0, 0.12);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		z-index: 0;
+		transition: 2s;
+	}
+	.bg-blur-0{
+		filter: none;
+	}
+	.bg-blur-1{
+		filter: blur(1px);
+	}
+	@for $i from 1 through 10 {
+		.bg-blur-#{$i}{
+			filter: blur($i*1px);
+		}
+	}
+	.vegas-timer {
+		/* background slide */
+		display: none;
+	}
+	.bg-line{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		opacity: 0.1;
+		display: none;
+		@media (min-width : 601px){
+			display: block;
+		}
+		&:before{
+			content: "";
+			position: absolute;
+			width: 50%;
+			left: 25%;
+			top: 0;
+			height: 100%;
+			border: 1px solid #fff;
+			border-top: none;
+			border-bottom: none;
+		}
+		&:after{
+			content: "";
+			position: absolute;
+			width: 50%;
+			left: 50%;
+			top: 0;
+			height: 100%;
+			border-left: 1px solid #fff;
+			margin-left: -1px;
+		}
+	}
+	
+	#particles-js {
+		/*  particles.js container */
+		width: 100%;
+		height: 100%;
+		background-color: #b61924;
+		background-image: url('');
+		background-size: cover;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+	}
+
+	.video-container {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: -1;
+	}
+
+	.video-container video {
+		height: 724px;
+		width: 1287px;
+		margin-top: -42px;
+		margin-left: 0px;
+	}
+
+	.video-container iframe {
+		width: 120%;
+		height: 120%;
+		margin-left: -10%;
+		margin-top: -2%;
+	}
+}
+
+#parallax-cover.page-cover{
+	transform: scale(1.2) !important;
+}

@@ -1,0 +1,42 @@
+// Sass functions from bootstrap
+
+// Retreive color Sass maps
+@function color($key: "blue") {
+  @return map-get($colors, $key);
+}
+
+@function theme-color($key: "primary") {
+  @return map-get($theme-colors, $key);
+}
+
+@function grayscale($key: "100") {
+  @return map-get($grays, $key);
+}
+// Request a color level
+@function color-level($color: "#000", $level: 0) {
+  $color-base: if($level > 0, #000, #fff);
+
+  @if $level < 0 {
+    // Lighter values need a quick double negative for the Sass math to work
+    @return mix($color-base, $color, $level * -1 * $theme-color-interval);
+  } @else {
+    @return mix($color-base, $color, $level * $theme-color-interval);
+  }
+}
+// Theme color leveler
+@function theme-color-level($color-name: "primary", $level: 0) {
+  $color: theme-color($color-name);
+  $color-base: if($level > 0, #000, #fff);
+
+  @if $level < 0 {
+    // Lighter values need a quick double negative for the Sass math to work
+    @return mix($color-base, $color, $level * -1 * $theme-color-interval);
+  } @else {
+    @return mix($color-base, $color, $level * $theme-color-interval);
+  }
+}
+
+// convert #XXXXXX color to svg url encoded color
+@function svgurl-color($color) {
+    @return '%23' + str-slice('#{$color}', 2, -1)
+}

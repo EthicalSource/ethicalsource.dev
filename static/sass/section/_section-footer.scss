@@ -1,0 +1,104 @@
+.section-footer {}
+
+.footer.footer-page {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    ul,
+    li {
+        list-style: none;
+    }
+    .footer-nav {
+        .navbar-brand {
+            color: inherit;
+            margin-bottom: 1rem;
+            @media (min-width: $medium-up) {
+                margin-bottom: 0;
+            }
+            img {
+                height: 48px;
+                width: auto;
+                margin-right: 0.5rem;
+            }
+            .text {
+                display: inline;
+                margin-bottom: 0;
+                vertical-align: middle;
+            }
+        }
+        .nav-container{
+            display: flex;
+            padding-left: 32px;
+            @media (min-width: $medium-up) {
+                justify-content: flex-end;
+                padding: 0;
+            }
+        }
+        .navbar-nav {
+            display: flex;
+            flex-direction: row;
+            padding: 0;
+            .nav-item {
+                // flex: 1;
+                padding-right: 1rem;
+                @media (min-width: $medium-up) {
+                    justify-content: flex-end;
+                    padding-right: 0;
+                    padding-left: 2rem;
+                }
+            }
+            a {
+                color: inherit;
+                &:hover {
+                    text-decoration: none;
+                    color: $primary;
+                }
+            }
+        }
+    }
+    .footer-block {
+        .social-form {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            .title {
+                font-size: 1rem;
+                font-weight: bold;
+            }
+            .email-ok {
+                position: absolute;
+            }
+            .form-group{
+                width: 100%;
+                @media (min-width: $small-up) {
+                    width: auto;
+                }
+            }
+        }
+        .social-icons {
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 1rem;
+        }
+        .socials-nav {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            a {
+                padding-left: 8px;
+                padding-right: 8px;
+                display: inline-block;
+                color: inherit;
+                &:hover {
+                    text-decoration: none;
+                    color: $primary;
+                }
+            }
+            .icon {
+                font-size: 24px;
+            }
+        }
+    }
+    .footer-note {
+        border-top: 1px solid transparentize($white, 0.8);
+        padding-top: 1rem;
+    }
+}

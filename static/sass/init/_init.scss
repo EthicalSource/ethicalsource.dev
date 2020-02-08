@@ -1,0 +1,42 @@
+/* 0.0 Tag/Classes Initailization */ 
+audio,
+canvas,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+body{
+    font-family: $sans-serif;
+    font-size: $text-size;
+    background-color: $white;
+    color: $black;
+    margin: 0;
+    padding: 0;
+	// overflow-x: hidden !important;
+}
+ul, li{
+    list-style: none outside none;
+    margin: 0;
+}
+
+iframe{
+    border: none;   
+}
+
+ul, li{
+    list-style: none outside none;
+    margin: 0;
+}
+a{
+	color: $primary;
+    cursor: pointer;
+}

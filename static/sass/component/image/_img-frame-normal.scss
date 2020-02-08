@@ -1,0 +1,90 @@
+.img-frame-normal{
+    position: relative;
+    img{
+        width: 100%;
+        height: auto;
+    }
+    $thickness: 8px;
+    &.portrait{
+        .img-1{
+            max-width: 320px;
+        }
+    }
+    .img-1{
+        width: 100%;
+        // max-width: 420px;
+        position: relative;
+        img{
+            position: relative;
+        }
+        // &.shadow{
+        //     box-shadow: 0 0 40px rgba(0,0,0,0.3);
+        // }
+        a::after{
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: 1px solid rgba($white,0.2);
+            transition: 0.2s;
+        }
+
+        .price{
+            position: absolute;
+            right: 1.5rem;
+            top: 1rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+            &.bottom{
+                right: 0;
+                top: auto;
+                bottom: -2.75rem;
+            }
+        }
+    }
+    .legend{
+        margin-top: 16px;
+        &.decor{
+            margin-top: 3rem;
+            position: relative;
+            &:after {
+                content: '';
+                position: absolute;
+                left: 50%;
+                top: -2.5rem;
+                height: 2rem;
+                width: 1px;
+                border-left: 1px solid rgba($white, 0.2);
+            }
+        }
+        h3{
+            font-size: 1rem;
+        }
+        @media (min-width: $medium-up) {
+            // position: absolute;
+            width: 100%;
+            &.pos-abs{
+                position: absolute;
+            }
+        }
+        @media (max-height: 480px) {
+            &.pos-abs{
+                position: relative;
+            }
+        }
+    }
+    &:hover{
+        .img-1{
+            a:after{
+                top: 8px;
+                left: 8px;
+                right: 8px;
+                bottom: 8px;
+                border: 1px solid $white;
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+.page-header-alpha{
+    $medium-up: 768px;
+    .all-menu-wrapper{
+        @media (min-width: $medium-up) {
+            z-index: auto;
+        }
+    }
+}

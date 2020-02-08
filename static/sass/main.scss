@@ -1,0 +1,80 @@
+/*-----------------------------------------------------------------
+[Legal Notice]
+
+Copyright (c) Miradontsoa
+Website Template by miradontsoa
+http://highhay.com
+http://miradontsoa.com
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+/** CSS Reference
+    0. Base Style
+	1. Components 
+		1.1 form, button, input
+		1.2 Layout
+		1.3 Grid / list / slider / gallery
+		1.4 Menu / menu-header / nav
+		1.5 . Additional UI
+	2. Page Header / .page-header
+	3. Page Footer / .page-footer 
+	4. Pages / .page-main
+	5. Sections / .section
+		5.1 Default layout / .section
+		5.2 Home screen / .section-home
+	6. Helper classes / Responsiveness
+		6.1 Helper classes
+		6.2 Responsiveness
+	
+	Sample hooks to altering this css file can be found in "style-colorX.css" file 
+
+**/
+/*---------- 
+[Colors]
+    text color : #FFFFFF, #FFF
+	primary : #D1335B
+	secondary : #3f4b62
+	black : #1d1d1d
+	white : #ffffff
+	blue : #037FD5
+[Typography]
+	font-family :
+	-  sans-serif Segoe UI / Roboto / Open sans / Helvetica with fallback to system-ui fonts
+*/
+
+// variables and mixins
+@import "variables";
+@import "functions";
+@import "mixins";
+
+/* 0. Base style */
+/* 0.1 Initializer */
+@import "init/print";
+@import "init/init";
+@import "init/typography";
+
+
+/* 1 Components */
+@import "components";
+
+/* 2 Page header / .page-header */
+@import "page/header";
+
+/* 3 Page footer / page-footer */
+@import "page/footer";
+
+/* 4 Pages */
+@import "pages";
+
+/* 5 Sections */
+@import "sections";
+
+/* 6. Helper classes / Responsiveness */
+/* 6.1 Helper classes */
+@import "utilities/helper";
+/* 6.2 Helper classes */
+@import "utilities/typography";
+/* 6.3 Responsiveness */
+@import "utilities/responsive";
+

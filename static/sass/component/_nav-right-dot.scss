@@ -1,0 +1,79 @@
+#fp-nav{
+	@media screen and (max-width: 1024px) {
+		visibility: hidden;
+	}
+}
+// Dot navigation at right
+#fp-nav.right{
+    right: 58px;
+    right: 16px;
+    margin-right: 0px;
+	position: absolute;
+}
+#fp-nav span, .fp-slidesNav span{
+    border-color: #fff;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	width: 10px;
+	height: 10px;
+}
+#fp-nav ul li a span{
+	background: #fff;
+}
+#fp-nav li, .fp-slidesNav li {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 16px;
+    position: relative;
+}
+	#fp-nav span:after, .fp-slidesNav span:after{	
+		background: rgba(255, 255, 255, 0.15);  
+		// border: 1px solid transparent;
+		position: absolute;
+		content: '';
+		display: block;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		border-radius: 40px;
+		-webkit-transition: 0.3s;
+		transition: 0.3s;
+	}
+#fp-nav li .active span, .fp-slidesNav .active span{
+    background: #fff;
+	position: absolute;
+}
+	$border-margin: -4px;
+	#fp-nav li .active span:after, 
+	.fp-slidesNav .active span:after{
+		top: $border-margin;
+		left: $border-margin;
+		bottom: $border-margin;
+		right: $border-margin;
+		border-color: $white;
+	}
+	
+#fp-nav ul li a.active span,
+ #fp-nav ul li:hover a.active span, 
+ .fp-slidesNav ul li a.active span, 
+ .fp-slidesNav ul li:hover a.active span {
+    height: 8px;
+    width: 8px;
+    margin: -4px 0 0 -4px;
+    border-radius: 100%;
+}
+#fp-nav ul li a{
+	opacity: 0.2;
+	&:hover{
+		opacity: 0.6;
+	}
+	&.active,
+	&.active:hover{
+		opacity: 1;
+	}
+}
+body.left-light{
+
+}

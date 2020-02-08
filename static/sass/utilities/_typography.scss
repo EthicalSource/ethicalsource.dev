@@ -1,0 +1,88 @@
+.display-1{
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1;
+    @media (min-width: $medium-up) {
+        font-size: 4.5rem;
+    }
+    @media (min-width: $xlarge-up) {
+        font-size: 6rem;
+    }
+}
+.display-2{
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    @media (min-width: $xlarge-up) {
+        font-size: 5.5rem;
+    }
+}
+.display-3{
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    font-weight: bold;
+    @media (min-width: $xlarge-up) {
+        font-size: 4.5rem;
+    }
+}
+.display-4{
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.1;
+    font-weight: bold;
+    @media (min-width: $xlarge-up) {
+        font-size: 3.5rem;
+    }
+}
+.display-5{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    @media (min-width: $xlarge-up) {
+        font-size: 3rem;
+    }
+}
+.display-title{
+    margin-bottom: 1rem;
+}
+.display-normal{
+    font-size: 1rem;
+}
+.text-right-sm{
+    @media (max-width: ($small-up - 1px)) {
+        text-align: right !important;
+    }
+}
+.text-left-sm{
+    @media (max-width: ($small-up - 1px)) {
+        text-align: left !important;
+    }
+}
+.text-center-sm{
+    @media (max-width: ($small-up - 1px)) {
+        text-align: center !important;
+    }
+}
+.strong,
+strong{
+    font-weight: bold;
+}
+.condensed{
+    font-family: $condensed;
+}
+
+h1,h2,h3,h4{
+    
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+p{
+    @include text-normal;
+}
+// font styke
+.font-primary{
+    font-family: $condensed;
+}
+.font-secondary{
+    font-family: $sans;
+}

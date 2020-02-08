@@ -1,0 +1,39 @@
+// form control outline
+// default color
+// outline
+.form-control-outline{
+    display: block;
+    width: 100%;
+    border: 1px solid $primary;
+    background: none;
+    box-shadow: none;
+    color: inherit;
+    border-radius: 8px;
+    &.thick{
+        border-width: 2px;
+    }
+    &:focus{
+        color: inherit;
+        border-color: color-level($primary, 4);
+        background: none;
+        box-shadow: none;
+        outline: none;
+    }
+}
+// mixin
+@mixin form-control-outline($color, $focusColor: $color) {
+    border-color: $color;
+    &:focus{
+        border-color: $focusColor;
+    }
+    &.custom-select{
+        background: transparent url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='#{svgurl-color($color)}' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right .75rem center;
+        background-size: 8px 10px;
+    }
+}
+// alternative colors
+@each $color, $value in $theme-colors {
+.form-control-outline.form-control-#{""+$color} {
+    @include form-control-outline($value, color-level($value, 4));
+  }
+}

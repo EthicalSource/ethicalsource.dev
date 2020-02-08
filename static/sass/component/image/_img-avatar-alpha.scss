@@ -1,0 +1,38 @@
+.img-avatar-alpha{
+    position: relative;
+    $imgW: 300px;
+    $thickness: 12px;
+    .img{
+        width: 100%;
+        max-width: $imgW;
+        border-radius: $imgW;
+        border: $thickness solid $primary;
+        position: relative;
+        img{
+            width: 100%;
+            height: auto;
+            position: relative;
+            border-radius: $imgW;
+            z-index: 1;
+        }
+    }
+    &.shadow{
+        .img{
+            box-shadow: 0 0 40px rgba(0,0,0,0.15);
+        }
+    }
+}
+
+// mixin
+@mixin img-avatar-alpha($color) {
+    .img{
+        border-color: $color;
+    }
+}
+
+// alternative colors
+@each $color, $value in $theme-colors {
+.img-avatar-alpha.img-#{""+$color} {
+    @include img-avatar-alpha($value);
+    }
+}

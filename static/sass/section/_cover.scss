@@ -1,0 +1,127 @@
+// section cover
+.section{
+    position: relative;
+}
+.section-cover-half-left{
+    position: relative;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background: $black;
+    background-size: cover;
+    background-position: center;
+    @media (min-width: $small-up) {
+        position: absolute;
+        width: 50%;
+    }
+    &.mask-black{
+        &:before{
+            z-index: 0;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: transparentize( black, 0.8);
+        }
+    }
+}
+.section-cover-tier{
+    position: relative;
+    left: 0;
+    width: 100%;
+    top: -32px;
+    min-height: 200px;
+    background: $black;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s ease-in-out;
+    @media (min-width: $large-up) {
+        top: 0;
+        position: fixed;
+        width: 33.33%;
+        height: 100vh;
+        // clip: rect(0,33.33vw,100vh,33.33vw);
+        transition-delay: 0.6s;
+        // transform: translateX(-10vw);
+    }
+    &.mask-black{
+        &:before{
+            z-index: 0;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: transparentize( black, 0.5);
+        }
+    }
+    &.mask-black-light{
+        &:before{
+            z-index: 0;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba( black, 0.2);
+        }
+    }
+}
+.section.active{
+    .section-cover-tier{
+        @media (min-width: $medium-up) {
+            // clip: rect(0,33vw,100vh,0vw);
+            transform: none;
+        }
+    }
+}
+.section-cover-full{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background-size: contain !important;
+    background-position: center;
+    @media (min-width: $medium-up) {
+        background-size: cover !important;
+    }
+    &.fit{
+        background-size: cover !important;
+    }
+    &.mask-layer{
+        &:before{
+            z-index: 0;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba( black, 0.1);
+        }
+    }
+}
+.cover-content{
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    padding: 64px 16px;
+    padding-top: 120px;
+    color: $white;
+    @media (min-width: $small-up) {
+        padding-left: 64px;
+        padding-bottom: 64px;
+        padding-right: 40px;
+    }
+    p:last-child{
+        margin-bottom: 0;
+    }
+}

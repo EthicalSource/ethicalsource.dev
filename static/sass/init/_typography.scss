@@ -1,0 +1,19 @@
+// basic typography rules
+h1, h2, h3, h4, h5, h6{
+	font-family: $sans;
+}
+h3, h4{
+	font-weight: normal;
+}
+h3{
+	// font-size: 1.4rem;
+}
+p{
+	font-size: 1rem;
+	@media(min-width: 601px){
+		font-size: 1rem;
+	}
+	@media(min-width:1400px){
+		font-size: 1rem;
+	}
+}

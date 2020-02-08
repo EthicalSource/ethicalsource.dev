@@ -1,0 +1,100 @@
+// light
+.article-light{
+    @media (min-width: $medium-up) {
+		padding-left: 64px;
+		padding-right: 64px;
+	}
+	@media (min-width: $xlarge-up) {
+		padding: 0;
+	}
+    > .article-content {
+        > .wrapper > {
+            h2 {
+                font-family: $sans;
+                font-weight: bold;
+                font-size: $text-xxlarge;
+                font-weight: 300;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
+            p {
+                @include text-article;
+            }
+            h3 {
+                margin-top: 1.5rem;
+            }
+            p {
+                font-family: $sans;
+                margin-top: 1.5rem;
+            }
+            img {
+                margin-top: 1.5rem;
+                max-width: 100%;
+            }
+            hr {
+                display: block;
+                position: relative;
+                border: 0;
+                margin-top: 44px;
+                margin-bottom: 2rem;
+                text-align: center;
+                width: 100%;
+                &:before {
+                    content: '---';
+                    display: inline-block;
+                    margin-left: .6em;
+                    color: transparentize($black, 0.4);
+                    position: relative;
+                    top: -30px;
+                    font-weight: 400;
+                    font-size: 28px;
+                    letter-spacing: .75em;
+                }
+            }
+            li {
+                @include text-article;
+                margin-left: 30px;
+                margin-bottom: 14px;
+                position: relative; // list-style: disc;
+                list-style: none;
+                &:before {
+                    position: absolute;
+                    box-sizing: border-box;
+                    width: 6px;
+                    height: 6px;
+                    content: "";
+                    background: currentColor;
+                    margin-left: -20px;
+                    left: 0;
+                    top: 12px;
+                    border-radius: 60px;
+                }
+            }
+            a {
+                color: inherit;
+                text-decoration: underline;
+            }
+            blockquote {
+                margin-top: 24px;
+                border-left: 3px solid $black;
+                padding-left: 20px;
+                margin-left: -24px;
+                padding-top: 0px;
+                padding-bottom: 2px;
+                @include text-article;
+                font-style: italic;
+                color: transparentize($black, 0.4);
+            }
+        }
+    }
+    .article-footer {
+        margin-bottom: 2rem;
+        .article-details{
+            border-top: 1px solid transparentize( $medium-gray, 0.65);
+        }
+        .article-comments{
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+    }
+}

@@ -1,0 +1,125 @@
+// countdown clock
+.clock{
+	position: relative;
+	font-family: $sans-serif;
+	.clock-wrapper{
+		@include clearfix;
+		position: relative;
+		.clock-hms{
+			padding-left: 24px;
+			padding-right: 16px;
+			float: right;
+		}
+		.clock-title{
+			text-align: right;
+			margin-top: 16px;
+			float: right;
+			width: 100%;
+			h5{
+				text-align: inherit;
+			}
+		}
+		h5{
+			font-size: 1em;
+			font-weight: normal;
+			font-family: $sans-serif;
+		}
+		.tile{
+			.txt{
+				font-size: 14px;
+				font-weight: normal;
+				display: inline-block;
+				vertical-align: top;
+				font-weight: normal;
+				font-family: $condensed;
+				letter-spacing: 0.1em;
+				line-height: 1;
+			}
+		}
+		
+		.tile-days{
+			margin-left: 0;
+			position: relative;
+			display: inline-block;
+			&:after{
+				left: 144px;
+				width: 64px;
+				top: 50%;
+				height: 56px;
+				position: absolute;
+				content: "";
+				border-top: 1px solid currentColor;
+				border-right: 1px solid currentColor;
+			}
+			&:before{
+				top: 50%;
+				height: 56px;
+				width: 16px;
+				left: -24px;
+				position: absolute;
+				content: "";
+				border-top: 1px solid currentColor;
+				border-left: 1px solid currentColor;
+				border-bottom: 1px solid currentColor;
+			}
+			.digit{
+				font-size: 32px;
+				line-height: 1em;
+				display: inline-block;
+				font-weight: bold;
+				font-family: $condensed;
+				letter-spacing: 0.1em;
+				@media(min-width: 601px){
+					font-size: 80px;
+					line-height: 64px;
+					margin-bottom: 8px;
+					vertical-align: middle;
+				}
+				position: relative;
+			}
+		}
+		.tile-hours,
+		.tile-minutes,
+		.tile-seconds{
+			float: left;
+			margin-left: 0px;
+			margin-right: 8px;
+			.digit{
+				font-size: 32px;
+				line-height: 32px;
+				display: inline-block;
+				text-align: left;
+				position: relative;
+				font-weight: bold;
+				font-family: $condensed;
+				letter-spacing: 0.1em;
+			}
+		}
+		.tile-seconds{
+			margin-right: 0;
+			.seconds{
+				&:after{
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+.clock-container{
+	z-index: 10;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 8px;
+	padding-top: 16px;
+	margin-top: 16px;
+	transition: 0.6s;
+	@media(min-width: 601px){
+		padding: 0;
+	}
+	&.gone{
+		opacity: 0;
+		visibility: hidden;
+	}
+}

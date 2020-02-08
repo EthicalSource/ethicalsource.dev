@@ -1,0 +1,49 @@
+
+@import "variables";
+
+// $black : #3d3d3d;
+$black : #111111;
+$color1 : #037FD5;
+// white background and black text : overwrite black and white colors
+a{
+    color: $color1;
+    &:hover{
+        color: transparentize($color1, 0.2)
+    }
+}
+
+/* nav */
+.page-header-alpha .navbar-mainmenu .nav-item a:hover{
+    color: $color1;
+}
+
+/* subscription form */
+.form-container-transparent.form-container-white .form-desc h4{
+    color: $white;
+}
+.form-container-transparent.form-container-white .form-input label{
+    color: $white;
+}
+// .form-control-line.form-control-white{
+//     border-color: $color1;
+// }
+
+
+.page-cover{
+    &:after{
+        content: "";
+        // background: linear-gradient(to left, #D1335B, #00152e);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        opacity: 1;
+        transition: 0.6s;
+    }
+    &.scrolled:after{
+        // background: $black;
+        background: #0d0d0d;
+        // background: rgba(#000, 0.8);
+    }
+}

@@ -1,0 +1,166 @@
+
+// Menu icon visible only on small devices
+.menu-icon{
+	height: 40px;
+	width: 40px;
+	transition: 0.3s;
+	// background: #f4f;
+	display: inline-block;
+	position: relative;
+	background: $white;
+	border-radius: 2px;
+	opacity: 1;
+	&:hover{
+		// opacity: 0.8;
+	}
+	&.menu-bg{
+		background: $secondary;
+	}
+	// box-shadow: 0 0 30px rgba(0,0,0,0.2);
+	@media (min-width: $medium-up) {
+		background: rgba(black,0.2);
+	}
+	@media (min-width: $large-up) {
+		background: none;
+	}
+	&:after{
+		display: none;
+	}
+	.text{
+		position: absolute;
+		text-align: left;
+		top: 13px;
+		line-height: 1;
+		right: 100%;
+		padding-right: 8px;
+		text-transform: uppercase;
+		font-size: $text-size;
+		color: $white;
+		transition: 0.3s;
+		@media (min-width: $medium-up) {
+            top:-100%;
+			right: auto;
+			left: -20%;
+			transform: rotate(-90deg);
+        }
+		&.hide-menu-visible{
+			visibility: visible;
+			opacity: 1;
+			top: -100%;
+		}
+		&.show-menu-visible{
+			visibility: hidden;
+			opacity: 0;
+			top: -200%;
+		}
+		
+	}
+	.bars{
+		display: block;
+		margin: auto;
+		margin-top: 13px;
+		width: 24px;
+		.bar1,
+		.bar2,
+		.bar3{
+			display: block;
+			content: "";
+			height: 2px;
+			width: 100%;
+			margin-bottom: 4px;
+			-webkit-transition: 0.3s;
+			transition: 0.3s;
+			background: $black;
+			@media (min-width: $medium-up) {
+				background: $white;
+				// box-shadow: 0 0 4px rgba(0,0,0,0.4);
+			}
+		}
+		.bar2{
+		}
+		.bar3{
+			// width: 16px;
+		}
+	}
+	&.menu-icon-thick{
+		.bars{
+			.bar1,
+			.bar2,
+			.bar3{
+				height: 4px;
+				border-radius: 4px;
+			}
+		}
+	}
+	&.menu-icon-random{
+		.bars{
+			.bar1{
+				width: 20px;
+			}
+			.bar2{
+			}
+			.bar3{
+				width: 12px;
+			}
+		}
+	}
+	&.menu-icon-dot{
+		.bars{
+			width: 6px;
+			margin-top: 9px;
+			.bar1,
+			.bar2,
+			.bar3{
+				height: 6px;
+				width: 100%;
+				background: $white;
+				margin-bottom: 4px;
+				border-radius: 20px;
+			}
+			.bar2{
+			}
+			.bar3{
+			}
+		}
+	}
+	&.menu-visible{
+		.text{
+			&.show-menu-visible{
+				visibility: visible;
+				opacity: 1;
+				top: -100%;
+			}
+			&.hide-menu-visible{
+				visibility: hidden;
+				opacity: 0;
+				top: -200%;
+			}
+		}
+		.bars{
+			width: 24px;
+			margin-top: 13px;
+			.bar1,
+			.bar2,
+			.bar3{
+				height: 2px;
+				width: 100%;
+				margin-bottom: 4px;
+				border-radius: 0;
+			}
+			.bar1{
+				transform: translateY(6px) rotate(45deg);
+				transform-origin: center;
+				width: 24px;
+			}
+			.bar3{
+				transform: translateY(-6px) rotate(-45deg);
+				transform-origin: center;
+				width: 24px;
+			}
+			.bar2{
+				width: 0px;
+			}
+			
+		}
+	}
+}
