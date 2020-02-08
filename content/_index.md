@@ -9,7 +9,7 @@ Coalescing around the ideal of software freedom, over the past 20 years the open
 
 Today, the same open source software that enriches the commons and powers innovation also plays a critical role in mass surveillance, anti-immigrant violence, protester suppression, racist policing, the deployment of cruel and inhumane weapons, and other human rights abuses all over the world.
 
-We want to do something about it. But as developers we don’t seem to have any recourse, no way to prevent our work from being used to harm others.
+We want to do something about this misuse of our software. But as developers we don’t seem to have any recourse, no way to prevent our work from being used to harm others.
 
 ### We want to change that.
 
