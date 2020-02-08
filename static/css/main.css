@@ -3372,7 +3372,7 @@ textarea {
   margin-bottom: 8px; }
   @media (min-width: 576px) {
     .btns-action .btn {
-      width: 90%;
+      width: 100%;
       margin-left: 2px;
       margin-right: 2px; } }
 
