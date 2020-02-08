@@ -1,6 +1,6 @@
 +++
 title = "The Ethical Evolution of Open Source"
-description = "Social Good, Source Available"
+description = "Social Good, Source Available."
 +++
 
 Christine Peterson coined the term “open source” in 1998.
