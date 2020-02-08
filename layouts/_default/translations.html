@@ -1,7 +1,5 @@
 {{ define "main" }}
 <section>
-  <h2>{{ .Title }}</h2>
-  <p>{{ .Description }}</p>
     <ul>
       {{ range .Site.Home.AllTranslations }}
         {{ if eq .Language.Lang "en" }}
@@ -10,6 +8,7 @@
         {{ end }}
       {{ end }}
     </ul>
+  <br />
   {{ .Content }}
 </section>
 {{ end }}

@@ -1,8 +1,7 @@
 +++
 title = "The Ethical Evolution of Open Source"
+description = "Social Good, Source Available"
 +++
-
-## The Ethical Evolution of Open Source
 
 In the twenty years since the term "open source" was coined by Christine Peterson, our community has grown astronomically, all the while learning from its successes and failures. A lot has changed for open source developers in the past two decades. But the political and technological landscape has also changed.
 

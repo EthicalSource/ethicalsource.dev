@@ -2,8 +2,6 @@
 title = "Die Definition von Ethical Source"
 +++
 
-## Die Definition von Ethical Source
-
 Software gilt als _Ethical Source_, wenn folgende Kriterien erfüllt sind:
 
 1. Sie wird kostenlos samt Quellencode vertrieben und kann ohne Lizenz- oder Nutzungsgebüren mit anderer Software kombiniert werden.

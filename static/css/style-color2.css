@@ -1,0 +1,56 @@
+.body-page {
+  background-color: #1D1D1D; }
+
+.body-item {
+  background-color: #1D1D1D; }
+
+.slide-wrapper .legend h3,
+.display-title {
+  font-family: "Bebas Neue", "Ostrich Sans", "Oswald", sans-serif;
+  letter-spacing: 0.2em; }
+
+.title-bg {
+  font-family: "Bebas Neue", "Ostrich Sans", "Oswald", sans-serif; }
+
+.display-3,
+.display-4 {
+  font-family: "Bebas Neue", "Ostrich Sans", "Oswald", sans-serif;
+  letter-spacing: 0.2em; }
+
+.page-header-alpha .nav-item {
+  font-family: "Bebas Neue", "Ostrich Sans", "Oswald", sans-serif;
+  letter-spacing: 0.2em; }
+
+.page-header-alpha .navbar-mainmenu .nav-item {
+  font-family: "Bebas Neue", "Ostrich Sans", "Oswald", sans-serif; }
+
+.btn {
+  font-family: "Bebas Neue", "Ostrich Sans", "Oswald", sans-serif;
+  letter-spacing: 0.2em;
+  height: 46px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 2px; }
+
+.btn-outline-white {
+  line-height: 44px; }
+
+.btn-outline-primary {
+  line-height: 44px; }
+
+.btn-transp-arrow .text {
+  padding-top: 2px; }
+
+.page-footer .footer-left p {
+  font-family: "Bebas Neue", "Ostrich Sans", "Oswald", sans-serif;
+  letter-spacing: 0.2em; }
+
+/* slider */
+.carousel-swiper-beta .slider-container .legend h3 {
+  font-family: "Bebas Neue", "Ostrich Sans", "Oswald", sans-serif;
+  letter-spacing: 0.2em; }
+
+.carousel-swiper-alpha .slider-container .legend h3 {
+  font-family: "Bebas Neue", "Ostrich Sans", "Oswald", sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 1.5rem; }
