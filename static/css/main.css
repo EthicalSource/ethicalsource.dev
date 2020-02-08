@@ -99,7 +99,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", "Proxima Nova ", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif; }
 
 h3, h4 {
-  font-weight: normal; }
+  font-weight: normal;
+  margin-bottom: 1.25rem; }
 
 p {
   font-size: 1rem; }

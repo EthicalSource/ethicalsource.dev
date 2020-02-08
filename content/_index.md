@@ -3,14 +3,21 @@ title = "The Ethical Evolution of Open Source"
 description = "Social Good, Source Available"
 +++
 
-In the twenty years since the term "open source" was coined by Christine Peterson, our community has grown astronomically, all the while learning from its successes and failures. A lot has changed for open source developers in the past two decades. But the political and technological landscape has also changed.
+Christine Peterson coined the term “open source” in 1998.
 
-Open source software today is increasingly playing a critical role in mass surveillance, anti-immigrant violence, protester suppression, racist policing, and the development of weapons used to kill marginalized people all over the world, among other humans rights abuses.  
+Coalescing around the ideal of software freedom, over the past 20 years the open source community has come to thrive, enjoying wild success and permanently changing the technology landscape. But the world has also changed in the past two decades. It’s time for open source to evolve to meet the magnitude and complexity of today’s social, political and technological challenges.
 
-In recognition of this reality, there is a [growing demand](https://mijente.net/notechforice/) from [open source developers](https://www.wired.com/story/open-source-license-requires-users-do-no-harm/amp) to [take control](https://www.zdnet.com/article/developer-takes-down-ruby-library-after-he-finds-out-ice-was-using-it/) of how our software is being used. We don’t want our code used to aid those who commit human rights violations or other unethical behavior. We don't want our software used to support fascist states. We don't want our labor and our code used to enable global corporations to unfairly generate huge profits off the workers of the world. Yet we lack the tools to enforce fair, ethical, and community-minded terms for those who benefit from our work.
+Today, the same open source software that enriches the commons and powers innovation also plays a critical role in mass surveillance, anti-immigrant violence, protester suppression, racist policing, the deployment of cruel and inhumane weapons, and other human rights abuses all over the world.
 
-And the organizations that claim ownership of the definitions of free and open source software have ignored our community's call for ethical solutions to these problems. We’ve seen the Free Software Foundation continue to [support its incredibly problematic founder](https://identi.ca/lxoliva/note/10dsqBaMTqKonl898d_U-w). We’ve seen the Open Source Initiative continuing to prioritize [software freedom over ethical concerns](https://opensource.org/faq#evil).
+We want to do something about it. But as developers we don’t seem to have any recourse, no way to prevent our work from being used to harm others.
 
-The time has come to reclaim authority over what it means to develop software in the open, without compromising ourselves or the [universal values of human rights](https://www.un.org/en/universal-declaration-human-rights/).
+### We want to change that.
 
-We are at the beginning of the era of [Ethical Source Software](/definition/).
+We are creating ways to empower developers, giving us the freedom and agency to ensure that our work is being used for social good and in service of human rights.
+
+We are building tools to enforce fair, ethical, and community-minded terms for those who benefit from our work.
+
+We are united in our conviction that software freedom must always be in service of human freedom.
+
+### We are the Ethical Source Movement.
+Will you <a href="/apply">join us</a>?

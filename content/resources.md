@@ -16,7 +16,7 @@ title = "Ethical Source Licenses, Resources, and Press"
 * [Ethical source-available licenses challenge open source](https://www.computerweekly.com/blog/Open-Source-Insider/Open-source-licence-series-Tidelift-Ethical-source-available-licenses-challenge-open-source) (Computer Weekly)
 * [The Schism at the Heart of the Open-Source Movement](https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/) (The Atlantic)
 * [Software freedom vs human freedom: A surge of activism is rocking open source developers, as programmers fight to stop their software from being used for 'evil'](https://outline.com/2Bh7JJ) (Business Insider)
-* [Ethical Open Source: Is the world ready?](https://www.torkinmanes.com/our-resources/publications-presentations/publication/ethical-open-source-is-the-world-ready)
+* [Ethical Open Source: Is the world ready?](https://www.torkinmanes.com/our-resources/publications-presentations/publication/ethical-open-source-is-the-world-ready) (Torkin|Manes)
 * [Open source et Défense : les liaisons dangereuses sur fond d'éthique](https://www.lemondeinformatique.fr/actualites/lire-open-source-et-defense-les-liaisons-dangereuses-sur-fond-d-ethique-76658.html) (Lemonde Informatique)
 * [An Open Source License That Requires Users to Do No Harm](https://www.wired.com/story/open-source-license-requires-users-do-no-harm/amp) (WIRED)
 * [The Hippocratic License: A new software license that prohibits uses that contravene the UN Universal Declaration of Human Rights](https://boingboing.net/2019/10/04/free-vs-open.html) (BoingBoing)
