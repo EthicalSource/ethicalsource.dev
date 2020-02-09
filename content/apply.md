@@ -37,5 +37,5 @@ Use this form to submit an application to join our Slack community via email. In
 </div>
 
 <h3 class="hidden">
-  Thank you for your message. We will contact you soon.
+  Thank you for your application. If we have any questions we will contact you. Otherwise, check your email for an invitation to our Slack community.
 </h3>
