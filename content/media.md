@@ -30,3 +30,4 @@ title = "Ethical Source in the Media"
 
 ## Conference Talks
 * [The Ethics of Open Source: A Critical Reflection](https://fosdem.org/2020/schedule/event/ethicsoss/) by Don Goodman-Wilson (FOSDEM, February 2 2020)
+* [Bringing Back Ethics to Open Source](https://fosdem.org/2020/schedule/event/ethicsbackinoss/) by Tobie Langel (FOSDEM, February 2 2020)
