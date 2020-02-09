@@ -20,43 +20,13 @@
     <link rel="stylesheet" href="/fonts/bebas/stylesheet.css">
     <link rel="stylesheet" href="/fonts/ionicons.min.css">
     <link rel="stylesheet" href="/fonts/font-awesome.min.css">
-
-    <!-- Vendor CSS style -->
-    <link rel="stylesheet" href="./css/pageloader.css">
-
-    <!-- Uncomment below to load individualy vendor CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/js/vendor/swiper.min.css">
-    <link rel="stylesheet" href="/js/vendor/jquery.fullpage.min.css">
-    <link rel="stylesheet" href="/js/vegas/vegas.min.css">
-
-    <!-- Main CSS files -->
     <link rel="stylesheet" href="/css/main.css">
-
-    <!-- add alt layout here -->
     <link rel="stylesheet" href="/css/style-default.css">
-
-    <script src="/js/vendor/modernizr-2.7.1.min.js"></script>
   </head>
   <body{{ with .Section }} id="{{ . }} menu" class="body-page" {{ end }}>
 
         <!-- BEGIN OF site header Menu -->
         <header class="page-header navbar page-header-alpha scrolled-white menu-right topmenu-right">
-
-          <!-- Begin of menu icon toggler -->
-          <button class="navbar-toggler site-menu-icon" id="navMenuIcon">
-            <!-- Available class : menu-icon-dot / menu-icon-thick /menu-icon-random -->
-            <span class="menu-icon menu-icon-normal">
-              <span class="bars">
-                <span class="bar1"></span>
-                <span class="bar2"></span>
-                <span class="bar3"></span>
-              </span>
-            </span>
-          </button>
-          <!-- End of menu icon toggler -->
-
-          <!-- Begin of logo/brand -->
           <a class="navbar-brand" href="/">
             <span class="logo">
               <img class="light-logo" src="/img/logo.png" alt="Logo">
@@ -65,142 +35,45 @@
               <span class="line">The Ethical Source Movement</span>
             </span>
           </a>
-          <!-- End of logo/brand -->
-
-          <div class="all-menu-wrapper" id="navbarMenu">
-            <!-- Begin of top menu -->
-            <nav class="navbar-topmenu">
-              <!-- Begin of CTA Actions, & Icons menu -->
-              <!-- <ul class="navbar-nav navbar-nav-actions">
-      				<li class="nav-item">
-      					<a class="btn btn-outline-white btn-round" target="_blank" href="https://themeforest.net/user/mivfx/portfolio">
-      						Buy Now
-      					</a>
-      				</li>
-      			</ul> -->
-              <!-- End of CTA & Icons menu -->
-            </nav>
-            <!-- End of top menu -->
-
-            <!-- Begin of hamburger mainmenu menu -->
-            <nav class="navbar-mainmenu">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="./index.html#home">Home
-                    <span class="sr-only">(current)</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/definition">Ethical Source Definition</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/translations">Translations</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/apply">Working Group</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/media">Licensing Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/media">In the Media</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://github.com/ContributorCovenant/ethicalsource" target="_new">Source Code</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/contact">Contact</a>
-                </li>
-              </ul>
-              <p class="note nav-note">
-                &copy; Copyright {{ now.Format "2006" }} <a href="http://where.coraline.codes/" title="Coraline Ada Ehmke">Coraline Ada Ehmke</a>.<br>
-                Support this initiative through <a href="https://opencollective.com/ethical-source">Open Collective</a>.
-              </p>
-            </nav>
-            <!-- End of hamburger mainmenu menu -->
-
           </div>
-          <!-- end of menu wrapper -->
-
         </header>
-        <!-- END OF site header Menu-->
 
-        <div class="page-cover" id="parallax-cover">
-          <div class="cover-bg-mask bg-color" data-bgcolor="rgba(75, 170, 170, 1.0)"></div>
-        </div>
-
-        <!-- BEGIN OF page main content -->
         <main class="page-main page-fullpage main-anim" id="mainpage">
 
-          <!-- Begin of home section -->
           <div class="section section-home fullscreen-md fp-auto-height-responsive main-home section-centered"
           data-section="home">
-            <!-- Begin of section wrapper -->
             <div class="section-wrapper fullwidth with-margin v-center">
-              <!-- content -->
               <div class="section-content anim">
                 <div class="row">
                   <div class="col-12 col-lg-6 text-left">
-                    <!-- title and description -->
                     <div class="title-desc">
                       <h1 class="display-4 display-title home-title decor anim-1">
                         {{ .Title }}
                       </h1>
                     </div>
-
-                    <!-- Action button -->
-                    <div class="btns-action anim-3">
-                      <a class="btn btn-circicon btn-primary" href="#more">
-                        <span class="icon">
-                          <i class="ion ion-chevron-down"></i>
-                        </span>
-                        <span class="text">Continue</span>
-                      </a>
-                    </div>
-                  </div>
-
                 </div>
               </div>
-
-              <!-- Arrows scroll down/up -->
-              <footer class="section-footer scrolldown">
-                <a class="down">
-                  <span class="icon"></span>
-                  <span class="txt">Scroll Down</span>
-                </a>
-              </footer>
             </div>
-            <!-- End of section wrapper -->
           </div>
-          <!-- End of home section -->
 
-          <!-- Begin of description section -->
           <div class="section section-description fp-auto-height-responsive " data-section="more">
-            <!-- Begin of section wrapper -->
             <div class="section-wrapper fullwidth with-margin">
-
-              <!-- content -->
-              <div class="section-content anim">
+              <div class="section-content anim fp-scrollable">
                 <div class="row">
                   <div class="col-12 col-md-6 text-left">
-                    <!-- title and description -->
                     <div class="title-desc">
                       <h1 class="display-4 display-title anim-1">{{ .Description }}</h1>
-                      {{ block "main" . }}
-                      {{ end }}
                     </div>
+                    {{ block "main" . }}
+                    {{ end }}
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </main>
-        <!-- END OF page main content -->
 
-        <!-- BEGIN OF page footer -->
         <footer id="site-footer" class="page-footer">
-
-          <!-- Right content -->
           <div class="footer-right">
             <div class="btns-action nav-menu anim-3">
               <a class="btn btn-outline-white btn-primary" href="/">
@@ -274,22 +147,19 @@
         </div>
 
         {{ if .Site.BuildDrafts }}
-          <script src="/js/vendor/jquery-1.12.4.min.js"></script>
-          <script src="/js/slick/slick.min.js"></script>
-          <script src="/js/vendor/scrolloverflow.min.js"></script>
-          <script src="/js/vendor/all.js"></script>
           <script src="/js/main.js"></script>
         {{ else }}
           <script>
-            {{ readFile "/static/js/vendor/jquery-1.12.4.min.js" | safeJS }}
-            {{ readFile "/static/js/slick/slick.min.js" | safeJS }}
-            {{ readFile "/static/js/vendor/scrolloverflow.min.js" | safeJS }}
-            {{ readFile "/static/js/vendor/all.js" | safeJS }}
-            {{ readFile "/static/js/main.js" | safeJS }}
+            {{ readFile "static/js/main.js" | safeJS }}
           </script>
-          {{ template "_internal/google_analytics_async.html" . }}
-        {{ end }}
+          <script>
+            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+            ga('create', 'UA-101929377-1', 'auto');
+            ga('send', 'pageview');
 
+            {{ readFile "static/js/analytics.js" | safeJS }}
+          </script>
+        {{ end }}
 
   </body>
 </html>
