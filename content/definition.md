@@ -1,5 +1,5 @@
 +++
-title = "Ethical Source Definition"
+title = "The Ethical Source Definition"
 template = "definition"
 +++
 

@@ -110,12 +110,12 @@ header {
 
 footer {
   font-size: .875rem;
-  text-align: center;
   padding: 1.5rem;
 }
 
 footer p {
-  text-align: center;
+  text-align: left;
+  margin-left: 1rem;
 }
 
 blockquote {
