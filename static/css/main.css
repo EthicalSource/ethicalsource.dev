@@ -159,7 +159,7 @@ p {
 
 /* Inline Elements */
 a {
-  color: var(--color-primary);
+  color: #357979;
   font-weight: 500;
   text-decoration: none;
   transition: color 125ms, background-color 125ms;
@@ -167,7 +167,8 @@ a {
 
 a:focus,
 a:hover {
-  color: var(--color-primary-lighter);
+  color: var(--color-black);
+  font-weight: bold;
 }
 
 a span {
@@ -422,6 +423,15 @@ header a:hover {
 
   section {
     padding: 0rem 3rem;
+  }
+
+  nav ul li a {
+    width: 100%;
+  }
+
+  nav ul li a:hover {
+    color: #fff;
+    background-color: #4baaaa;
   }
 
   h2 {
