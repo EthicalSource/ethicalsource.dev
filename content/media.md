@@ -27,3 +27,6 @@ title = "Ethical Source in the Media"
 * [Open Source is Broken](https://medium.com/@degoodmanwilson/open-source-is-broken-d836efbceb4f)
 * [Don't Just Do Something, Stand There](https://anonymoushash.vmbrasseur.com/2019/09/22/dont-just-do-something-stand-there/)
 * [Ethical Licensing Talking Points](https://talkingpoints.kemitchell.com/ethical-licenses.html)
+
+## Conference Talks
+* [The Ethics of Open Source: A Critical Reflection](https://fosdem.org/2020/schedule/event/ethicsoss/) by Don Goodman-Wilson (FOSDEM, February 2 2020)
