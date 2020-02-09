@@ -3,7 +3,7 @@ title = "Contact Us"
 description = "Get in touch."
 +++
 
-If you are a journalist or podcaster interested in Ethical Source, or if you have any questions, please use this form to contact us.
+If you are a journalist, podcaster, or anyone else with questions about Ethical Source, please use this form to contact us.
 
 <div class="form-container form-container-card">
   <form class="send_message_form message form" name="press" method="post" action="/" data-modal-id="modal-notify" data-netlify="true" netlify-honeypot="bot-field">
