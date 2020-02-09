@@ -500,6 +500,10 @@ button {
   border-radius: 5px;
 }
 
+input {
+  margin-top: 1rem;
+  height: 3rem;
+}
 input,
 textarea {
   width: 100%;
