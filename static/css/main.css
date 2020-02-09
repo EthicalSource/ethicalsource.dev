@@ -42,7 +42,6 @@ header,
 section {
   box-sizing: border-box;
   margin: 0 auto 1rem auto;
-  width: 100%;
   padding: 0rem 30rem 0rem 3rem;
 }
 
@@ -200,7 +199,7 @@ abbr {
 
 #veil {
   background: var(--color-white);
-  width: 100%
+  width: auto;
 }
 
 /* Utility Classes */
@@ -422,7 +421,7 @@ header a:hover {
   }
 
   section {
-    padding: 0rem 30rem 0rem 3rem;
+    padding: 0rem 3rem;
   }
 
   h2 {
