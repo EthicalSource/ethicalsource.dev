@@ -515,6 +515,13 @@ button {
   border-radius: 5px;
 }
 
+button:hover {
+  background-color: #6bcccc;
+}
+
+button {
+  transition: background-color 0.5s;
+}
 input {
   margin-top: 1rem;
   height: 3rem;
