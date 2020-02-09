@@ -416,7 +416,7 @@ header a:hover {
   }
 
   .page-title h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 5rem;
     width: 75%;
   }
@@ -491,6 +491,13 @@ textarea {
   font: inherit;
   padding: .125rem .25rem;
   font-size: .8rem;
+}
+
+button {
+  background-color: #4baaaa;
+  padding: .25rem 1rem;
+  color: #fff;
+  border-radius: 5px;
 }
 
 input,

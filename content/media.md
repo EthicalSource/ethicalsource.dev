@@ -1,7 +1,8 @@
 +++
 title = "Ethical Source in the Media"
-description = "In the Press"
 +++
+
+## In the Press
 
 * [Ethical source-available licenses challenge open source](https://www.computerweekly.com/blog/Open-Source-Insider/Open-source-licence-series-Tidelift-Ethical-source-available-licenses-challenge-open-source) (Computer Weekly)
 * [The Schism at the Heart of the Open-Source Movement](https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/) (The Atlantic)

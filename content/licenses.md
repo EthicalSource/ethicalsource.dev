@@ -1,6 +1,6 @@
 +++
 title = "Ethical Source License Projects"
-description = "Related ethical source licensing projects:"
+description = "Ethical source licensing projects:"
 +++
 
 * [Hippocratic License](https://firstdonoharm.dev). A license that prohibits use of the software to violate international human rights guidelines.
