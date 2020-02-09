@@ -273,15 +273,23 @@
           </footer>
         </div>
 
-        {{ if not .Site.BuildDrafts }}
+        {{ if .Site.BuildDrafts }}
+          <script src="/js/vendor/jquery-1.12.4.min.js"></script>
+          <script src="/js/slick/slick.min.js"></script>
+          <script src="/js/vendor/scrolloverflow.min.js"></script>
+          <script src="/js/vendor/all.js"></script>
+          <script src="/js/main.js"></script>
+        {{ else }}
+          <script>
+            {{ readFile "/static/js/vendor/jquery-1.12.4.min.js" | safeJS }}
+            {{ readFile "/static/js/slick/slick.min.js" | safeJS }}
+            {{ readFile "/static/js/vendor/scrolloverflow.min.js" | safeJS }}
+            {{ readFile "/static/js/vendor/all.js" | safeJS }}
+            {{ readFile "/static/js/main.js" | safeJS }}
+          </script>
           {{ template "_internal/google_analytics_async.html" . }}
         {{ end }}
 
-        <script src="/js/vendor/jquery-1.12.4.min.js"></script>
-        <script src="/js/slick/slick.min.js"></script>
-        <script src="/js/vendor/scrolloverflow.min.js"></script>
-        <script src="/js/vendor/all.js"></script>
-        <script src="/js/main.js"></script>
 
   </body>
 </html>
