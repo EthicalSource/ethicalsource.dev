@@ -47,7 +47,7 @@ section {
 }
 
 .page-title {
-  width: 40rem;
+  width: 75%;
   clear: both;
   margin-top: 10rem;
 }
@@ -59,12 +59,6 @@ section {
   line-height: 5rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #68bbbb;
-}
-
-nav {
-  position: absolute;
-  top: 9rem;
-  right: 5rem;
 }
 
 #navigation {
@@ -81,11 +75,11 @@ nav {
 #navigation li {
     display:block;
     width: 20rem;
-    margin: 0;
+    margin: .25rem;
     padding: .25rem;
     border: 1px solid #4baaaa;
     background-color: #fff;
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 1rem;
 }
 
@@ -143,8 +137,9 @@ h2 {
   font-size: 3rem;
   font-weight: 500;
   line-height: 3rem;
-  margin: 1rem 3rem;
-  width: 50%;
+  margin: 1rem;
+  padding-top: 3rem;
+  width: 75%;
 }
 
 * + h2 {
@@ -267,11 +262,14 @@ header figure {
   margin-bottom: .25rem;
 }
 
+header figure a {
+  color: #fff;
+}
+
 header figcaption {
   display: inline-block;
   font-size: 1.625rem;
   font-weight: 500;
-  float: left;
 }
 
 header a {
@@ -286,7 +284,15 @@ header a:hover {
 
 @media (min-width: 300px) {
   body {
-    width: 90%;
+    width: 100%;
+  }
+
+  header,
+  section {
+    box-sizing: border-box;
+    margin: 0 auto 1rem auto;
+    width: 100%;
+    padding: 1rem;
   }
 
   header figcaption {
@@ -295,25 +301,51 @@ header a:hover {
     margin-top: 3rem;
   }
 
+  .page-title {
+    margin-top: 5rem;
+  }
+
+  .page-title h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
   .logo {
     display: block;
     height: 5rem;
     margin-top: 1rem;
     float: left;
   }
+
   header {
     color: var(--color-white);
-    height: 20rem;
+    height: 25rem;
   }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  #navigation li {
+      width: 90%;
+      margin: 1em auto;
+  }
+
 }
 
 @media (min-width: 414px) {
-  header nav li:first-child {
-    display: initial;
+
+  header {
+    color: var(--color-white);
+    height: 38rem;
+  }
+
+  .page-title {
+    width: 50%;
   }
 
   header figcaption {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .logo {
@@ -322,9 +354,15 @@ header a:hover {
     height: 5rem;
     margin-top: 1rem;
   }
-  header {
-    color: var(--color-white);
-    height: 20rem;
+
+  nav {
+    position: absolute;
+    top: 3rem;
+    right: 0.5rem;
+  }
+
+  nav li {
+    width: 100%;
   }
 }
 
@@ -338,7 +376,18 @@ header a:hover {
   }
 
   #veil {
-    padding-top: 2rem;
+    padding-right: 30rem;
+  }
+
+  .page-title {
+    margin-top: 5rem;
+    width: 60%;
+  }
+
+  nav {
+    position: absolute;
+    top: 1rem;
+    right: 0.5rem;
   }
 
   .data-list {
@@ -351,7 +400,58 @@ header a:hover {
   header {
     color: var(--color-white);
     padding-bottom: 6rem;
-    height: auto;
+    height: 34rem;
+    min-height: 30rem;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 1rem;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  .page-title h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+    width: 75%;
+  }
+
+  section {
+    padding: 0rem 30rem 0rem 3rem;
+  }
+
+  h2 {
+    margin-left: 3rem;
+  }
+
+  .page-title {
+    margin-top: 5rem;
+    width: 60%;
+  }
+
+  nav {
+    position: absolute;
+    top: 1rem;
+    width: 25rem;
+    right: 0.5rem;
+  }
+
+  .data-list {
+    -moz-column-count: 2;
+    -ms-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+
+  header {
+    color: var(--color-white);
+    padding-bottom: 6rem;
+    height: 34rem;
     min-height: 30rem;
   }
 

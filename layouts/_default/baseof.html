@@ -38,18 +38,6 @@
         <div class="page-title">
           <h1>{{ .Title }}</h1>
         </div>
-        <nav id="navigation">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/definition">Ethical Source Definition</a></li>
-            <li><a href="/translations">Definition Translations</a></li>
-            <li><a href="/licenses">Ethical Source Licenses</a></li>
-            <li><a href="/apply">Working Group</a></li>
-            <li><a href="/media">In the Media</a></li>
-            <li><a href="/contact">Contact Us</a></li>
-            <li><a href="https://github.com/ContributorCovenant/ethicalsource">Source</a></li>
-          </ul>
-        </nav>
       </header>
     </div>
     <div id="veil">
@@ -63,6 +51,20 @@
         </p>
       </footer>
     </div>
+
+    <nav id="navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/definition">Ethical Source Definition</a></li>
+        <li><a href="/translations">Definition Translations</a></li>
+        <li><a href="/licenses">Ethical Source Licenses</a></li>
+        <li><a href="/apply">Working Group</a></li>
+        <li><a href="/media">In the Media</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+        <li><a href="https://github.com/ContributorCovenant/ethicalsource">Source</a></li>
+      </ul>
+    </nav>
+
     {{ if .Site.BuildDrafts }}
       <script src="/js/main.js"></script>
     {{ else }}
