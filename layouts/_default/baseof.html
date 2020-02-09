@@ -20,24 +20,14 @@
     <link rel="stylesheet" href="/fonts/bebas/stylesheet.css">
     <link rel="stylesheet" href="/fonts/ionicons.min.css">
     <link rel="stylesheet" href="/fonts/font-awesome.min.css">
-
-    <!-- Vendor CSS style -->
-    <link rel="stylesheet" href="./css/pageloader.css">
-
-    <!-- Uncomment below to load individualy vendor CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/js/vendor/jquery.fullpage.min.css">
-    <link rel="stylesheet" href="/js/vegas/vegas.min.css">
-
-    <!-- Main CSS files -->
     <link rel="stylesheet" href="/css/main.css">
-
-    <!-- add alt layout here -->
     <link rel="stylesheet" href="/css/style-default.css">
 
     <script src="/js/vendor/modernizr-2.7.1.min.js"></script>
   </head>
-  <body{{ with .Section }} id="{{ . }} menu" class="body-page" {{ end }}>
+  <body{{ with .Section }} id="{{ . }} menu" {{ end }}>
 
         <!-- BEGIN OF site header Menu -->
         <header class="page-header navbar page-header-alpha scrolled-white menu-right topmenu-right">
@@ -182,9 +172,9 @@
                     <!-- title and description -->
                     <div class="title-desc">
                       <h1 class="display-4 display-title anim-1">{{ .Description }}</h1>
-                      {{ block "main" . }}
-                      {{ end }}
                     </div>
+                    {{ block "main" . }}
+                    {{ end }}
                   </div>
                 </div>
               </div>

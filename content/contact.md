@@ -1,9 +1,9 @@
 +++
-title = "Press Inquiries"
-description = "Contact the Ethical Source maintainers."
+title = "Contact Us"
+description = "Get in touch with us."
 +++
 
-If you are a journalist or podcaster interested in Ethical Source, or if you have any questions, please use this form to get in touch with us.
+If you are a journalist or podcaster interested in Ethical Source, or if you have any questions, please use this form to send us a note.
 
 <div class="form-container form-container-card">
   <form class="send_message_form message form" name="press" method="post" action="/" data-modal-id="modal-notify" data-netlify="true" netlify-honeypot="bot-field">

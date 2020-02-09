@@ -243,12 +243,6 @@
 
                 setRecordHistory(originals.recordHistory, 'internal');
 
-                //for IE touch devices
-                container.css({
-                    '-ms-touch-action': 'none',
-                    'touch-action': 'none'
-                });
-
                 if(element.length){
                     //moving the container up
                     silentScroll(element.position().top);
@@ -261,12 +255,6 @@
                 });
 
                 setRecordHistory(false, 'internal');
-
-                //for IE touch devices
-                container.css({
-                    '-ms-touch-action': '',
-                    'touch-action': ''
-                });
 
                 //scrolling the page to the section with no animation
                 if (element.length) {
@@ -2721,8 +2709,6 @@
             container.css({
                 'height': '',
                 'position': '',
-                '-ms-touch-action': '',
-                'touch-action': ''
             });
 
             $htmlBody.css({

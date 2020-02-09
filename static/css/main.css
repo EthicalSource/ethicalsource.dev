@@ -3058,10 +3058,6 @@ textarea {
     margin-left: -10%;
     margin-top: -2%; }
 
-#parallax-cover.page-cover {
-  -webkit-transform: scale(1.2) !important;
-          transform: scale(1.2) !important; }
-
 /* b Clock */
 /* 2 Page header / .page-header */
 /* 3 Page footer / page-footer */
