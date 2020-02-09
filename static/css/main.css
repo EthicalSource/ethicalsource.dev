@@ -434,6 +434,10 @@ header a:hover {
     background-color: #4baaaa;
   }
 
+  nav ul li a {
+    transition: color .5s, background-color .5s
+  }
+
   h2 {
     margin-left: 3rem;
   }
