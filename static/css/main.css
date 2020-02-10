@@ -168,7 +168,6 @@ a {
 a:focus,
 a:hover {
   color: var(--color-black);
-  font-weight: bold;
 }
 
 a span {
