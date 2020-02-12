@@ -71,13 +71,15 @@
       <script>
         {{ readFile "static/js/main.js" | safeJS }}
       </script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56802475-3"></script>
       <script>
-        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-        ga('create', 'UA-101929377-1', 'auto');
-        ga('send', 'pageview');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-        {{ readFile "static/js/analytics.js" | safeJS }}
+        gtag('config', 'UA-56802475-3');
       </script>
+
     {{ end }}
   </body>
 </html>
