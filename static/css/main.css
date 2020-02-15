@@ -309,6 +309,7 @@ header a:hover {
   .page-title h1 {
     font-size: 3rem;
     line-height: 3rem;
+    color: #fff;
   }
 
   .logo {
@@ -466,7 +467,7 @@ header a:hover {
   header {
     color: var(--color-white);
     padding-bottom: 6rem;
-    height: 34rem;
+    height: 32rem;
     min-height: 30rem;
   }
 
