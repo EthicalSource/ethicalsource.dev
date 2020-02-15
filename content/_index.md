@@ -20,4 +20,4 @@ We are building tools to enforce fair, ethical, and community-minded terms for t
 We are united in our conviction that software freedom must always be in service of human freedom.
 
 ### We are the Ethical Source Movement.
-Will you <a href="/apply">join us</a>?
+Will you [support us financially](https://opencollective.com/ethical-source) or [join us](/apply)?

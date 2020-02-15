@@ -339,7 +339,7 @@ header a:hover {
 
   header {
     color: var(--color-white);
-    height: 38rem;
+    height: 40rem;
   }
 
   .page-title {
@@ -402,7 +402,7 @@ header a:hover {
   header {
     color: var(--color-white);
     padding-bottom: 6rem;
-    height: 34rem;
+    height: 36rem;
     min-height: 30rem;
   }
 
