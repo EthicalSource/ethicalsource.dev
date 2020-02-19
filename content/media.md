@@ -4,7 +4,6 @@ title = "Ethical Source in the Media"
 
 ## In the Press
 
-* [The Top 10 Open Source Legal Issues of 2019](https://www.synopsys.com/blogs/software-security/top-10-open-source-legal-issues-2019/)
 * [Ethical source-available licenses challenge open source](https://www.computerweekly.com/blog/Open-Source-Insider/Open-source-licence-series-Tidelift-Ethical-source-available-licenses-challenge-open-source) (Computer Weekly)
 * [The Schism at the Heart of the Open-Source Movement](https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/) (The Atlantic)
 * [Software freedom vs human freedom: A surge of activism is rocking open source developers, as programmers fight to stop their software from being used for 'evil'](https://outline.com/2Bh7JJ) (Business Insider)
@@ -21,6 +20,7 @@ title = "Ethical Source in the Media"
 
 ## Blog Posts
 
+* [The Top 10 Open Source Legal Issues of 2019](https://www.synopsys.com/blogs/software-security/top-10-open-source-legal-issues-2019/)
 * ["Ethical Source at WeTransfer"](https://bastiaan.cc/notes/ethical-source-at-wetransfer/)
 * ["Do We Need to Rethink What Free Software Is?"](https://mjg59.dreamwidth.org/52907.html)
 * ["#wontfix: endorsements can't fix the Open Source Definition"](https://writing.kemitchell.com/2019/04/23/OSD-wontfix.html)
