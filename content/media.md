@@ -4,7 +4,7 @@ title = "Ethical Source in the Media"
 
 ## In the Press
 
-* [Open Source Angriff von zwei Seiten ("Open Source Attacked from Two Sides)](https://www.golem.de/news/open-source-angriff-von-zwei-seiten-2002-146769.html) (Golem.de) [English translation](https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fwww.golem.de%2Fnews%2Fopen-source-angriff-von-zwei-seiten-2002-146769.html)
+* [Open Source Angriff von zwei Seiten ("Open Source Attacked from Two Sides")](https://www.golem.de/news/open-source-angriff-von-zwei-seiten-2002-146769.html) (Golem.de) [English translation](https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fwww.golem.de%2Fnews%2Fopen-source-angriff-von-zwei-seiten-2002-146769.html)
 * [Ethical source-available licenses challenge open source](https://www.computerweekly.com/blog/Open-Source-Insider/Open-source-licence-series-Tidelift-Ethical-source-available-licenses-challenge-open-source) (Computer Weekly)
 * [The Schism at the Heart of the Open-Source Movement](https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/) (The Atlantic)
 * [Software freedom vs human freedom: A surge of activism is rocking open source developers, as programmers fight to stop their software from being used for 'evil'](https://outline.com/2Bh7JJ) (Business Insider)
