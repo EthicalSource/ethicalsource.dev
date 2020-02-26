@@ -535,3 +535,27 @@ textarea {
   min-height: 6.25rem;
   resize: none;
 }
+
+@keyframes appear{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1 {
+  animation: appear 2s;
+  animation-fill-mode: both;
+}
+
+h2 {
+  animation: appear 3s;
+  animation-fill-mode: both;
+}
+
+section {
+  animation: appear 5s;
+  animation-fill-mode: both;
+}
