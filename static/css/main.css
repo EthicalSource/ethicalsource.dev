@@ -128,7 +128,7 @@ h1 {
   font-weight: 600;
   letter-spacing: .125rem;
   line-height: 3rem;
-  margin: 1.5rem 0;
+  margin: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -206,7 +206,7 @@ abbr {
 .logo {
   display: inline-block;
   height: 3rem;
-  margin-left: .75rem;
+  margin-left: 1.5rem;
   margin-right: .75rem;
   vertical-align: -.8125rem;
 }
