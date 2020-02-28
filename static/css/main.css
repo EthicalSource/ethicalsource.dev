@@ -321,7 +321,7 @@ header a:hover {
 
   header {
     color: var(--color-white);
-    height: 25rem;
+    height: 30rem;
   }
 
   h1 {
@@ -402,7 +402,7 @@ header a:hover {
   header {
     color: var(--color-white);
     padding-bottom: 6rem;
-    height: 36rem;
+    height: 38rem;
     min-height: 30rem;
   }
 
@@ -467,7 +467,7 @@ header a:hover {
   header {
     color: var(--color-white);
     padding-bottom: 6rem;
-    height: 32rem;
+    height: 34rem;
     min-height: 30rem;
   }
 
