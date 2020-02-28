@@ -59,3 +59,4 @@ This page is a list of readings in topics covering Ethical Source, its philosoph
 - ["Ethical Source at WeTransfer", Bastiaan Terhorst](https://bastiaan.cc/notes/ethical-source-at-wetransfer/)
 - [Douglas Crockford's JSON license, Wikipedia](https://en.wikipedia.org/wiki/Douglas_Crockford#%22Good,_not_Evil%22)
 - [Seth Vargo Deletes His Code to Protest Its Use by ICE](https://www.wired.com/story/developer-deletes-code-protest-ice/)
+- [Kermit is "only for peaceful and humane purposes"](http://www.columbia.edu/kermit/ftp/e/mail.88a)
