@@ -1,6 +1,6 @@
 +++
 title = "Further Reading"
-description = "A Bibliography of Reading and Resources"
+heading = "A Bibliography of Reading and Resources"
 +++
 
 This page is a list of readings in topics covering Ethical Source, its philosophical foundations, the history and ideology of Open Source, and a range of closely related literature. Presented in no particular order.
