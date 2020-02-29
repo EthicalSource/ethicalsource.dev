@@ -1,6 +1,6 @@
 +++
 title = "Contact Us"
-description = "Get in touch."
+heading = "Get in touch."
 +++
 
 If you are a journalist, podcaster, or anyone else with questions about Ethical Source, please use this form to contact us.
