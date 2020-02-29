@@ -1,6 +1,6 @@
 +++
 title = "Code of Conduct"
-description = "Ethical Source Working Group Code of Conduct"
+heading = "Ethical Source Working Group Code of Conduct"
 +++
 
 ### Our Pledge

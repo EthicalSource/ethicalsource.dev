@@ -1,6 +1,6 @@
 +++
 title = "Ethical Source: Open Source, Evolved"
-description = "Social Good, Source Available."
+heading = "Social Good, Source Available."
 +++
 
 Christine Peterson coined the term “open source” in 1998.

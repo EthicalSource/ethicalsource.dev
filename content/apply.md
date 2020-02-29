@@ -1,6 +1,6 @@
 +++
 title = "Join the Ethical Source Working Group"
-description = "Sign up to join the Ethical Source working group."
+heading = "Sign up to join the Ethical Source working group."
 +++
 
 The Ethical Source working group is a community for open source maintainers and contributors, tech ethicists and advocates, licensing experts, and more to come together to strategize about ways to incorporate ethics into our open source work.
