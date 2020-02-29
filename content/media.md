@@ -30,6 +30,10 @@ title = "Ethical Source in the Media"
 * [Don't Just Do Something, Stand There](https://anonymoushash.vmbrasseur.com/2019/09/22/dont-just-do-something-stand-there/)
 * [Ethical Licensing Talking Points](https://talkingpoints.kemitchell.com/ethical-licenses.html)
 
+## Podcasts
+* ["Creating a Support Network for Maintainers", Sustain](https://sustain.codefund.fm/25)
+* ["Ethical Open Source", Greater Than Code](https://www.greaterthancode.com/ethical-open-source)
+
 ## Conference Talks
 * [The Ethics of Open Source: A Critical Reflection](https://fosdem.org/2020/schedule/event/ethicsoss/) by Don Goodman-Wilson (FOSDEM, February 2 2020)
 * [Bringing Back Ethics to Open Source](https://fosdem.org/2020/schedule/event/ethicsbackinoss/) by Tobie Langel (FOSDEM, February 2 2020)
