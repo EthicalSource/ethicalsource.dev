@@ -1,16 +1,15 @@
 +++
 title = "Further Reading"
+description = "A Bibliography of Reading and Resources"
 +++
-
-# A Bibliography of Reading and Resources
 
 This page is a list of readings in topics covering Ethical Source, its philosophical foundations, the history and ideology of Open Source, and a range of closely related literature. Presented in no particular order.
 
-## Alternative Licenses
+### Alternative Licenses
 - [The Hippocratic License](https://firstdonoharm.dev/)
 - [License Zero](https://licensezero.com)
 
-## Moral and Legal Issues
+### Moral and Legal Issues
 - [Can I stop "evil people" from using my [Open Source] program? No](https://opensource.org/faq#evil)
 - "Open Source is Broken", Don Goodman-Wilson
   - [blog post](https://dev.to/degoodmanwilson/open-source-is-broken-g60)
@@ -30,7 +29,7 @@ This page is a list of readings in topics covering Ethical Source, its philosoph
 - ["Top 10 FOSS legal developments in 2019", Mark Radcliffe](https://www.synopsys.com/blogs/software-security/top-10-open-source-legal-issues-2019/)
 - [Twitter musings on tech and ICE, Luis Villa](https://twitter.com/luis_in_brief/status/1201933695537467392)
 
-## History and Critique of Open Source
+### History and Critique of Open Source
 - ["#wontfix: endorsements can’t fix the Open Source Definition", Kyle E. Mitchell](https://writing.kemitchell.com/2019/04/23/OSD-wontfix.html)
 - ["The Californian Ideology", Richard Barbrook and Andy Cameron](https://www.metamute.org/editorial/articles/californian-ideology)
 - ["Rebuttal of the Californian Ideology", Louis Rossetto](https://www.alamut.com/subj/ideologies/pessimism/califIdeo_II.html)
@@ -55,7 +54,7 @@ This page is a list of readings in topics covering Ethical Source, its philosoph
 - ["The culture war at the heart of open source", Steve Klabnik](https://words.steveklabnik.com/the-culture-war-at-the-heart-of-open-source)
 - ["What comes after 'open source'", Steve Klabnik](https://words.steveklabnik.com/what-comes-after-open-source)
 
-## Heroes
+### Heroes
 - ["Ethical Source at WeTransfer", Bastiaan Terhorst](https://bastiaan.cc/notes/ethical-source-at-wetransfer/)
 - [Douglas Crockford's JSON license, Wikipedia](https://en.wikipedia.org/wiki/Douglas_Crockford#%22Good,_not_Evil%22)
 - [Seth Vargo Deletes His Code to Protest Its Use by ICE](https://www.wired.com/story/developer-deletes-code-protest-ice/)

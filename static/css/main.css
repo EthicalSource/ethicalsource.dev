@@ -549,8 +549,3 @@ h1 {
   animation: appear 2s;
   animation-fill-mode: both;
 }
-
-h2 {
-  animation: appear 3s;
-  animation-fill-mode: both;
-}
