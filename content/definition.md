@@ -5,8 +5,8 @@ template = "definition"
 
 Software is considered Ethical Source if it meets the following criteria:
 
-1. It is distributed with source code and can be freely used or combined with other software.
-1. It is developed or maintained in public view and welcoming of public contributions.
+1. It can be freely used or combined with other software.
+1. It is developed or maintained in public view and welcoming of public contributions, which necessarily requires public access to all of the software's source code.
 1. Its community of contributors is governed by a code of conduct that is consistently and fairly enforced.
 1. It is distributed under a license that prohibits the software from being used any individual or organization which directly or indirectly facilitates, encourages, manipulates, coerces, or forces people to engage in behaviors that are in opposition to a specified framework of social good.
 1. Creators have the right to solicit reasonable compensation from any commercial entity that benefits from the software.
