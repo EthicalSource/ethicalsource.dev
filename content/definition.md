@@ -1,7 +1,7 @@
 +++
 title = "The Ethical Source Definition"
 template = "definition"
-heading="Ethical Open Source"
+heading="The Ethical Source Definition"
 +++
 
 Software is considered **Ethical Open Source** (EOS) when it meets *all* of these criteria:
