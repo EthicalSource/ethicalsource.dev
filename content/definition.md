@@ -37,4 +37,4 @@ Ethically Licensed Open Source projects are encouraged to use the "Licensed Ethi
 [https://img.shields.io/badge/licensed-ethically-%234baaaa](https://img.shields.io/badge/licensed-ethically-%234baaaa)
 
 ## Attribution and Contributions
-Maintaining this definition is the collaborative work of the [Ethical Source Working Group](/apply). Pull requests and issues in our [source code repository](https://github.com/ethicalSource/ethicalsource.dev) are encouraged.
+Maintaining this definition is the collaborative work of the [Ethical Source Working Group](/apply). Pull requests and issues in our [source code repository](https://github.com/ethicalSource/ethicalsource.dev) are encouraged. Special thanks are extended to [Nate Berkopec](https://nateberkopec.com), [Will Barton](https://github.com/willbarton/), [Steve Phillips](https://tryingtobeawesome.com), and [Madalyn Parker](https://twitter.com/madalynrose).
