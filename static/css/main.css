@@ -102,6 +102,10 @@ li {
   margin-bottom: .375rem;
 }
 
+strong {
+  font-weight: 600 !important;
+}
+
 header {
   color: var(--color-white);
   height: 15rem;
@@ -443,6 +447,12 @@ header a:hover {
 
   h2 {
     margin-left: 3rem;
+  }
+
+  section h2 {
+    margin-left: 0em;
+    margin-top: 0em;
+    width: 100%;
   }
 
   .page-title {
