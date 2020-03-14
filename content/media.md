@@ -21,6 +21,7 @@ title = "Ethical Source in the Media"
 
 ## Blog Posts
 
+* [Thoughts by Coraline Ada Ehmke on the Ethical Source Movement in the 2020 OSI Board Elections](https://where.coraline.codes/blog/ethical-source-osi-elections/)
 * [The Top 10 Open Source Legal Issues of 2019](https://www.synopsys.com/blogs/software-security/top-10-open-source-legal-issues-2019/)
 * ["Ethical Source at WeTransfer"](https://bastiaan.cc/notes/ethical-source-at-wetransfer/)
 * ["Do We Need to Rethink What Free Software Is?"](https://mjg59.dreamwidth.org/52907.html)
