@@ -1,5 +1,5 @@
 # Ethical Source
-[![Financial Contributors on Open Collective](https://opencollective.com/ethical-source/all/badge.svg?label=financial+contributors)](https://opencollective.com/ethical-source) [![An Ethical Open Source Project](https://img.shields.io/badge/open-ethical-%234baaaa)]
+[![Financial Contributors on Open Collective](https://opencollective.com/ethical-source/all/badge.svg?label=financial+contributors)](https://opencollective.com/ethical-source) [!(https://img.shields.io/badge/open-ethical-%234baaaa)]
 
 Home of the Ethical Source Definition, created by [Coraline Ada Ehmke](https://where.coraline.codes/).
 
