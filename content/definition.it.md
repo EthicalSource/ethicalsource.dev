@@ -6,7 +6,7 @@ heading="La definizione di Sorgente Etica"
 
 Un Software è considerato **Open-Source Etico** (EOS) se rispetta *tutti* i seguenti criteri:
 
-1. **È di comune beneficio.** La licenza con la quale il software è distribuito non ne proibisce la modifica, la derivazione e il linkaggio o la compilazione con altro software (se non in virtù di una disposizione copyleft), nello spirito generale della distribuzione open source.
+1. **È di comune beneficio.** La licenza con la quale il software è distribuito non ne proibisce la modifica, la creazione di lavori derivati e il linking o la compilazione con altro software (se non in virtù di una disposizione copyleft), nello spirito generale della distribuzione open source.
 2. **È creato apertamente** Il codice sorgente deve essere disponibile pubblicamente, sviluppato e mantenuto in una visione pubblica ed accoglie la contribuzione pubblica (soggetta alla revisione ed all'approvazione di uno dei mantenitori del progetto.)
 3. **La sua comunitá è accogliente e giusta.** La comunitá  di sviluppatori e contributori del progetto software deve essere governata da un codice di condotta comprensibile e che viene consistentemente ed applicato equamente.
 4. **Pone l'accessibilitá al primo posto.** Se il software è dotato di una interfaccia, deve essere disegnato con l'idea di essere accessibile, assicurando che la funzionalitá del software sia disponibile a tutti gli utenti, inclusi quelli che utilizzano dispositivi assistivi.
@@ -40,5 +40,5 @@ I progetti Open Source con licenza etica sono incoraggiati a utilizzare il badge
 
 [https://img.shields.io/badge/licensed-ethically-%234baaaa](https://img.shields.io/badge/licensed-ethically-%234baaaa)
 
-## Attribution and Contributions
+## Attribuzione e Contributioni
 Mantenere questa definizione è il lavoro collaborativo del [Gruppo di lavoro sulla fonte etica](/apply). L'invio di Pull requests e la segnalazione di problemi nel nostro [repository](https://github.com/ethicalSource/ethicalsource.dev) sono incoraggiati. Un ringraziamento speciale è esteso a [Nate Berkopec](https://nateberkopec.com), [Will Barton](https://github.com/willbarton/), [Steve Phillips](https://tryingtobeawesome.com), e [Madalyn Parker](https://twitter.com/madalynrose).
