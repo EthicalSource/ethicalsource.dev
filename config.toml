@@ -59,3 +59,7 @@ languageCode = "ro"
 languageName = "العربية"
 languageCode = "ar"
 writingDirection = "rtl"
+
+[Languages.nl]
+languageName = "Dutch"
+languageCode = "nl"
