@@ -7,7 +7,7 @@ heading="De Ethische Source Definitie"
 Software kan als **Ethische Open Source** (EOS) beschouwd worden als en wanneer het aan *alle* criteria voldoet:
 
 1. **Het komt de maatschappij ten goede.** De licentie waaronder de software wordt vrijgegeven mag modificatie, afgeleide werken en het linken of compileren met andere software (tenzij onder een auteursplichtbepaling) in de algemene geest van open source-distributie niet verbieden.
-2. **Het is openbaar.** De source code moet publiek beschikbaar zijn, ontwikkeld en onderhouden worden, en openbare bijdragen verwelkomen (afhankelijk van beoordeling en goedkeuring door de beheerders van het softwareproject).
+2. **Het is openbaar.** De broncode moet publiek beschikbaar zijn, ontwikkeld en onderhouden worden, en openbare bijdragen verwelkomen (afhankelijk van beoordeling en goedkeuring door de beheerders van het softwareproject).
 3. **De community is gastvrij en rechtvaardig.** De community van het software project - van maintainers en bijdragers - moet worden gestuurd door een uitgebreide gedragscode die consistent en eerlijk wordt gehandhaafd.
 4. **Toegankelijkheid staat voorop.** Als de software een gebruikersinterface heeft, moet deze worden ontworpen met het oog op toegankelijkheid, zodat alle functionaliteit beschikbaar is voor alle gebruikers, inclusief gebruikers die op ondersteunende apparaten vertrouwen.
 5. **Het geeft prioriteit aan gebruikersveiligheid.** De software moet zijn ontworpen met functies en beveiligingen die het risico van misbruik of schade voor anderen door het gebruik van de software minimaliseren.
