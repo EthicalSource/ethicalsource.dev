@@ -15,7 +15,7 @@ Software kan als **Ethische Open Source** (EOS) beschouwd worden als en wanneer 
 Als de software gegevens van eindgebruikers verzamelt, moet de entiteit die de software uitvoert op verzoek alle gegevens die zijn gegenereerd en opgeslagen door het gebruik van de software door de eindgebruiker verwijderen of aan de eindgebruiker verstrekken. Al deze gegevens die aan de eindgebruiker worden verstrekt, moeten in een leesbaar of breed interoperabel open formaat zijn.
 7. **Het moedigt een eerlijke vergoeding aan.** De beheerders van het software project kunnen, naar eigen goeddunken, een vergoeding vragen in de vorm van codebijdragen, financiële compensatie of andere vormen van vrijwillige ondersteuning van organisaties die commerciële waarde aan de software ontlenen.
 
-Ethische Open Source projecten worden aangemoedigd om de badge "Open|Ethical" te gebruiken in de documentatie van hun project: 
+Ethische Open Source-projecten worden aangemoedigd om de badge "Open|Ethical" te gebruiken in de documentatie van hun project: 
 
 ![https://img.shields.io/badge/open-ethical-%234baaaa](https://img.shields.io/badge/open-ethical-%234baaaa) 
 
