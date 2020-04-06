@@ -38,4 +38,4 @@ Ethisch gelicentieerde Open Source projecten worden aangemoedigd om de badge 'Li
 [https://img.shields.io/badge/licensed-ethically-%234baaaa](https://img.shields.io/badge/licensed-ethically-%234baaaa)
 
 ## Naamsvermelding en bijdragen
-Het handhaven van deze definitie is een samenwerking van de [Ethical Source Working Group](/apply). Pull requests en issues in onze [source code repository](https://github.com/ethicalSource/ethicalsource.dev) worden aangemoedigd. Speciale dank gaat uit naar [Nate Berkopec](https://nateberkopec.com), [Will Barton](https://github.com/willbarton/), [Steve Phillips](https://tryingtobeawesome.com), en [Madalyn Parker](https://twitter.com/madalynrose).
+Het handhaven van deze definitie is een samenwerking van de [Ethical Source Working Group](/apply). Pull requests en issues in onze [source code repository](https://github.com/ethicalSource/ethicalsource.dev) worden aangemoedigd. Speciale dank gaat uit naar [Nate Berkopec](https://nateberkopec.com), [Will Barton](https://github.com/willbarton/), [Steve Phillips](https://tryingtobeawesome.com) en [Madalyn Parker](https://twitter.com/madalynrose).
