@@ -1,5 +1,7 @@
 # Ethical Source
-The Ethical Source Definition, created by [Coraline Ada Ehmke](https://where.coraline.codes/).
+[![An Ethical Open Source Project](https://img.shields.io/badge/open-ethical-%234baaaa)](https://img.shields.io/badge/open-ethical-%234baaaa) [![Financial Contributors on Open Collective](https://opencollective.com/ethical-source/all/badge.svg?label=financial+contributors)](https://opencollective.com/ethical-source) 
+
+Home of the Ethical Source Definition.
 
 ## Project Home Page
 
@@ -53,3 +55,33 @@ If you are interested in doing a translation, please follow these steps:
 1. We will merge your translation!
 1. HTML and plain text versions are automatically generated from your markdown file.
 1. A link to your translation is automatically added to the translations page.
+
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/EthicalSource/ethicalsource.dev/graphs/contributors"><img src="https://opencollective.com/ethical-source/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/ethical-source/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/ethical-source"><img src="https://opencollective.com/ethical-source/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/ethical-source/contribute)]
+
+<a href="https://opencollective.com/ethical-source/organization/0/website"><img src="https://opencollective.com/ethical-source/organization/0/avatar.svg"></a>
+<a href="https://opencollective.com/ethical-source/organization/1/website"><img src="https://opencollective.com/ethical-source/organization/1/avatar.svg"></a>
+<a href="https://opencollective.com/ethical-source/organization/2/website"><img src="https://opencollective.com/ethical-source/organization/2/avatar.svg"></a>
+<a href="https://opencollective.com/ethical-source/organization/3/website"><img src="https://opencollective.com/ethical-source/organization/3/avatar.svg"></a>
+<a href="https://opencollective.com/ethical-source/organization/4/website"><img src="https://opencollective.com/ethical-source/organization/4/avatar.svg"></a>
+<a href="https://opencollective.com/ethical-source/organization/5/website"><img src="https://opencollective.com/ethical-source/organization/5/avatar.svg"></a>
+<a href="https://opencollective.com/ethical-source/organization/6/website"><img src="https://opencollective.com/ethical-source/organization/6/avatar.svg"></a>
+<a href="https://opencollective.com/ethical-source/organization/7/website"><img src="https://opencollective.com/ethical-source/organization/7/avatar.svg"></a>
+<a href="https://opencollective.com/ethical-source/organization/8/website"><img src="https://opencollective.com/ethical-source/organization/8/avatar.svg"></a>
+<a href="https://opencollective.com/ethical-source/organization/9/website"><img src="https://opencollective.com/ethical-source/organization/9/avatar.svg"></a>
