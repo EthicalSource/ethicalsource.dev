@@ -4,6 +4,8 @@ title = "Ethical Source in the Media"
 
 ## In the Press
 
+* [Ethical Open Source: A Six-Month Retrospective](https://modelviewculture.com/pieces/a-six-month-retrospective-on-ethical-open-source)
+* [The Culture War in Open Source is On](https://modelviewculture.com/pieces/the-culture-war-in-open-source-is-on)
 * [Open Source Angriff von zwei Seiten ("Open Source Attacked from Two Sides")](https://www.golem.de/news/open-source-angriff-von-zwei-seiten-2002-146769.html) (Golem.de) [English translation](https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fwww.golem.de%2Fnews%2Fopen-source-angriff-von-zwei-seiten-2002-146769.html)
 * [Ethical source-available licenses challenge open source](https://www.computerweekly.com/blog/Open-Source-Insider/Open-source-licence-series-Tidelift-Ethical-source-available-licenses-challenge-open-source) (Computer Weekly)
 * [The Schism at the Heart of the Open-Source Movement](https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/) (The Atlantic)
