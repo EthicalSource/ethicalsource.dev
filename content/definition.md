@@ -6,7 +6,7 @@ heading="The Ethical Source Definition"
 
 Software is considered **Ethical Open Source** (EOS) when it meets *all* of these criteria:
 
-1. **It benefits the commons.** The license under which the software is released must not prohibit modification, derivative works, and linking or compiling with other software (unless under a copyleft provision), in the general spirit of open source or source available distribution.
+1. **It benefits the commons.** The license under which the software is released must not prohibit modification, derivative works, and linking or compiling with other software (unless under a copyleft provision), in the general spirit of open source, source available, or other commons distribution.
 2. **It is created in the open.** The source code must be publicly available, developed and maintained in public view, and welcoming of public contributions (subject to review and approval by the software project’s maintainers.)
 3. **Its community is welcoming and just.** The software project’s community of maintainers and contributors must publish clear rules for project governance and adopt a comprehensive code of conduct that is consistently and fairly enforced.
 4. **It puts accessibility first.** If the software has a user interface, it must be designed with accessibility in mind, ensuring all software functionality is available to all users, including users who may rely on assistive devices.
