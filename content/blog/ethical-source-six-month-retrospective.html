@@ -1,0 +1,204 @@
++++
+title = "The Ethical Source Working Group Blog"
+heading = "A Six-Month Retrospective on Ethical Open Source"
++++
+
+<p>
+    <a href="https://where.coraline.codes">Coraline Ada Ehmke</a><br />
+    <time>16 April, 2020</time>
+</p>
+
+<p>
+	"One day, a mysterious stranger walked into a locksmith's shop. The locksmith had never seen this man before, but he could tell from the way he was dressed that the stranger was well-to-do. He came to the locksmith with a proposition.
+</p>
+
+<p>
+	"‘I have a job that needs doing, and it requires someone with your highly specialized skills,' he said. ‘I've done my research and you are one of the smartest and most capable locksmiths I've ever heard about.'
+</p>
+
+<p>
+	"He felt very flattered, and more than a little intrigued. The man continued.
+</p>
+
+<p>
+	"‘I want to hire you to open a certain safe. Never mind whose safe it is—that's none of your concern. Just do the job I hire you to do, and I will make you rich beyond your wildest dreams.'
+</p>
+
+<p>
+	"The locksmith was excited at the proposition of such a lucrative job, but also a bit nervous about not knowing who the safe belonged to. It seemed suspicious.
+</p>
+
+<p>
+	"The stranger went on. ‘There are certain conditions you will have to agree to. First of all, I will blindfold you and take your phone before bringing you to the safe's location. And you can never tell anyone that I hired you.'
+</p>
+
+<p>
+	"This struck the locksmith as very odd, but he thought about what the man had said about making him rich. He felt like he had struggled all his life, but was never properly rewarded for the hard work he put in day after day.
+</p>
+
+<p>
+	"The stranger continued, ‘You can have all the tools you need to do the job. The very best tools. I will spare no expense. If there's something you need that you don't have, I will buy it for you.'
+</p>
+
+<p>
+	"‘Take your time. I'll be back tomorrow for your answer.'
+</p>
+
+<p>
+	"Despite his hesitation about the nature of the job, the locksmith spent all night thinking about his crummy apartment, his shabby furniture, his daughter's dream of one day going to college. From the beginning, his family had learned to scrimp and save just to get by. ‘Anyway,' he thought to himself, ‘if I don't take this job, he'll just go to another locksmith. The second-best locksmith.' He smiled to himself.
+</p>
+
+<p>
+	"The next day, when the stranger returned, the locksmith agreed to take the job."
+</p>
+
+<p>
+	Keep the locksmith in mind. We'll come back to him.
+</p>
+
+<h4>Life in times of open source</h4>
+
+<p>	
+	Since the term was coined by Christine Peterson<sup>1</sup> in 1998, open source has grown from humble origin to power nearly the entire internet.
+</p>
+
+<p>
+	Coalescing around the ideal of software freedom, over the past 20 years the open source community has come to thrive, enjoying wild success and permanently changing the technology landscape.
+</p>
+
+<p>
+	But the world has also changed in the past two decades, and the ethical stakes of technology are higher than ever. The open source community has a strong desire to evolve, and if necessary, to redefine itself, to ensure that it can address the magnitude and complexity of today's social, political and technological challenges. Yet custodial organizations like the Open Source Initiative, backed by corporate open source interests, are working against this evolutionary force.
+</p>
+
+<p>
+	Today, the same open source software that enriches the commons and powers innovation also plays a critical role in mass surveillance, anti-immigrant violence, protester suppression, racist policing, the use of cruel and inhumane weapons, and other human rights abuses all over the world.
+</p>
+
+<h4>Software freedom at what cost?</h4>
+
+<p>	
+	As 2018 bled into 2019, horrifying details of the treatment of asylum seekers at the United States border with Mexico started getting mainstream attention. Some software developers were beginning to wake up to the idea that they might be somehow complicit. After all, both the ICE and Border Patrol agencies were literally committing atrocities using the software that the open source community produced<sup>2</sup>.
+</p>
+
+<p>
+	For many, the moment of awakening came on September 20, 2019 when Shanley Kane (editor, Model View Culture) tweeted<sup>3</sup> about Chef's contract with ICE. The revelation came as part of an ongoing nationwide campaign calling out complicity among tech companies, organized by ConMijente under the hashtag "#NoTechForICE". 
+</p>
+
+<p>
+	One engineer who read that tweet, Seth Vargo, did in fact feel complicit. He had previously worked for Chef, and was the creator of a number of open source tools designed to help other developers integrate with Chef's software. He realized that his former company was unapologetically<sup>4</sup> aiding and abetting human rights violations, and they were doing it with his code.
+</p>
+
+<p>
+	Vargo deleted his source code from GitHub and pulled his libraries from RubyGems. As a result, builds and deploys across the planet started failing.
+</p>
+
+<p>
+	How did the open source establishment react to this dramatic act of conscience? Chef claimed intellectual property rights over the open source code that Vargo had produced. GitHub restored the deleted repositories under Chef's namespace within hours. At the insistence of the company's lawyers, even the Ruby Central board agreed to assign Chef the namespace for the yanked libraries on RubyGems.5
+</p>
+
+<p>
+	At the original URL for the Chef Sugar repository, Vargo has a repo that is empty except for one file, a README that says:
+</p>
+
+<p>
+	"I have removed my code from the Chef ecosystem. I have a moral and ethical obligation to prevent my source from being used for evil. I apologize for the disruption to your workflow. I will be happy to restore the old repository and gem versions if Chef cancels their contract with the agency."6
+</p>
+
+<h4>The rising Ethical Open Source revolution</h4>
+
+<p>	
+	Two days later, on September 22nd, I launched firstdonoharm.dev. The site declared,
+</p>
+
+<blockquote>
+	"Politics and software are so entangled that they cannot be reasonably separated. There is no neutral position. You can't build systems that are being weaponized and take no responsibility for them."7
+</blockquote>
+
+<p>
+	The site introduced the Hippocratic License<sup>8</sup>, an MIT derivative open source license under which code cannot be used for committing acts in violation of the United Nations Universal Declaration of Human Rights.
+</p>
+
+<p>
+	Within 2 weeks, the Ethical Source Movement came online. On our website we proposed that the open source community had outgrown its prime directive of absolute software freedom—the ability to use the software for any reason, without restrictions.
+</p>
+
+<p>
+	The Ethical Source Movement site describes our mission this way:
+</p>
+
+<blockquote>
+	"We are creating ways to empower developers, giving us the freedom and agency to ensure that our work is being used for social good and in service of human rights. We are building tools to enforce fair, ethical, and community-minded terms for those who benefit from our work. We are united in our conviction that software freedom must always be in service of human freedom."9
+</blockquote>
+
+<p>
+	In a few short weeks, what began as a single tweet was becoming an existential threat to the open source establishment. Even mainstream news outlets like The Atlantic<sup>10</sup> started publishing pieces describing the emerging conflict between the purist software freedom advocates and the open source developers who believe that they bear ethical responsibility for their code. 
+</p>
+
+<p>
+	The Ethical Source Movement started to take shape, and I began exploring different ways of bringing the issue of software developers' ethical responsibilities to a wider audience.
+</p>
+
+<p>
+	In October 2019, I published the Ethical Source Definition<sup>11</sup>, an alternative to the Open Source Definition, the founding doctrine of the Open Source Initiative. The latest version of the ESD is the product of collaboration among working group members. It lays out the parameters under which an open source project can be considered Ethical Open Source: it must benefit the commons, be developed in the open, foster a welcoming and just community (with an enforced code of conduct), put accessibility first, and protect user privacy.
+</p>
+
+<p>
+	By November, I had formed a formal Ethical Source working group, bringing together over a hundred intellectual property experts, lawyers, major open source project maintainers, and tech activists to collaborate on strategies for shouldering the ethical responsibilities of technologists.
+</p>
+
+<p>
+	January 2020 saw the launch of our controversial "Icebreaker" web site<sup>12</sup>, which documented, by language, all of the thousands of open source libraries that the ICE software contractor Palantir uses. 
+</p>
+
+<p>
+	In February, at the CopyleftConf in Brussels, I delivered an incendiary talk called "The Rising Ethical Storm in Open Source" as a formal introduction of the principles of Ethical Source to the mainstream open source community.
+</p>
+
+<p>
+	In March, in collaboration with a pro-bono legal team, I released a stable version of the Hippocratic License (2.1). March also saw me and Tobie Langel, a working group leader, run for seats on the Open Source Initiative board. Although we lost our election bids, our platforms garnered support from 35% of the organization's voting members.
+</p>
+
+<p>
+	All of this happened within six months of Shanley Kane's tweet and Seth Vargo's act of conscience. Evolution turned into revolution.
+</p>
+
+<h4>The locksmith's regret</h4>
+
+<p>	
+	"After multiple blindfolded trips to and from the unknown location, the locksmith finally cracked the safe. He wasn't allowed to see what was inside of it; the stranger blindfolded him as soon as the lock clicked open. But true to his word, the stranger made the locksmith exceedingly rich.
+</p>
+
+<p>
+	"A week later, the retired locksmith saw a news headline about the theft of top-secret military schematics. And soon after that, the stranger himself appeared on the world stage, declaring himself master of all nations, backed by an army equipped with a stolen supweapon."
+</p>
+
+<p>
+	Software developers have highly specialized skills that are very much in demand. But implicit in this demand is the reality that we're always going to play the role of the locksmith. And there will always be a villain trying to get us to open that safe.
+</p>
+
+<p>
+	We have a moral imperative to prevent our work from being used to harm others. Freedom for freedom's sake is incompatible with our greater-than-average responsibility to society.
+</p>
+
+<p>
+	Software freedom must not come before human freedom.
+</p>
+
+<h4>References</h4>
+
+<aside>
+	<ol>
+		<li>Christine Peterson has spoken publicly against the Ethical Source movement.</li>
+		<li>"The military-industrial complex cannot get enough of open source", Tamlin Magee, Computer World. <a href="https://www.computerworld.com/article/3442240/the-military-industrial-complex-cannot-get-enough-of-open-source.html">https://www.computerworld.com/article/3442240/the-military-industrial-complex-cannot-get-enough-of-open-source.html</a> Retrieved April 12, 2020.</li>
+        <li><a href="https://twitter.com/shanley/status/1173692656192385024">https://twitter.com/shanley/status/1173692656192385024</a></li>
+        <li>"I do not believe that it is appropriate, practical, or within our mission to examine specific government projects with the purpose of selecting which U.S. agencies we should or should not do business. My goal is to continue growing Chef as a company that transcends numerous U.S. presidential administrations." From a letter from Chef CEO Barry Crist to all employees of the company.</li>
+        <li><a href="https://blog.rubygems.org/images/rubygems-chef-statement.pdf.">https://blog.rubygems.org/images/rubygems-chef-statement.pdf.</a> Retrieved April 13. 2020.</li>
+        <li><a href="https://github.com/sethvargo/chef-sugar">https://github.com/sethvargo/chef-sugar</a> Retrieved April 13. 2020.</li>
+        <li><a href="https://firstdonoharm.dev">https://firstdonoharm.dev</a> Retrieved April 13. 2020.</li>
+        <li><a href="https://firstdonoharm.dev/version/2/1/license.html">https://firstdonoharm.dev/version/2/1/license.html</a> Retrieved April 13. 2020.</li>
+        <li><a href="https://ethicalsource.dev">https://ethicalsource.dev</a> Retrieved April 13. 2020.</li>
+        <li>"The Schism at the Heart of the Open-Source Movement", Sidney Fussell, The Atlantic. <a href="https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/">https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/</a> Retrieved April 13. 2020.</li>
+        <li><a href="https://ethicalsource.dev/definition/">https://ethicalsource.dev/definition/</a> Retrieved April 13. 2020.</li>
+        <li><a href="https://icebreaker.dev">https://icebreaker.dev</a> Retrieved April 13. 2020.</li>
+    </ol>
+</aside>
