@@ -559,3 +559,14 @@ h1 {
   animation: appear 2s;
   animation-fill-mode: both;
 }
+
+ul.blog-index {
+  list-style-type: none;
+  margin-left: 0em;
+}
+
+ul.blog-index li {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #cccccc;
+}
