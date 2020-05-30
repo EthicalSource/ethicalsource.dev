@@ -3,7 +3,12 @@ title = "Adopting an Ethical License"
 heading = "Adopting an Ethical License"
 +++
 
-Be aware that this guide is not legal advice, and we are not lawyers.
+[The Ethical Source Working Group](https://ethicalsource.dev), <time>May,
+2020</time>
+
+This guide is not legal advice. We are not lawyers. It's a guide to help
+maintainers think through adopting an ethical license without taking on
+unnecessary risk.
 
 When starting a new project, [review the existing ethical licenses](./licenses/)
 and choose the one that most directly matches the projects goals.
