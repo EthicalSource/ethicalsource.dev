@@ -3,8 +3,6 @@ title = "The Ethical Source Working Group Blog"
 heading = "The Culture War in Open Source is On"
 +++
 
-The challenges to open source\'s \"noble neutrality.\"
-
 [Nathan Schneider](https://nathanschneider.info/)   
 April 15, 2020
 
