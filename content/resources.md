@@ -10,6 +10,7 @@ This page is a list of readings in topics covering Ethical Source, its philosoph
 - [License Zero](https://licensezero.com)
 
 ### Moral and Legal Issues
+- [Ethics in Geo](https://macwright.org/2020/06/21/ethics-in-geo.html)
 - [Can I stop "evil people" from using my [Open Source] program? No](https://opensource.org/faq#evil)
 - "Open Source is Broken", Don Goodman-Wilson
   - [blog post](https://dev.to/degoodmanwilson/open-source-is-broken-g60)
