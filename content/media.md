@@ -38,6 +38,8 @@ title = "Ethical Source in the Media"
 * ["Creating a Support Network for Maintainers", Sustain](https://sustain.codefund.fm/25)
 * ["Ethical Open Source", Greater Than Code](https://www.greaterthancode.com/ethical-open-source)
 
-## Conference Talks
+## Conference Talks and Panel Discussions
+* [Ethical Source, Strong Copyleft, and Open Software Business Models](https://www.youtube.com/watch?v=lweK7hOD5TU)
 * [The Ethics of Open Source: A Critical Reflection](https://fosdem.org/2020/schedule/event/ethicsoss/) by Don Goodman-Wilson (FOSDEM, February 2 2020)
 * [Bringing Back Ethics to Open Source](https://fosdem.org/2020/schedule/event/ethicsbackinoss/) by Tobie Langel (FOSDEM, February 2 2020)
+* [The Rising Ethical Storm in Open Source](https://where.coraline.codes/talks/ethical-open-source/) by Coraline Ada Ehmke (CopyleftConf, February 3 2020)
