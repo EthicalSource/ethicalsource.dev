@@ -3,7 +3,7 @@ title = "Human Rights and AI"
 heading = "Human Rights and AI"
 +++
 
-Sudeep Duggal, <time>20 August, 2020</time>
+Sudeep Duggal, <time>August 20, 2020</time>
 
 Originally published in [eth-ds](https://qua.name/eth-ds/human-rights-and-ai)
 
