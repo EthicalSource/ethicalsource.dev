@@ -17,6 +17,7 @@ Use this form to submit an application to join our Slack community via email. In
       <label class="hidden">
         <span>For bots only</span>
         <input name="bot-field">
+        <input name="subject" value="Application to the Ethical Source Working Group">
       </label>
     </div>
     <div class="form-group">
