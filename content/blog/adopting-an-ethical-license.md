@@ -10,7 +10,7 @@ This guide is not legal advice. We are not lawyers. It's a guide to help
 maintainers think through adopting an ethical license without taking on
 unnecessary risk.
 
-When starting a new project, [review the existing ethical licenses](./licenses/)
+When starting a new project, [review the existing ethical licenses](/licenses/)
 and choose the one that most directly matches the projects goals.
 
 For maintainers of existing projects, there are two strategies:
@@ -37,22 +37,22 @@ is correct.
 
 ## A Potentially Useful Framing
 
-It _may_ be useful is to think about intellectual property rights like other
+It _may_ be useful to think about intellectual property rights like other
 property rights. Imagine a project is a _neighborhood_. Each _house_ has a
 _lock_ on it installed by the _homeowner_. The _lock_ is opened by a _key_ that
 fits.
 
-To continue to use the home, the neighborhood maintainer must carry a key that
-works in the homeowners lock.
+To continue to use the home, the _neighborhood maintainer_ must carry a key that
+works in the homeowner's lock.
 
-To change the lock, a _neighborhood maintainer_ _must_ get consent from the
+To change the lock, a neighborhood maintainer _must_ get consent from the
 homeowner.
 
 In this analogy, the homeowner is a contributor and a house is a substantial
 contribution. The lock is the license, and the key is following the constraints
 the license imposes.
 
-Changing the lock is _relicensing_; and carrying around a working key for the
+Changing the lock is _relicensing_. Carrying around a working key for the
 locks that cannot be changed is _sublicensing_.
 
 ## Authorship Rights
@@ -99,7 +99,7 @@ The MIT License is one of the most widely used open source licenses, and also
 one of the most permissive. This makes it one of the easiest to sublicense or
 relicense.
 
-To sublicense, Maintainers _may_ add an ethical license while continuing to
+To sublicense, maintainers _may_ add an ethical license while continuing to
 conform to the constraints imposed by the MIT licensed contributions.
 
 The core constraint of the MIT license is that the body of the license _must_ be
