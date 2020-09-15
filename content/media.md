@@ -3,6 +3,7 @@ title = "Ethical Source in the Media"
 +++
 
 ## In the Press
+* [Open Source Governance, Meet Feminist Economics](https://builtin.com/software-engineering-perspectives/economy-governance-open-source)
 * [Is Your Open Source Code Fueling Human Rights Abuses?](https://builtin.com/software-engineering-perspectives/ethical-source-hippocratic-license)
 * [Open Source License Issues Stymie Enterprise Contributions](https://searchitoperations.techtarget.com/news/252485508/Open-source-license-issues-stymie-enterprise-contributions)
 * [The Culture War in Open Source is On](https://modelviewculture.com/pieces/the-culture-war-in-open-source-is-on)
