@@ -36,7 +36,8 @@ title = "Ethical Source in the Media"
 * [Ethical Licensing Talking Points](https://talkingpoints.kemitchell.com/ethical-licenses.html)
 
 ## Podcasts
-* ["The Ethical Open Source Movement"](https://www.greaterthancode.com/the-ethical-open-source-movement)
+* ["Real Rebels Pay Their Taxes", Greater Than Code](https://www.greaterthancode.com/real-rebels-pay-their-taxes)
+* ["The Ethical Open Source Movement", Greater Than Code](https://www.greaterthancode.com/the-ethical-open-source-movement)
 * ["Creating a Support Network for Maintainers", Sustain](https://sustain.codefund.fm/25)
 * ["Ethical Open Source", Greater Than Code](https://www.greaterthancode.com/ethical-open-source)
 
