@@ -1,6 +1,6 @@
 +++
-title = "Related Licenses"
-heading = "Licensing projects related to ethical source:"
+title = "Ethical Licenses"
+heading = "Ethical Open Source Licenses"
 +++
 
 * [Hippocratic License](https://firstdonoharm.dev). A license that prohibits use of the software to violate international human rights guidelines.
