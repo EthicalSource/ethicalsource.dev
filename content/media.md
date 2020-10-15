@@ -3,7 +3,8 @@ title = "Ethical Source in the Media"
 +++
 
 ## In the Press
-* [The Parable of the Locksmith](https://leaddev.com/parable-locksmith)
+* The Social Responsibility of Software Developers, Part 2: [Software Freedom vs Human Freedom](https://leaddev.com/personal-development/software-freedom-vs-human-freedom)
+* The Social Responsibility of Software Developers, Part 1: [The Parable of the Locksmith](https://leaddev.com/parable-locksmith)
 * [Open Source Governance, Meet Feminist Economics](https://builtin.com/software-engineering-perspectives/economy-governance-open-source)
 * [Is Your Open Source Code Fueling Human Rights Abuses?](https://builtin.com/software-engineering-perspectives/ethical-source-hippocratic-license)
 * [Open Source License Issues Stymie Enterprise Contributions](https://searchitoperations.techtarget.com/news/252485508/Open-source-license-issues-stymie-enterprise-contributions)
