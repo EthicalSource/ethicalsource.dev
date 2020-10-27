@@ -15,7 +15,7 @@ We want to do something about this misuse of our software. But as developers we 
 
 We are creating ways to empower developers, giving us the freedom and agency to ensure that our work is being used for social good and in service of human rights.
 
-We are building tools to enforce fair, ethical, and community-minded terms for those who benefit from our work.
+We are building tools to enforce fair, ethical, and community-minded terms for those who benefit from or are affected by our work.
 
 We are united in our conviction that software freedom must always be in service of human freedom.
 
