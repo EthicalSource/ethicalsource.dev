@@ -5,7 +5,7 @@ heading = "Code de conduite du Ethical Source Working Group"
 
 ### Notre engagement
 
-En tant que membres, contributeur•se•s et dirigeant•e•s, nous nous engageons à faire de la participation à notre communauté une expérience sans harcèlement pour tous, quels que soient l'âge, la taille corporelle, le handicap visible ou invisible, l'appartenance ethnique, les caractéristiques sexuelles, l'identité et l'expression de genre, le niveau d'expérience, l'éducation, le statut socio-économique, la nationalité, l'apparence personnelle, la religion ou l'identité et l'orientation sexuelles.
+En tant que membres, contributeur•rice•s et dirigeant•e•s, nous nous engageons à faire de la participation à notre communauté une expérience sans harcèlement pour tous, quels que soient l'âge, la taille corporelle, le handicap visible ou invisible, l'appartenance ethnique, les caractéristiques sexuelles, l'identité et l'expression de genre, le niveau d'expérience, l'éducation, le statut socio-économique, la nationalité, l'apparence personnelle, la religion ou l'identité et l'orientation sexuelles.
 
 Nous nous engageons à agir et à interagir de manière à contribuer à une communauté ouverte, accueillante, diversifiée, inclusive et saine.
 
