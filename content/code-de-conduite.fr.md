@@ -31,7 +31,7 @@ Voici des exemples de comportements inacceptables:
 
 Les dirigeant•e•s de la communauté sont responsables de la clarification et de l'application de nos normes de comportement acceptable et prendront des mesures correctives appropriées et équitables en réponse à tout comportement qu'ils ou elles jugent inapproprié, menaçant, offensant ou nuisible.
 
-Les dirigeant•e•s de la communauté ont le droit et la responsabilité de supprimer, modifier ou rejeter les commentaires, les contributions, le code, les modifications de wiki, les rapports d'indidents ou de bogue et autres contributions qui ne sont pas alignés sur ce code de conduite, et communiqueront les raisons des décisions de modération le cas échéant.
+Les dirigeant•e•s de la communauté ont le droit et la responsabilité de supprimer, modifier ou rejeter les commentaires, les contributions, le code, les modifications de wikis, les rapports d'incidents ou de bogues et autres contributions qui ne sont pas alignés sur ce code de conduite, et communiqueront les raisons des décisions de modération le cas échéant.
 
 ### Portée
 
