@@ -1,3 +1,7 @@
+{{- $fontStyle := resources.Get "css/fonts.css" -}}
+{{- $mainStyle := resources.Get "css/main.css" -}}
+{{- $css := slice $fontStyle $mainStyle | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint "sha512" -}}
+{{- $mainJs := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint "sha512" -}}
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
   <head>
@@ -20,8 +24,7 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon-152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon-180.png">
     <link rel="mask-icon" href="/img/mask-icon.svg" color="#5e0c72">
-    <link rel="stylesheet" href="/css/fonts.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
   </head>
 
   <body{{ with .Section }} id="{{ . }}"{{ end }}>
@@ -67,20 +70,16 @@
     </nav>
 
     {{ if .Site.BuildDrafts }}
-      <script src="/js/main.js"></script>
+      <script src="{{ $mainJs.Permalink }}" integrity="{{ $mainJs.Data.Integrity }}"></script>
     {{ else }}
-      <script>
-        {{ readFile "static/js/main.js" | safeJS }}
-      </script>
+      <script src="{{ $mainJs.Permalink }}" integrity="{{ $mainJs.Data.Integrity }}"></script>
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56802475-3"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'UA-56802475-3');
       </script>
-
     {{ end }}
   </body>
 </html>
