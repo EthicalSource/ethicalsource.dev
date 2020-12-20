@@ -10,7 +10,11 @@ EnableMissingTranslationPlaceholders = true
 
 uglyURLs = false
 
+disableHugoGeneratorInject = true
 googleAnalytics = "UA-56802475-3"
+
+[minify]
+minifyOutput = true
 
 [mediaTypes]
 [mediaTypes."text/markdown"]
