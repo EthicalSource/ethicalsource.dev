@@ -2,7 +2,6 @@ baseURL = "https://ethicalsource.dev"
 # canonifyURLs = true
 languageCode = "en-us"
 title = "Ethical Source"
-disableKinds = ["RSS"]
 
 DefaultContentLanguage = "en"
 hasCJKLanguage = true
@@ -21,8 +20,8 @@ minifyOutput = true
 suffixes = ["md"]
 
 [outputs]
-home = ["html"]
-page = ["html"]
+home = ["html", "rss"]
+page = ["html", "rss"]
 
 # Add all translated languages here.
 [Languages]

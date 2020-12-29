@@ -25,6 +25,9 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon-180.png">
     <link rel="mask-icon" href="/img/mask-icon.svg" color="#5e0c72">
     <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+    {{ with .OutputFormats.Get "rss" -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
   </head>
 
   <body{{ with .Section }} id="{{ . }}"{{ end }}>
