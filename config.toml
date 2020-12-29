@@ -1,5 +1,4 @@
 baseURL = "https://ethicalsource.dev"
-# canonifyURLs = true
 languageCode = "en-us"
 title = "Ethical Source"
 
@@ -13,56 +12,56 @@ disableHugoGeneratorInject = true
 googleAnalytics = "UA-56802475-3"
 
 [minify]
-minifyOutput = true
+  minifyOutput = true
 
 [mediaTypes]
-[mediaTypes."text/markdown"]
-suffixes = ["md"]
+  [mediaTypes."text/markdown"]
+    suffixes = ["md"]
 
 [outputs]
-home = ["html", "rss"]
-page = ["html", "rss"]
+  home = ["html", "rss"]
+  page = ["html", "rss"]
 
 # Add all translated languages here.
 [Languages]
-[Languages.en]
-languageName = "English"
-languageCode = "en"
-weight = 1
+  [Languages.en]
+    languageName = "English"
+    languageCode = "en"
+    weight = 1
 
-[Languages.es]
-languageName = "Español"
-languageCode = "es-mx"
+  [Languages.es]
+    languageName = "Español"
+    languageCode = "es-mx"
 
-[Languages.fr]
-languageName = "Français"
-languageCode = "fr"
+  [Languages.fr]
+    languageName = "Français"
+    languageCode = "fr"
 
-[Languages.pt-br]
-languageName = "Português"
-languageCode = "pt-br"
+  [Languages.pt-br]
+    languageName = "Português"
+    languageCode = "pt-br"
 
-[Languages.de]
-languageName = "Deutsch"
-languageCode = "de"
+  [Languages.de]
+    languageName = "Deutsch"
+    languageCode = "de"
 
-[Languages.zh-tw]
-languageName = "中文-台灣"
-languageCode = "zh-tw"
+  [Languages.zh-tw]
+    languageName = "中文-台灣"
+    languageCode = "zh-tw"
 
-[Languages.it]
-languageName = "Italiano"
-languageCode = "it"
+  [Languages.it]
+    languageName = "Italiano"
+    languageCode = "it"
 
-[Languages.ro]
-languageName = "Română"
-languageCode = "ro"
+  [Languages.ro]
+    languageName = "Română"
+    languageCode = "ro"
 
-[Languages.ar]
-languageName = "العربية"
-languageCode = "ar"
-writingDirection = "rtl"
+  [Languages.ar]
+    languageName = "العربية"
+    languageCode = "ar"
+    writingDirection = "rtl"
 
-[Languages.nl]
-languageName = "Dutch"
-languageCode = "nl"
+  [Languages.nl]
+    languageName = "Dutch"
+    languageCode = "nl"
