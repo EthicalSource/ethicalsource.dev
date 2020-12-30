@@ -69,17 +69,6 @@
       </ul>
     </nav>
 
-    {{ if .Site.BuildDrafts }}
-      <script src="{{ $mainJs.RelPermalink }}" integrity="{{ $mainJs.Data.Integrity }}"></script>
-    {{ else }}
-      <script src="{{ $mainJs.RelPermalink }}" integrity="{{ $mainJs.Data.Integrity }}"></script>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56802475-3"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-56802475-3');
-      </script>
-    {{ end }}
+    <script src="{{ $mainJs.RelPermalink }}" integrity="{{ $mainJs.Data.Integrity }}"></script>
   </body>
 </html>
