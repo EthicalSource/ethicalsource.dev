@@ -212,7 +212,3 @@ The financial year shall begin on 1 January and end on 31 December of each year.
 Should the Association be dissolved, the available assets should be transferred to a non-profit organization pursuing public interest goals similar to those of the Association and likewise benefiting from tax exemption. Under no circumstances should the assets be returned to the founders or members. Nor should they use a part or a total of assets for their own benefit.
 
 The present Statutes have been approved by the Constituent General Assembly of November 23, 2020 in Laconnex, Geneva, Switzerland.
-
-For the Association:
-
-President: Secretary: Treasurer:
