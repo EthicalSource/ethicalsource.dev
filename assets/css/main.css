@@ -487,6 +487,10 @@ header a:hover {
   display: none;
 }
 
+form {
+  margin-top: 2em;
+}
+
 fieldset {
   border: 0;
 }
@@ -498,15 +502,12 @@ fieldset:last-child {
 label {
   display: flex;
   margin-bottom: 1.5rem;
+  font-weight: bold;
 }
 
 label > :first-child {
   padding: .25rem .75rem .25rem;
   width: calc(25% - 1.5rem);
-}
-
-label p {
-  clear: both;
 }
 
 button,
@@ -518,23 +519,45 @@ textarea {
   padding: .125rem .25rem;
 }
 
-.radio-form-group label {
-  padding: 0em;
-  width: 90%;
+.radio-form-group {
+  float: left;
+  text-align: left;
+  clear: both;
 }
 
-.radio-form-group label > :first-child {
-  margin-top: -.5em;
-  float: right;
+.radio-form-group label {
+  padding: 0em;
+  float: left;
+  font-weight: normal;
+  margin: -2rem 1rem 2rem 1rem;
+}
+
+.radio-form-group input[type="radio"] {
+  border: 0em;
+  padding: 0em;
+  margin: -.75em 2em 0em -1em;
+}
+
+.checkbox-form-group input[type="checkbox"] {
+  margin-top: 1rem;
+  margin-left: 0rem !important;
+  float: left;
   width: 100%;
 }
 
+.checkbox-form-group label {
+  font-weight: normal;
+}
 
-input[type="radio"] {
-  border: 0em;
+.checkbox-form-group label > :first-child {
   padding: 0em;
-  margin-top: -.75em;
-  margin-right: -12em;
+  width: 5em;
+  margin-left: 1em;
+}
+
+input[type="checkbox"] {
+  float: right;
+  margin-left: 5em;
 }
 
 button {
