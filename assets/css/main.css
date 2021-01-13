@@ -509,13 +509,14 @@ label > :first-child {
 button,
 input,
 textarea {
-  -moz-appearance: none;
-  -ms-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
   border: .0625rem solid hsl(0, 0%, 60%);
   font: inherit;
   padding: .125rem .25rem;
+}
+
+input[type="radio"] {
+  border: 0em;
+  padding: 0em;
 }
 
 button {
