@@ -1,9 +1,6 @@
 +++
-title = "Statutes of association"
-heading = "Statutes of association"
+title = "Statutes of Association"
 +++
-
-### The Organization for Ethical Source
 
 ## Name and headquarters
 
