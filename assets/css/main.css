@@ -487,6 +487,10 @@ header a:hover {
   display: none;
 }
 
+form {
+  margin-top: 2em;
+}
+
 fieldset {
   border: 0;
 }
@@ -498,24 +502,62 @@ fieldset:last-child {
 label {
   display: flex;
   margin-bottom: 1.5rem;
+  font-weight: bold;
 }
 
 label > :first-child {
   padding: .25rem .75rem .25rem;
-  text-align: right;
   width: calc(25% - 1.5rem);
 }
 
 button,
-input,
+input[type="text"],
+input[type="email"],
 textarea {
-  -moz-appearance: none;
-  -ms-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
   border: .0625rem solid hsl(0, 0%, 60%);
   font: inherit;
   padding: .125rem .25rem;
+}
+
+.radio-form-group {
+  float: left;
+  text-align: left;
+  clear: both;
+}
+
+.radio-form-group label {
+  padding: 0em;
+  float: left;
+  font-weight: normal;
+  margin: -2rem 1rem 2rem 1rem;
+}
+
+.radio-form-group input[type="radio"] {
+  border: 0em;
+  padding: 0em;
+  margin: -.75em 2em 0em -1em;
+}
+
+.checkbox-form-group input[type="checkbox"] {
+  margin-top: 1rem;
+  margin-left: 0rem !important;
+  float: left;
+  width: 100%;
+}
+
+.checkbox-form-group label {
+  font-weight: normal;
+}
+
+.checkbox-form-group label > :first-child {
+  padding: 0em;
+  width: 5em;
+  margin-left: 1em;
+}
+
+input[type="checkbox"] {
+  float: right;
+  margin-left: 5em;
 }
 
 button {

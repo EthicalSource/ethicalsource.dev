@@ -1,42 +1,14 @@
 +++
-title = "Join the Ethical Source Working Group"
-heading = "Sign up to join the Ethical Source working group."
+title = "Join the Movement"
 +++
 
-The Ethical Source working group is a community for open source maintainers and contributors, tech ethicists and advocates, licensing experts, and more to come together to strategize about ways to incorporate ethics into our open source work.
+## Join the Ethical Source Working Group
+The Ethical Source working group is a community for open source maintainers and contributors, tech ethicists and advocates, licensing experts, and more to come together to strategize about ways to incorporate ethics into our open source work. [Use this form](/apply_wg) to submit an application to join the working group. (Participation in the working group does not require membership in the organization.)
 
-Our code of conduct is [here](/community-code-of-conduct) and is strictly enforced.
+[Apply for the Ethical Source Working Group](/apply_wg)
 
-Note that this space is for collaboration and community, so if you're skeptical about Ethical Source, this is not the place for you.
+## Join the Organization for Ethical Source
+If you are interested in joining the Organization for Ethical Source as an active or supporting member, please use this form to get in touch with us. All members of the organization are automatically invited to participate in the Working Group.
 
-Use this form to submit an application to join our Slack community via email. In your message, please provide a brief bio, an explanation of why you're interested in Ethical Source, and a Twitter handle (if you have one). This information helps us vet our members and keep the trolls at bay. Thank you in advance.
+[Contact us](/apply_org) about membership in the Organization for Ethical Source.
 
-<div class="form-container form-container-card">
-  <form class="send_message_form message form" name="apply" method="post" action="/" data-modal-id="modal-notify" data-netlify="true" netlify-honeypot="bot-field">
-    <div class="form-group">
-      <label class="hidden">
-        <span>For bots only</span>
-        <input name="bot-field">
-        <input name="subject" value="Application to the Ethical Source Working Group">
-      </label>
-    </div>
-    <div class="form-group">
-      <label>
-        <p>E-mail</p>
-        <input name="email" type="email" required>
-      </label>
-      </div>
-      <div class="form-group">
-      <label>
-        <p>Message, brief bio, and why you're interested</p>
-        <textarea name="message" required></textarea>
-      </label>
-    <fieldset>
-      <button type="submit" class="button">Send</button>
-    </fieldset>
-  </form>
-</div>
-
-<h3 class="hidden">
-  Thank you for your application. If we have any questions we will contact you. Otherwise, check your email for an invitation to our Slack community. Once you have joined, please add your pronouns and a brief bio to your Slack profile.
-</h3>
