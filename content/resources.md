@@ -9,7 +9,8 @@ This page is a list of readings in topics covering Ethical Source, its philosoph
 - [The Hippocratic License](https://firstdonoharm.dev/)
 - [License Zero](https://licensezero.com)
 
-### Moral and Legal Issues
+### Ethical and Legal Issues
+- [The Muddy Ethics of Free Software, Gardiner Bryant](https://www.youtube.com/watch?v=50AVP0rsd9Q)
 - [Programmer Power: Prying Open "Software Freedom"](https://writing.kemitchell.com/2020/07/03/Programmer-Power.html) by Kyle Mitchell
 - [Ethics in Geo](https://macwright.org/2020/06/21/ethics-in-geo.html)
 - [Can I stop "evil people" from using my [Open Source] program? No](https://opensource.org/faq#evil)
@@ -32,6 +33,7 @@ This page is a list of readings in topics covering Ethical Source, its philosoph
 - [Twitter musings on tech and ICE, Luis Villa](https://twitter.com/luis_in_brief/status/1201933695537467392)
 
 ### History and Critique of Open Source
+- [What does “open source” mean in 2021?](https://funnelfiasco.com/blog/2021/01/25/what-does-open-source-mean-in-2021/)
 - ["What Does Open Source Mean?", Gil Yehuda](https://www.linkedin.com/pulse/what-does-open-source-mean-gil-yehuda/)
 - ["#wontfix: endorsements can’t fix the Open Source Definition", Kyle E. Mitchell](https://writing.kemitchell.com/2019/04/23/OSD-wontfix.html)
 - ["The Californian Ideology", Richard Barbrook and Andy Cameron](https://www.metamute.org/editorial/articles/californian-ideology)
