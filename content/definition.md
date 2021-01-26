@@ -14,6 +14,8 @@ Software is considered **Ethical Open Source** (EOS) when it meets *all* of thes
 6. **It protects user privacy.** If the operation of the software collects end-user data, the software must be designed with provisions for its operators to completely delete or provide to the end-user any and all data generated and stored from the end-user’s usage of the software. The export mechanism must provide the data in a human-readable or widely interoperable open format.
 7. **It encourages fair compensation.** The software project’s maintainers may, at their discretion, request remuneration in the form of code contributions, financial consideration, or other forms of voluntary support from organizations that derive commercial value from the software.
 
+A community that practices **Ethical Open Source** reflects its alignment with these principles through the actions and aspirations of its leaders and participants.
+
 Ethical Open Source projects are encouraged to use the "Open|Ethical" badge in their project’s documentation: 
 
 ![https://img.shields.io/badge/open-ethical-%234baaaa](https://img.shields.io/badge/open-ethical-%234baaaa) 
