@@ -3,6 +3,7 @@ title = "Ethical Source in the Media"
 +++
 
 ## In the Press
+* [Can Software Handle Ethics?](https://news.kgnu.org/2021/01/looks-like-new-can-software-handle-ethics/). (Looks Like New on KGNU Public Radio, Jan 28 2021)
 * [The Rules of Open Source No Longer Apply](https://builtin.com/software-engineering-perspectives/open-source-end-users). (BuiltIn, Oct 16 2020)
 * The Social Responsibility of Software Developers, Part 2: [Software Freedom vs Human Freedom](https://leaddev.com/personal-development/software-freedom-vs-human-freedom). (LeadDev, Oct 9 2020)
 * [Open Source Governance, Meet Feminist Economics](https://builtin.com/software-engineering-perspectives/economy-governance-open-source) (BultIn, September 14 2020)
