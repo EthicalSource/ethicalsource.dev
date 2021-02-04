@@ -12,3 +12,4 @@ heading = "Ethical Open Source Licenses"
 * [(Cooperative) Non-Violent Public License](https://thufie.lain.haus/NPL.html).
   -  [The Non-Violent Public License](https://git.pixie.town/thufie/NPL) aims to ensure basic protections against forms of violence, coercion, and discrimination which creations are frequently leveraged for in the modern world. This license covers several formats of creative work but has extra terms for software given the power it has as a tool outside of its creative capacities.
   - [The Cooperative Non-Violent Public License](https://git.pixie.town/thufie/CNPL) goes further and only allows commercial use of the copyrighted work for individuals and worker-owned organizations. It is a superset of the NPL and contains all of the same terms otherwise.
+- [Katharos License](https://github.com/katharostech/katharos-license). A license designed to protect the work from being used to promote or produce suggestive and/or explicit content.
