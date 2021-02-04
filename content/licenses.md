@@ -3,9 +3,7 @@ title = "Ethical Licenses"
 heading = "Ethical Open Source Licenses"
 +++
 
-There has long been a sentiment in the open source community that license proliferation is a real problem. This is true if you agree that the major FLOSS licenses most in use satisfy most use cases.
-
-In the case of ethical licenses, we are in the early stages of development. Now is the time for thoughtful experimentation, global conversation, and open collaboration.
+We are in the early stages of understanding and developing ethical licenses. It's time for thoughtful experimentation, global conversation, and open collaboration.
 
 Examples of ethical licenses include:
 
