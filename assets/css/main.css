@@ -5,7 +5,7 @@
 
 /* Variables */
 :root {
-  --color-primary: #4baaaa;
+  --color-primary: #1e1a33;
   --color-primary-lighter: #999999;
   --color-primary-lightest: #cc9999;
   --color-green: hsl(153, 90%, 30%);
@@ -48,7 +48,7 @@ section {
 .page-title {
   width: 75%;
   clear: both;
-  margin-top: 10rem;
+  margin-top: 20rem;
 }
 
 .page-title h1 {
@@ -57,7 +57,7 @@ section {
   font-size: 5rem;
   line-height: 5rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #68bbbb;
+  border-bottom: 1px solid #c8953a;
 }
 
 #navigation {
@@ -76,7 +76,7 @@ section {
     width: 20rem;
     margin: .25rem;
     padding: .25rem;
-    border: 1px solid #4baaaa;
+    border: 1px solid #1e1a33;
     background-color: #fff;
     border-radius: 5px;
     font-size: 1rem;
@@ -108,7 +108,7 @@ strong {
 
 header {
   color: var(--color-white);
-  height: 15rem;
+  height: 20rem;
 }
 
 footer {
@@ -163,7 +163,7 @@ p {
 
 /* Inline Elements */
 a {
-  color: #357979;
+  color: #1e1533
   font-weight: 500;
   text-decoration: underline;
   transition: color 125ms, background-color 125ms;
@@ -209,8 +209,8 @@ abbr {
 /* Utility Classes */
 .logo {
   display: inline-block;
-  height: 3rem;
-  margin-left: 1.5rem;
+  height: 20rem;
+  margin-left: -.8rem;
   margin-right: .75rem;
   vertical-align: -.8125rem;
 }
@@ -318,8 +318,9 @@ header a:hover {
 
   .logo {
     display: block;
-    height: 5rem;
-    margin-top: 1rem;
+    height: 13rem;
+    margin-top: -2rem;
+    margin-left: 0rem;
     float: left;
   }
 
@@ -357,8 +358,9 @@ header a:hover {
   .logo {
     display: block;
     float: left;
-    height: 5rem;
-    margin-top: 1rem;
+    height: 20rem;
+    margin-top: -3rem;
+    margin-left: -.8rem;
   }
 
   nav {
@@ -438,7 +440,7 @@ header a:hover {
 
   nav ul li a:hover {
     color: #fff;
-    background-color: #4baaaa;
+    background-color: #1e1a33;
   }
 
   nav ul li a {
@@ -477,7 +479,7 @@ header a:hover {
   header {
     color: var(--color-white);
     padding-bottom: 6rem;
-    height: 34rem;
+    height: 40rem;
     min-height: 30rem;
   }
 
@@ -561,7 +563,7 @@ input[type="checkbox"] {
 }
 
 button {
-  background-color: #4baaaa;
+  background-color: #1e1a33;
   padding: .25rem 1rem;
   color: #fff;
   border-radius: 5px;
