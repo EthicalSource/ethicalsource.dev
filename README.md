@@ -1,18 +1,17 @@
 # Ethical Source
 [![An Ethical Open Source Project](https://img.shields.io/badge/open-ethical-%234baaaa)](https://img.shields.io/badge/open-ethical-%234baaaa) [![Financial Contributors on Open Collective](https://opencollective.com/ethical-source/all/badge.svg?label=financial+contributors)](https://opencollective.com/ethical-source) 
 
-Home of the Ethical Source Definition.
+Home of the Organization for Ethical Source.
 
-## Project Home Page
+## On the web
 
 Visit [ethicalsource.dev](https://ethicalsource.dev/)
 
 ## Contributing
 
-Please feel free to submit pull requests or open issues to improve the language
-of this document.
+Please feel free to submit pull requests or open issues to improve the site.
 
-You should also check the [issues](https://github.com/ContributorCovenant/ethicalsource/issues)
+You should also check the [issues](https://github.com/EthicalSource/ethicalsource.dev/issues)
 for the latest discussions involving the evolution of the definition.
 
 To build the website locally, first [install Hugo](https://gohugo.io/getting-started/installing)
@@ -40,15 +39,15 @@ hugo server -D
 
 ## Translating
 
-We're always looking for new localizations of the Ethical Source Definition and are thankful to the volunteers who spend their time on translations.
+We're always looking for new localizations of the Ethical Source Principles and are thankful to the volunteers who spend their time on translations.
 
 If you are interested in doing a translation, please follow these steps:
 
 1. Fork the repository and make a branch for your translation.
 1. If it's a new language, add it to `config.toml`,
   with a localized name and language code/optional region (e.g. `pt` or `pt-br`).
-1. To start from the English version, copy the contents of `definition.md`
-1. Create a markdown file with your translation in `content/definition.LANGUAGECODE.md`.
+1. To start from the English version, copy the contents of `principles.md`
+1. Create a markdown file with your translation in `content/principles.LANGUAGECODE.md`.
 1. Open a pull request.
 1. We will put out a call to have one or more other native speakers review the translation.
 1. Collaborate until the translation is satisfactory.
@@ -60,7 +59,7 @@ If you are interested in doing a translation, please follow these steps:
 
 ### Code Contributors
 
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+This project exists thanks to all the people around the world who contribute. [[Contribute](CONTRIBUTING.md)].
 <a href="https://github.com/EthicalSource/ethicalsource.dev/graphs/contributors"><img src="https://opencollective.com/ethical-source/contributors.svg?width=890&button=false" /></a>
 
 ### Financial Contributors
