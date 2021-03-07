@@ -1,4 +1,4 @@
-Copyright 2020 Coraline Ada Ehmke (“Licensor”)
+Copyright 2020 Organization for Ethical Source (“Licensor”)
 
 Hippocratic License Version Number: 2.1.
 
