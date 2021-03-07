@@ -1,23 +1,24 @@
 +++
 title = "The Ethical Source Principles"
 template = "definition"
+aliases = ["definition"]
 +++
 
-The practice of Ethical Source is informed by these principles:
+The practice of Ethical Source is informed by these seven principles:
 
-1. **Our work benefits the commons.** We release our software under conditions that do not prohibit modification, derivative works, and similar use and reuse in the general spirit of free, open source, source available, or other commons distribution.
-2. **Our work is done in the open.** We make our source code publicly available, develop and maintain it in public view, and welcome  public contributions.
-3. **Our community strives to be welcoming and just.** We have clear and documented rules for governance, and we consistently and fairly enforce a comprehensive code of conduct.
-4. **Our work puts accessibility first.** We design our software to be accessible, ensuring that all features and functionality are available to all users, including users who may rely on assistive devices.
-5. **Our work prioritizes user safety.** We design our software with features and safeguards to minimize the risk of abuse or harm to others through the its use or misuse.
-6. **Our work protects user privacy.** We design our software with controls for the complete deletion of any personal data gathered from its use, and for exporting any such data to the end-user on request in a human-readable or interoperable and open format.
-7. **Our work deserves support.** We are empowered to request remuneration in the form of code contributions, financial contributions, or other forms of voluntary support from organizations that derive commercial value from our software.
+1. **Our work benefits the commons.** We release it with permission to modify, create derivative works, use and reuse it, in the the spirit of openness bounded by ethical constraints.
+2. **Our work is done in the open.** We make our source publicly available, develop and maintain it in public view, and welcome public contributions.
+3. **Our community strives to be welcoming and just.** We practice transparent and just governance, and we consistently and fairly enforce a comprehensive code of conduct that codifies our values.
+4. **Our work respects accessibility as a human right.** We ensure that its full value is available to everyone, regardless of ability.
+5. **Our work prioritizes the safety of people.** We design safeguards to minimize the risk of abuse or harm to others through its use or misuse.
+6. **Our work protects privacy.** It stores as little personal data as possible and takes reasonable steps to ensure its security. All personal data it collects can be deleted on request, and all such data can be delivered to its originator in an open and human-readable format.
+7. **Our work deserves support.** We believe in the dignity of our work. When it is used for commercial gain, we rightfully expect those who profit from it to contribute back to its source and support our community in other tangible ways.
 
-We measure our success in adhering to these principles on _impact_ rather than _intent_. 
+We measure success in adhering to these principles through our _impact_ rather than our _intentions_. 
 
 ## Demonstrating Support for the Ethical Source Principles
 
-Communities are encouraged to display badges for the principles they strive for: 
+Communities are encouraged to display badges for the principles they commit to: 
 
 ![https://img.shields.io/badge/ethical-common%20good-%23bb8c3c?labelColor=393162](https://img.shields.io/badge/ethical-common%20good-%23bb8c3c?labelColor=393162) [https://img.shields.io/badge/ethical-common%20good-%23bb8c3c?labelColor=393162](https://img.shields.io/badge/ethical-common%20good-%23bb8c3c?labelColor=393162)
 
@@ -27,7 +28,7 @@ Communities are encouraged to display badges for the principles they strive for:
 
 ![https://img.shields.io/badge/ethical-accessibility-%23bb8c3c?labelColor=393162](https://img.shields.io/badge/ethical-accessibility-%23bb8c3c?labelColor=393162) [https://img.shields.io/badge/ethical-accessibility-%23bb8c3c?labelColor=393162](https://img.shields.io/badge/ethical-accessibility-%23bb8c3c?labelColor=393162)
 
-![https://img.shields.io/badge/ethical-user%20safety-%23bb8c3c?labelColor=393162](https://img.shields.io/badge/ethical-user%20safety-%23bb8c3c?labelColor=393162) [https://img.shields.io/badge/ethical-user%20safety-%23bb8c3c?labelColor=393162](https://img.shields.io/badge/ethical-user%20safety-%23bb8c3c?labelColor=393162)
+![https://img.shields.io/badge/ethical-safety-%23bb8c3c?labelColor=393162](https://img.shields.io/badge/ethical-safety-%23bb8c3c?labelColor=393162) [https://img.shields.io/badge/ethical-safety-%23bb8c3c?labelColor=393162](https://img.shields.io/badge/ethical-safety-%23bb8c3c?labelColor=393162)
 
 ![https://img.shields.io/badge/ethical-privacy-%23bb8c3c?labelColor=393162](https://img.shields.io/badge/ethical-privacy-%23bb8c3c?labelColor=393162) [https://img.shields.io/badge/ethical-privacy-%23bb8c3c?labelColor=393162](https://img.shields.io/badge/ethical-privacy-%23bb8c3c?labelColor=393162)
 
