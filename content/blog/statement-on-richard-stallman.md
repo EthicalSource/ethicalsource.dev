@@ -14,7 +14,7 @@ In a [video clip released today](https://twitter.com/nixcraft/status/13739053997
 
 But is that really how it has to be?
 
-The libertarian philosophy espoused by the founders and leaders of the FLOSS movement centers the primacy of the rights and benefits of individuals, demonstrated by granting them complete freedom. This philosophy is reflected in the amoral stance that software should be free to use for any purpose whatsoever, regardless of its impact on others. The actions of the FSF board only make sense if you believe in this primacy of the individual over the needs of the broader community. 
+The libertarian philosophy espoused by many of the founders and leaders of the FLOSS movement centers the primacy of the rights and benefits of individuals, demonstrated by granting them complete freedom. This philosophy is reflected in the amoral stance that software should be free to use for any purpose whatsoever, regardless of its impact on others. The actions of the FSF board only make sense if you believe in this primacy of the individual over the needs of the broader community. 
 
 On its website, the Free Software Foundation defines itself as a "worldwide community of ethical programmers." It proclaims that "[free software is only as successful as the communities that create, use, support, and advocate for it](https://fsf.org/community)."
 
