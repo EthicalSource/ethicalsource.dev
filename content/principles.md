@@ -39,4 +39,4 @@ Communities are encouraged to display badges for the principles they commit to:
 
 
 ## Attribution and Contributions
-Maintaining the Ethical Source Principles is the collective responsibility of [members of the Organization for Ethical Source](/apply). Pull requests and issues in our [source code repository](https://github.com/ethicalSource/ethicalsource.dev) are encouraged. Special thanks are extended to [Nate Berkopec](https://nateberkopec.com), [Will Barton](https://github.com/willbarton/), [Steve Phillips](https://tryingtobeawesome.com), and [Madalyn Parker](https://twitter.com/madalynrose) for their contributions.
+Maintaining the Ethical Source Principles is the collective responsibility of [members of the Organization for Ethical Source](/apply). Pull requests and issues in our [source code repository](https://github.com/ethicalSource/ethicalsource.dev) are welcomed. Special thanks are extended to [Nate Berkopec](https://nateberkopec.com), [Will Barton](https://github.com/willbarton/), [Steve Phillips](https://tryingtobeawesome.com), and [Madalyn Parker](https://twitter.com/madalynrose) for their contributions.
