@@ -18,7 +18,7 @@ The libertarian philosophy espoused by the founders and leaders of the FLOSS mov
 
 On its website, the Free Software Foundation defines itself as a "worldwide community of ethical programmers." It proclaims that "[free software is only as successful as the communities that create, use, support, and advocate for it](https://fsf.org/community)."
 
-So what does the appointment of a rape apologist to its board say about this community? Can the FSF simultaneously support someone like Stallman and still credibly claim to be the voice of ethics in technology? 
+So what does the appointment of a rape apologist to the FSF's board mean in this context? Can the FSF simultaneously support someone like Stallman and still credibly claim to be the voice of ethics in technology? 
 
 Inviting Stallman to return to the leadership position he left in disgrace is unquestionably a spectacular moral failure. This decision by the FSF makes it clear that the Four Freedoms of FLOSS are not a sufficient ethical framework for preventing harm in our communities, our industry, and the world at large. 
 
