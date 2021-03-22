@@ -10,7 +10,7 @@ In September of 2019, Richard M. Stallman, founder of the Free Software Foundati
 In his posts to a Free Software Foundation mailing list, Stallman said that the definition of rape used to frame Minsky’s crime was a “slippery slope”, and that the age of his victim shouldn’t be a factor in assessing his guilt. He claimed that the “most plausible scenario” was that the victims of sexual assault and human trafficking perpetrated by Epstein were “entirely willing”. 
 And this was not the first or only time that Stallman has made comments like this.
 
-But in a [video clip released today](https://twitter.com/nixcraft/status/1373905399707955202) from his talk at LibrePlanet, Stallman proudly announced his return to the board of the Free Software Foundation. He ends his statement saying that “some of you will be happy at this, and some might be disappointed. In any case, *that’s how it is*.” 
+In a [video clip released today](https://twitter.com/nixcraft/status/1373905399707955202) from his talk at LibrePlanet, Stallman proudly announced his return to the board of the Free Software Foundation. He ends his statement saying that “some of you will be happy at this, and some might be disappointed. In any case, *that’s how it is*.” 
 
 But is that really how it has to be?
 
