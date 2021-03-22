@@ -28,4 +28,4 @@ We need more than a manifesto proclaiming our rights as programmers. We need tra
 
 Centering our shared values in every aspect of our practice is critical to the sustainability and future of the open movement. Organizations like the Free Software Foundation, whose actions show a flagrant disregard for these values, cannot claim to represent our communities and certainly cannot be trusted with their future.
 
-_(Coraline Ada Ehmke, on behalf of the Organization for Ethical Source.)_
+_Coraline Ada Ehmke, on behalf of the Organization for Ethical Source._
