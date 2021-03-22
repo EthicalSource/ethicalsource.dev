@@ -41,6 +41,7 @@ title = "Ethical Source in the Media"
 * [Ethical Licensing Talking Points](https://talkingpoints.kemitchell.com/ethical-licenses.html)
 
 ## Podcasts
+* ["Coraline Ada Ehmke on Ethical Source", Creative Commons Open Minds 20th Anniversary Podcast](https://creativecommons.org/2021/03/19/open-minds-podcast-coraline-ada-ehmke-on-ethical-source/)
 * ["Real Rebels Pay Their Taxes", Greater Than Code](https://www.greaterthancode.com/real-rebels-pay-their-taxes)
 * ["The Ethical Open Source Movement", Greater Than Code](https://www.greaterthancode.com/the-ethical-open-source-movement)
 * ["Creating a Support Network for Maintainers", Sustain](https://sustain.codefund.fm/25)
