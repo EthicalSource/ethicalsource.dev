@@ -1,6 +1,7 @@
 +++
 title = "Statement on Richard Stallman's Return to the FSF Board"
 heading = "Stallman’s \"that’s how it is\" is not how it has to be."
+summary = "Organizations like the Free Software Foundation, whose actions show a flagrant disregard for our values, cannot claim to represent our communities and certainly cannot be trusted with their future."
 +++
 
 <time>March 22, 2021</time>
