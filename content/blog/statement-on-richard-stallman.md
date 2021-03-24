@@ -23,7 +23,7 @@ So what does the appointment of a rape apologist to the FSF's board mean in this
 
 Inviting Stallman to return to the leadership position he left in disgrace is unquestionably a spectacular moral failure. This decision by the FSF makes it clear that the Four Freedoms of FLOSS are not a sufficient ethical framework for preventing harm in our communities, our industry, and the world at large. 
 
-Meaningful ethical principles must inform how we govern our communities, how we decide what to create, and most importantly how we consider the impact or our work on the well-being of other people. And these ethical principles must be reflected in our institutions.
+Meaningful ethical principles must inform how we govern our communities, how we decide what to create, and most importantly how we consider the impact of our work on the well-being of other people. And these ethical principles must be reflected in our institutions.
 
 We need more than a manifesto proclaiming our rights as programmers. We need transparent and representative governance. We need leaders that share our values of justice and equity. We need a framework that guides us to better outcomes for our broader society, not just for ourselves.
 
