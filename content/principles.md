@@ -6,7 +6,7 @@ aliases = ["definition"]
 
 The practice of Ethical Source is informed by these seven principles:
 
-1. **Our work benefits the commons.** We grant permission to modify, create derivative works, use and reuse it, in the the spirit of openness and bounded by ethical constraints.
+1. **Our work benefits the commons.** We grant permission to modify, create derivative works, use and reuse it, in the spirit of openness and bounded by ethical constraints.
 2. **Our work is done in the open.** We make our source publicly available, develop and maintain it in public view, and welcome public contributions.
 3. **Our community strives to be welcoming and just.** We practice transparent and just governance, and we consistently and fairly enforce a comprehensive code of conduct that codifies our values.
 4. **Our work respects accessibility as a human right.** We ensure that the full value of our work is available to everyone, regardless of ability.
