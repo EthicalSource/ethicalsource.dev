@@ -3,6 +3,7 @@ title = "Ethical Source in the Media"
 +++
 
 ## In the Press
+* [Free Software Can’t Exist without Richard Stallman?](https://thenewstack.io/this-week-in-programming-free-software-cant-exist-without-richard-stallman/) (The New Stack, March 26 2021)
 * [Free Software Foundation urged to free itself of Richard Stallman by hundreds of developers and techies](https://www.theregister.com/2021/03/23/fsf_stallman_outcry/). (The Register, March 23 2021)
 * [Regouverner: la nouvelle ère des licences libres](https://www.internetactu.net/2021/02/17/regouverner-1-2-la-nouvelle-ere-des-licences-libres/). (internetactu.net, 17 Feb 2021)
 * [Can Software Handle Ethics?](https://news.kgnu.org/2021/01/looks-like-new-can-software-handle-ethics/). (Looks Like New on KGNU Public Radio, Jan 28 2021)
