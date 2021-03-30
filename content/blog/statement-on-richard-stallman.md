@@ -37,4 +37,4 @@ Centering our shared values in every aspect of our practice is critical to the s
 
 _Coraline Ada Ehmke, on behalf of the Organization for Ethical Source._
 
-Revised 2021-03-30: Our statement now links to sources for to Stallman's statements and behavior, using primary sources where possible.
+Revised 2021-03-30: Our statement now links to sources for Stallman's statements and behavior, using primary sources where possible.
