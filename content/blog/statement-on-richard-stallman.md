@@ -6,10 +6,7 @@ summary = "Organizations like the Free Software Foundation, whose actions show a
 
 <time>March 22, 2021</time>
 
-In September of 2019, Richard M. Stallman, founder of the Free Software Foundation, resigned as president and member of the board. This came in the wake of outrageous and morally reprehensible remarks he made about the sexual assault of a 17-year-old victim by Marvin Minsky, a prominent AI researcher and associate of Jeffrey Epstein. 
-
-In his posts to a Free Software Foundation mailing list, Stallman said that the definition of rape used to frame Minsky’s crime was a “slippery slope”, and that the age of his victim shouldn’t be a factor in assessing his guilt. He claimed that the “most plausible scenario” was that the victims of sexual assault and human trafficking perpetrated by Epstein were “entirely willing”. 
-And this was not the first or only time that Stallman has made comments like this.
+In September of 2019, Richard M. Stallman, founder of the Free Software Foundation, resigned as president and member of the board. This came in the wake of outrageous and morally reprehensible remarks he made about the sexual assault of a 17-year-old victim by Marvin Minsky, a prominent AI researcher and associate of Jeffrey Epstein. And this was not the first or only time that Stallman has made comments like this. (This [Wikipedia article](https://en.wikipedia.org/wiki/Richard_Stallman) provides references and context.)
 
 In a [video clip released today](https://twitter.com/nixcraft/status/1373905399707955202) from his talk at LibrePlanet, Stallman proudly announced his return to the board of the Free Software Foundation. He ends his statement saying that “some of you will be happy at this, and some might be disappointed. In any case, *that’s how it is*.” 
 
