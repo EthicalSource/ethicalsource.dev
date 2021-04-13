@@ -3,6 +3,7 @@ title = "Ethical Source in the Media"
 +++
 
 ## In the Press
+* [Why (Almost) Everyone Wants Richard Stallman Cancelled](https://thenewstack.io/why-almost-everyone-wants-richard-stallman-cancelled/) (The New Stack, April 13 2021)
 * [Free Software Can’t Exist without Richard Stallman?](https://thenewstack.io/this-week-in-programming-free-software-cant-exist-without-richard-stallman/) (The New Stack, March 26 2021)
 * [Free Software Foundation urged to free itself of Richard Stallman by hundreds of developers and techies](https://www.theregister.com/2021/03/23/fsf_stallman_outcry/). (The Register, March 23 2021)
 * [Regouverner: la nouvelle ère des licences libres](https://www.internetactu.net/2021/02/17/regouverner-1-2-la-nouvelle-ere-des-licences-libres/). (internetactu.net, 17 Feb 2021)
