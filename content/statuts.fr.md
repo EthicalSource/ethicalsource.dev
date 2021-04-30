@@ -48,14 +48,14 @@ Peuvent prétendre à devenir membre les personnes physiques ou morales, à l'ex
 
 L'association est composée de:
 
-*   Membres actif•ve•s — Les membres actif•ve•s participent activement aux activités de l'association, comme déterminé par le comité. Les membres actif•ve•s ont un droit de vote à l'assemblée générale et sont exempté•e•s de cotisation.
-*   Membres émérites — Les membres émérites sont les membres acti•ve•s de l'association qui ne participent plus activement aux activités de l'association, comme déterminé par le comité. Les membres émérites perdent leur droit de vote à l'assemblée générale mais restent exempté•e•s de cotisation.
-*   Membres fondateur•rice•s — Les membres fondateur•rice•s sont les membres qui ont participé•e•s à l'assemblée générale constituante. Les membres fondateur•rice•s ont un droit de vote à l'assemblée générale et sont exempté•e•s de cotisation.
+*   Membres actif·ve·s — Les membres actif·ve·s participent activement aux activités de l'association, comme déterminé par le comité. Les membres actif·ve·s ont un droit de vote à l'assemblée générale et sont exempté·e·s de cotisation.
+*   Membres émérites — Les membres émérites sont les membres acti·ve·s de l'association qui ne participent plus activement aux activités de l'association, comme déterminé par le comité. Les membres émérites perdent leur droit de vote à l'assemblée générale mais restent exempté·e·s de cotisation.
+*   Membres fondateur·rice·s — Les membres fondateur·rice·s sont les membres qui ont participé·e·s à l'assemblée générale constituante. Les membres fondateur·rice·s ont un droit de vote à l'assemblée générale et sont exempté·e·s de cotisation.
 *   Membres d'honneur — Les membres d'honneur sont élus par l'assemblée générale sur recommandation du comité. Ces membres n'ont pas à verser de cotisation et n'ont pas de droit de vote.
 *   Membres de soutien — Les membres de soutien soutiennent les activités de l'association par leurs cotisations, mais n'ont pas de droit de vote.
-*   Membres associés — Les membres associés sont des organisations qui ne poursuivent pas de but commercial et dont les activités sont en lien avec les activités de l'association. Les membres associés ne paient pas de cotisations et n'ont pas de droit de vote. Il sont représentés à l'assemblée générale par un•e délégué•e.
+*   Membres associés — Les membres associés sont des organisations qui ne poursuivent pas de but commercial et dont les activités sont en lien avec les activités de l'association. Les membres associés ne paient pas de cotisations et n'ont pas de droit de vote. Il sont représentés à l'assemblée générale par un·e délégué·e.
 
-Ne peuvent devenir membre actif•ve, émérite, fondateur•rice, d'honneur et de soutien que les personnes physiques.
+Ne peuvent devenir membre actif·ve, émérite, fondateur·rice, d'honneur et de soutien que les personnes physiques.
 
 Les demandes d'admission sont adressées au comité. Le comité admet les nouveaux membres et en informe l'assemblée générale.
 
@@ -66,7 +66,7 @@ La qualité de membre se perd:
 *   par exclusion prononcée par le comité, pour "de juste motifs", avec un droit de recours devant l'assemblée générale. Le délai de recours est de trente jours dès la notification de la décision du comité
 *   par défaut de paiement des cotisations pendant plus d'une année.
 
-Dans tous les cas, la cotisation de l'année reste due. Les membres démissionnaires ou exclu•e•s n'ont aucun droit à l'avoir social.
+Dans tous les cas, la cotisation de l'année reste due. Les membres démissionnaires ou exclu·e·s n'ont aucun droit à l'avoir social.
 
 Le patrimoine de l'association répond seul aux engagements contractés en son nom. Toute responsabilité personnelle de ses membres est exclue.
 
@@ -90,7 +90,7 @@ L'assemblée générale est le pouvoir suprême de l'association. Elle est compo
 
 Elle se réunit une fois par an en session ordinaire. Elle peut, en outre, se réunir en session extraordinaire chaque fois que nécessaire à la demande du comité ou de 1/5ème des membres.
 
-L'assemblée générale est valablement constituée quel que soit le nombre de membres présent•e•s.
+L'assemblée générale est valablement constituée quel que soit le nombre de membres présent·e·s.
 
 Les membres peuvent participer à distance à l'assemblée générale à l'aide de moyens électroniques (par exemple, la visioconférence).
 
@@ -112,13 +112,13 @@ L'assemblée générale:
 
 ### Article 9
 
-L'assemblée générale est présidée par le ou la président•e de l'association, qui peut choisir de déléguer cette responsabilité à un autre membre du comité.
+L'assemblée générale est présidée par le ou la président·e de l'association, qui peut choisir de déléguer cette responsabilité à un autre membre du comité.
 
 ### Article 10
 
-Les décisions de l'assemblée générale sont prises à la majorité simple des voix des membres présent•e•s ou participant à distance à l'aide de moyens électroniques. En cas d'égalité des voix, celle de la présidence compte double.
+Les décisions de l'assemblée générale sont prises à la majorité simple des voix des membres présent·e·s ou participant à distance à l'aide de moyens électroniques. En cas d'égalité des voix, celle de la présidence compte double.
 
-Les décisions relatives à la modification des statuts et à la dissolution de l'association nécessitent la majorité des 2/3 des membres présent•e•s ou participant à distance, ainsi que l'unanimité des membres fondateur•rice•s présent•e•s ou participant à distance.
+Les décisions relatives à la modification des statuts et à la dissolution de l'association nécessitent la majorité des 2/3 des membres présent·e·s ou participant à distance, ainsi que l'unanimité des membres fondateur·rice·s présent·e·s ou participant à distance.
 
 ### Article 11
 
@@ -148,11 +148,11 @@ Le comité est autorisé à faire tous les actes qui se rapportent au but de l'a
 
 ### Article 14
 
-Le comité se compose au minimum de trois (3) et au maximum de sept (7) membres élu•e•s par l'assemblée générale.
+Le comité se compose au minimum de trois (3) et au maximum de sept (7) membres élu·e·s par l'assemblée générale.
 
-Les membres du comité sont exempté•e•s de cotisation.
+Les membres du comité sont exempté·e·s de cotisation.
 
-Le comité se constitue lui-même et désigne au moins un•e président•e, un•e secrétaire et un•e trésorier•ère.
+Le comité se constitue lui-même et désigne au moins un·e président·e, un·e secrétaire et un·e trésorier·ère.
 
 La durée du mandat est de deux (2) ans renouvelable sans limitation.
 
@@ -189,7 +189,7 @@ Les vérificateurs des comptes vérifient le compte d'exploitation et le bilan a
 
 ### Article 18
 
-L'association est valablement engagée par la signature individuelle de la présidence, de la trésorerie, du secrétariat, ou d'un ou d'une membre fondateur•ice.
+L'association est valablement engagée par la signature individuelle de la présidence, de la trésorerie, du secrétariat, ou d'un ou d'une membre fondateur·ice.
 
 
 ## Communications 
