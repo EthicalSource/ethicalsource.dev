@@ -6,9 +6,7 @@ summary = "This is the first post of a series explaining the Organization for Et
 
 <time>May 3, 2021</time>
 
-As you know, the Ethical Source movement [organized into a legal entity](/blog/oes-announcement/) in late January.
-
-We had some goals when creating this structure that we took great care to reflect in its [statutes](/statutes) (which we also sometimes refer to as “bylaws”), its [code of conduct](/community-code-of-conduct), and its working mode (not published yet). We wanted a lightweight and simple structure that reflects our existing ad hoc practices, limits bureaucracy, and empowers our community to drive industry-wide change. We wanted active members to steer the direction of the organization. And we wanted to sustainably anchor our work around our mission to promote ethical practices and outcomes in free and open source software and other digital commons.
+The Ethical Source movement [organized into a legal entity](/blog/oes-announcement/) in late January. We had some goals when creating this structure that we took great care to reflect in its [statutes](/statutes) (which we also sometimes refer to as “bylaws”), its [code of conduct](/community-code-of-conduct), and its working mode (not published yet). We wanted a lightweight and simple structure that reflects our existing ad hoc practices, limits bureaucracy, and empowers our community to drive industry-wide change. We wanted active members to steer the direction of the organization. And we wanted to sustainably anchor our work around our mission to promote ethical practices and outcomes in free and open source software and other digital commons.
 
 In the next few blog posts we’re going to explain how this structure works in practice, how it enables our mission, and the different ways in which you can get involved, contribute, and help steer it.
 
