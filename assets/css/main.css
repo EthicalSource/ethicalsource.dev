@@ -614,3 +614,7 @@ ul.blog-index li {
   padding-bottom: 1rem;
   border-bottom: 1px solid #cccccc;
 }
+
+section img {
+  width: 100%;
+}

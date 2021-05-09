@@ -14,7 +14,7 @@ We’ll follow each post with a live session for our existing community and for 
 
 We’ll organize the blog posts from most pragmatic (“I just want to participate, where do I sign?”) to most theoretical (“Please explain the provision in article 21 of the bylaws”). This might change a little, but for now we’re planning the seven following posts:
 
-1. Active members & paths to membership
+1. [Active members & paths to membership](/blog/paths-to-membership)
 2. Working groups & working mode
 3. Code of conduct
 4. General assembly & overall structure
