@@ -34,7 +34,7 @@ That’s a lot of moving parts! We’re trying to keep the focus on one aspect a
 
 Here’s a flowchart to help you navigate the different options for participation in the OES:
 
-![A flowchart of the membership flow.](static/img/blog/membershipflowchart.svg)
+![A flowchart of the membership flow.](/img/blog/membershipflowchart.svg)
 
 **Active Members** are folks who are actively contributing to one or more Working Groups, and are the backbone of the OES. They have full voting rights, because we want the people doing the work to make the decisions.
 
