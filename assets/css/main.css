@@ -618,3 +618,7 @@ ul.blog-index li {
 section img {
   width: 100%;
 }
+
+.byline {
+  font-weight: bold;
+}
