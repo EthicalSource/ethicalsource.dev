@@ -616,7 +616,7 @@ ul.blog-index li {
 }
 
 section img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .byline {
