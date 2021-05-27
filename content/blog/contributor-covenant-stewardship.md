@@ -7,7 +7,7 @@ summary = "The Ethical Source community will draw on global voices and perspecti
 
 GENEVA, Switzerland, May 27, 2021 --- [The Organization for Ethical Source](https://ethicalsource.dev/) (OES), the nonprofit helping open source developers ensure that their work is being used for social good and in service of human rights, today announced that it is taking on the stewardship of [Contributor Covenant](https://www.contributor-covenant.org/), the preeminent code of conduct for open source communities.
 
-"Today, this historic document enters the next phase of its evolution," said Nathan Schnieder, professor of media studies at the University of Colorado Boulder and OES member. "This milestone marks its 'exit to community,' as Contributor Covenant graduates from a passion project into a community-owned asset."
+"Today, this historic document enters the next phase of its evolution," said Nathan Schneider, professor of media studies at the University of Colorado Boulder and OES member. "This milestone marks its 'exit to community,' as Contributor Covenant graduates from a passion project into a community-owned asset."
 
 Contributor Covenant was created in 2014 by Coraline Ada Ehmke, an internationally recognized engineer and activist. In 2019 she created the Hippocratic License, which prohibits the use of software in the violation of internationally recognized human rights, and launched the Ethical Source Movement. Ehmke co-founded the OES earlier this year, and is announcing her new full-time role as the organization's first executive director.
 
