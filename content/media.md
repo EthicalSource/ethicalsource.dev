@@ -53,6 +53,7 @@ title = "Ethical Source in the Media"
 * ["Ethical Open Source", Greater Than Code](https://www.greaterthancode.com/ethical-open-source)
 
 ## Conference Talks and Panel Discussions
+* [Beyond Code: Centering People in Open Source](https://www.youtube.com/watch?v=1tpPQ1fYW5Y) by Tobie Langel and Coraline Ada Ehmke (Open Source Lisbon, June 18 2021)
 * [Workshop on Ethical Open Source](https://www.colorado.edu/center/demtech/coraline-ada-ehmke-ethical-open-source) by Coraline Ada Ehmke (Colorado Research Center for Democracy & Technology, February 22 2021)
 * [Ethical Source, Strong Copyleft, and Open Software Business Models](https://www.youtube.com/watch?v=lweK7hOD5TU)
 * [The Ethics of Open Source: A Critical Reflection](https://fosdem.org/2020/schedule/event/ethicsoss/) by Don Goodman-Wilson (FOSDEM, February 2 2020)
