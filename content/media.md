@@ -33,6 +33,23 @@ title = "Ethical Source in the Media"
 * [The Great Open Source Divide: ICE, Hippocratic License and the Controversy](https://itsfoss.com/hippocratic-license/) (It's FOSS, Sep 24 2019)
 * [You can't open-source license morality](https://www.zdnet.com/article/you-cant-open-source-license-morality/) (ZDNet, Sep 24 2019)
 
+## Conference Talks and Panel Discussions
+* [The Social Responsibility of Software Engineers](https://www.youtube.com/watch?v=sbbOvptDgu4) by Coraline Ada Ehmke (Keynote, Cloud Foundry Summit, July 21 2021)
+* [Beyond Code: Centering People in Open Source](https://www.youtube.com/watch?v=1tpPQ1fYW5Y) by Tobie Langel and Coraline Ada Ehmke (Open Source Lisbon, June 18 2021)
+* [Workshop on Ethical Open Source](https://www.colorado.edu/center/demtech/coraline-ada-ehmke-ethical-open-source) by Coraline Ada Ehmke (Colorado Research Center for Democracy & Technology, February 22 2021)
+* [Ethical Source, Strong Copyleft, and Open Software Business Models](https://www.youtube.com/watch?v=lweK7hOD5TU)
+* [The Ethics of Open Source: A Critical Reflection](https://fosdem.org/2020/schedule/event/ethicsoss/) by Don Goodman-Wilson (FOSDEM, February 2 2020)
+* [Bringing Back Ethics to Open Source](https://fosdem.org/2020/schedule/event/ethicsbackinoss/) by Tobie Langel (FOSDEM, February 2 2020)
+* [The Rising Ethical Storm in Open Source](https://where.coraline.codes/talks/ethical-open-source/) by Coraline Ada Ehmke (CopyleftConf, February 3 2020)
+
+## Podcasts
+* [Ethics in Open Source](https://anchor.fm/ethicsinopensource)
+* ["Coraline Ada Ehmke on Ethical Source", Creative Commons Open Minds 20th Anniversary Podcast](https://creativecommons.org/2021/03/19/open-minds-podcast-coraline-ada-ehmke-on-ethical-source/)
+* ["Real Rebels Pay Their Taxes", Greater Than Code](https://www.greaterthancode.com/real-rebels-pay-their-taxes)
+* ["The Ethical Open Source Movement", Greater Than Code](https://www.greaterthancode.com/the-ethical-open-source-movement)
+* ["Creating a Support Network for Maintainers", Sustain](https://sustain.codefund.fm/25)
+* ["Ethical Open Source", Greater Than Code](https://www.greaterthancode.com/ethical-open-source)
+
 ## Blog Posts
 * [Open Source as a Force for Good](https://blog.erlend.sh/open-source-as-a-force-for-good-8d741676ee81)
 * [Thoughts by Coraline Ada Ehmke on the Ethical Source Movement in the 2020 OSI Board Elections](https://where.coraline.codes/blog/ethical-source-osi-elections/)
@@ -45,17 +62,3 @@ title = "Ethical Source in the Media"
 * [Don't Just Do Something, Stand There](https://anonymoushash.vmbrasseur.com/2019/09/22/dont-just-do-something-stand-there/)
 * [Ethical Licensing Talking Points](https://talkingpoints.kemitchell.com/ethical-licenses.html)
 
-## Podcasts
-* ["Coraline Ada Ehmke on Ethical Source", Creative Commons Open Minds 20th Anniversary Podcast](https://creativecommons.org/2021/03/19/open-minds-podcast-coraline-ada-ehmke-on-ethical-source/)
-* ["Real Rebels Pay Their Taxes", Greater Than Code](https://www.greaterthancode.com/real-rebels-pay-their-taxes)
-* ["The Ethical Open Source Movement", Greater Than Code](https://www.greaterthancode.com/the-ethical-open-source-movement)
-* ["Creating a Support Network for Maintainers", Sustain](https://sustain.codefund.fm/25)
-* ["Ethical Open Source", Greater Than Code](https://www.greaterthancode.com/ethical-open-source)
-
-## Conference Talks and Panel Discussions
-* [Beyond Code: Centering People in Open Source](https://www.youtube.com/watch?v=1tpPQ1fYW5Y) by Tobie Langel and Coraline Ada Ehmke (Open Source Lisbon, June 18 2021)
-* [Workshop on Ethical Open Source](https://www.colorado.edu/center/demtech/coraline-ada-ehmke-ethical-open-source) by Coraline Ada Ehmke (Colorado Research Center for Democracy & Technology, February 22 2021)
-* [Ethical Source, Strong Copyleft, and Open Software Business Models](https://www.youtube.com/watch?v=lweK7hOD5TU)
-* [The Ethics of Open Source: A Critical Reflection](https://fosdem.org/2020/schedule/event/ethicsoss/) by Don Goodman-Wilson (FOSDEM, February 2 2020)
-* [Bringing Back Ethics to Open Source](https://fosdem.org/2020/schedule/event/ethicsbackinoss/) by Tobie Langel (FOSDEM, February 2 2020)
-* [The Rising Ethical Storm in Open Source](https://where.coraline.codes/talks/ethical-open-source/) by Coraline Ada Ehmke (CopyleftConf, February 3 2020)
