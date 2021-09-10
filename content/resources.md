@@ -34,7 +34,6 @@ This page is a list of readings in topics covering Ethical Source, its philosoph
 
 ### History and Critique of Open Source
 - [What does “open source” mean in 2021?](https://funnelfiasco.com/blog/2021/01/25/what-does-open-source-mean-in-2021/)
-- ["What Does Open Source Mean?", Gil Yehuda](https://www.linkedin.com/pulse/what-does-open-source-mean-gil-yehuda/)
 - ["#wontfix: endorsements can’t fix the Open Source Definition", Kyle E. Mitchell](https://writing.kemitchell.com/2019/04/23/OSD-wontfix.html)
 - ["The Californian Ideology", Richard Barbrook and Andy Cameron](https://www.metamute.org/editorial/articles/californian-ideology)
 - ["Rebuttal of the Californian Ideology", Louis Rossetto](https://www.alamut.com/subj/ideologies/pessimism/califIdeo_II.html)
