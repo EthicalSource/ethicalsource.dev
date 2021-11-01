@@ -34,6 +34,8 @@ title = "Ethical Source in the Media"
 * [You can't open-source license morality](https://www.zdnet.com/article/you-cant-open-source-license-morality/) (ZDNet, Sep 24 2019)
 
 ## Conference Talks and Panel Discussions
+* [Emerging Trends in Open](https://www.youtube.com/watch?v=9Z98OVawxI4&list=PLPDjhzarwzCiXe3nmpJJpyTyGoG3SIsKR&index=13) Creative Commons 2021 Global Summit panel discussion (September 24 2021)
+* [The Future of Open Source](https://www.youtube.com/playlist?list=PL5k3dDDhwiFSqQ28peRRtMqJVbxLNeOl-), a panel series in collaboration with the UCLA Institute for Technology Law and Practice and Corporate Accountability Lab (October 18 2021)
 * [The Social Responsibility of Software Engineers](https://www.youtube.com/watch?v=sbbOvptDgu4) by Coraline Ada Ehmke (Keynote, Cloud Foundry Summit, July 21 2021)
 * [Beyond Code: Centering People in Open Source](https://www.youtube.com/watch?v=1tpPQ1fYW5Y) by Tobie Langel and Coraline Ada Ehmke (Open Source Lisbon, June 18 2021)
 * [Workshop on Ethical Open Source](https://www.colorado.edu/center/demtech/coraline-ada-ehmke-ethical-open-source) by Coraline Ada Ehmke (Colorado Research Center for Democracy & Technology, February 22 2021)
