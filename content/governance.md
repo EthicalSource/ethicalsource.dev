@@ -4,7 +4,7 @@ title = "Governance"
 
 ## Organization for Ethical Source
 
-Ahead of a [general assembly](/statutes#general-assembly) and election of additional committee members later this year, the [committee](/statutes#committee) is currently composed of the organization's founding members: Coraline Ada Ehmke, Don Goodman-Wilson, and Tobie Langel.
+Ahead of the election of additional committee members in early 2022, the Board of Directors is currently composed of Coraline Ada Ehmke, Sameeul Haque, Astrid Countee, and Alex Culliere.
 
-* Bylaws ([English](/statutes) | [Français](/fr/statuts))
-* Code of Conduct ([English](/community-code-of-conduct) | [Français](/fr/code-de-conduite))
+* [Our bylaws](/bylaws)
+* Our Code of Conduct ([English](/community-code-of-conduct) | [Français](/fr/code-de-conduite))
