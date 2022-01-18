@@ -1,5 +1,6 @@
 +++
 title = "Bylaws of the Organization for Ethical Source"
+aliases = ["statutes"]
 +++
 
 ## NAME
