@@ -25,7 +25,7 @@ html {
 body {
   background: var(--color-primary);
   color: var(--color-black);
-  font: 300 1.25rem/1.875rem "Metropolis", sans-serif;
+  font: 300 1.25rem/1.875rem "Source Code Pro Regular", sans-serif;
   font-synthesis: none;
   -moz-hanging-punctuation: first last allow-end;
   -ms-hanging-punctuation: first last allow-end;
@@ -53,9 +53,9 @@ section {
 
 .page-title h1 {
   color: #000;
-  text-transform: none;
-  font-size: 5rem;
-  line-height: 5rem;
+  text-transform: lowercase;
+  font-size: 10rem;
+  line-height: 10rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #c8953a;
 }
@@ -128,17 +128,19 @@ blockquote {
 
 /* Headers */
 h1 {
+  font-family: "Coco Sharp Extra Bold";
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: .125rem;
   line-height: 3rem;
   margin: 1.5rem;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 h2 {
+  font-family: "Backlash Small Caps";
   font-size: 3rem;
-  font-weight: 500;
+  /* font-weight: 500; */
   line-height: 3rem;
   margin: 1rem;
   padding-top: 3rem;
@@ -425,7 +427,7 @@ header a:hover {
   }
 
   .page-title h1 {
-    font-size: 3rem;
+    font-size: 6rem;
     line-height: 5rem;
     width: 100%;
   }
@@ -465,6 +467,8 @@ header a:hover {
 
   nav {
     position: absolute;
+    font-family: "Coco Sharp";
+    text-transform: lowercase;
     top: 1rem;
     width: 25rem;
     right: 0.5rem;
@@ -482,6 +486,7 @@ header a:hover {
     padding-bottom: 6rem;
     height: 40rem;
     min-height: 30rem;
+    text-align: center;
   }
 
 }
