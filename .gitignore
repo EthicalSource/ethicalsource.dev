@@ -1,5 +1,6 @@
 /public
-.DS_Store
-*.lock
-/resources/_gen
-.nova/*
+*.DS_Store
+.hugo_build.lock
+/resources/
+/netlify/*.dist*
+/.nova/*

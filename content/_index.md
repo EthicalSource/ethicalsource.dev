@@ -1,6 +1,7 @@
 +++
 title = "Ethical Source: Open Source, Evolved."
-heading = "We are the Organization for Ethical Source."
+heading = "Ethical Source: Open Source, Evolved."
+header = "banner"
 +++
 
 Christine Peterson coined the term “open source” in 1998.

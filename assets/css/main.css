@@ -1,3 +1,5 @@
+/* Pixel-to-rem calculator: https://nekocalc.com/px-to-rem-converter */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,15 +7,16 @@
 
 /* Variables */
 :root {
-  --color-primary: #1e1a33;
-  --color-primary-lighter: #999999;
-  --color-primary-lightest: #cc9999;
-  --color-green: hsl(153, 90%, 30%);
-  --color-orange: hsl(18, 100%, 50%);
-  --color-red: hsl(333, 100%, 40%);
-  --color-blue: hsl(198, 90%, 40%);
-  --color-black: #000;
-  --color-white: #FFF;
+  --color-primary: #FFFFFF;
+  --color-blue: #1E1A34;
+  --color-blue-tint: #1E1A34;
+  --color-gold: #BC8C3D;
+  --color-gold-tint: #E1D3B3;
+  --color-black: #1D1D1D;
+  --color-medium-black: #353535;
+  --color-light-grey: #7D7D7D;
+  --color-purple: #5E2751;
+  --color-white: #FFFFFF;
 }
 
 /* Primary Elements */
@@ -43,6 +46,15 @@ section {
   box-sizing: border-box;
   margin: 0 auto 1rem auto;
   padding: 0rem 30rem 0rem 3rem;
+}
+
+.banner {
+  background: var(--color-blue);
+}
+
+.banner h1 {
+  color: var(--color-white);
+  text-transform: lowercase;
 }
 
 .page-title {
@@ -83,13 +95,13 @@ section {
 }
 
 #navigation a {
-    display:inline-block;
+    display: inline-block;
     padding: 0;
 }
 
 ul,
 ol {
-  list-style-position: outside;
+  list-style-position: inside;
   margin: 1.5rem 0 1.5rem 5rem;
 }
 
@@ -108,6 +120,7 @@ strong {
 
 header {
   color: var(--color-white);
+  background: var(--color-blue);
   height: 20rem;
 }
 

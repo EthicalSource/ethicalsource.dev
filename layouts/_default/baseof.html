@@ -1,6 +1,8 @@
 {{- $fontStyle := resources.Get "css/fonts.css" -}}
 {{- $mainStyle := resources.Get "css/main.css" -}}
-{{- $css := slice $fontStyle $mainStyle | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint -}}
+{{- $typeStyle := resources.Get "css/typography.css" -}}
+
+{{- $css := slice $fontStyle $typeStyle $mainStyle | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint -}}
 {{- $mainJs := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint -}}
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
@@ -24,7 +26,7 @@
 
   <body{{ with .Section }} id="{{ . }}"{{ end }}>
     <div>
-      <header>
+      <header{{ with .Params.HeadingStyle }} class="{{ . }}"{{ end }}>
         <figure>
           <a href="/">
             <img class="logo" src="/img/ethical_source.jpg" alt="Organization for Ethical Source Logo">

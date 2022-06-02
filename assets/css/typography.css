@@ -1,0 +1,96 @@
+/* Pixel-to-rem calculator: https://nekocalc.com/px-to-rem-converter */
+
+/* colors cheatsheet
+  --color-primary: #FFFFFF;
+  --color-blue: #1E1A34;
+  --color-blue-tint: #1E1A34;
+  --color-gold: #BC8C3D;
+  --color-gold-tint: #E1D3B3;
+  --color-black: #1D1D1D;
+  --color-medium-black: #353535;
+  --color-light-grey: #7D7D7D;
+  --color-purple: #5E2751;
+  --color-white: #FFFFFF;
+} */
+
+/* Headers */
+h1 {
+  font-family: "Coco Sharp Extra Bold";
+  font-size: 10rem;
+  font-weight: 600;
+  letter-spacing: .125rem;
+  line-height: 3rem;
+  margin: 1.5rem;
+  text-transform: lowercase;
+}
+
+h2 {
+  font-family: "Backlash Small Caps";
+  font-size: 3rem;
+  /* font-weight: 500; */
+  line-height: 3rem;
+  margin: 1rem;
+  padding-top: 3rem;
+  width: 75%;
+}
+
+* + h2 {
+  margin-top: 3rem;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+p {
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  margin: 1.5rem 0;
+}
+
+/* Inline Elements */
+a {
+  color: #1e1533
+  font-weight: 500;
+  text-decoration: underline;
+  transition: color 125ms, background-color 125ms;
+}
+
+a:focus,
+a:hover {
+  color: var(--color-black);
+}
+
+a span {
+  color: var(--color-black);
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 400;
+}
+
+code,
+kbd {
+  font-family: "Metropolis", monospace;
+  letter-spacing: .0625rem;
+}
+
+cite {
+  font-style: italic;
+}
+
+cite::before {
+  content: "— ";
+}
+
+abbr {
+  text-decoration: none;
+}
+
+#veil {
+  background: var(--color-white);
+  width: auto;
+}
