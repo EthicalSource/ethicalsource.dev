@@ -52,14 +52,7 @@
       </footer>
     </div>
 
-    <nav id="navigation">
-      <ul>
-        <li><a href="#">Who We Are</a></li>
-        <li><a href="#">What We Do</a></li>
-        <li><a href="#">What We Believe</a></li>
-        <li><a href="#">More</a></li>
-      </ul>
-    </nav>
+    {{ partial "navigation" . }}
 
     <script src="{{ $mainJs.RelPermalink }}" integrity="{{ $mainJs.Data.Integrity }}"></script>
   </body>

@@ -1,5 +1,7 @@
 /* background-image: linear-gradient(to right, rgba(109, 179, 242, .6), rgba(109, 179, 242, .6)), url('images/checked.png'); */
 
+/* TODO: refactor to minimize attributes per hero */
+
 .home-hero {
     position: relative;
     height: 100%;
@@ -15,6 +17,6 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: var(--color-blue);
+    background: linear-gradient(var(--color-blue-tint), var(--color-blue));
     opacity: 0.9;
 }

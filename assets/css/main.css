@@ -63,10 +63,10 @@ section {
 }
 
 #navigation {
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
+  list-style: none;
+  margin: 3.438rem 0 0 0;
+  padding: 0;
+  text-align: left;
 }
 
 #navigation ul {
@@ -74,19 +74,16 @@ section {
 }
 
 #navigation li {
-    display:block;
-    width: 20rem;
-    margin: .25rem;
-    padding: .25rem;
-    border: 1px solid #1e1a33;
-    background-color: #fff;
-    border-radius: 5px;
-    font-size: 1rem;
+  float: left;
+  display: inline;
+  /* margin: 1em 3.125rem; */
+  font-size: 1rem;
 }
 
 #navigation a {
-    display: inline-block;
-    padding: 0;
+  color: var(--color-white);
+  display: block;
+  padding: 0;
 }
 
 ul,
@@ -309,7 +306,7 @@ header a:hover {
     width: 100%;
     margin: 0 auto 1rem auto;
     width: 100%;
-    padding: 1rem;
+    padding: 0rem 1rem;
   }
 
   header figcaption {
@@ -347,8 +344,6 @@ header a:hover {
   }
 
   #navigation li {
-      width: 90%;
-      margin: 1em auto;
   }
 
 }
@@ -386,7 +381,7 @@ header a:hover {
   }
 
   nav li {
-    width: 100%;
+    margin-left: 3.125rem;
   }
 }
 
@@ -413,7 +408,7 @@ header a:hover {
   nav {
     position: absolute;
     top: 1rem;
-    right: 0.5rem;
+    right: 4.375rem;
   }
 
   .data-list {
@@ -461,11 +456,11 @@ header a:hover {
     text-decoration: none;
   }
 
-  nav ul li a:hover {
+  /* nav ul li a:hover {
     color: #fff;
     background-color: #1e1a33;
   }
-
+ */
   nav ul li a {
     transition: color .5s, background-color .5s
   }
@@ -484,8 +479,9 @@ header a:hover {
   }
 
   .page-title {
-    margin-top: 11.25rem;
+    margin: 11.25rem auto 0 auto;
     width: 60%;
+    text-align: center;
   }
 
   nav {
@@ -493,8 +489,8 @@ header a:hover {
     font-family: "Coco Sharp";
     text-transform: lowercase;
     top: 1rem;
-    width: 25rem;
-    right: 0.5rem;
+    /* width: 25rem; */
+    margin-right: 0.5rem;
   }
 
   .data-list {
