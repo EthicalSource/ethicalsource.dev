@@ -30,6 +30,7 @@ body {
   color: var(--color-black);
   font: 300 1.25rem/1.875rem "Source Code Pro Regular", sans-serif;
   margin: 0 auto 1rem auto;
+  /* padding: 0rem 5rem 0rem 5rem; */
   font-synthesis: none;
   -moz-hanging-punctuation: first last allow-end;
   -ms-hanging-punctuation: first last allow-end;
@@ -40,8 +41,6 @@ body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  margin: 0 auto 1rem auto;
-  padding: 0rem 5rem 0rem 5rem;
 }
 
 header,
@@ -215,9 +214,11 @@ abbr {
 /* Utility Classes */
 .logo {
   display: inline-block;
-  margin-left: -.8rem;
-  margin-right: .75rem;
-  vertical-align: -.8125rem;
+  position: absolute;
+  height: 2.813rem;
+  margin-top: 2.188rem;
+  margin-left: 4.375rem;
+  /* vertical-align: -.8125rem; */
 }
 
 .error,
@@ -297,9 +298,17 @@ header a:hover {
     width: 100%;
   }
 
-  header,
   section {
     box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto 1rem auto;
+    padding: 0rem 3rem;
+    width: 75%;
+  }
+
+  header {
+    box-sizing: border-box;
+    width: 100%;
     margin: 0 auto 1rem auto;
     width: 100%;
     padding: 1rem;
@@ -312,7 +321,7 @@ header a:hover {
   }
 
   .page-title {
-    margin-top: 3rem;
+    margin-top: 22.5rem;
     width: 100%;
   }
 
@@ -324,9 +333,9 @@ header a:hover {
 
   .logo {
     display: block;
-    height: 3rem;
-    margin-top: -2rem;
-    margin-left: 0rem;
+    /* height: 2.813rem;
+    margin-top: 2.188rem;
+    margin-left: 4.375rem; */
     float: left;
   }
 
@@ -356,6 +365,7 @@ header a:hover {
   }
 
   .page-title {
+    margin-top: 22.5rem;
     width: 50%;
   }
 
@@ -366,8 +376,8 @@ header a:hover {
   .logo {
     display: block;
     float: left;
-    height: 5rem;
-    /* margin-top: -3rem;
+    /* height: 5rem;
+    margin-top: -3rem;
     margin-left: -.8rem; */
   }
 
@@ -398,7 +408,7 @@ header a:hover {
   }
 
   .page-title {
-    margin-top: 5rem;
+    margin-top: 22.5rem;
     width: 60%;
   }
 
@@ -431,7 +441,8 @@ header a:hover {
   }
 
   body {
-    width: 77.188rem;
+    width: 100%;
+    /* width: 77.188rem; */
   }
 
   .page-title h1 {
@@ -441,6 +452,8 @@ header a:hover {
   }
 
   section {
+    /* width: 77.188rem; */
+    margin: 0 auto 1rem auto;
     padding: 0rem 3rem;
   }
 
@@ -469,7 +482,7 @@ header a:hover {
   }
 
   .page-title {
-    margin-top: 5rem;
+    margin-top: 11.25rem;
     width: 60%;
   }
 

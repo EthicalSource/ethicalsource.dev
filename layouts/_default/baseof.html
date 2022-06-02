@@ -1,10 +1,11 @@
-{{- $fontStyle := resources.Get "css/fonts.css" -}}
 {{- $mainStyle := resources.Get "css/main.css" -}}
-{{- $typeStyle := resources.Get "css/typography.css" -}}
 {{- $bannerStyle := resources.Get "css/banners.css" -}}
+{{- $fontStyle := resources.Get "css/fonts.css" -}}
+{{- $typeStyle := resources.Get "css/typography.css" -}}
 
 {{- $css := slice $fontStyle $bannerStyle $typeStyle $mainStyle | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint -}}
 {{- $mainJs := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint -}}
+
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
   <head>
