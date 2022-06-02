@@ -2,7 +2,7 @@
 title = "Ethical Source: Open Source, Evolved."
 heading = "Ethical Source: Open Source, Evolved."
 headerType = "banner"
-hero = "home-hero"
+hero = "home"
 +++
 
 Christine Peterson coined the term “open source” in 1998.

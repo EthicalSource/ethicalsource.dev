@@ -300,10 +300,8 @@ header a:hover {
 
   section {
     box-sizing: border-box;
-    width: 100%;
+    width: 60rem;
     margin: 0 auto 1rem auto;
-    padding: 0rem 3rem;
-    width: 75%;
   }
 
   header {
@@ -404,7 +402,7 @@ header a:hover {
   }
 
   #veil {
-    padding-right: 30rem;
+    /* padding-right: 30rem; */
   }
 
   .page-title {
@@ -452,9 +450,10 @@ header a:hover {
   }
 
   section {
-    /* width: 77.188rem; */
+    box-sizing: border-box;
+    width: 60rem;
     margin: 0 auto 1rem auto;
-    padding: 0rem 3rem;
+    /* padding: 0rem 3rem; */
   }
 
   nav ul li a {
@@ -473,6 +472,9 @@ header a:hover {
 
   h2 {
     margin-left: 3rem;
+    width: 60rem;
+    margin: 3.125rem auto 1.563rem auto;
+    padding: 0rem 3rem;
   }
 
   section h2 {
