@@ -1,8 +1,9 @@
 {{- $fontStyle := resources.Get "css/fonts.css" -}}
 {{- $mainStyle := resources.Get "css/main.css" -}}
 {{- $typeStyle := resources.Get "css/typography.css" -}}
+{{- $bannerStyle := resources.Get "css/banners.css" -}}
 
-{{- $css := slice $fontStyle $typeStyle $mainStyle | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint -}}
+{{- $css := slice $fontStyle $bannerStyle $typeStyle $mainStyle | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint -}}
 {{- $mainJs := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint -}}
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
@@ -22,14 +23,14 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
     <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-=  </head>
+  </head>
 
   <body{{ with .Section }} id="{{ . }}"{{ end }}>
     <div>
-      <header{{ with .Params.HeadingStyle }} class="{{ . }}"{{ end }}>
+      <header class="{{ with .Params.HeaderType }}{{ . }}{{ end }} {{ with .Params.Hero }}{{ . }}{{ end }}">
         <figure>
           <a href="/">
-            <img class="logo" src="/img/ethical_source.jpg" alt="Organization for Ethical Source Logo">
+            <img class="logo" src="/images/logo/logo-white-and-gold.png" alt="Organization for Ethical Source Logo">
           </a>
         </figure>
         <div class="page-title">

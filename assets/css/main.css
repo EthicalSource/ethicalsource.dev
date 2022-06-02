@@ -29,6 +29,7 @@ body {
   background: var(--color-primary);
   color: var(--color-black);
   font: 300 1.25rem/1.875rem "Source Code Pro Regular", sans-serif;
+  margin: 0 auto 1rem auto;
   font-synthesis: none;
   -moz-hanging-punctuation: first last allow-end;
   -ms-hanging-punctuation: first last allow-end;
@@ -39,22 +40,13 @@ body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  margin: 0 auto 1rem auto;
+  padding: 0rem 5rem 0rem 5rem;
 }
 
 header,
 section {
   box-sizing: border-box;
-  margin: 0 auto 1rem auto;
-  padding: 0rem 30rem 0rem 3rem;
-}
-
-.banner {
-  background: var(--color-blue);
-}
-
-.banner h1 {
-  color: var(--color-white);
-  text-transform: lowercase;
 }
 
 .page-title {
@@ -64,12 +56,11 @@ section {
 }
 
 .page-title h1 {
-  color: #000;
   text-transform: lowercase;
-  font-size: 10rem;
-  line-height: 10rem;
+  text-transform: lowercase;
+  font-size: 3.75rem;
+  line-height: 3.75rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #c8953a;
 }
 
 #navigation {
@@ -224,7 +215,6 @@ abbr {
 /* Utility Classes */
 .logo {
   display: inline-block;
-  height: 20rem;
   margin-left: -.8rem;
   margin-right: .75rem;
   vertical-align: -.8125rem;
@@ -327,14 +317,14 @@ header a:hover {
   }
 
   .page-title h1 {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 3.75rem;
+    line-height: 3.75rem;
     color: #fff;
   }
 
   .logo {
     display: block;
-    height: 13rem;
+    height: 3rem;
     margin-top: -2rem;
     margin-left: 0rem;
     float: left;
@@ -356,6 +346,8 @@ header a:hover {
 
 }
 
+/* end @media (min-width: 300px) */
+
 @media (min-width: 414px) {
 
   header {
@@ -374,9 +366,9 @@ header a:hover {
   .logo {
     display: block;
     float: left;
-    height: 20rem;
-    margin-top: -3rem;
-    margin-left: -.8rem;
+    height: 5rem;
+    /* margin-top: -3rem;
+    margin-left: -.8rem; */
   }
 
   nav {
@@ -389,6 +381,8 @@ header a:hover {
     width: 100%;
   }
 }
+
+/* end @media (min-width: 414px) */
 
 @media (min-width: 640px) {
   html {
@@ -429,6 +423,7 @@ header a:hover {
   }
 
 }
+/* end @media (min-width: 640px) */
 
 @media (min-width: 1024px) {
   html {
@@ -436,7 +431,7 @@ header a:hover {
   }
 
   body {
-    width: 100%;
+    width: 77.188rem;
   }
 
   .page-title h1 {
@@ -503,6 +498,8 @@ header a:hover {
   }
 
 }
+
+/* end @media (min-width: 1024px) */
 
 .hidden {
   display: none;
