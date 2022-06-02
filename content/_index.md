@@ -3,9 +3,10 @@ title = "Ethical Source: Open Source, Evolved."
 heading = "Ethical Source: Open Source, Evolved."
 headerType = "banner"
 hero = "home"
+kicker = "The true measure of the success of open source is its impact: how the technologies we develop are leveraged to bring about positive social, cultural, and political change."
 +++
 
-Christine Peterson coined the term “open source” in 1998.
+## Our Mission
 
 Coalescing around the ideal of software freedom, over the past 20 years the open source community has come to thrive, enjoying wild success and permanently changing the technology landscape. But the world has also changed in the past two decades. It’s time for open source to evolve to meet the magnitude and complexity of today’s social, political and technological challenges.
 

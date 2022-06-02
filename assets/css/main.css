@@ -49,17 +49,23 @@ section {
 }
 
 .page-title {
-  width: 75%;
+  width: 77.188rem;
   clear: both;
   margin-top: 20rem;
 }
 
 .page-title h1 {
   text-transform: lowercase;
-  text-transform: lowercase;
   font-size: 3.75rem;
   line-height: 3.75rem;
   padding-bottom: 1rem;
+}
+
+.kicker {
+  position: relative;
+  margin: 3.438rem auto 0 auto;
+  font-size: 1.125rem;
+  line-height: 1.688rem;
 }
 
 #navigation {
@@ -108,7 +114,7 @@ strong {
 header {
   color: var(--color-white);
   background: var(--color-blue);
-  height: 20rem;
+  height: 67.5rem;
 }
 
 footer {
@@ -336,7 +342,7 @@ header a:hover {
 
   header {
     color: var(--color-white);
-    height: 30rem;
+    height: 67.5rem;
   }
 
   h1 {
@@ -354,7 +360,7 @@ header a:hover {
 
   header {
     color: var(--color-white);
-    height: 40rem;
+    height: 67.5rem;
   }
 
   .page-title {
@@ -369,9 +375,6 @@ header a:hover {
   .logo {
     display: block;
     float: left;
-    /* height: 5rem;
-    margin-top: -3rem;
-    margin-left: -.8rem; */
   }
 
   nav {
@@ -421,7 +424,7 @@ header a:hover {
   header {
     color: var(--color-white);
     padding-bottom: 6rem;
-    height: 38rem;
+    height: 67.5rem;
     min-height: 30rem;
   }
 
@@ -435,7 +438,6 @@ header a:hover {
 
   body {
     width: 100%;
-    /* width: 77.188rem; */
   }
 
   .page-title h1 {
@@ -456,11 +458,6 @@ header a:hover {
     text-decoration: none;
   }
 
-  /* nav ul li a:hover {
-    color: #fff;
-    background-color: #1e1a33;
-  }
- */
   nav ul li a {
     transition: color .5s, background-color .5s
   }
@@ -469,7 +466,6 @@ header a:hover {
     margin-left: 3rem;
     width: 60rem;
     margin: 3.125rem auto 1.563rem auto;
-    padding: 0rem 3rem;
   }
 
   section h2 {
@@ -503,7 +499,7 @@ header a:hover {
   header {
     color: var(--color-white);
     padding-bottom: 6rem;
-    height: 40rem;
+    height: 67.5rem;
     min-height: 30rem;
     text-align: center;
   }

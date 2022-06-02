@@ -36,11 +36,15 @@
         </figure>
         <div class="page-title">
           <h1>{{ .Title }}</h1>
+          {{ with .Params.Kicker }}
+            <div class="kicker">
+              {{ . }}
+            </div>
+          {{ end }}
         </div>
       </header>
     </div>
     <div id="veil">
-      <h2>{{ .Params.Heading }}</h2>
       {{ block "main" . }}
       {{ end }}
       <footer>
