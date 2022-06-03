@@ -8,19 +8,15 @@ kicker = "The true measure of the success of open source is its impact: how the 
 
 ## Our Mission
 
-Coalescing around the ideal of software freedom, over the past 20 years the open source community has come to thrive, enjoying wild success and permanently changing the technology landscape. But the world has also changed in the past two decades. It’s time for open source to evolve to meet the magnitude and complexity of today’s social, political and technological challenges.
+Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut [fermentum massa justo]("#") sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod.
 
-Today, the same open source software that enriches the commons and powers innovation also plays a critical role in mass surveillance, anti-immigrant violence, protester suppression, racist policing, the deployment of cruel and inhumane weapons, and other human rights abuses all over the world.
+Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo.
 
-We want to do something about this misuse of our software. But as developers we don’t seem to have any recourse, no way to prevent our work from being used to harm others.
+{{< call-to-action anchor="Foo" url="#" >}}
 
-### We want to change that.
+## Our Community
 
-We are creating ways to empower developers, giving us the freedom and agency to ensure that our work is being used for social good and in service of human rights.
-
-We are building tools to enforce fair, ethical, and community-minded terms for those who benefit from or are affected by our work.
-
-We are united in our conviction that software freedom must always be in service of human freedom.
+Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui.
 
 ### We are the Ethical Source Movement.
 Will you [support us financially](https://opencollective.com/ethical-source) or [join us](/apply)?

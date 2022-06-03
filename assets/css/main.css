@@ -171,10 +171,11 @@ p {
 
 /* Inline Elements */
 a {
-  color: #1e1533
+  color: var(--color-black);
+  font-family: "Source Code Pro Bold";
   font-weight: 500;
   text-decoration: underline;
-  transition: color 125ms, background-color 125ms;
+  text-decoration-color: var(--color-gold);
 }
 
 a:focus,
@@ -644,4 +645,27 @@ section img {
 
 .byline {
   font-weight: bold;
+}
+
+.call-to-action {
+  text-decoration: none;
+  font-family: "Backlash Script";
+  font-size: 3.125rem;
+  text-transform: lowercase;
+}
+
+.call-to-action::after {
+  content: "";
+  /* background-image: url("/images/decorations/svg/arrow-right.svg"); */
+  background-color: var(--color-gold);
+  -webkit-mask: url("/images/decorations/svg/arrow-right.svg") no-repeat 50% 50%;
+  mask: url("/images/decorations/svg/arrow-right.svg") no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-size: 100% 100%;
+  display: inline-block;
+  height: 1.5rem;
+  width: 5rem;
+  transform: scale(.5);
+  margin-left: -.5rem;
 }
