@@ -64,7 +64,7 @@ section {
 .kicker {
   position: relative;
   margin: 3.438rem auto 0 auto;
-  font-size: 1.125rem;
+  font-size: 1.625rem;
   line-height: 1.688rem;
 }
 
@@ -92,16 +92,21 @@ section {
   padding: 0;
 }
 
+#navigation a:focus,
+#navigation a:hover {
+  color: var(--color-white);
+  text-decoration-color: var(--color-white);
+}
+
 .footer-navigation {
   margin: 1.25rem;
-  margin-bottom: 2.5rem;
   text-align: left;
 }
 
 .footer-navigation .column {
   width: 25%;
   float: left;
-  margin-bottom: 6.25rem;
+  margin-bottom: 3.125rem;
 }
 
 .footer-navigation ul {
@@ -147,16 +152,20 @@ header {
 }
 
 footer {
-  /* font-size: .875rem; */
   box-sizing: border-box;
-  width: 100%;
   color: var(--color-white);
+  border-bottom: 6rem solid var(--color-purple);
   background: var(--color-blue);
-  height: 45rem;
+  height: 52rem;
   width: 77.188rem;
   clear: both;
   margin-top: 20rem;
   font-family: "Source Code Pro Regular";
+}
+
+footer h2 {
+  font-family: "Backlash Small Caps";
+  margin: 1.25rem;
 }
 
 footer h2 {
@@ -175,11 +184,11 @@ footer a {
   text-decoration: underline;
 }
 
-/* footer a:focus,
+footer a:focus,
 footer a:hover {
-  color: #fff;
-  font-weight: 500;
-} */
+  color: var(--color-white);
+  text-decoration-color: var(--color-white);
+}
 
 blockquote {
   border-left: .25rem solid var(--color-primary);
@@ -199,7 +208,7 @@ h1 {
 
 h2 {
   font-family: "Backlash Small Caps";
-  font-size: 3rem;
+  font-size: 4.063rem;
   line-height: 3rem;
   padding-top: 4rem;
   width: 75%;
@@ -226,18 +235,20 @@ p {
 a {
   color: var(--color-black);
   font-family: "Source Code Pro Bold";
-  font-weight: 500;
   text-decoration: underline;
   text-decoration-color: var(--color-gold);
+  text-underline-offset: .25rem;
 }
 
 a:focus,
 a:hover {
   color: var(--color-black);
+  text-decoration: underline;
+  text-underline-offset: 50%;
 }
 
 a span {
-  color: var(--color-black);
+  color: var(--color-white);
   font-weight: 300;
 }
 
@@ -275,7 +286,6 @@ abbr {
   height: 2.813rem;
   margin-top: 2.188rem;
   margin-left: 4.375rem;
-  /* vertical-align: -.8125rem; */
 }
 
 .error,
@@ -379,7 +389,6 @@ header a:hover {
     box-sizing: border-box;
     width: 100%;
     margin: 0 auto 1rem auto;
-    width: 100%;
     padding: 0 15%;
   }
 
@@ -441,7 +450,7 @@ header a:hover {
 
   nav {
     position: absolute;
-    top: 3rem;
+    top: 1rem;
     right: 0.5rem;
   }
 
@@ -512,7 +521,6 @@ header a:hover {
     box-sizing: border-box;
     width: 60rem;
     margin: 0 auto 1rem auto;
-    /* padding: 0rem 3rem; */
   }
 
   nav ul li a {
@@ -551,8 +559,7 @@ header a:hover {
     position: absolute;
     font-family: "Coco Sharp";
     text-transform: lowercase;
-    top: 1rem;
-    /* width: 25rem; */
+    top: 0rem;
     margin-right: 0.5rem;
   }
 
@@ -716,13 +723,12 @@ section img {
 .call-to-action {
   text-decoration: none;
   font-family: "Backlash Script";
-  font-size: 3.125rem;
+  font-size: 3.75rem;
   text-transform: lowercase;
 }
 
 .call-to-action::after {
   content: "";
-  /* background-image: url("/images/decorations/svg/arrow-right.svg"); */
   background-color: var(--color-gold);
   -webkit-mask: url("/images/decorations/svg/arrow-right.svg") no-repeat 50% 50%;
   mask: url("/images/decorations/svg/arrow-right.svg") no-repeat 50% 50%;
@@ -734,4 +740,25 @@ section img {
   width: 5rem;
   transform: scale(.5);
   margin-left: -.5rem;
+}
+
+.colophon {
+  clear: both;
+  position: relative;
+  margin-top: -5rem;
+  bottom: 0;
+  font-family: "Source Code Pro Regular";
+  font-size: 1rem;
+}
+
+.colophon figure {
+  float: left;
+}
+.colophon figure .logo {
+  height: 6rem;
+  margin: 0 5rem 0 0;
+}
+
+.colophon p {
+  width: 50%;
 }
