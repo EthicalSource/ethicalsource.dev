@@ -47,13 +47,7 @@
     <div id="veil">
       {{ block "main" . }}
       {{ end }}
-      <footer>
-        <p>
-          &copy; Copyright {{ now.Format "2006" }} Organization for Ethical Source.
-           Follow us on Twitter at <a href="https://twitter.com/ethicaloss">@EthicalOSS</a>.
-          Support this initiative through <a href="https://opencollective.com/ethical-source">Open Collective</a>. This site does not use cookies.
-        </p>
-      </footer>
+      {{ partial "footer" }}
     </div>
 
     {{ partial "navigation" . }}
