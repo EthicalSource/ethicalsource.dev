@@ -18,5 +18,4 @@ Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatib
 
 Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui.
 
-### We are the Ethical Source Movement.
-Will you [support us financially](https://opencollective.com/ethical-source) or [join us](/apply)?
+{{< call-to-action anchor="Foo" url="#" >}}
