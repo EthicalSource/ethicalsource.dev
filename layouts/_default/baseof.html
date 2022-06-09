@@ -28,11 +28,9 @@
   <body{{ with .Section }} id="{{ . }}"{{ end }}>
     <div>
       <header class="{{ with .Params.HeaderType }}{{ . }}{{ end }} {{ with .Params.Hero }}{{ . }}-hero{{ end }}">
-        <figure>
-          <a href="/">
-            <img class="logo" src="/images/logo/logo-white-gold.png" alt="Organization for Ethical Source Logo">
-          </a>
-        </figure>
+        {{ with .Params.Hero }}
+          {{ partial "logo" . }}
+        {{ end }}
         <div class="page-title">
           <h1>{{ .Title }}</h1>
           {{ with .Params.Kicker }}

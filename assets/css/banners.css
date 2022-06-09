@@ -20,3 +20,11 @@
     background: linear-gradient(var(--color-blue-tint), var(--color-blue));
     opacity: 0.9;
 }
+
+.subpage-hero {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url("/images/banners/subpage.jpg");
+    background-size: cover;
+}
