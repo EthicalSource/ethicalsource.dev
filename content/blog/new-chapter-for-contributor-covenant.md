@@ -11,9 +11,9 @@ For some years, I’ve been moderator of an email list of several hundred activi
 
 In the early 2010s, when Coraline Ada Ehmke [joined the chorus](https://modelviewculture.com/pieces/codes-of-conduct-when-being-excellent-is-not-enough) of people calling for codes of conduct in tech communities, she faced sometimes overwhelming opposition, pushback, and a steady stream of abuse and harassment that continues to this day. But after just a few years, her Contributor Covenant has been adopted by thousands of communities, from the Linux project to Creative Commons. Its widespread adoption represents a growing commitment to creating safe and inviting spaces where everyone is welcome.
 
-Today, this historic document enters the next phase of its evolution. Coraline has transferred stewardship to the Organization for Ethical Source. This milestone marks its "[exit to community](https://www.colorado.edu/lab/medlab/exit-to-community)," as Contributor Covenant graduates from a passion project into a community-owned asset. 
+Today, this historic document enters the next phase of its evolution. Coraline has transferred stewardship to the Organization for Ethical Source. This milestone marks its "[exit to community](https://www.colorado.edu/lab/medlab/exit-to-community)," as Contributor Covenant graduates from a passion project into a community-owned asset.
 
-Contributor Covenant, the [Ethical Source Principles](/principles), and a growing number of  [Ethical Source licenses](https://ethicalsource.dev/licenses) are key components of an “ethical stack”—a set of tools for technologists to help ensure their creations are a force for good in the world. 
+Contributor Covenant, the [Ethical Source Principles](/principles), and a growing number of  [Ethical Source licenses](https://ethicalsource.dev/licenses) are key components of an “ethical stack”—a set of tools for technologists to help ensure their creations are a force for good in the world.
 
 The Organization for Ethical Source is a diverse, multidisciplinary, and global community that is revolutionizing how tech culture works. We are investing in tools like Contributor Covenant as part of our commitment to creating a better future for open source communities around the world. If you’d like to help us shape that future, consider [becoming an OES member](/join).
 

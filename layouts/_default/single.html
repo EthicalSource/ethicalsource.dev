@@ -1,6 +1,5 @@
 {{ define "main" }}
 <section{{ with .Language.Get "writingDirection" }} dir="{{ . }}"{{ end }}>
-HEY HEY IT WORKS
 {{ .Content }}
 </section>
 {{ end }}

@@ -61,11 +61,19 @@ section {
   padding-bottom: 1rem;
 }
 
+.page-title-subpage h1 {
+  color: var(--color-black);
+}
+
 .kicker {
   position: relative;
   margin: 3.438rem auto 0 auto;
   font-size: 1.625rem;
   line-height: 1.688rem;
+}
+
+.kicker-subpage {
+  color: var(--color-black);
 }
 
 #navigation {
@@ -82,7 +90,6 @@ section {
 #navigation li {
   float: left;
   display: inline;
-  /* margin: 1em 3.125rem; */
   font-size: 1rem;
 }
 
@@ -96,6 +103,16 @@ section {
 #navigation a:hover {
   color: var(--color-white);
   text-decoration-color: var(--color-white);
+}
+
+#navigation.subpage a {
+  color: var(--color-black);
+}
+
+#navigation.subpage a:focus,
+#navigation.subpage a:hover {
+  color: var(--color-black);
+  text-decoration-color: var(--color-black);
 }
 
 .footer-navigation {
@@ -400,7 +417,6 @@ header a:hover {
   .page-title h1 {
     font-size: 3.75rem;
     line-height: 3.75rem;
-    color: #fff;
   }
 
   .logo {
@@ -414,6 +430,10 @@ header a:hover {
   header {
     color: var(--color-white);
     height: 67.5rem;
+  }
+
+  header.subpage {
+    color: var(--color-black);
   }
 
   h1 {

@@ -2,15 +2,15 @@
 
 /* TODO: refactor to minimize attributes per hero */
 
-.home-hero {
+.banner {
     position: relative;
-    height: 100%;
     width: 100%;
+    height: 100%;
     background-image: url("/images/banners/home.jpg");
     background-size: cover;
 }
 
-.home-hero::before {
+.banner-main::before {
     content: "";
     position: absolute;
     top: 0px;
@@ -21,10 +21,6 @@
     opacity: 0.9;
 }
 
-.subpage-hero {
-    position: relative;
-    height: 100%;
-    width: 100%;
+.banner-subpage {
     background-image: url("/images/banners/subpage.jpg");
-    background-size: cover;
 }

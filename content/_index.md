@@ -1,8 +1,7 @@
 +++
 title = "Ethical Source: Open Source, Evolved."
 heading = "Ethical Source: Open Source, Evolved."
-headerType = "banner"
-hero = "home"
+level = "main"
 kicker = "The true measure of the success of open source is its impact: how the technologies we develop are leveraged to bring about positive social, cultural, and political change."
 +++
 

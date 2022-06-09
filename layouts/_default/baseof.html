@@ -27,19 +27,7 @@
 
   <body{{ with .Section }} id="{{ . }}"{{ end }}>
     <div>
-      <header class="{{ with .Params.HeaderType }}{{ . }}{{ end }} {{ with .Params.Hero }}{{ . }}-hero{{ end }}">
-        {{ with .Params.Hero }}
-          {{ partial "logo" . }}
-        {{ end }}
-        <div class="page-title">
-          <h1>{{ .Title }}</h1>
-          {{ with .Params.Kicker }}
-            <div class="kicker">
-              {{ . }}
-            </div>
-          {{ end }}
-        </div>
-      </header>
+      {{ partial "header" . }}
     </div>
     <div id="veil">
       {{ block "main" . }}
@@ -48,6 +36,7 @@
     </div>
 
     {{ partial "navigation" . }}
+
     <script src="{{ $mainJs.RelPermalink }}" integrity="{{ $mainJs.Data.Integrity }}"></script>
   </body>
 </html>
