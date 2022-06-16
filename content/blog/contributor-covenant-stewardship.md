@@ -1,6 +1,9 @@
 +++
 title = "Organization for Ethical Source Takes on Stewardship of Contributor Covenant"
 summary = "The Ethical Source community will draw on global voices and perspectives to evolve and reimagine Contributor Covenant."
+slug = "contributor-covenant-stewardship"
+bylineDate = "May 27, 2021"
+bylineAuthor = ""
 +++
 
 <time>May 27, 2021</time>

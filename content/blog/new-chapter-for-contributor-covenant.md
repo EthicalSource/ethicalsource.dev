@@ -1,6 +1,9 @@
 +++
 title = "A New Chapter for Contributor Covenant"
 summary = "Nathan Schneider on Contributor Covenant's 'exit to community'."
+slug = "new-chapter-for-contributor-covenant"
+bylineDate = "May 27, 2021"
+bylineAuthor = "Nathan Schneider"
 +++
 
 <time>May 27, 2021</time>

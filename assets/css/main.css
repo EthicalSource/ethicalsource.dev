@@ -235,6 +235,13 @@ h2 {
   margin-top: 3rem;
 }
 
+h3 {
+  font-size: 1.25rem;
+  /* line-height: 3rem;
+  padding-top: 4rem;
+  width: 75%; */
+}
+
 h4 {
   font-family: "Source Code Pro Bold";
   width: 100%;
