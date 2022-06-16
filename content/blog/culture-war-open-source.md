@@ -1,9 +1,12 @@
 +++
-title = "The Ethical Source Working Group Blog"
-heading = "The Culture War in Open Source is On"
+title = "The Culture War in Open Source is On"
+summary = ""
+slug = "culture-war-open-source"
+bylineDate = "April 15, 2020"
+bylineAuthor = "Nathan Schneider"
 +++
 
-[Nathan Schneider](https://nathanschneider.info/)   
+[Nathan Schneider](https://nathanschneider.info/)
 April 15, 2020
 
 Perhaps you remember Eric S. Raymond from his memorable essay "[The
@@ -130,7 +133,7 @@ enforce the standards they hold?
 The more you look at open source through a feminist lens---[as I've done
 at greater length elsewhere](https://ntnsndr.in/tyranny)---the more
 those two-decade-old certainties start to crack. We need to see those
-cracks to build better tools. 
+cracks to build better tools.
 
 People often talk about open source as a commons, but if you go back and
 [read Elinor Ostrom](https://wtf.tw/text/ostrom_in_silicon_valley.pdf)'s

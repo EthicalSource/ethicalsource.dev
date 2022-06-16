@@ -1,12 +1,13 @@
 <article id="{{ .Params.slug }}" class="hero">
+  {{ $alt := .Params.title }}
+  {{ $heroImage := or .Params.image "geometry-horizontal" }}
   <h3>
-    <a href="#{{ .Params.slug }}">
+    <a href="/blog/{{ .File.Path }}">
       {{ .Params.title }}
     </a>
   </h3>
-  <time>{{ .Params.bylineDate}}</time>
-  <p>{{ .Params.bylineAuthor}}</p>
-  {{ $alt := .Params.title }}
-  {{ $heroImage := or .Params.image "geometry-horizontal" }}
-  <img data-src="/images/heroes/thumbnails/{{ $heroImage }}.jpg" class="static lazy-load" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="{{ $alt }}">
+  <p>
+    <time>{{ .Params.bylineDate}}</time><br />
+    <a href="/blog/{{ .File.Path }}">Read the Article</a>
+  </p>
 </article>
