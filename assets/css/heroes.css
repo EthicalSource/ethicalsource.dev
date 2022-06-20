@@ -42,16 +42,18 @@ ul.teasers {
   margin-left: 0rem;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  columns: 2;
   justify-content: left;
 }
 
 ul.teasers li {
   margin-bottom: 1rem;
   margin-right: 1.25rem;
-  width: calc(50% - 1.25rem);
+  width: calc(46% - 1.25rem);
   border: 1px solid var(--color-light-grey);
   border-radius: 6px;
-  padding: 0rem 1rem;
+  padding: 1rem 1rem;
   font-size: 1rem;
   /* background-image: url("/images/heroes/generic-horizontal.jpg");
   background-position: top left;
@@ -60,14 +62,13 @@ ul.teasers li {
   position: relative;
 }
 
-ul.teasers li a {
-  font-family: "Source Code Pro Regular";
-}
-
-ul.teasers h3 a {
+ul.teasers h3 {
   font-family: "Source Code Pro Bold";
   font-size: 1rem;
   line-height: 1.25rem;
   margin: 0rem;
+}
+
+ul.teasers h3 a {
   text-decoration: none;
 }
