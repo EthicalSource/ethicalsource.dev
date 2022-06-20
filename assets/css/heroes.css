@@ -62,6 +62,10 @@ ul.teasers li {
   position: relative;
 }
 
+li.teaser time {
+  font-size: 0.6rem;
+}
+
 ul.teasers h3 {
   font-family: "Source Code Pro Bold";
   font-size: 1rem;

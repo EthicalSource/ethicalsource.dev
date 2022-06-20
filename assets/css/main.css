@@ -750,6 +750,21 @@ section img {
 .call-to-action {
   text-decoration: none;
   font-family: "Backlash Script";
+  text-transform: lowercase;
+}
+
+h2.alt-call-to-action {
+  width: 100%;
+  text-decoration: none;
+  font-family: "Coco Sharp Extra Bold";
+  font-size: 3.125rem;
+  line-height: 3rem;
+  padding-top: 4rem;
+  letter-spacing: .125rem;
+  text-align: center;
+  text-transform: lowercase;
+}
+
   font-size: 3.75rem;
   text-transform: lowercase;
 }
@@ -790,13 +805,15 @@ section img {
   width: 50%;
 }
 
-a[target='_blank']::after {
-  content: "";
-  width: .8em;
-  height: .8em;
-  margin: 0 0.05em 0 0.1em;
-  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2Ij48cGF0aCBkPSJNOSAyTDkgMyAxMi4zIDMgNiA5LjMgNi43IDEwIDEzIDMuNyAxMyA3IDE0IDcgMTQgMlpNNCA0QzIuOSA0IDIgNC45IDIgNkwyIDEyQzIgMTMuMSAyLjkgMTQgNCAxNEwxMCAxNEMxMS4xIDE0IDEyIDEzLjEgMTIgMTJMMTIgNyAxMSA4IDExIDEyQzExIDEyLjYgMTAuNiAxMyAxMCAxM0w0IDEzQzMuNCAxMyAzIDEyLjYgMyAxMkwzIDZDMyA1LjQgMy40IDUgNCA1TDggNSA5IDRaIi8+PC9zdmc+) no-repeat;
-  background-size: contain;
-  display: inline-block;
-  vertical-align: baseline;
+a.button {
+  display: block;
+  width: 6rem;
+  background-color: var(--color-gold);
+  color: var(--color-white);
+  font-family: "Source Code Pro Regular";
+  font-size: 1rem;
+  padding: 0.25rem 1rem;
+  margin: 0rem auto;
+  border-radius: 13px;
+  text-transform: lowercase;
 }
