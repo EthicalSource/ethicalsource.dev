@@ -1,31 +1,39 @@
 <footer>
-  <h2>Want More?</h2>
-  <p>
-    Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-  </p>
+  <section class="flex-row">
+    <div class="flex-col half">
+      <h2>Want More?</h2>
+      <p>
+        Subscribe for insights, resources and more, delivered right to your inbox!
+      </p>
+     </div>
+   <form method= "POST" class="flexRow half">
+     <input type= "text" placeholder="Email Address">
+     <button type="button">>Subscribe</button>
+   </form>
+  </section>
 
   <div class="footer-navigation">
-    <div class="column">
+    <div class="column one-third">
       <h3>Explore</h3>
       <ul>
-        <li><a href="#">Who We Are</a></li>
-        <li><a href="#">What We Do</a></li>
-        <li><a href="#">What We Believe</a></li>
-        <li><a href="#">Our Community</a></li>
-        <li><a href="#">Resources</a></li>
+        <li><a href="/who-we-are">Who We Are</a></li>
+        <li><a href="/what-we-do">What We Do</a></li>
+        <li><a href="/what-we-believe">What We Believe</a></li>
+        <li><a href="/our-community">Our Community</a></li>
+        <li><a href="/resources">Resources</a></li>
       </ul>
     </div>
-    <div class="column">
+    <div class="column one-third">
       <h3>Learn</h3>
       <ul>
-        <li><a href="#">Who We Are</a></li>
-        <li><a href="#">What We Do</a></li>
-        <li><a href="#">What We Believe</a></li>
-        <li><a href="#">Our Community</a></li>
-        <li><a href="#">Resources</a></li>
+        <li><a href="/licenses">Licenses</a></li>
+        <li><a href="/projects">projects</a></li>
+        <li><a href="#">membership</a></li>
+        <li><a href="/join.html">get involved</a></li>
+        <li><a href="#">faq</a></li>
       </ul>
     </div>
-    <div class="column">
+    <div class="column one-third">
       <h3>Contact Us</h3>
 
       <h4>Social</h4>
@@ -44,13 +52,14 @@
         <li>hello@ethicalsource.dev</li>
       </ul>
     </div>
-    <div class="colophon">
-      <figure>
+    <div class="colophon flex-row">
+      <figure class="one-third">
         <a href="/">
           <img class="logo" src="/images/logo/logo-white-vertical.png" alt="Organization for Ethical Source Logo">
         </a>
       </figure>
-      <p>
+      <div class="one-third"></div>
+      <p class="one-third">
         &copy; Copyright {{ now.Format "2006" }} Organization for Ethical Source. Support us through <a href="https://opencollective.com/ethical-source">Open Collective</a>. This site does not use cookies or 3rd party analytics.
       </p>
     </div>
