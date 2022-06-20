@@ -1,0 +1,11 @@
+<article id="{{ .Params.slug }}" class="teaser">
+  <h3>
+    <a href="/blog/{{ .File.Path }}">
+      {{ .Params.title }}
+    </a>
+  </h3>
+  <p>
+    <time>{{ .Params.bylineDate}}</time><br />
+    <a href="/blog/{{ .File.Path }}">Read the Article</a>
+  </p>
+</article>

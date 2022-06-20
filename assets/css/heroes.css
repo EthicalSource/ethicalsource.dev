@@ -13,14 +13,13 @@ ul.heroes li {
   border: 1px solid var(--color-gold);
   border-radius: 12px;
   padding: 1rem;
+  font-size: 1rem;
   text-align: center;
   background-image: url("/images/heroes/generic-horizontal.jpg");
   background-position: top left;
   background-repeat: no-repeat;
   background-size: 100% 3.125rem;
-  font-size: 1rem;
   position: relative;
-  text-align: center;
 }
 
 ul.heroes li p {
@@ -36,5 +35,39 @@ ul.heroes li a {
 
 ul.heroes h3 a {
   font-family: "Source Code Pro Bold";
+  text-decoration: none;
+}
+
+ul.teasers {
+  margin-left: 0rem;
+  list-style: none;
+  display: flex;
+  justify-content: left;
+}
+
+ul.teasers li {
+  margin-bottom: 1rem;
+  margin-right: 1.25rem;
+  width: calc(50% - 1.25rem);
+  border: 1px solid var(--color-light-grey);
+  border-radius: 6px;
+  padding: 0rem 1rem;
+  font-size: 1rem;
+  /* background-image: url("/images/heroes/generic-horizontal.jpg");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100% 3.125rem; */
+  position: relative;
+}
+
+ul.teasers li a {
+  font-family: "Source Code Pro Regular";
+}
+
+ul.teasers h3 a {
+  font-family: "Source Code Pro Bold";
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin: 0rem;
   text-decoration: none;
 }
