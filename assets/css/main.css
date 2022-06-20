@@ -753,7 +753,7 @@ section img {
   text-transform: lowercase;
 }
 
-h2.alt-call-to-action {
+.call-to-action-bottom h2 {
   width: 100%;
   text-decoration: none;
   font-family: "Coco Sharp Extra Bold";
