@@ -1,12 +1,9 @@
-{{- $mainStyles := resources.Get "css/main.css" -}}
-{{- $fontStyles := resources.Get "css/fonts.css" -}}
-{{- $bannerStyles := resources.Get "css/banners.css" -}}
-{{- $cardStyles := resources.Get "css/cards.css" -}}
-{{- $flexStyles := resources.Get "css/flex.css" -}}
+{{- $mainStyle := resources.Get "css/main.css" -}}
+{{- $bannerStyle := resources.Get "css/banners.css" -}}
+{{- $fontStyle := resources.Get "css/fonts.css" -}}
+{{- $galleryStyle := resources.Get "css/gallery.css" -}}
 
-{{- $css := slice $fontStyles $bannerStyles $cardStyles $flexStyles $mainStyles | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint -}}
-
-{{- $css := slice $fontStyles $bannerStyles $cardStyles $mainStyles | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint -}}
+{{- $css := slice $fontStyle $bannerStyle $mainStyle $galleryStyle| resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint -}}
 {{- $mainJs := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint -}}
 
 <!doctype html>
