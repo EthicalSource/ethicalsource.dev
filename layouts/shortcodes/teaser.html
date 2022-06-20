@@ -1,5 +1,12 @@
-{{ with .Get "slug" }}
-  {{ range (where (where $.Site.Pages "Section" "blog") ".Params.slug" . ) | first 1 }}
-    {{ partial "teaser" . }}
+<article id="{{ .Params.slug }}" class="teaser">
+  <!-- TODO add the left image html & params here -->
+  <h3>
+    <a href="{{ .Params.slug }}">
+      {{ .Params.anchor }}
+    </a>
+  </h3>
+  <time>{{ .Params.bylineDate }}</time>
+  {{ with .Params.bylineAuthor }}
+    | {{ . }}
   {{ end }}
-{{ end }}
+</article>

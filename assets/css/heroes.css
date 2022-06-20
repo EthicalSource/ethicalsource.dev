@@ -70,7 +70,7 @@ ul.teasers h3 {
   font-family: "Source Code Pro Bold";
   font-size: 1rem;
   line-height: 1.25rem;
-  margin: 0rem;
+  margin: 0rem auto 1.25rem;
 }
 
 ul.teasers h3 a {
