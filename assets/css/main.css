@@ -838,3 +838,67 @@ article h2 {
   font-size: 1.5rem;
   padding-top: 1.25rem;
 }
+
+  /*=========================================== */
+ /*=============== FAQ Styles ================ */
+/*=========================================== */
+
+    .faq-content{
+      border-bottom: 1px solid grey;
+      padding: 0.8rem;
+      width: 100%
+    };
+    
+    .question-list{
+      width: 60%;
+    };
+
+    .question-row , .page-container {
+      width: 100%;
+      align-items: center;
+    }
+
+   .question{
+      float:left;
+    width:90%; 
+    position: relative;
+    };
+
+    .answer, .show-less{
+      visibility: collapse;
+    };
+
+    .show-more {
+      visibility: visible;
+    }
+    
+    .show-more, .show-less{
+      color: #fff;
+      background-color: #555;
+      border-radius: 100%;
+      font-size: 1.5rem;
+      float:right;
+      position: relative;
+      height: 1.6rem;
+      width: 1.6rem;
+      margin: auto;
+      text-align: center;
+    };
+
+    .show-more:hover{
+      background-color: #1E1A34;
+    };
+    
+    .show-less:hover{
+      background-color: #1e1a33;
+    };
+
+    .flex-column{
+      display: flex; 
+      flex-direction: column;
+    };
+
+    .flex-row{
+      display: flex;
+      flex-direction:row;
+    };
