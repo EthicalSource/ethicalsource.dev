@@ -48,7 +48,7 @@ ul.teasers {
 }
 
 ul.teasers li {
-  margin-bottom: 1rem;
+  margin-bottom: 1.8rem;
   margin-right: 1.8rem;
   width: calc(49% - 1.8rem);
   border: 1px solid var(--color-light-grey);
