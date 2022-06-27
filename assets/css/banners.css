@@ -48,10 +48,6 @@ ul.teasers li {
   background-size: 38% 100%;
 }
 
-ul.teasers li:nth-of-type(even) {
-  margin-right: 0rem;
-}
-
 img.thumbnail {
   height: 100%;
   width: 38%;
@@ -61,7 +57,7 @@ img.thumbnail {
   opacity: .5;
 }
 
-li.teaser time {
+article time {
   font-size: 0.6rem;
   position: absolute;
   bottom: 0px;
@@ -80,4 +76,6 @@ ul.teasers h3 a {
 
 article.teaser {
   margin-left: 40%;
+  height: 100%;
+  min-height: 7rem;
 }
