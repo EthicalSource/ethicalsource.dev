@@ -754,17 +754,16 @@ section img {
 }
 
 .call-to-action-bottom h2 {
-  width: 100%;
   text-decoration: none;
   font-family: "Coco Sharp Extra Bold";
   font-size: 3.125rem;
-  line-height: 3rem;
+  line-height: 3.755rem;
   padding-top: 4rem;
   letter-spacing: .125rem;
   text-align: center;
   text-transform: lowercase;
-}
-
+  width: 75%;
+  margin: 0rem auto 1.25rem auto;
   font-size: 3.75rem;
   text-transform: lowercase;
 }
@@ -815,5 +814,25 @@ a.button {
   padding: 0.25rem 1rem;
   margin: 0rem auto;
   border-radius: 13px;
+  text-align: center;
   text-transform: lowercase;
+}
+
+address.byline {
+  text-align: center;
+  border-top: 1px solid var(--color-gold);
+  width: 25%;
+  margin: 0rem auto;
+  padding: 1.25rem 0;
+}
+
+address.byline time {
+  font-size: 1rem;
+}
+
+article h2 {
+  color: var(--color-gold);
+  font-family: "Source Code Pro Bold";
+  font-size: 1.5rem;
+  padding-top: 1.25rem;
 }

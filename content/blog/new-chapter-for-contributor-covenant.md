@@ -2,11 +2,12 @@
 title = "A New Chapter for Contributor Covenant"
 summary = "Nathan Schneider on Contributor Covenant's 'exit to community'."
 slug = "new-chapter-for-contributor-covenant"
+includeAboutOES = true
 bylineDate = "May 27, 2021"
 bylineAuthor = "Nathan Schneider"
+bylineAuthorUrl = "https://where.coraline.codes"
+bylineAuthorBio = "Nathan Schneider is an assistant professor of media studies at the University of Colorado Boulder, where he leads the [Media Enterprise Design Lab](https://cmci.colorado.edu/medlab/). His most recent book is [Everything for Everyone: The Radical Tradition that Is Shaping the Next Economy](https://nathanschneider.info/books/everything-for-everyone/)."
 +++
-
-<time>May 27, 2021</time>
 
 For some years, I’ve been moderator of an email list of several hundred activists interested in democratizing tech. Despite our shared interest, though, we couldn’t figure out our own democracy. A single list member’s misbehavior occupied weeks and weeks of controversy. I didn’t want to act unilaterally, but we had no shared framework that I could act on either. A member mentioned a code of conduct called Contributor Covenant, and with an overwhelming vote of the group we adopted it. The next time the problem came up, we resolved it in a week, apparently for good.
 
@@ -18,6 +19,4 @@ Today, this historic document enters the next phase of its evolution. Coraline h
 
 Contributor Covenant, the [Ethical Source Principles](/principles), and a growing number of  [Ethical Source licenses](https://ethicalsource.dev/licenses) are key components of an “ethical stack”—a set of tools for technologists to help ensure their creations are a force for good in the world.
 
-The Organization for Ethical Source is a diverse, multidisciplinary, and global community that is revolutionizing how tech culture works. We are investing in tools like Contributor Covenant as part of our commitment to creating a better future for open source communities around the world. If you’d like to help us shape that future, consider [becoming an OES member](/join).
-
-_Nathan Schneider is an assistant professor of media studies at the University of Colorado Boulder, where he leads the [Media Enterprise Design Lab](https://cmci.colorado.edu/medlab/). His most recent book is [Everything for Everyone: The Radical Tradition that Is Shaping the Next Economy](https://nathanschneider.info/books/everything-for-everyone/)._
+</div>

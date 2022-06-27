@@ -1,5 +1,9 @@
 # Contributing
 
+## Images
+- Where possible, use images from [Wikimedia Commons](https://commons.wikimedia.org)
+- TODO: How should we handle attribution for these images?
+
 ## Code Style
 
 - Use spaces for indentation,
