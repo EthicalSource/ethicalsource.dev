@@ -1,5 +1,3 @@
-/* background-image: linear-gradient(to right, rgba(109, 179, 242, .6), rgba(109, 179, 242, .6)), url('images/checked.png'); */
-
 /* TODO: refactor to minimize attributes per hero */
 
 .banner {
@@ -36,21 +34,37 @@ ul.teasers {
 
 ul.teasers li {
   margin-bottom: 1rem;
-  margin-right: 1.25rem;
-  width: calc(46% - 1.25rem);
+  margin-right: 1.8rem;
+  width: calc(49% - 1.8rem);
   border: 1px solid var(--color-light-grey);
   border-radius: 6px;
-  padding: 1rem;
   font-size: 1rem;
-  background-image: url("/images/heroes/generic-horizontal.jpg");
+  padding-top: 1.25rem;
+  position: relative;
+  background: linear-gradient(var(--color-gold-tint), var(--color-gold));
   background-position: top left;
   background-repeat: no-repeat;
-  background-size: 38%;
-  position: relative;
+  object-fit: cover;
+  background-size: 38% 100%;
+}
+
+ul.teasers li:nth-of-type(even) {
+  margin-right: 0rem;
+}
+
+img.thumbnail {
+  height: 100%;
+  width: 38%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .5;
 }
 
 li.teaser time {
   font-size: 0.6rem;
+  position: absolute;
+  bottom: 0px;
 }
 
 ul.teasers h3 {
@@ -67,11 +81,3 @@ ul.teasers h3 a {
 article.teaser {
   margin-left: 40%;
 }
-
-/*
-.teaser .thumbnail {
-  position: absolute;
-  left: -1rem;
-  top: 0;
-  margin-top: -2rem;
-} */

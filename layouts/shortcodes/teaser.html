@@ -1,7 +1,8 @@
-{{ $thumbnail := or .Params.thumbnail "default.jpg" }}
-<li style="background-image: url(/images/thumbnails/{{ $thumbnail }});">
+{{ $thumbnail := or .Params.thumbnail "generic-square.jpg" }}
+<!-- <li style="background-image: url(/images/thumbnails/{{ $thumbnail }});"> -->
+<li>
   <article id="{{ .Params.slug }}" class="teaser">
-    <!-- <img src="/images/blog/thumbnails/{{ $thumbnail }}" class = "thumbnail"> -->
+    <img src="/images/blog/thumbnails/{{ $thumbnail }}" class="thumbnail">
     <h3>
       <a href="{{ .Params.slug }}">
         {{ .Params.anchor }}
