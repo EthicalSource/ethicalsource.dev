@@ -146,7 +146,7 @@ section {
 ul,
 ol {
   list-style-position: inside;
-  margin: 1.5rem 0 1.5rem 5rem;
+  margin: 1.5rem 0 1.5rem 1.5rem;
 }
 
 [dir="rtl"] ul,
@@ -208,8 +208,10 @@ footer a:hover {
 }
 
 blockquote {
-  border-left: .25rem solid var(--color-primary);
-  padding-left: 1.25rem;
+  border-left: .75rem solid var(--color-light-grey);
+  margin-left: 1.25rem;
+  padding-left: 2.25rem;
+  font-family: "Source Code Pro Italic";
 }
 
 /* Headers */
@@ -821,7 +823,7 @@ a.button {
 address.byline {
   text-align: center;
   border-top: 1px solid var(--color-gold);
-  width: 25%;
+  width: 50%;
   margin: 0rem auto;
   padding: 1.25rem 0;
 }

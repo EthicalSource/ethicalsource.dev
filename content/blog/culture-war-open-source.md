@@ -6,9 +6,6 @@ bylineDate = "April 15, 2020"
 bylineAuthor = "Nathan Schneider"
 +++
 
-[Nathan Schneider](https://nathanschneider.info/)
-April 15, 2020
-
 Perhaps you remember Eric S. Raymond from his memorable essay "[The
 Cathedral and the
 Bazaar](http://www.catb.org/esr/writings/cathedral-bazaar/)," or his [advice](http://catb.org/~esr/faqs/smart-questions.html#not_losing)

@@ -1,9 +1,10 @@
 +++
 title = "AI in the Future of Work"
 summary = "Technological systems always have a differential impact on communities who have unequal access to resources and skills. In the world of work, they could either enhance access to economic opportunities, or amplify socioeconomic inequality."
+slug = "ai-in-the-future-of-work"
+bylineAuthor = "Ambika Tandon"
+bylineDate = "May 11, 2021"
 +++
-
-by Ambika Tandon, <time>May 11, 2021</time>
 
 Artificial Intelligence and allied technologies form part of what is being called the fourth Industrial Revolution. Some analysts [project the loss of jobs](https://workofthefuturecongress.mit.edu/wp-content/uploads/2019/06/w25682.pdf) as AI replaces humans, especially in job roles that consist of repetitive tasks that are easier to automate. Another prediction is that AI, as preceding technologies, will [enhance and complement](https://www.ilo.org/wcmsp5/groups/public/---dgreports/---cabinet/documents/publication/wcms_647306.pdf) human capability, rather than replacing it at large scales. AI at the workplace includes a wide range of technologies, from [machine-to-machine interactions on the factory floor](https://www.infosys.com/human-amplification/Documents/manufacturing-ai-perspective.pdf), to automated decision-making systems.
 

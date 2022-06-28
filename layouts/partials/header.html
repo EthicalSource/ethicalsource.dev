@@ -5,7 +5,7 @@
   {{ partial "logo" $level }}
   <div class="page-title page-title-{{ $level }}">
   <h1>{{ .Params.Title }}</h1>
-  {{ with .Params.Kicker }}
+  {{ with or .Params.Kicker .Params.Summary }}
     <div class="kicker kicker-{{ $level }}">
       {{ . }}
     </div>

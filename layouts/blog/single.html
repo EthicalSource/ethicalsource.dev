@@ -11,17 +11,16 @@
 
   {{ .Content }}
 
-  {{ with .Params.includeAboutOES }}
-    <h2>About the Organization for Ethical Source</h2>
-    <p>
-      The Organization for Ethical Source is a diverse, multidisciplinary, and global community that is revolutionizing how tech culture works. We are investing in tools like Contributor Covenant as part of our commitment to creating a better future for open source communities around the world. If you’d like to help us shape that future, consider <a href="/join">becoming an OES member</a>.
-    </p>
-  {{ end }}
-
   {{ if .Params.bylineAuthorBio }}
     <h2>About {{ .Params.bylineAuthor }}</h2>
     {{ .Params.bylineAuthorBio | markdownify }}
   {{ end }}
+
+  <h2>About the Organization for Ethical Source</h2>
+  <p>
+    The Organization for Ethical Source (OES) is a diverse, multidisciplinary, and global community that is revolutionizing how tech culture works. We are investing in tools like Contributor Covenant as part of our commitment to creating a better future for open source communities around the world. If you’d like to help us shape that future, consider <a href="/join">becoming an OES member</a>.
+  </p>
+
 </article>
 </section>
 

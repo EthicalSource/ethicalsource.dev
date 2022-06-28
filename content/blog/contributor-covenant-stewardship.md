@@ -6,8 +6,6 @@ bylineDate = "May 27, 2021"
 bylineAuthor = ""
 +++
 
-<time>May 27, 2021</time>
-
 GENEVA, Switzerland, May 27, 2021 --- [The Organization for Ethical Source](https://ethicalsource.dev/) (OES), the nonprofit helping open source developers ensure that their work is being used for social good and in service of human rights, today announced that it is taking on the stewardship of [Contributor Covenant](https://www.contributor-covenant.org/), the preeminent code of conduct for open source communities.
 
 "Today, this historic document enters the next phase of its evolution," said Nathan Schneider, professor of media studies at the University of Colorado Boulder and OES member. "This milestone marks its 'exit to community,' as Contributor Covenant graduates from a passion project into a community-owned asset."

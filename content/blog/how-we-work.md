@@ -1,10 +1,10 @@
 +++
 title = "How we work"
-heading = "Understanding the Organization for Ethical Source’s structure and governance model"
-summary = "This is the first post of a series explaining the Organization for Ethical Source’s structure, governance model, practices, and norms."
+summary = "Understanding the Organization for Ethical Source’s structure and governance model"
+slug = "how-we-work"
+bylineAuthor = "Tobie Langel"
+bylineDate = "May 3, 2021"
 +++
-
-<time>May 3, 2021</time>
 
 The Ethical Source movement [organized into a legal entity](/blog/oes-announcement/) in late January. We had some goals when creating this structure that we took great care to reflect in its [bylaws](/bylaws). We wanted a lightweight and simple structure that reflects our existing ad hoc practices, limits bureaucracy, and empowers our community to drive industry-wide change. We wanted active members to steer the direction of the organization. And we wanted to sustainably anchor our work around our mission to promote ethical practices and outcomes in free and open source software and other digital commons.
 
@@ -25,5 +25,3 @@ We’ll organize the blog posts from most pragmatic (“I just want to participa
 The goal of this effort is to create a welcoming, inclusive, and transparent structure where you feel safe and empowered to contribute to more ethical outcomes to open collaboration around digital commons.
 
 Stay tuned.
-
-_Tobie Langel_

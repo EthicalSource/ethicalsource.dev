@@ -2,10 +2,8 @@
 title = "A New Chapter for Contributor Covenant"
 summary = "Nathan Schneider on Contributor Covenant's 'exit to community'."
 slug = "new-chapter-for-contributor-covenant"
-includeAboutOES = true
 bylineDate = "May 27, 2021"
 bylineAuthor = "Nathan Schneider"
-bylineAuthorUrl = "https://where.coraline.codes"
 bylineAuthorBio = "Nathan Schneider is an assistant professor of media studies at the University of Colorado Boulder, where he leads the [Media Enterprise Design Lab](https://cmci.colorado.edu/medlab/). His most recent book is [Everything for Everyone: The Radical Tradition that Is Shaping the Next Economy](https://nathanschneider.info/books/everything-for-everyone/)."
 +++
 
