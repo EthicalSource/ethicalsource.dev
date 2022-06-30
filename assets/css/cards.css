@@ -1,3 +1,5 @@
+/* Heroes */
+
 ul.heroes {
   margin-left: 0rem;
   list-style: none;
@@ -37,6 +39,8 @@ ul.heroes h3 a {
   font-family: "Source Code Pro Bold";
   text-decoration: none;
 }
+
+/* Teasers */
 
 ul.teasers {
   margin-left: 0rem;
@@ -93,4 +97,68 @@ article.teaser h3 {
   font-size: 1rem;
   line-height: 1.25rem;
   margin: 0rem auto 1.25rem;
+}
+
+/* Press/Media */
+
+ul.media-list {
+  margin-left: 0rem;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  columns: 2;
+  justify-content: left;
+}
+
+ul.media-list li {
+  margin-bottom: 1.8rem;
+  margin-right: 1.8rem;
+  border-left: 1px solid var(--color-gold);
+  border-radius: 6px;
+  font-size: 1rem;
+  padding-top: 1.25rem;
+  position: relative;
+  background-image: url("/images/decorations/svg/media-node.svg");
+  background-position: top left;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 38% 100%;
+}
+
+article.media img.thumbnail {
+  height: 100%;
+  width: 38%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .5;
+}
+
+article.media time {
+  font-size: 0.6rem;
+  position: absolute;
+  bottom: 0px;
+}
+
+article.media {
+  margin-left: 40%;
+  height: 100%;
+  min-height: 7rem;
+}
+
+article.media h3 a {
+  text-decoration: none;
+}
+
+article.media h3 {
+  font-family: "Source Code Pro Bold";
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin: 0rem auto 1.25rem;
+}
+
+.media-node {
+  stroke: var(--color-gold);
+  stroke-width: 3;
+  fill: none;
 }
