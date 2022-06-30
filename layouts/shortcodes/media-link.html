@@ -1,0 +1,12 @@
+{{ $publogo := or .Params.logo "generic-press-logo.jpg" }}
+<li>
+  <article class="news-story">
+    <img src="/images/media/pub-logos/{{ $publogo }}" class="media-logo">
+    <h3>
+      <a href="{{ .Params.url }}">
+        {{ .Params.anchor }}
+      </a>
+    </h3>
+    <time>{{ .Params.bylineDate }}</time>
+  </article>
+</li>
