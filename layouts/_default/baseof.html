@@ -2,6 +2,8 @@
 {{- $bannerStyles := resources.Get "css/banners.css" -}}
 {{- $fontStyles := resources.Get "css/fonts.css" -}}
 {{- $cardStyles := resources.Get "css/cards.css" -}}
+{{- $flexStyles := resources.Get "css/flex.css" -}}
+{{- $css := slice $fontStyles $bannerStyles $cardStyles $flexStyles $mainStyles | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint -}}
 
 {{- $css := slice $fontStyles $bannerStyles $cardStyles $mainStyles | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint -}}
 {{- $mainJs := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint -}}
