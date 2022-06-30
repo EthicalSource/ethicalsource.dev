@@ -1,7 +1,10 @@
 {{ $publogo := or .Params.logo "generic-press-logo.jpg" }}
 <li>
   <article class="media">
-    <img src="/images/media/pub-logos/{{ $publogo }}" class="media-logo">
+    <svg class="media-node">
+      <use xlink:href="/images/decorations/svg/media-node.svg#circle"></use>
+    </svg>
+    <!-- <img src="/images/media/pub-logos/{{ $publogo }}" class="media-logo"> -->
     <h3>
       <a href="{{ .Params.url }}">
         {{ .Params.anchor }}

@@ -111,21 +111,22 @@ ul.media-list {
 }
 
 ul.media-list li {
-  margin-bottom: 1.8rem;
-  margin-right: 1.8rem;
+  /* margin-bottom: 1.8rem;
+  margin-right: 1.8rem; */
   border-left: 1px solid var(--color-gold);
-  border-radius: 6px;
+  margin-left: 1rem;
   font-size: 1rem;
   padding-top: 1.25rem;
+  padding-left: 1.25rem;
   position: relative;
-  background-image: url("/images/decorations/svg/media-node.svg");
+  /* background-image: url("/images/decorations/svg/media-node.svg");
   background-position: top left;
   background-repeat: no-repeat;
   object-fit: cover;
-  background-size: 38% 100%;
+  background-size: 38% 100%; */
 }
 
-article.media img.thumbnail {
+/* article.media img.thumbnail {
   height: 100%;
   width: 38%;
   position: absolute;
@@ -155,10 +156,13 @@ article.media h3 {
   font-size: 1rem;
   line-height: 1.25rem;
   margin: 0rem auto 1.25rem;
-}
+} */
 
 .media-node {
   stroke: var(--color-gold);
   stroke-width: 3;
-  fill: none;
+  fill: white;
+  position: absolute;
+  left: -1rem;
+  top: 0;
 }
