@@ -113,50 +113,30 @@ ul.media-list {
 ul.media-list li {
   /* margin-bottom: 1.8rem;
   margin-right: 1.8rem; */
+  margin-top: -0.25rem;
   border-left: 1px solid var(--color-gold);
   margin-left: 1rem;
   font-size: 1rem;
-  padding-top: 1.25rem;
-  padding-left: 1.25rem;
+  padding: 1.25rem 1.25rem 3.25rem 15rem;
   position: relative;
-  /* background-image: url("/images/decorations/svg/media-node.svg");
-  background-position: top left;
-  background-repeat: no-repeat;
-  object-fit: cover;
-  background-size: 38% 100%; */
 }
 
-/* article.media img.thumbnail {
-  height: 100%;
-  width: 38%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: .5;
-}
-
-article.media time {
-  font-size: 0.6rem;
-  position: absolute;
-  bottom: 0px;
-}
-
-article.media {
-  margin-left: 40%;
-  height: 100%;
-  min-height: 7rem;
+article.media h3 {
+  line-height: 1.25rem;
+  font-size: 1.25rem;
+  margin: -1rem auto 1.25rem;
 }
 
 article.media h3 a {
   text-decoration: none;
+  color: var(--color-gold);
 }
 
-article.media h3 {
-  font-family: "Source Code Pro Bold";
-  font-size: 1rem;
-  line-height: 1.25rem;
-  margin: 0rem auto 1.25rem;
-} */
+.media-logo {
+  width: 10rem;
+  position: absolute;
+  left: 2rem;
+}
 
 .media-node {
   stroke: var(--color-gold);

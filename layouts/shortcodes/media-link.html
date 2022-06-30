@@ -4,12 +4,20 @@
     <svg class="media-node">
       <use xlink:href="/images/decorations/svg/media-node.svg#circle"></use>
     </svg>
-    <!-- <img src="/images/media/pub-logos/{{ $publogo }}" class="media-logo"> -->
+    <img src="/images/media-logos/{{ $publogo }}.jpg" class="media-logo" />
     <h3>
       <a href="{{ .Params.url }}">
-        {{ .Params.anchor }}
+        {{ .Params.title }}
       </a>
     </h3>
-    <time>{{ .Params.bylineDate }}</time>
+    <p>
+      <time>{{ .Params.bylineDate }}</time>
+      {{ with .Params.summary }}
+        | {{ . }}
+      {{ end }}
+    </p>
+    <p>
+      <a href="{{ .Params.url }}">Read the Article</a>
+    </p>
   </article>
 </li>
