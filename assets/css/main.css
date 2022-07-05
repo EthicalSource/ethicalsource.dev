@@ -843,33 +843,13 @@ article h2 {
  /*=============== FAQ Styles ================ */
 /*=========================================== */
     
-  .page-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .divider {
-    width: 90%;
-    border-bottom:#353535; 
-    background:#353535;
-    height: 0.1rem;
-    margin: 0.1rem;
-  }
-  .questions-list{
-      width: 90%;
-      display:flex;
-      flex-direction: column;
-      margin-bottom: 5rem;
-      justify-content: center; 
-    };
-
-    .faq-content{
+    .faq-block{
       padding: 0.8rem;
-      width: 100%;
-      margin-bottom: 0.1rem; 
+      width: 70%;
+      margin-bottom: 0.1rem;
+      border-bottom: 1px solid #1D1D1D; 
     };
 
    .question, .answer{
-    width:90%; 
+    width: 90%; 
     };

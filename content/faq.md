@@ -4,11 +4,7 @@ heading = "frequently asked questions"
 kicker = "Blah blah blah. Go Yankees!"
 +++
 
-{{< faq >}}
+  {{< faq question="Is the sky blue?" answer="yes">}}
+  {{< faq question="Is the sky red?" answer="no" >}}
 
-Still have questions? 
-
-Get in touch!
-
-
-[button](#contact)
+{{< call-to-action-bottom heading="Still have questions? Get in touch!" anchor="Learn More" url="/contact" >}}

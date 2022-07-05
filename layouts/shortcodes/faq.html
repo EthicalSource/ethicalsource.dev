@@ -1,31 +1,6 @@
-  
-    <section class= "page-container flex-column">
-      
-      <div class="questions-list">
-        <a class="question-link" href="#is-the-sky-blue">Is the sky blue?</a>
-        <a class="question-link" href="#is-the-sky-red">Is the sky red?</a>
-        <a class="question-link" href="#is-the-sky-yellow">Is the sky yellow?</a>
-      </div>
-     
-      <span class="divider">-</span>
-      
-      <div class= "faq-content">
-        <h4 class= "question" id="is-the-sky-blue">Q: Is the sky blue?</h4>
-        <p class= "answer">A: yes.</p>
-      </div>
 
-      <span class="divider">-</span>
+<dl class="faq-block">
+  <dt class="question"><h4>{{ .Get "question" }}</h4></dt>
+  <db class="answer">{{ .Get "answer" }}</db>
+</dl>
 
-      <div class= "faq-content">
-        <h4 class= "question" id="is-the-sky-red">Q: Is the sky red?</h4>
-        <p class= "answer">A: no.</p>
-      </div>
-
-      <span class="divider">-</span>
-
-      <div class= "faq-content">
-        <h4 class= "question" id="is-the-sky-yellow">Q: Is the sky yellow?</h4>
-        <p class= "answer">A: sometimes.</p>
-      </div>
-
-    </section>
