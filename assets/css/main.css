@@ -806,6 +806,37 @@ section img {
   margin-top: 5rem;
 }
 
+.faq-block{
+  padding: 0.8rem;
+  width: 70%;
+  margin-bottom: 0.1rem;
+  border-bottom: 1px solid #1D1D1D; 
+}
+
+.question, .answer{
+  width: 90%; 
+}
+
+.back-to-top{
+  float: right;
+  position: relative; 
+  text-decoration: none;
+}
+
+#top-of-page{
+  visibility:hidden;
+  float:top;
+  display: block;
+  position: relative;
+}
+
+.faq-header{
+  margin: auto;
+  font-size: 1.2rem;
+  display: block;
+  position: relative;
+}
+
 a.button {
   display: block;
   width: 6rem;
