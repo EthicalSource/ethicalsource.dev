@@ -102,6 +102,7 @@ article.teaser h3 {
 /* Press/Media */
 
 ul.media-list {
+  margin-top: 5rem;
   margin-left: 0rem;
   list-style: none;
   display: flex;
