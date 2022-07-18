@@ -1,21 +1,21 @@
-.flex-col{
+.flex-col {
   display: flex;
   flex-direction: column;
 }
 
-.flex-row{
+.flex-row {
   display: flex;
   flex-direction: row;
 }
 
-.one-third{
+.one-third {
   flex-basis: 30%;
 }
 
-.two-third{
+.two-third {
   flex-basis: 60%;
 }
 
-.half{
+.half {
   flex-basis: 50%;
 }

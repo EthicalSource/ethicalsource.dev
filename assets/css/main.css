@@ -414,7 +414,7 @@ header a:hover {
   footer {
     box-sizing: border-box;
     width: 100%;
-    margin: 0 auto 1rem auto;
+    margin: 5rem auto 1rem auto;
     padding: 0 15%;
   }
 
@@ -788,7 +788,7 @@ section img {
 .colophon {
   clear: both;
   position: relative;
-  margin-top: -5rem;
+  margin-top: 5rem;
   bottom: 0;
   font-family: "Source Code Pro Regular";
   font-size: 1rem;
@@ -798,12 +798,12 @@ section img {
   float: left;
 }
 .colophon figure .logo {
-  height: 6rem;
-  margin: 0 5rem 0 0;
+  height: 8rem;
+  margin: 3.25rem 5rem 0 0;
 }
 
 .colophon p {
-  width: 50%;
+  margin-top: 5rem;
 }
 
 a.button {
