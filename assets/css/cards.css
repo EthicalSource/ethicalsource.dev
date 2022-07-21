@@ -174,7 +174,7 @@ ul.floating-cards li:nth-child(even) div.thumbnail {
   margin-top: 3rem;
 }
 
-article.card div.thumbnail {
+.floating-card article div.thumbnail {
   position: relative;
   margin-bottom: 1.8rem;
   margin-right: 1.8rem;
@@ -191,12 +191,12 @@ article.card div.thumbnail {
   filter: brightness(1.75);
 }
 
-article.card {
+.floating-card article {
   position: relative;
   height: 100%;
 }
 
-article.card img.thumbnail {
+.floating-card article img.thumbnail {
   position: absolute;
   left: 0;
   top: 0;
@@ -210,7 +210,7 @@ article.card img.thumbnail {
   overflow: hidden;
 }
 
-article.card h3 {
+.floating-card article h3 {
   font-family: "Coco Sharp Extra Bold";
   line-height: 3.755rem;
   letter-spacing: .125rem;
@@ -219,4 +219,3 @@ article.card h3 {
   font-size: 2.75rem;
   text-transform: lowercase;
 }
-
