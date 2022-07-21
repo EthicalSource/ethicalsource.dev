@@ -162,16 +162,16 @@ ul.floating-cards {
 
 ul.floating-cards li {
   margin-bottom: 1.8rem;
-  margin-right: 1.8rem;
-  width: calc(49% - 1.8rem);
+  margin-right: 3rem;
+  width: calc(49% - 3rem);
   font-size: 1rem;
   padding-top: 1.25rem;
   padding-bottom: 23rem;
   position: relative;
 }
 
-ul.floating-cards li:nth-last-child(2) {
-  padding-top: 5rem;
+ul.floating-cards li:nth-child(even) div.thumbnail {
+  margin-top: 3rem;
 }
 
 article.card div.thumbnail {
