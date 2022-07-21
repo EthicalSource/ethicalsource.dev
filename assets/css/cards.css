@@ -147,3 +147,74 @@ article.media h3 a {
   left: -1rem;
   top: 0;
 }
+
+/* Floating Cards */
+
+ul.floating-cards {
+  margin-left: -6rem;
+  margin-right: -12rem;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  columns: 2;
+  justify-content: left;
+}
+
+ul.floating-cards li {
+  margin-bottom: 1.8rem;
+  margin-right: 1.8rem;
+  width: calc(49% - 1.8rem);
+  font-size: 1rem;
+  padding-top: 1.25rem;
+  padding-bottom: 23rem;
+  position: relative;
+}
+
+ul.floating-cards li:nth-last-child(2) {
+  padding-top: 5rem;
+}
+
+article.card div.thumbnail {
+  position: relative;
+  margin-bottom: 1.8rem;
+  margin-right: 1.8rem;
+  border: 1px solid var(--color-light-grey);
+  border-radius: 20px;
+  font-size: 1rem;
+  padding-top: 1.25rem;
+  width: calc(100% - 1.8rem);
+  height: calc(100% - 1.8rem);
+  background: linear-gradient(var(--color-blue-tint), var(--color-blue));
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+article.card {
+  position: relative;
+  height: 100%;
+}
+
+article.card img.thumbnail {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .5;
+  height: 100%;
+  width: 100%;
+  border: 1px solid var(--color-light-grey);
+  border-radius: 20px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+article.card h3 {
+  font-family: "Coco Sharp Extra Bold";
+  line-height: 3.755rem;
+  letter-spacing: .125rem;
+  text-transform: lowercase;
+  margin: 0rem auto 1.25rem auto;
+  font-size: 2.75rem;
+  text-transform: lowercase;
+}
+

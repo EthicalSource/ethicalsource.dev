@@ -1,0 +1,17 @@
+{{ $thumbnail := or .Params.thumbnail "justice-scales.jpg" }}
+<li class="floating-card">
+  <article class="card">
+    <div class="thumbnail">
+      <img src="/images/stock/{{ $thumbnail }}" class="thumbnail" />
+    </div>
+    <h3>
+      {{ .Params.title}}
+    </h3>
+    <p>
+      {{ .Params.text }}
+    </p>
+    <a href="{{ .Params.slug }}" class="call-to-action">
+      {{ .Params.anchor }}
+    </a>
+  </article>
+</li>
