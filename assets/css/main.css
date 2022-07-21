@@ -753,6 +753,7 @@ section img {
   text-decoration: none;
   font-family: "Backlash Script";
   text-transform: lowercase;
+  font-size: 3rem;
 }
 
 .call-to-action-bottom h2 {
@@ -810,16 +811,16 @@ section img {
   padding: 0.8rem;
   width: 70%;
   margin-bottom: 0.1rem;
-  border-bottom: 1px solid #1D1D1D; 
+  border-bottom: 1px solid #1D1D1D;
 }
 
 .question, .answer{
-  width: 90%; 
+  width: 90%;
 }
 
 .back-to-top{
   float: right;
-  position: relative; 
+  position: relative;
   text-decoration: none;
 }
 
@@ -839,7 +840,7 @@ section img {
 
 a.button {
   display: block;
-  width: 6rem;
+  width: 9rem;
   background-color: var(--color-gold);
   color: var(--color-white);
   font-family: "Source Code Pro Regular";
