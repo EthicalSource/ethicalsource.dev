@@ -592,7 +592,7 @@ header a:hover {
     font-size: 3.5rem;
   }
 
-  h2+h3 {
+  h2+h3.fancy-subtitle {
     margin-top: 0;
   }
 
