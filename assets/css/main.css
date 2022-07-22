@@ -587,6 +587,15 @@ header a:hover {
     width: 100%;
   }
 
+  h3.fancy-subtitle {
+    font-family: "Backlash Script";
+    font-size: 3.5rem;
+  }
+
+  h2+h3 {
+    margin-top: 0;
+  }
+
   .page-title {
     margin: 11.25rem auto 0 auto;
     width: 60%;
