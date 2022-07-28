@@ -21,17 +21,17 @@
   background-image: url("/images/banners/subpage.jpg");
 }
 
-.banner-featured {
+.banner-takeover {
   display: flex;
   flex-direction: column;
   padding: 0 40% 5rem 40%;
   color: var(--color-white);
   margin: 3rem -30% 0rem -30%;
   text-align: center;
-  background: linear-gradient(var(--color-purple-gradient-dark), var(--color-purple-gradient-light), var(--color-purple-gradient-dark));
+  background: linear-gradient(135deg, var(--color-purple-gradient-dark), var(--color-purple-gradient-light), var(--color-purple-gradient-dark));
 }
 
-.banner-featured h2 {
+.banner-takeover h2 {
   font-family: "Coco Sharp Extra Bold";
   color: var(--color-gold);
   line-height: 3.755rem;
@@ -45,16 +45,16 @@
   text-transform: lowercase;
 }
 
-.banner-featured .strapline {
+.banner-takeover .strapline {
   color: var(--color-white);
 }
 
-.banner-featured article {
+.banner-takeover article {
   position: relative;
   height: 100%;
 }
 
-.banner-featured div.thumbnail {
+.banner-takeover div.thumbnail {
   position: relative;
   height: 12rem;
   width: 12rem;
@@ -70,7 +70,7 @@
   object-fit: cover;
 }
 
-.banner-featured div.thumbnail img {
+.banner-takeover div.thumbnail img {
   position: absolute;
   left: 0;
   top: 0;
@@ -81,6 +81,6 @@
   overflow: hidden;
 }
 
-.banner-featured .call-to-action {
+.banner-takeover .call-to-action {
   color: var(--color-white);
 }
