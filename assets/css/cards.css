@@ -161,7 +161,7 @@ ul.floating-cards {
 }
 
 ul.floating-cards li {
-  margin-bottom: 1.8rem;
+  margin-bottom: 5rem;
   margin-right: 3rem;
   width: calc(49% - 3rem);
   font-size: 1rem;
