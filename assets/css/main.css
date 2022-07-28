@@ -17,6 +17,8 @@
   --color-light-grey: #7D7D7D;
   --color-purple: #5E2751;
   --color-white: #FFFFFF;
+  --color-purple-gradient-dark: #431237;
+  --color-purple-gradient-light: #5E2751;
 }
 
 /* Primary Elements */
@@ -384,6 +386,13 @@ header a:focus,
 header a:hover {
   color: #fff;
   font-weight: 500;
+}
+
+.strapline {
+  font-family: "Backlash Script";
+  text-transform: lowercase;
+  font-size: 3rem;
+  margin-bottom: -3rem;
 }
 
 @media (min-width: 300px) {
