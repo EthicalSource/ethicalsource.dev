@@ -1,29 +1,29 @@
 +++
-title = "Ethical Source Bylaws"
+title = "Our Bylaws"
 kicker = "Lorem ipsum"
 +++
 
 ## NAME
 
-{{< fancy-subtitle >}}article 1{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 1</h3>
 
 The name of this Organization shall be Organization for Ethical Source NFP (“the Organization”).
 
 ## PURPOSES AND POWERS
 
-{{< fancy-subtitle >}}article 2{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 2</h3>
 
 The Organization shall pursue the following aim: To promote ethical practices and outcomes in free and open source software and other digital commons. The purposes of the Organization shall also be as stated in its Certificate of Incorporation. The Organization shall have the power, directly or indirectly, alone or in conjunction or cooperation with others, to do any and all lawful acts which may be necessary or convenient to affect the charitable purposes for which the Organization is organized, and to aid or assist other organizations or persons whose activities further accomplish, foster, or attain such purposes. The powers of the Organization may include, but not be limited to, the acceptance of contributions from the public and private sectors, whether financial or in- kind contributions. The Organization shall also have such powers as are now or may hereafter be granted by the General Not For Profit Organization Act of the State of Illinois. The Organization shall be of unlimited duration.
 
 ## OFFICES
 
-{{< fancy-subtitle >}}article 3{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 3</h3>
 
 The Organization shall have and continuously maintain in this State a registered office and a registered agent whose office is identical with such registered office, and may have other offices within or without the State of Illinois as the Board of Directors may from time to time determine.
 
 ## RESOURCES
 
-{{< fancy-subtitle >}}article 4{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 4</h3>
 
 The Organization’s resources are derived from:
 
@@ -37,7 +37,7 @@ The funds shall be used in accordance with the Organization’s social aims.
 
 ## MEMBERS
 
-{{< fancy-subtitle >}}article 5{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 5</h3>
 
 Any natural person or legal entity, with the exception of organizations pursuing commercial goals, may become a member if they have demonstrated their dedication to the goals of the Organization through their commitments or actions, and agree to abide by the Organization’s [Code of Conduct](https://ethicalsource.dev/community-code-of-conduct/).
 
@@ -67,7 +67,7 @@ Only the Organization’s assets may be used for obligations/commitments contrac
 
 ## ORGANS
 
-{{< fancy-subtitle >}}article 6{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 6</h3>
 
 The Organization shall include the following organs:
 
@@ -77,7 +77,7 @@ The Organization shall include the following organs:
 
 ## GENERAL ASSEMBLY
 
-{{< fancy-subtitle >}}article 7{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 7</h3>
 
 The Organization is a membership organization. The General Assembly is the Organization’s supreme authority. It is composed of all the members, regardless of their membership level.
 
@@ -89,7 +89,7 @@ Members may participate in the General Assembly remotely using electronic means 
 
 The Board of Directors shall announce to the members by electronic means the date of the General Assembly at least 30 days in advance. The formal notification of the General Assembly, including the agenda, shall be sent by electronic means to each member at least 10 days prior to the date of the meeting.
 
-{{< fancy-subtitle >}}article 8{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 8</h3>
 
 The General Assembly:
 
@@ -102,11 +102,11 @@ The General Assembly:
 * Fixes the annual membership fees;
 * Shall decide about the expulsion of a member, should this member appeal the Board’s decision to expel them.
 
-{{< fancy-subtitle >}}article 9{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 9</h3>
 
 The General Assembly is presided over by the President of the Board of Directors. The President may delegate this responsibility to another Board member.
 
-{{< fancy-subtitle >}}article 10{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 10</h3>
 
 Decisions of the General Assembly shall be taken by a majority vote of the voting members present or participating remotely using electronic means.
 
@@ -116,13 +116,13 @@ If the General Assembly is comprised of more than 20 voting members, then the Or
 
 Decisions concerning the amendment of the Bylaws and the dissolution of the Organization must be approved by both a two-third majority of the members present or participating remotely, and all of the Founding Members present or participating remotely.
 
-{{< fancy-subtitle >}}article 11{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 11</h3>
 
 Votes are by a show of hands. Voting can also take place by secret ballot, if at least one member requests it. Members may vote using electronic means. Members may vote by proxy by giving another Active Member or another member with voting rights the authority to vote on their behalf. The Board must be notified that a proxy will be voting in an Active Member’s place at least 24 hours before a vote is to take place or the General Assembly is to meet. This notification must include the name of the Active Member who will be acting as the proxy.
 
 Elections use a single transferable vote system.
 
-{{< fancy-subtitle >}}article 12{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 12</h3>
 
 The agenda of the ordinary annual session of the General Assembly may include:
 
@@ -137,11 +137,11 @@ The agenda of the ordinary annual session of the General Assembly may include:
 
 ## THE BOARD OF DIRECTORS
 
-{{< fancy-subtitle >}}article 13{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 13</h3>
 
 The Board of Directors is authorized to carry out all acts that further the purposes of the Organization. It has the most extensive powers to manage the Organization’s day-to-day affairs.
 
-{{< fancy-subtitle >}}article 14{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 14</h3>
 
 The Board is composed of at least three (4) and at most seven (7) members elected by the General Assembly. Among the Board, there are 4 officers: President, Vice President, Secretary, and Treasurer.
 
@@ -159,7 +159,7 @@ Board members shall be elected every two years. When applicable, all Board membe
 
 The nomination and election process shall be developed by the Vice President, presented and voted on by the Board, and, if accepted by the Board, voted on by the General Assembly.
 
-{{< fancy-subtitle >}}article 15{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 15</h3>
 
 There shall be one Board position reserved for paid staff, subject to the Organization’s conflict of interest policy. All other Board members work on a voluntary basis and as such can only be reimbursed for their actual expenses and travel costs. Potential attendance fees cannot exceed those paid for official commissions. For activities beyond the usual functions of volunteer Board members, each Board member is eligible for appropriate compensation subject to the conflict of interest policy.
 
@@ -172,7 +172,7 @@ The functions of the Board are:
 * to keep correct and complete books and records of accounts, keep a list of all voting members, and keep minutes of the proceedings of its members, which all voting members may access; and
 * to ensure that Bylaws are applied, to draft rules of procedure, and to administer the assets of the Organization.
 
-{{< fancy-subtitle >}}article 16{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 16</h3>
 
 The roles of each officer are defined below.
 
@@ -205,7 +205,7 @@ Treasurer:
 3. Oversee budget preparation; and
 4. Check-signing authority for Board-authorized expenditures.
 
-{{< fancy-subtitle >}}article 17{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 17</h3>
 
 Board members, including officers, may resign at any time by giving written notice to the organization without prejudice to the rights, if any, of the organization under any contract to which the Board member is a party. Any resignation shall take effect at the date of the receipt of the note or any later time specified in the notice, unless otherwise specified in the notice. The acceptance of the resignation shall not be necessary to make it effective.
 
@@ -215,24 +215,24 @@ The Board may designate a director to serve on the Board on an interim basis to 
 
 ## SIGNATURE AND REPRESENTATION
 
-{{< fancy-subtitle >}}article 18{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 18</h3>
 
 The Organization is legally bound by the individual signature of the President, Vice President, Secretary, or Treasurer.
 
 ## FISCAL YEAR
 
-{{< fancy-subtitle >}}article 19{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 19</h3>
 
 The fiscal year shall begin on 1 January and end on 31 December of each year.
 
 ## AMENDMENTS TO BYLAWS
 
-{{< fancy-subtitle >}}article 20{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 20</h3>
 
 These Bylaws may be altered, amended or repealed and new Bylaws may be adopted by consensus of the Board present at any regular meeting or special meeting, provided that at least five days’ written notice is given of intention to alter, amend or repeal or to adopt new Bylaws at such meeting.
 
 ## DISSOLUTION
 
-{{< fancy-subtitle >}}article 21{{< /fancy-subtitle >}}
+<h3 class="fancy-subtitle">article 21</h3>
 
 Should the Organization be dissolved, the available assets should be transferred to a non-profit organization pursuing public interest goals similar to those of the Organization and likewise benefiting from tax exemption. Under no circumstances should the assets be returned to the founders or members. Nor should they use a part or a total of assets for their own benefit.
