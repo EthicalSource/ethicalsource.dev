@@ -888,22 +888,36 @@ article h2 {
   padding-top: 1.25rem;
 }
 
-  /*=========================================== */
- /*=============== FAQ Styles ================ */
-/*=========================================== */
-    
-    .faq-block{
-      padding: 0.8rem;
-      width: 70%;
-      margin-bottom: 0.1rem;
-      border-bottom: 1px solid #1D1D1D; 
-    }
+a[target='_blank']::after {
+  content: "";
+  width: .8em;
+  height: .8em;
+  margin: 0 0.05em 0 0.1em;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2Ij48cGF0aCBkPSJNOSAyTDkgMyAxMi4zIDMgNiA5LjMgNi43IDEwIDEzIDMuNyAxMyA3IDE0IDcgMTQgMlpNNCA0QzIuOSA0IDIgNC45IDIgNkwyIDEyQzIgMTMuMSAyLjkgMTQgNCAxNEwxMCAxNEMxMS4xIDE0IDEyIDEzLjEgMTIgMTJMMTIgNyAxMSA4IDExIDEyQzExIDEyLjYgMTAuNiAxMyAxMCAxM0w0IDEzQzMuNCAxMyAzIDEyLjYgMyAxMkwzIDZDMyA1LjQgMy40IDUgNCA1TDggNSA5IDRaIi8+PC9zdmc+) no-repeat;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: baseline;
+}
 
-   .question, .answer{
-    width: 90%; 
-    }
+#translation-selection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
 
-    .back-to-top{
-      float: right;
-      position: relative; 
-    }
+.principles-translation {
+  background: #FFFFFF;
+  border: 2px solid #daa520;
+  width: 16rem;
+  border-radius: 110px;
+  font-family: "Source Code Pro Bold";
+  font-size: 1.1rem;
+  padding: 0.2rem;
+  margin: auto;
+}
+
+
+.principles-item {
+  color: #daa520;
+  font-family: "Source Code Pro Bold"; 
+} 
