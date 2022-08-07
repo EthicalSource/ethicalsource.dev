@@ -1,0 +1,35 @@
+{{ $altText := .Get "alt"}}
+{{ $caption := .Get "caption"}}
+
+{{ $res := false }}
+{{ if .Get "name" }}
+  {{ $res = $.Page.Resources.GetMatch (.Get "name") }}
+{{ else if .Get "asset" }}
+  {{ $res = resources.Get (.Get "asset") }}
+{{ end }}
+
+{{ with $res }}
+  {{ if strings.HasSuffix .Name "pdf" }}
+  <!--TODO: Use PDF.js and add lightbox feature. -->
+  PDF: Viewing not implemented yet.
+  {{ else }}
+    <figure>
+      <a href="{{.RelPermalink}}">
+        <img
+          srcset="
+            {{ (.Resize "320x").RelPermalink }} 320w,
+            {{ (.Resize "800x").RelPermalink }} 800w "
+          sizes="(max-width: 600px) 320px, 800px"
+          src="{{ (.Resize "800x").RelPermalink }}"
+          alt="{{$altText}}"
+          data-featurable-image="{{ (.Resize "1000x").RelPermalink }}"
+          />
+      </a>
+      {{ with $caption }}
+        <figcaption><p>{{ . | markdownify }}</p></figcaption>
+      {{ end }}
+    </figure>
+  {{ end }}
+{{ else }}
+  could not find image
+{{ end }}
