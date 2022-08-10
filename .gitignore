@@ -1,1 +1,4 @@
 /public
+.DS_Store
+*.lock
+/resources/_gen
