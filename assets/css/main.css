@@ -916,8 +916,11 @@ a[target='_blank']::after {
   margin: auto;
 }
 
+#principles-list {
+  list-style: none;
+}
 
-.principles-item {
+.principles-title {
   color: #daa520;
   font-family: "Source Code Pro Bold"; 
 } 
