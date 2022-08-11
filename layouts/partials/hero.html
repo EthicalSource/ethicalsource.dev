@@ -2,12 +2,17 @@
   {{ $alt := .Params.title }}
   {{ $heroImage := or .Params.image "geometry-horizontal" }}
   <h3>
-    <a href="/blog/{{ .Params.slug }}">
+    <a href="/{{ .Params.type }}/{{ .Params.slug }}">
       {{ .Params.title }}
     </a>
   </h3>
-  <p>
+  {{ with .Params.summary }}
+    <p class="hero-summary">
+      {{ . }}
+    </p>
+  {{ end }}
+  <p class="more-link">
     <time>{{ .Params.bylineDate}}</time><br />
-    <a href="/blog/{{ .Params.slug }}">Read the Article</a>
+    <a href="/{{ .Params.type }}/{{ .Params.slug }}">Read more</a>
   </p>
 </article>

@@ -5,7 +5,7 @@ ul.heroes {
   list-style: none;
   display: flex;
   justify-content: center;
-  height: 23rem;
+  height: 26rem;
 }
 
 ul.heroes li {
@@ -17,6 +17,8 @@ ul.heroes li {
   padding: 1rem;
   font-size: 1rem;
   text-align: center;
+  background-color: var(--color-white);
+  opacity: 0.75;
   background-image: url("/images/heroes/generic-horizontal.jpg");
   background-position: top left;
   background-repeat: no-repeat;
@@ -24,9 +26,9 @@ ul.heroes li {
   position: relative;
 }
 
-ul.heroes li p {
+ul.heroes li p.more-link {
   position: absolute;
-  bottom: 0;
+  bottom: 10%;
   left: 15%;
   right: 15%;
 }
@@ -38,6 +40,11 @@ ul.heroes li a {
 ul.heroes h3 a {
   font-family: "Source Code Pro Bold";
   text-decoration: none;
+}
+
+ul.heroes li p.hero-summary {
+  text-align: center;
+  color: var(--color-black);
 }
 
 /* Teasers */
