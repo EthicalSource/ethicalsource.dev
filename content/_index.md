@@ -19,6 +19,4 @@ Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta
 
 {{< call-to-action anchor="Foo" url="#" >}}
 
-
-
 {{< gallery >}}

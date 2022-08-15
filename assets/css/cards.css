@@ -220,51 +220,65 @@ ul.floating-cards li:nth-child(even) div.thumbnail {
 .floating-card article h3 {
   font-family: "Coco Sharp Extra Bold";
   line-height: 3.755rem;
-  letter-spacing: .125rem;
-  text-transform: lowercase;
+  letter-spacing: .125rem;  text-transform: lowercase;
   margin: 0rem auto 1.25rem auto;
   font-size: 2.75rem;
   text-transform: lowercase;
 }
 
-/* Portrait Cards */
+/* People Cards */
 
-ul.portrait-cards {
-  margin-left: 0rem;
+ul.portraits {
+  margin-left: -6rem;
+  margin-right: -12rem;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  height: 23rem;
+  margin-left: 0rem;
+  list-style: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: wrap;
 }
 
-ul.portrait-cards li {
-  margin-bottom: 1rem;
-  width: calc(33% - 1.25rem);
+ul.portraits li {
+  margin-bottom: 1.25rem;
+  height: 26rem;
+  width: calc(33% - 3rem);
   margin-right: 1.25rem;
   border: 1px solid var(--color-gold);
   border-radius: 12px;
   padding: 1rem;
   font-size: 1rem;
   text-align: center;
-  background-image: url("/images/portrait-card/generic-horizontal.jpg");
+  background-color: var(--color-white);
+  opacity: 0.75;
+  /* background-image: url("/images/heroes/generic-horizontal.jpg");
   background-position: top left;
   background-repeat: no-repeat;
-  background-size: 100% 3.125rem;
+  background-size: 100% 3.125rem; */
   position: relative;
 }
 
-ul.portrait-cards li p {
+ul.portraits li p.more-link {
   position: absolute;
-  bottom: 0;
+  bottom: 10%;
   left: 15%;
   right: 15%;
 }
 
-ul.portrait-cards li a {
+ul.portraits li a {
   font-family: "Source Code Pro Regular";
 }
 
-ul.portrait-cards h3 a {
+ul.portraits h3 a {
   font-family: "Source Code Pro Bold";
   text-decoration: none;
 }
+
+ul.portraits li p {
+  text-align: center;
+  color: var(--color-black);
+}
+

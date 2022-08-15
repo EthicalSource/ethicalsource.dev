@@ -10,12 +10,12 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1rem; 
+  gap: 1rem;
 }
 
 .gallery-card{
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   border-radius: 0.5rem;
   max-width: 22rem;
   height: 24rem;
@@ -29,7 +29,7 @@
 }
 
 .gallery-desc{
-  max-height: 25%; 
+  max-height: 25%;
   overflow:auto;
   display: flex;
   flex-direction: column;;

@@ -1,0 +1,17 @@
+{{ $image := or .Params.image "geometric.jpg" }}
+<li>
+  <article>
+    <div class="thumbnail">
+      <img src="/images/people/{{ $image }}" class="thumbnail" />
+    </div>
+    <h3>
+      {{ .Params.name }}
+    </h3>
+    <p>
+      {{ .Params.title }}
+    </p>
+    <a href="{{ .Params.slug }}" class="call-to-action">
+      {{ .Params.anchor }}
+    </a>
+  </article>
+</li>
