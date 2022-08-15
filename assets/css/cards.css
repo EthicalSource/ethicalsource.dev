@@ -249,16 +249,37 @@ ul.portraits li {
   margin-right: 1.25rem;
   border: 1px solid var(--color-gold);
   border-radius: 12px;
-  padding: 1rem;
+  padding: 0;
   font-size: 1rem;
   text-align: center;
-  background-color: var(--color-white);
-  opacity: 0.75;
-  /* background-image: url("/images/heroes/generic-horizontal.jpg");
+  /* background-color: var(--color-white); */
+  background: linear-gradient(var(--color-blue-tint), var(--color-blue)); */
+  position: relative;
+  filter: brightness(1.75);
+  object-fit: cover;
+}
+
+
+ul.portraits div.portrait {
+  position: relative;
+  height: 23rem;
+  width: 100%;
+  /* border: 1px solid var(--color-purple);
+  border-radius: 25px; */
   background-position: top left;
   background-repeat: no-repeat;
-  background-size: 100% 3.125rem; */
-  position: relative;
+  background-size: 100% 100%;
+  /* filter: brightness(1.75);
+  object-fit: cover; */
+}
+
+ul.portraits div.portrait img {
+  /* position: absolute; */
+  left: 0;
+  top: 0;
+  opacity: .4;
+  filter: grayscale(1);
+  overflow: hidden;
 }
 
 ul.portraits li p.more-link {
@@ -281,4 +302,3 @@ ul.portraits li p {
   text-align: center;
   color: var(--color-black);
 }
-
