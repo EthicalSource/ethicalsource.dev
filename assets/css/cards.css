@@ -247,44 +247,48 @@ ul.portraits li {
   height: 26rem;
   width: calc(33% - 3rem);
   margin-right: 1.25rem;
-  border: 1px solid var(--color-gold);
+  border: 1px solid #f00; /* var(--color-purple) */
   border-radius: 12px;
   padding: 0;
   font-size: 1rem;
   text-align: center;
-  /* background-color: var(--color-white); */
-  background: linear-gradient(var(--color-blue-tint), var(--color-blue)); */
+  background: #fff;
   position: relative;
-  filter: brightness(1.75);
-  object-fit: cover;
 }
 
-
 ul.portraits div.portrait {
-  position: relative;
-  height: 23rem;
   width: 100%;
-  /* border: 1px solid var(--color-purple);
-  border-radius: 25px; */
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  /* filter: brightness(1.75);
-  object-fit: cover; */
+  margin-right: 1.25rem;
+  border: none;
+  /* border: 1px solid var(--color-purple); */
+  border-radius: 12px;
+  padding: 0;
+  font-size: 1rem;
+  text-align: center;
+  background: linear-gradient(var(--color-blue-tint), var(--color-blue));
+  background-position: top;
+  filter: brightness(1.75);
+  object-fit: contain;
 }
 
 ul.portraits div.portrait img {
-  /* position: absolute; */
   left: 0;
   top: 0;
   opacity: .4;
   filter: grayscale(1);
+  object-fit: cover;
   overflow: hidden;
+}
+
+div.portrait-caption {
+  position: absolute;
+  bottom: 20%;
+  background: #fff;
 }
 
 ul.portraits li p.more-link {
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   left: 15%;
   right: 15%;
 }
@@ -293,8 +297,8 @@ ul.portraits li a {
   font-family: "Source Code Pro Regular";
 }
 
-ul.portraits h3 a {
-  font-family: "Source Code Pro Bold";
+ul.portraits h3 {
+  font-family: "Source Code Pro Regular";
   text-decoration: none;
 }
 

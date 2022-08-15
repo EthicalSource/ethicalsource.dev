@@ -1,6 +1,5 @@
 <article id="{{ .Params.slug }}" class="hero">
   {{ $alt := .Params.title }}
-  {{ $heroImage := or .Params.image "geometry-horizontal" }}
   <h3>
     <a href="/{{ .Params.type }}/{{ .Params.slug }}">
       {{ .Params.title }}
