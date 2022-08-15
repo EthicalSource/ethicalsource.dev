@@ -252,30 +252,29 @@ ul.portraits li {
   padding: 0;
   font-size: 1rem;
   text-align: center;
-  background: #fff;
+  background: linear-gradient(var(--color-blue-tint), var(--color-blue));
   position: relative;
 }
 
-ul.portraits div.portrait {
+div.portrait {
   position: relative;
   width: 100%;
-  height: 19rem;
-  margin-right: 1.25rem;
-  border: none;
+  height: 17rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: var(--color-purple);
   border-radius: 12px;
+  margin-right: 1.25rem;
   padding: 0;
   font-size: 1rem;
   text-align: center;
-  object-fit: cover;
-  background: linear-gradient(var(--color-blue-tint), var(--color-blue));
-  background-position: top;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  filter: brightness(1.75);
   object-fit: contain;
+  filter: brightness(1.75);
+  filter: grayscale(1);
+  opacity: .5;
 }
 
-div.portrait::before {
+/* div.portrait::before {
   content: "";
   position: absolute;
   top: 0;
@@ -284,12 +283,13 @@ div.portrait::before {
   background: linear-gradient(var(--color-blue-tint), var(--color-blue));
   background-position: top;
   object-fit: contain;
-}
+} */
 
 div.portrait img {
+  position: absolute;
   left: 0;
   top: 0;
-  opacity: .4;
+  opacity: .6;
   filter: brightness(1.75);
   filter: grayscale(1);
 }
