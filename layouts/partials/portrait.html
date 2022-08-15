@@ -1,10 +1,10 @@
 {{ $image := or .Params.image "geometric.jpg" }}
 <li>
   <article>
-    <div class="portrait">
-      <img src="/images/people/{{ $image }}" />
+    <div class="portrait" style="background-image: url(/images/people/{{ $image }})">
+      <!-- <img src="/images/people/{{ $image }}" /> -->
     </div>
-    <div class="portrait-caption">
+    <!-- <div class="portrait-caption">
       <h3>
         {{ .Params.name }}
       </h3>
@@ -14,6 +14,6 @@
       <a href="{{ .Params.slug }}" class="more-link">
         Bio
       </a>
-    </div>
+    </div> -->
   </article>
 </li>
