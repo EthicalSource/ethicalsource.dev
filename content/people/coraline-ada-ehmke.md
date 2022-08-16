@@ -1,7 +1,11 @@
 +++
 name = "Coraline Ada Ehmke"
-title = "Founder, President"
+role = "Founder, President"
+title = "Coraline Ada Ehmke"
+subhead = "Founder, President"
 image = "coraline-ada-ehmke.jpg"
 slug = "coraline-ada-ehmke"
-type = "people"
+bioUrl = "https://where.coraline.codes"
 +++
+
+TODO Could put our bios right here, ya know.

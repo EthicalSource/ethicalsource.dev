@@ -1,7 +1,11 @@
 +++
 name = "Sameeul Haque"
-title = "Board Member, Vice President"
+role = "Board Member, Vice President"
+title = "Sameeul Haque"
+subhead = "Board Member, Vice President"
 image = "sameeul-haque.jpg"
 slug = "sameeul-haque"
-type = "people"
+bioUrl = "http://linkedin.com/in/sameeul-haque/"
 +++
+
+TODO Could put our bios right here, ya know.

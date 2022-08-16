@@ -1,7 +1,11 @@
 +++
+title = "Astrid W Countee"
+subhead = "Board Member, Treasurer"
 name = "Astrid W Countee"
-title = "Board Member, Treasurer"
+role = "Board Member, Treasurer"
 image = "astrid-w-countee.jpg"
 slug = "astrid-w-countee"
-type = "people"
+bioUrl = "https://www.linkedin.com/in/astridcountee/"
 +++
+
+TODO Could put our bios right here, ya know.

@@ -226,16 +226,15 @@ ul.floating-cards li:nth-child(even) div.thumbnail {
   text-transform: lowercase;
 }
 
-/* People Cards */
+/* Portrait Cards */
 
 ul.portraits {
   margin-left: -6rem;
-  margin-right: -12rem;
+  margin-right: -6rem;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 0rem;
   list-style: none;
   flex-direction: row;
   flex-wrap: wrap;

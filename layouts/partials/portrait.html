@@ -5,10 +5,10 @@
       <img src="/images/people/{{ $image }}" />
     </div>
     <h3>
-      <a href="{{ .Params.slug }}" class="bio-link">{{ .Params.name }}</a>
+      <a href="/people/{{ .Params.slug }}" class="bio-link">{{ .Params.name }}</a>
     </h3>
     <p>
-      {{ .Params.title }}
+      {{ .Params.role }}
     </p>
   </article>
 </li>
