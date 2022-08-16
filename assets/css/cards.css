@@ -257,17 +257,15 @@ ul.portraits li {
 }
 
 ul.portraits article {
-  /* background: linear-gradient(var(--color-blue-tint), var(--color-blue)); */
-  background: linear-gradient(var(--color-blue-tint), var(--color-blue));
   background-size: 100%;
-  opacity: .9;
   width: 100%;
-  border: var(--color-purple);
-  border-radius: 12px;
 }
 
 div.portrait {
   position: relative;
+  background: linear-gradient(var(--color-blue-tint), var(--color-blue));
+  border: var(--color-purple);
+  border-radius: 12px 12px 0px 0px;
   top: 0;
   left: 0;
   width: 100%;
@@ -278,7 +276,7 @@ div.portrait {
   text-align: center;
 }
 
-/* div.portrait::before {
+div.portrait::before {
   content: "";
   position: absolute;
   top: 0;
@@ -286,43 +284,24 @@ div.portrait {
   height: 23rem;
   background: linear-gradient(var(--color-blue-tint), var(--color-blue));
   background-size: 100%;
-} */
+}
 
 div.portrait img {
-  position: absolute;
-  left: 0;
-  top: 0;
-  border: var(--color-purple);
-  border-radius: 12px;
+  border-top: var(--color-purple);
+  border-radius: 12px 12px 0px 0px;
   object-fit: contain;
-  opacity: .5;
-  filter: brightness(1.75);
   filter: grayscale(1);
-}
-
-/* div.portrait-caption {
-  position: absolute;
-  bottom: 20%;
-  background: #fff;
-}
-
-ul.portraits li p.more-link {
-  position: absolute;
-  bottom: 20%;
-  left: 15%;
-  right: 15%;
-}
-
-ul.portraits li a {
-  font-family: "Source Code Pro Regular";
+  opacity: .6;
 }
 
 ul.portraits h3 {
+  margin: 1rem 0 0 0;
   font-family: "Source Code Pro Regular";
   text-decoration: none;
+  color: var(--color-black);
 }
 
 ul.portraits li p {
-  text-align: center;
+  margin-top: .75rem;
   color: var(--color-black);
-} */
+}
