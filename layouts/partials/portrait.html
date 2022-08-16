@@ -1,8 +1,9 @@
 {{ $image := or .Params.image "geometric.jpg" }}
 <li>
   <article>
-    <div class="portrait" style="background-image: url(/images/people/{{ $image }})">
-      <!-- <img src="/images/people/{{ $image }}" /> -->
+    <!-- <div class="portrait" style="background-image: url(/images/people/{{ $image }})"> -->
+    <div class="portrait">
+      <img src="/images/people/{{ $image }}" />
     </div>
     <!-- <div class="portrait-caption">
       <h3>
