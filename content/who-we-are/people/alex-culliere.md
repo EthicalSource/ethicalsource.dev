@@ -8,4 +8,4 @@ slug = "alex-culliere"
 bioUrl = "https://www.linkedin.com/in/alex-culliere-168754a5/"
 +++
 
-TODO Could put our bios right here, ya know.
+https://www.linkedin.com/in/alex-culliere-168754a5/
