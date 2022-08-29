@@ -304,3 +304,36 @@ ul.portraits li p {
   margin-top: .75rem;
   color: var(--color-black);
 }
+
+/* Bio pages */
+
+div.bio-pic {
+  position: relative;
+  float: right;
+  margin: 0 3rem 3rem 3rem;
+  background: linear-gradient(var(--color-blue-tint), var(--color-blue));
+  border: var(--color-purple);
+  border-radius: 12px;
+  width: 30%;
+  height: 100%;
+  margin-right: 1.25rem;
+  padding: 0;
+}
+
+div.bio-pic::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 23rem;
+  background: linear-gradient(var(--color-blue-tint), var(--color-blue));
+  background-size: 100%;
+}
+
+div.bio-pic img {
+  border-top: var(--color-purple);
+  border-radius: 12px;
+  object-fit: cover;
+  filter: grayscale(1);
+  opacity: .6;
+}

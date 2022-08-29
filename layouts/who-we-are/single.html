@@ -1,11 +1,13 @@
 {{ define "main" }}
 <section>
-  {{ .Content }}
+
   {{ with .Params.image }}
-    <div class="portrait portrait-solo">
+    <div class="bio-pic">
       <img src="/images/people/{{ . }}">
     </div>
   {{ end }}
+
+  {{ .Content }}
   {{ with .Params.aboutUrls }}
     <h2>More about Astrid</h2>
     <ul>
