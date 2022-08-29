@@ -1,10 +1,12 @@
 +++
+slug = "astrid-w-countee"
+category = "board"
 title = "Astrid W Countee"
 subhead = "Board Member, Treasurer"
 name = "Astrid W Countee"
-role = "Board Member and Treasurer"
+givenName = "Astrid"
+role = "Board Member, Treasurer"
 image = "astrid-w-countee.jpg"
-slug = "astrid-w-countee"
 aboutUrls = ["https://www.linkedin.com/in/astridcountee/","http://astridcountee.com"]
 +++
 

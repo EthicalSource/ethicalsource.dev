@@ -391,7 +391,7 @@ header a:hover {
 .strapline {
   font-family: "Backlash Script";
   text-transform: lowercase;
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: -3rem;
 }
 
@@ -922,5 +922,5 @@ a[target='_blank']::after {
 
 .principles-title {
   color: #daa520;
-  font-family: "Source Code Pro Bold"; 
-} 
+  font-family: "Source Code Pro Bold";
+}

@@ -312,11 +312,11 @@ div.bio-pic {
   float: right;
   margin: 0 3rem 3rem 3rem;
   background: linear-gradient(var(--color-blue-tint), var(--color-blue));
+  background-size: 100%;
   border: var(--color-purple);
   border-radius: 12px;
   width: 30%;
-  height: 100%;
-  margin-right: 1.25rem;
+  height: 18rem;
   padding: 0;
 }
 
@@ -331,9 +331,10 @@ div.bio-pic::before {
 }
 
 div.bio-pic img {
+  position: relative;
   border-top: var(--color-purple);
   border-radius: 12px;
   object-fit: cover;
   filter: grayscale(1);
-  opacity: .6;
+  opacity: .8;
 }
