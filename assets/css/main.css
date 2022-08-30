@@ -316,6 +316,15 @@ abbr {
   margin-left: 4.375rem;
 }
 
+.logo-full-color {
+  background-image: url(/images/logos/oes/logo-full-color.png);
+}
+
+.logo-white-gold {
+  background-image: url(/images/logos/oes/logo-white-gold.png);
+}
+
+
 .error,
 .important {
   color: var(--color-red);
@@ -364,16 +373,11 @@ header figure {
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: .25rem;
+  width: 50%;
 }
 
 header figure a {
   color: #fff;
-}
-
-header figcaption {
-  display: inline-block;
-  font-size: 1.625rem;
-  font-weight: 500;
 }
 
 header a {
@@ -395,239 +399,6 @@ header a:hover {
   margin-bottom: -3rem;
 }
 
-@media (min-width: 300px) {
-  body {
-    width: 100%;
-  }
-
-  section {
-    box-sizing: border-box;
-    width: 60rem;
-    margin: 0 auto 1rem auto;
-  }
-
-  header {
-    box-sizing: border-box;
-    width: 100%;
-    margin: 0 auto 1rem auto;
-    width: 100%;
-    padding: 0rem 1rem;
-  }
-
-  header figcaption {
-    font-size: 1.2rem;
-    line-height: 1.2rem;
-    margin-top: 3rem;
-  }
-
-  footer {
-    box-sizing: border-box;
-    width: 100%;
-    margin: 5rem auto 1rem auto;
-    padding: 0 15%;
-  }
-
-  .page-title {
-    margin-top: 22.5rem;
-    width: 100%;
-  }
-
-  .page-title h1 {
-    font-size: 3.75rem;
-    line-height: 3.75rem;
-  }
-
-  .logo {
-    display: block;
-    /* height: 2.813rem;
-    margin-top: 2.188rem;
-    margin-left: 4.375rem; */
-    float: left;
-  }
-
-  header {
-    color: var(--color-white);
-    height: 67.5rem;
-  }
-
-  header.subpage {
-    color: var(--color-black);
-  }
-
-  h1 {
-    font-size: 3rem;
-  }
-
-  #navigation li {
-  }
-
-}
-
-/* end @media (min-width: 300px) */
-
-@media (min-width: 414px) {
-
-  header {
-    color: var(--color-white);
-    height: 67.5rem;
-  }
-
-  .page-title {
-    margin-top: 22.5rem;
-    width: 50%;
-  }
-
-  header figcaption {
-    font-size: 1.25rem;
-  }
-
-  .logo {
-    display: block;
-    float: left;
-  }
-
-  nav {
-    position: absolute;
-    top: 1rem;
-    right: 0.5rem;
-  }
-
-  nav li {
-    margin-left: 3.125rem;
-  }
-}
-
-/* end @media (min-width: 414px) */
-
-@media (min-width: 640px) {
-  html {
-    font-size: 1rem;
-  }
-
-  body {
-    width: 100%;
-  }
-
-  #veil {
-    /* padding-right: 30rem; */
-  }
-
-  .page-title {
-    margin-top: 22.5rem;
-    width: 60%;
-  }
-
-  nav {
-    position: absolute;
-    top: 1rem;
-    right: 4.375rem;
-  }
-
-  .data-list {
-    -moz-column-count: 2;
-    -ms-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
-  }
-
-  header {
-    color: var(--color-white);
-    padding-bottom: 6rem;
-    height: 67.5rem;
-    min-height: 30rem;
-  }
-
-}
-/* end @media (min-width: 640px) */
-
-@media (min-width: 1024px) {
-  html {
-    font-size: 1rem;
-  }
-
-  body {
-    width: 100%;
-  }
-
-  .page-title h1 {
-    font-size: 6rem;
-    line-height: 5rem;
-    width: 100%;
-  }
-
-  section {
-    box-sizing: border-box;
-    width: 60rem;
-    margin: 0 auto 1rem auto;
-  }
-
-  nav ul li a {
-    width: 100%;
-    text-decoration: none;
-  }
-
-  nav ul li a {
-    transition: color .5s, background-color .5s
-  }
-
-  h2 {
-    width: 60rem;
-    margin: 3.125rem auto 1.563rem auto;
-  }
-
-  section h2 {
-    margin-left: 0em;
-    margin-top: 0em;
-    width: 100%;
-  }
-
-  h3 {
-    font-family: "Source Code Pro Bold";
-    margin: 3.125rem 0rem 1.563rem 0rem;
-    width: 100%;
-  }
-
-  h3.fancy-subtitle {
-    font-family: "Backlash Script";
-    font-size: 3.5rem;
-  }
-
-  h2+h3.fancy-subtitle {
-    margin-top: 0;
-  }
-
-  .page-title {
-    margin: 11.25rem auto 0 auto;
-    width: 60%;
-    text-align: center;
-  }
-
-  nav {
-    position: absolute;
-    font-family: "Coco Sharp";
-    text-transform: lowercase;
-    top: 0rem;
-    margin-right: 0.5rem;
-  }
-
-  .data-list {
-    -moz-column-count: 2;
-    -ms-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
-  }
-
-  header {
-    color: var(--color-white);
-    padding-bottom: 6rem;
-    height: 67.5rem;
-    min-height: 30rem;
-    text-align: center;
-  }
-
-}
-
-/* end @media (min-width: 1024px) */
 
 .hidden {
   display: none;
@@ -817,6 +588,7 @@ section img {
 .colophon figure {
   float: left;
 }
+
 .colophon figure .logo {
   height: 8rem;
   margin: 3.25rem 5rem 0 0;
@@ -901,28 +673,265 @@ a[target='_blank']::after {
   vertical-align: baseline;
 }
 
-#translation-selection {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 4rem;
-}
-
-.principles-translation {
-  background: #FFFFFF;
-  border: 2px solid #daa520;
-  width: 16rem;
-  border-radius: 110px;
-  font-family: "Source Code Pro Bold";
-  font-size: 1.1rem;
-  padding: 0.2rem;
-  margin: auto;
-}
-
 #principles-list {
   list-style: none;
 }
 
 .principles-title {
-  color: #daa520;
+  color: var(--color-gold);
   font-family: "Source Code Pro Bold";
 }
+
+@media (min-width: 300px) {
+
+  body {
+    width: 100%;
+  }
+
+  header {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto 1rem auto;
+    width: 100%;
+    padding: 2rem 2rem;
+    color: var(--color-white);
+    height: 67.5rem;
+  }
+
+  header.subpage {
+    color: var(--color-black);
+  }
+
+  section {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto 1rem auto;
+    padding: 1.25rem;
+  }
+
+  footer {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 5rem auto 1rem auto;
+    padding: 0 15%;
+  }
+
+  nav {
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+  }
+
+  #navigation {
+    list-style: none;
+    margin: 1.25rem 0 0 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  #navigation ul {
+    margin: 0;
+  }
+
+  #navigation li {
+    float: none;
+    display: block;
+    font-size: 1rem;
+  }
+
+  .page-title {
+    margin-top: 6rem;
+    width: 100%;
+  }
+
+  .page-title h1 {
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+  }
+
+  .logo {
+    display: block;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    float: left;
+    width: 16rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-left: 0rem;
+  }
+
+  h2 {
+    padding-top: 1.25rem;
+  }
+
+  #navigation li {
+  }
+
+}
+
+/* end @media (min-width: 300px) */
+
+
+@media (min-width: 414px) {
+
+  header {
+    color: var(--color-white);
+    height: 67.5rem;
+  }
+
+  .page-title {
+    margin-top: 22.5rem;
+    width: 50%;
+  }
+
+  .logo {
+    display: block;
+    float: left;
+  }
+
+  nav {
+    position: absolute;
+    top: 1rem;
+    right: 0.5rem;
+  }
+
+  nav li {
+    margin-left: 3.125rem;
+  }
+}
+
+/* end @media (min-width: 414px) */
+
+@media (min-width: 640px) {
+  html {
+    font-size: 1rem;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  #veil {
+    /* padding-right: 30rem; */
+  }
+
+  .page-title {
+    margin-top: 22.5rem;
+    width: 60%;
+  }
+
+  nav {
+    position: absolute;
+    top: 1rem;
+    right: 4.375rem;
+  }
+
+  .data-list {
+    -moz-column-count: 2;
+    -ms-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+
+  header {
+    color: var(--color-white);
+    padding-bottom: 6rem;
+    height: 67.5rem;
+    min-height: 30rem;
+  }
+
+}
+/* end @media (min-width: 640px) */
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 1rem;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  .page-title h1 {
+    font-size: 6rem;
+    line-height: 5rem;
+    width: 100%;
+  }
+
+  section {
+    box-sizing: border-box;
+    width: 60rem;
+    margin: 0 auto 1rem auto;
+  }
+
+  nav ul li a {
+    width: 100%;
+    text-decoration: none;
+  }
+
+  nav ul li a {
+    transition: color .5s, background-color .5s
+  }
+
+  h2 {
+    width: 60rem;
+    margin: 3.125rem auto 1.563rem auto;
+  }
+
+  section h2 {
+    margin-left: 0em;
+    margin-top: 0em;
+    width: 100%;
+  }
+
+  h3 {
+    font-family: "Source Code Pro Bold";
+    margin: 3.125rem 0rem 1.563rem 0rem;
+    width: 100%;
+  }
+
+  h3.fancy-subtitle {
+    font-family: "Backlash Script";
+    font-size: 3.5rem;
+  }
+
+  h2+h3.fancy-subtitle {
+    margin-top: 0;
+  }
+
+  .page-title {
+    margin: 11.25rem auto 0 auto;
+    width: 60%;
+    text-align: center;
+  }
+
+  nav {
+    position: absolute;
+    font-family: "Coco Sharp";
+    text-transform: lowercase;
+    top: 0rem;
+    margin-right: 0.5rem;
+  }
+
+  .data-list {
+    -moz-column-count: 2;
+    -ms-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+
+  header {
+    color: var(--color-white);
+    padding-bottom: 6rem;
+    height: 67.5rem;
+    min-height: 30rem;
+    text-align: center;
+  }
+
+}
+
+/* end @media (min-width: 1024px) */
