@@ -27,9 +27,7 @@
   </head>
 
   <body{{ with .Section }} id="{{ . }}"{{ end }}>
-    <div>
-      {{ partial "header" . }}
-    </div>
+    {{ partial "header" . }}
     <div id="veil">
       {{ block "main" . }}
       {{ end }}

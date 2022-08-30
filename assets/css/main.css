@@ -147,9 +147,7 @@ header {
 footer {
   box-sizing: border-box;
   color: var(--color-white);
-  border-bottom: 6rem solid var(--color-purple);
   background: var(--color-blue);
-  height: 52rem;
   width: 77.188rem;
   clear: both;
   margin-top: 20rem;
@@ -296,6 +294,9 @@ abbr {
   background-image: url(/images/logos/oes/logo-white-gold.png);
 }
 
+.logo-white-vertical {
+  background-image: url(/images/logos/oes/logo-white-vertical.png);
+}
 
 .error,
 .important {
@@ -548,26 +549,47 @@ section img {
   text-transform: lowercase;
 }
 
-.colophon {
-  clear: both;
+.call-to-action::after {
+  content: "";
+  background-color: var(--color-gold);
+  -webkit-mask: url("/images/decorations/svg/arrow-right.svg") no-repeat 50% 50%;
+  mask: url("/images/decorations/svg/arrow-right.svg") no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-size: 100% 100%;
+  display: inline-block;
+  height: 1.5rem;
+  width: 5rem;
+  transform: scale(.5);
+  margin-left: -.5rem;
+}
+
+#colophon {
   position: relative;
   margin-top: 5rem;
-  bottom: 0;
   font-family: "Source Code Pro Regular";
   font-size: 1rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 10%;
 }
 
-.colophon figure {
-  float: left;
+#colophon .colophon-logo {
+  flex: 25%;
+  width: 25%;
 }
 
-.colophon figure .logo {
+#colophon .logo {
   height: 8rem;
-  margin: 3.25rem 5rem 0 0;
+  display: inline-block;
+  margin-top: -1.65rem;
+  margin-bottom: 0rem;
 }
 
-.colophon p {
-  margin-top: 5rem;
+#colophon .colophon-copyright {
+  flex: 70%;
+  height: 8rem;
+  margin: 3rem 0 0 12rem;
 }
 
 .faq-block{
@@ -654,6 +676,8 @@ a[target='_blank']::after {
   font-family: "Source Code Pro Bold";
 }
 
+/* q300 */
+
 @media (min-width: 300px) {
 
   body {
@@ -703,7 +727,10 @@ a[target='_blank']::after {
     box-sizing: border-box;
     width: 100%;
     margin: 5rem auto 1rem auto;
-    padding: 10% 15%;
+    padding: 10% 15% 0 15%;
+    padding-bottom: 45rem;
+    border-bottom: 23rem solid var(--color-purple);
+    height: 52rem;
   }
 
   .footer-nav {
@@ -942,6 +969,12 @@ a[target='_blank']::after {
     height: 67.5rem;
     min-height: 30rem;
     text-align: center;
+  }
+
+  footer {
+    padding: 0 15%;
+    border-bottom: 13rem solid var(--color-purple);
+    height: 42rem;
   }
 
 }
