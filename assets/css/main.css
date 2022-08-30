@@ -576,14 +576,12 @@ section img {
 
 #colophon .colophon-logo {
   flex: 25%;
-  width: 25%;
 }
 
 #colophon .logo {
   height: 8rem;
   display: inline-block;
-  margin-top: -1.65rem;
-  margin-bottom: 0rem;
+  margin: -1.65rem;
 }
 
 #colophon .colophon-copyright {
