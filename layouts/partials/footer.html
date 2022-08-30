@@ -1,19 +1,7 @@
 <footer>
-  <section class="flex-row">
-    <div class="flex-col half">
-      <h2>Want More?</h2>
-      <p>
-        Subscribe for insights, resources and more, delivered right to your inbox!
-      </p>
-     </div>
-   <form method= "POST" class="flexRow half">
-     <input type= "text" placeholder="Email Address">
-     <button type="button">Subscribe</button>
-   </form>
-  </section>
+  <div class="footer-nav">
 
-  <div class="footer-navigation">
-    <div class="column one-third">
+    <div class="nav-card">
       <h3>Explore</h3>
       <ul>
         <li><a href="/who-we-are">Who We Are</a></li>
@@ -23,7 +11,8 @@
         <li><a href="/media">Media Coverage</a></li>
       </ul>
     </div>
-    <div class="column one-third">
+
+    <div class="nav-card">
       <h3>Learn</h3>
       <ul>
         <li><a href="/licenses">Ethical Source Licenses</a></li>
@@ -32,9 +21,9 @@
         <li><a href="/faq">FAQ</a></li>
       </ul>
     </div>
-    <div class="column one-third">
-      <h3>Contact Us</h3>
 
+    <div class="nav-card">
+      <h3>Contact Us</h3>
       <h4>Social</h4>
       <ul>
         <li>Twitter: <a href="https://twitter.com/EthicalOSS">@EthicalOSS</a></li>
@@ -52,6 +41,7 @@
       </ul>
     </div>
   </div>
+
   <div class="colophon flex-row">
     <figure class="one-third">
       <a href="/">
@@ -62,4 +52,5 @@
       &copy; Copyright {{ now.Format "2006" }} Organization for Ethical Source. Support us through <a href="https://opencollective.com/ethical-source">Open Collective</a>. This site does not use cookies or 3rd party analytics.
     </p>
   </div>
+
 </footer>

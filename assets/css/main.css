@@ -102,28 +102,17 @@ nav.subpage a:hover {
   text-decoration-color: var(--color-black);
 }
 
-.footer-navigation {
-  margin: 1.25rem;
-  text-align: left;
-}
-
-.footer-navigation .column {
-  width: 25%;
-  float: left;
-  margin-bottom: 3.125rem;
-}
-
-.footer-navigation ul {
+footer ul {
   list-style: none;
   margin: 0;
 }
 
-.footer-navigation li {
+footer ul li {
   font-size: 1rem;
   margin-bottom: .75rem;
 }
 
-.footer-navigation a {
+footer ul li a {
   color: var(--color-white);
   font-family: "Source Code Pro Regular";
   text-decoration: none;
@@ -225,15 +214,13 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
-  /* line-height: 3rem;
-  padding-top: 4rem;
-  width: 75%; */
+  font-family: "Source Code Pro Bold";
 }
 
 h4 {
   font-family: "Source Code Pro Bold";
-  width: 100%;
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 p {
@@ -686,20 +673,6 @@ a[target='_blank']::after {
     color: var(--color-black);
   }
 
-  section {
-    box-sizing: border-box;
-    width: 100%;
-    margin: 0 auto 1rem auto;
-    padding: 1.25rem;
-  }
-
-  footer {
-    box-sizing: border-box;
-    width: 100%;
-    margin: 5rem auto 1rem auto;
-    padding: 0 15%;
-  }
-
   nav {
     position: absolute;
     top: 0;
@@ -717,6 +690,45 @@ a[target='_blank']::after {
     float: none;
     display: block;
     font-size: 1rem;
+  }
+
+  section {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto 1rem auto;
+    padding: 1.25rem;
+  }
+
+  footer {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 5rem auto 1rem auto;
+    padding: 10% 15%;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-count: 3;
+    width: 100%;
+  }
+
+  .footer-nav .nav-card {
+    flex: 40%;
+    margin-top: 1.25rem;
+  }
+
+  .footer-nav ul {
+    list-style: none;
+    margin: 1.25rem 0 0 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  .footer-nav .nav-card ul li {
+    float: none;
+    display: block;
   }
 
   .page-title {
@@ -787,6 +799,7 @@ a[target='_blank']::after {
   nav li {
     margin-left: 3.125rem;
   }
+
 }
 
 /* end @media (min-width: 414px) */
@@ -827,6 +840,15 @@ a[target='_blank']::after {
     padding-bottom: 6rem;
     height: 67.5rem;
     min-height: 30rem;
+  }
+
+  .footer-nav .nav-card {
+    flex: 30%;
+  }
+
+  .footer-nav .nav-card ul li {
+    float: none;
+    display: block;
   }
 
 }
@@ -874,7 +896,6 @@ a[target='_blank']::after {
   }
 
   h3 {
-    font-family: "Source Code Pro Bold";
     margin: 3.125rem 0rem 1.563rem 0rem;
     width: 100%;
   }
