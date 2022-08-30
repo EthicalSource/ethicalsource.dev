@@ -1,14 +1,12 @@
 {{ $image := or .Params.image "geometric.jpg" }}
 <li>
-  <article>
-    <div class="portrait">
-      <img src="/images/people/{{ $image }}" />
-    </div>
-    <h3>
-      <a href="/who-we-are/people/{{ .Params.slug }}" class="bio-link">{{ .Params.name }}</a>
-    </h3>
-    <p>
-      {{ .Params.role }}
-    </p>
-  </article>
+  <div class="portrait">
+    <img src="/images/people/{{ $image }}" />
+  </div>
+  <h3>
+    <a href="/who-we-are/people/{{ .Params.slug }}" class="bio-link">{{ .Params.name }}</a>
+  </h3>
+  <p>
+    {{ .Params.role }}
+  </p>
 </li>
