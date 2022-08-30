@@ -78,41 +78,26 @@ section {
   color: var(--color-black);
 }
 
-#navigation {
-  list-style: none;
-  margin: 3.438rem 0 0 0;
-  padding: 0;
-  text-align: left;
-}
-
-#navigation ul {
-  margin: 0;
-}
-
-#navigation li {
-  float: left;
-  display: inline;
-  font-size: 1rem;
-}
-
-#navigation a {
+nav a {
   color: var(--color-white);
   display: block;
   padding: 0;
+  text-decoration: none;
+  text-transform: lowercase;
 }
 
-#navigation a:focus,
-#navigation a:hover {
+nav a:focus,
+nav a:hover {
   color: var(--color-white);
   text-decoration-color: var(--color-white);
 }
 
-#navigation.subpage a {
+nav.subpage a {
   color: var(--color-black);
 }
 
-#navigation.subpage a:focus,
-#navigation.subpage a:hover {
+nav.subpage a:focus,
+nav.subpage a:hover {
   color: var(--color-black);
   text-decoration-color: var(--color-black);
 }
@@ -690,7 +675,6 @@ a[target='_blank']::after {
 
   header {
     box-sizing: border-box;
-    width: 100%;
     margin: 0 auto 1rem auto;
     width: 100%;
     padding: 2rem 2rem;
@@ -722,25 +706,21 @@ a[target='_blank']::after {
     right: 0.5rem;
   }
 
-  #navigation {
+  nav ul {
     list-style: none;
     margin: 1.25rem 0 0 0;
     padding: 0;
     text-align: left;
   }
 
-  #navigation ul {
-    margin: 0;
-  }
-
-  #navigation li {
+  nav ul li {
     float: none;
     display: block;
     font-size: 1rem;
   }
 
   .page-title {
-    margin-top: 6rem;
+    margin-top: 9rem;
     width: 100%;
   }
 
@@ -759,16 +739,21 @@ a[target='_blank']::after {
     background-size: contain;
   }
 
+  .kicker {
+    position: relative;
+    margin: 1.25rem auto 0 auto;
+    font-size: 1.25rem;
+    line-height: 1.688rem;
+  }
+
   h1 {
     font-size: 3rem;
+    margin-top: 1.25rem;
     margin-left: 0rem;
   }
 
   h2 {
     padding-top: 1.25rem;
-  }
-
-  #navigation li {
   }
 
 }
@@ -915,6 +900,12 @@ a[target='_blank']::after {
     text-transform: lowercase;
     top: 0rem;
     margin-right: 0.5rem;
+  }
+
+  nav ul li {
+    float: left;
+    display: inline;
+    font-size: 1rem;
   }
 
   .data-list {
