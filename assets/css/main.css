@@ -150,7 +150,6 @@ footer {
   background: var(--color-blue);
   width: 77.188rem;
   clear: both;
-  margin-top: 20rem;
   font-family: "Source Code Pro Regular";
 }
 
@@ -507,6 +506,94 @@ section img {
   max-width: 100%;
 }
 
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/banners/home.jpg");
+  background-size: cover;
+}
+
+.banner-main::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: linear-gradient(var(--color-blue-tint), var(--color-blue));
+  opacity: 0.9;
+}
+
+.banner-subpage {
+  background-image: url("/images/banners/subpage.jpg");
+}
+
+.banner-takeover {
+  display: flex;
+  flex-direction: column;
+  padding: 0 40% 5rem 40%;
+  color: var(--color-white);
+  margin: 3rem -30% 0rem -30%;
+  text-align: center;
+  background: linear-gradient(135deg, var(--color-purple-gradient-dark), var(--color-purple-gradient-light), var(--color-purple-gradient-dark));
+}
+
+.banner-takeover h2 {
+  font-family: "Coco Sharp Extra Bold";
+  color: var(--color-gold);
+  line-height: 3.755rem;
+  padding-top: 4rem;
+  letter-spacing: .125rem;
+  text-align: center;
+  text-transform: lowercase;
+  width: 100%;
+  margin: 0rem auto 1.25rem auto;
+  font-size: 3.75rem;
+  text-transform: lowercase;
+}
+
+.banner-takeover .strapline {
+  margin-top: 2.75rem;
+  color: var(--color-white);
+}
+
+.banner-takeover article {
+  position: relative;
+  height: 100%;
+}
+
+.banner-takeover div.thumbnail {
+  position: relative;
+  height: 12rem;
+  width: 12rem;
+  margin: 1.8rem auto;
+  border: 1px solid var(--color-purple);
+  border-radius: 25px;
+  font-size: 1rem;
+  background: linear-gradient(var(--color-blue-tint), var(--color-blue));
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  filter: brightness(1.75);
+  object-fit: cover;
+}
+
+.banner-takeover div.thumbnail img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .5;
+  filter: grayscale(1);
+  border: 1px solid var(--color-light-grey);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.banner-takeover .call-to-action {
+  color: var(--color-white);
+}
+
 .byline {
   font-weight: bold;
 }
@@ -535,19 +622,6 @@ section img {
   margin-left: 0rem;
 }
 
-.call-to-action-bottom h2 {
-  margin: 0rem auto 3rem auto;
-  padding-top: 4rem;
-  width: 75%;
-  font-family: "Coco Sharp Extra Bold";
-  font-size: 2.75rem;
-  text-decoration: none;
-  line-height: 2.75rem;
-  letter-spacing: .1rem;
-  text-align: center;
-  text-transform: lowercase;
-}
-
 .call-to-action::after {
   content: "";
   background-color: var(--color-gold);
@@ -563,9 +637,22 @@ section img {
   margin-left: -.5rem;
 }
 
+.call-to-action-bottom h2 {
+  margin: 0rem auto 3rem auto;
+  padding-top: 4rem;
+  width: 75%;
+  font-family: "Coco Sharp Extra Bold";
+  font-size: 2.75rem;
+  text-decoration: none;
+  line-height: 2.75rem;
+  letter-spacing: .1rem;
+  text-align: center;
+  text-transform: lowercase;
+}
+
 #colophon {
   position: relative;
-  margin-top: 5rem;
+  margin-top: 7rem;
   font-family: "Source Code Pro Regular";
   font-size: 1rem;
   flex-direction: column;
@@ -764,7 +851,7 @@ ul.portraits li p {
 
   nav {
     position: absolute;
-    top: 0;
+    top: 1.25rem;
     right: 0.5rem;
   }
 
@@ -791,7 +878,7 @@ ul.portraits li p {
   footer {
     box-sizing: border-box;
     width: 100%;
-    margin: 5rem auto 1rem auto;
+    margin: 3rem auto 1rem auto;
     padding: 10% 15% 0 15%;
     padding-bottom: 45rem;
     border-bottom: 23rem solid var(--color-purple);
@@ -823,6 +910,16 @@ ul.portraits li p {
     display: block;
   }
 
+  #colophon .colophon-logo {
+    flex: 15%;
+  }
+
+  #colophon .colophon-copyright {
+    flex: 70%;
+    height: 8rem;
+    margin: 3rem 0 0 12rem;
+  }
+
   .page-title {
     margin-top: 9rem;
     width: 100%;
@@ -848,6 +945,22 @@ ul.portraits li p {
     margin: 1.25rem auto 0 auto;
     font-size: 1.25rem;
     line-height: 1.688rem;
+  }
+
+  #colophon .colophon-logo {
+    flex: 10%;
+  }
+
+  #colophon .logo {
+    height: 8rem;
+    display: inline-block;
+    margin: -1.65rem;
+  }
+
+  #colophon .colophon-copyright {
+    flex: 00%;
+    height: 8rem;
+    margin: 3rem 0 0 12rem;
   }
 
   h1 {
@@ -884,7 +997,7 @@ ul.portraits li p {
 
   nav {
     position: absolute;
-    top: 1rem;
+    top: 1.25rem;
     right: 0.5rem;
   }
 
@@ -916,7 +1029,7 @@ ul.portraits li p {
 
   nav {
     position: absolute;
-    top: 1rem;
+    top: 1.5rem;
     right: 4.375rem;
   }
 
@@ -943,10 +1056,25 @@ ul.portraits li p {
     display: block;
   }
 
+  ul.portraits {
+    grid-template-columns: repeat(auto-fit, calc(33% - 3rem));
+  }
+
+  ul.portraits li {
+    height: 24rem;
+    margin-bottom: 1.25rem;
+    margin-right: .75rem;
+  }
+
+  div.portrait {
+    height: 51%;
+  }
+
 }
 /* end @media (min-width: 640px) */
 
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
+
   html {
     font-size: 1rem;
   }
@@ -977,8 +1105,7 @@ ul.portraits li p {
   }
 
   h2 {
-    width: 60rem;
-    margin: 3.125rem auto 1.563rem auto;
+    padding-top: 3rem;
   }
 
   section h2 {
@@ -1008,10 +1135,7 @@ ul.portraits li p {
   }
 
   nav {
-    position: absolute;
-    font-family: "Coco Sharp";
-    text-transform: lowercase;
-    top: 0rem;
+    top: 1.125rem;
     margin-right: 0.5rem;
   }
 
@@ -1037,29 +1161,19 @@ ul.portraits li p {
   }
 
   footer {
-    padding: 0 15%;
+    padding: 0 15% 3rem 15%;
     border-bottom: 13rem solid var(--color-purple);
-    height: 42rem;
-  }
-
-  ul.portraits {
-    grid-template-columns: repeat(auto-fit, calc(33% - 3rem));
-  }
-
-  ul.portraits li {
-    height: 24rem;
-    margin-bottom: 1.25rem;
-    margin-right: .75rem;
-  }
-
-  div.portrait {
-    height: 15rem;
+    height: 45rem;
   }
 
   .call-to-action-bottom h2 {
     line-height: 3.755rem;
     letter-spacing: .125rem;
     font-size: 3.75rem;
+  }
+
+  div.portrait {
+    height: 15rem;
   }
 
 }
