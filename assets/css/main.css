@@ -531,7 +531,7 @@ section img {
 
 .banner-takeover {
   position: relative;
-  padding: 0;
+  padding: 1rem 0;
   margin-top: 3rem;
   background: linear-gradient(135deg, var(--color-purple-gradient-dark), var(--color-purple-gradient-light), var(--color-purple-gradient-dark));
   color: var(--color-white);
@@ -758,21 +758,20 @@ a[target='_blank']::after {
 }
 
 ul.portraits {
-
-  /* margin-left: -5rem;
-  margin-right: -6rem; */
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, calc(50% - 2rem));
   overflow: wrap;
+  /* width: 95%; */
+  margin: 0rem auto;
+  /* max-width: 72rem; */
   justify-content: center;
-  list-style: none;
 }
 
 ul.portraits li {
-  height: 23rem;
+  /* height: 23rem; */
   margin-bottom: 1.25rem;
-  margin-right: 1.75rem;
+  margin-left: 1.75rem;
   border: var(--color-purple);
   border-radius: 12px;
   font-size: 1rem;
@@ -789,20 +788,9 @@ div.portrait {
   top: 0;
   left: 0;
   width: 100%;
-  height: 14rem;
   padding: 0;
   font-size: 1rem;
   text-align: center;
-}
-
-div.portrait::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 23rem;
-  background: linear-gradient(var(--color-blue-tint), var(--color-blue));
-  background-size: 100%;
 }
 
 div.portrait img {
@@ -987,6 +975,11 @@ ul.portraits li p {
     padding-top: 1.25rem;
   }
 
+  /* ul.portraits {
+    grid-template-columns: repeat(auto-fit, calc(33% - 3rem));
+  } */
+
+
 }
 
 /* end @media (min-width: 300px) */
@@ -1073,23 +1066,23 @@ ul.portraits li p {
   .banner-takeover {
     position: relative;
     width: 99vw;
-    margin-left: -50vw;
-    left: 50%;
+    margin-left: -51vw;
+    left: 51%;
   }
 
   ul.portraits {
     grid-template-columns: repeat(auto-fit, calc(33% - 3rem));
   }
 
-  ul.portraits li {
+  /* ul.portraits li {
     height: 24rem;
     margin-bottom: 1.25rem;
     margin-right: .75rem;
-  }
+  } */
 
-  div.portrait {
+  /* div.portrait {
     height: 51%;
-  }
+  } */
 
 }
 /* end @media (min-width: 640px) */
@@ -1189,7 +1182,7 @@ ul.portraits li p {
 
   .banner-takeover {
     position: relative;
-    width: 99.5vw;
+    width: 99vw;
     margin-left: -50vw;
     left: 50%;
   }
@@ -1200,9 +1193,9 @@ ul.portraits li p {
     font-size: 3.75rem;
   }
 
-  div.portrait {
+  /* div.portrait {
     height: 15rem;
-  }
+  } */
 
 }
 
