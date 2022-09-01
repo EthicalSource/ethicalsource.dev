@@ -531,18 +531,18 @@ section img {
 
 .banner-takeover {
   position: relative;
-  /* display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; */
   padding: 0;
-  /* padding: 0 40% 5rem 40%; */
   margin-top: 3rem;
-  /* margin-left: -20%;
-  margin-right: -20%; */
-  /* margin: 3rem 0 0rem -30%; */
   background: linear-gradient(135deg, var(--color-purple-gradient-dark), var(--color-purple-gradient-light), var(--color-purple-gradient-dark));
   color: var(--color-white);
   text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; */
+  /* padding: 0 40% 5rem 40%; */
+  /* margin-left: -20%;
+  margin-right: -20%; */
+  /* margin: 3rem 0 0rem -30%; */
 }
 
 .banner-takeover h2 {
@@ -758,8 +758,9 @@ a[target='_blank']::after {
 }
 
 ul.portraits {
-  margin-left: -5rem;
-  margin-right: -6rem;
+
+  /* margin-left: -5rem;
+  margin-right: -6rem; */
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, calc(50% - 2rem));
