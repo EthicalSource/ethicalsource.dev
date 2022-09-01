@@ -32,7 +32,6 @@ body {
   color: var(--color-black);
   font: 300 1.25rem/1.875rem "Source Code Pro Regular", sans-serif;
   margin: 0 auto 1rem auto;
-  /* padding: 0rem 5rem 0rem 5rem; */
   font-synthesis: none;
   -moz-hanging-punctuation: first last allow-end;
   -ms-hanging-punctuation: first last allow-end;
@@ -536,13 +535,6 @@ section img {
   background: linear-gradient(135deg, var(--color-purple-gradient-dark), var(--color-purple-gradient-light), var(--color-purple-gradient-dark));
   color: var(--color-white);
   text-align: center;
-  /* display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; */
-  /* padding: 0 40% 5rem 40%; */
-  /* margin-left: -20%;
-  margin-right: -20%; */
-  /* margin: 3rem 0 0rem -30%; */
 }
 
 .banner-takeover h2 {
@@ -760,7 +752,6 @@ a[target='_blank']::after {
 ul.portraits {
   list-style: none;
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, calc(50% - 2rem)); */
   grid-template-columns: repeat(auto-fit, calc(50% - 2rem));
   overflow: wrap;
   margin: 3.125rem auto;
@@ -816,8 +807,6 @@ ul.portraits li p {
   color: var(--color-gold);
   font-family: "Source Code Pro Bold";
 }
-
-/* q300 */
 
 @media (min-width: 300px) {
 
@@ -973,7 +962,6 @@ ul.portraits li p {
 
 /* end @media (min-width: 300px) */
 
-
 @media (min-width: 414px) {
 
   header {
@@ -1012,10 +1000,6 @@ ul.portraits li p {
 
   body {
     width: 100%;
-  }
-
-  #veil {
-    /* padding-right: 30rem; */
   }
 
   .page-title {
@@ -1062,16 +1046,6 @@ ul.portraits li p {
   ul.portraits {
     grid-template-columns: repeat(auto-fit, calc(33% - 3rem));
   }
-
-  /* ul.portraits li {
-    height: 24rem;
-    margin-bottom: 1.25rem;
-    margin-right: .75rem;
-  } */
-
-  /* div.portrait {
-    height: 51%;
-  } */
 
 }
 /* end @media (min-width: 640px) */
@@ -1181,10 +1155,6 @@ ul.portraits li p {
     letter-spacing: .125rem;
     font-size: 3.75rem;
   }
-
-  /* div.portrait {
-    height: 15rem;
-  } */
 
 }
 
