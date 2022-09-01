@@ -530,13 +530,19 @@ section img {
 }
 
 .banner-takeover {
-  display: flex;
+  position: relative;
+  /* display: flex;
   flex-direction: column;
-  padding: 0 40% 5rem 40%;
-  color: var(--color-white);
-  margin: 3rem -30% 0rem -30%;
-  text-align: center;
+  flex-wrap: wrap; */
+  padding: 0;
+  /* padding: 0 40% 5rem 40%; */
+  margin-top: 3rem;
+  /* margin-left: -20%;
+  margin-right: -20%; */
+  /* margin: 3rem 0 0rem -30%; */
   background: linear-gradient(135deg, var(--color-purple-gradient-dark), var(--color-purple-gradient-light), var(--color-purple-gradient-dark));
+  color: var(--color-white);
+  text-align: center;
 }
 
 .banner-takeover h2 {
@@ -910,6 +916,13 @@ ul.portraits li p {
     display: block;
   }
 
+  .banner-takeover {
+    position: relative;
+    width: 98vw;
+    margin-left: -51vw;
+    left: 51%;
+  }
+
   #colophon .colophon-logo {
     flex: 15%;
   }
@@ -1056,6 +1069,13 @@ ul.portraits li p {
     display: block;
   }
 
+  .banner-takeover {
+    position: relative;
+    width: 99vw;
+    margin-left: -50vw;
+    left: 50%;
+  }
+
   ul.portraits {
     grid-template-columns: repeat(auto-fit, calc(33% - 3rem));
   }
@@ -1164,6 +1184,13 @@ ul.portraits li p {
     padding: 0 15% 3rem 15%;
     border-bottom: 13rem solid var(--color-purple);
     height: 45rem;
+  }
+
+  .banner-takeover {
+    position: relative;
+    width: 99.5vw;
+    margin-left: -50vw;
+    left: 50%;
   }
 
   .call-to-action-bottom h2 {
