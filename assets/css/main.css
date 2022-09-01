@@ -760,17 +760,15 @@ a[target='_blank']::after {
 ul.portraits {
   list-style: none;
   display: grid;
+  /* grid-template-columns: repeat(auto-fit, calc(50% - 2rem)); */
   grid-template-columns: repeat(auto-fit, calc(50% - 2rem));
   overflow: wrap;
-  /* width: 95%; */
-  margin: 0rem auto;
-  /* max-width: 72rem; */
+  margin: 3.125rem auto;
   justify-content: center;
 }
 
 ul.portraits li {
-  /* height: 23rem; */
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.75rem;
   margin-left: 1.75rem;
   border: var(--color-purple);
   border-radius: 12px;
@@ -781,28 +779,24 @@ ul.portraits li {
 }
 
 div.portrait {
-  position: relative;
   background: linear-gradient(var(--color-blue-tint), var(--color-blue));
   border: var(--color-purple);
   border-radius: 12px 12px 0px 0px;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 0;
-  font-size: 1rem;
   text-align: center;
 }
 
 div.portrait img {
-  border-top: var(--color-purple);
+  border: var(--color-purple);
   border-radius: 12px 12px 0px 0px;
-  object-fit: contain;
   filter: grayscale(1);
   opacity: .6;
+  margin-bottom: -.5rem;
 }
 
 ul.portraits h3 {
-  margin: 1rem 0 0 0;
+  font-size: 1rem;
+  margin-top: 1.25rem;
+  line-height: 1.75rem;
   font-family: "Source Code Pro Regular";
   text-decoration: none;
   color: var(--color-black);
@@ -974,11 +968,6 @@ ul.portraits li p {
   h2 {
     padding-top: 1.25rem;
   }
-
-  /* ul.portraits {
-    grid-template-columns: repeat(auto-fit, calc(33% - 3rem));
-  } */
-
 
 }
 
