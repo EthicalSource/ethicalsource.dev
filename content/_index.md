@@ -13,4 +13,4 @@ But its success has come with a price. Today, open source technologies are also 
 
 The Organization for Ethical Source (OES) was founded to empower open source communities to ensure that their work is being used for social good and in service of human rights. We develop tools and standards to promote fair, ethical, and equitable outcomes for everyone who contributes to, benefits from, or is impacted by open source technologies.
 
-  {{< call-to-action anchor="Who We Are" url="/who-we-are" >}}
+{{< call-to-action-bottom heading="Our mission is volunteer-led and member-driven." anchor="Who We Are" url="/who-we-are" >}}
