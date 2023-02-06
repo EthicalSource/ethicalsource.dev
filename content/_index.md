@@ -2,21 +2,15 @@
 title = "Ethical Source: Open Source, Evolved."
 heading = "Ethical Source: Open Source, Evolved."
 level = "main"
-kicker = "The true measure of the success of open source is its impact: how the technologies we develop are leveraged to bring about positive social, cultural, and political change."
+kicker = "The true measure of the success of open source is its real-world impact: how the technologies we develop can help promote positive social, cultural, and political change."
 +++
 
 ## Our Mission
 
-Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut [fermentum massa justo]("#") sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod.
+The practice of open source involves working collaboratively and in the open, drawing on contributions from around the globe to create innovative new tools and technologies. Open source provides the technological foundation of the internet, and an estimated 78% of all businesses globally leverage open source software in some form.
 
-Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo.
+But its success has come with a price. Today, open source technologies are also being abused to sustain systems of inequity, violence, and oppression. It plays an increasingly critical role in surveillance capitalism, data harvesting, anti-immigrant violence, protester suppression, racist policing, the deployment of cruel and inhumane weapons, and other human rights abuses all over the world. And a growing number of open source developers want to do something about this abuse of their work.
 
-{{< call-to-action anchor="Foo" url="#" >}}
+The Organization for Ethical Source (OES) was founded to empower open source communities to ensure that their work is being used for social good and in service of human rights. We develop tools and standards to promote fair, ethical, and equitable outcomes for everyone who contributes to, benefits from, or is impacted by open source technologies.
 
-## Our Community
-
-Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui.
-
-{{< call-to-action anchor="Foo" url="#" >}}
-
-{{< gallery >}}
+{{< call-to-action anchor="What We Believe" url="/what-we-believe/" >}}
