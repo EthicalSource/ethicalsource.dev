@@ -596,7 +596,7 @@ section img {
   font-weight: bold;
 }
 
-.call-to-action {
+.call-to-action-link {
   display: block;
   text-decoration: none;
   font-family: "Backlash Script";
@@ -605,7 +605,7 @@ section img {
   margin-top: 3.25rem;
 }
 
-.call-to-action::after {
+.call-to-action-link::after {
   content: "";
   background-color: var(--color-gold);
   -webkit-mask: url("/images/decorations/svg/arrow-right.svg") no-repeat 50% 50%;
@@ -646,6 +646,11 @@ section img {
   letter-spacing: .1rem;
   text-align: center;
   text-transform: lowercase;
+}
+
+.call-to-action-bottom .call-to-action-link {
+  margin-top: 0rem;
+  text-align: center;
 }
 
 #colophon {
