@@ -649,6 +649,7 @@ section img {
 }
 
 #colophon {
+  clear: both;
   position: relative;
   margin-top: 7rem;
   font-family: "Source Code Pro Regular";
