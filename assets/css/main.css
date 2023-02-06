@@ -771,7 +771,8 @@ section img {
   text-decoration: none;
   font-family: "Backlash Script";
   text-transform: lowercase;
-  font-size: 3rem;
+  font-size: 4.25rem;
+  margin-top: 4.25rem;
 }
 
 .call-to-action-bottom h2 {
