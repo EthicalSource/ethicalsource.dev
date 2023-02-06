@@ -768,11 +768,27 @@ section img {
 }
 
 .call-to-action {
+  display: block;
   text-decoration: none;
   font-family: "Backlash Script";
   text-transform: lowercase;
-  font-size: 4.25rem;
-  margin-top: 4.25rem;
+  font-size: 4.75rem;
+  margin-top: 3.25rem;
+}
+
+.call-to-action::after {
+  content: "";
+  background-color: var(--color-gold);
+  -webkit-mask: url("/images/decorations/svg/arrow-right.svg") no-repeat 50% 50%;
+  mask: url("/images/decorations/svg/arrow-right.svg") no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: contain;
+  background-size: 100% 00%;
+  display: inline-block;
+  height: 2.5rem;
+  width: 5rem;
+  transform: scale(.75);
+  margin-left: 0rem;
 }
 
 .call-to-action-bottom h2 {
@@ -787,21 +803,6 @@ section img {
   margin: 0rem auto 1.25rem auto;
   font-size: 3.75rem;
   text-transform: lowercase;
-}
-
-.call-to-action::after {
-  content: "";
-  background-color: var(--color-gold);
-  -webkit-mask: url("/images/decorations/svg/arrow-right.svg") no-repeat 50% 50%;
-  mask: url("/images/decorations/svg/arrow-right.svg") no-repeat 50% 50%;
-  -webkit-mask-size: cover;
-  mask-size: cover;
-  background-size: 100% 100%;
-  display: inline-block;
-  height: 1.5rem;
-  width: 5rem;
-  transform: scale(.5);
-  margin-left: -.5rem;
 }
 
 .colophon {
