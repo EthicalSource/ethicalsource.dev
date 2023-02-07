@@ -5,6 +5,7 @@ title = "Astrid W Countee"
 subhead = "Board Member, Treasurer"
 name = "Astrid W Countee"
 givenName = "Astrid"
+pronouns = "she/her"
 role = "Board Member, Treasurer"
 image = "astrid-w-countee.jpg"
 aboutUrls = ["https://www.linkedin.com/in/astridcountee/","http://astridcountee.com"]

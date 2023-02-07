@@ -800,8 +800,12 @@ ul.portraits h3 {
 }
 
 ul.portraits li p {
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
   padding: 0 1.25rem;
-  margin-top: .75rem;
+  margin-top: 0rem;
   color: var(--color-black);
 }
 
@@ -1050,7 +1054,7 @@ ul.portraits li p {
   }
 
   ul.portraits {
-    grid-template-columns: repeat(auto-fit, calc(33% - 3rem));
+    grid-template-columns: repeat(auto-fit, calc(25% - 3rem));
   }
 
 }

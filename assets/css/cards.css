@@ -231,7 +231,7 @@ ul.floating-cards li:nth-child(even) div.thumbnail {
 div.bio-pic {
   position: relative;
   float: right;
-  margin: 0 3rem 3rem 3rem;
+  margin: 2rem 3rem 5rem 3rem;
   background: linear-gradient(var(--color-blue-tint), var(--color-blue));
   background-size: 100%;
   border: var(--color-purple);
@@ -239,6 +239,7 @@ div.bio-pic {
   width: 30%;
   height: 18rem;
   padding: 0;
+  text-align: center;
 }
 
 div.bio-pic::before {

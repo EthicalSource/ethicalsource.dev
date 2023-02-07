@@ -6,6 +6,7 @@ subhead = "Board Member, Secretary"
 role = "Board Member, Secretary"
 name = "Alex Culliere"
 givenName = "Alex"
+pronouns = "he/him"
 image = "alex-culliere.jpg"
 aboutUrls = ["https://www.linkedin.com/in/alex-culliere-168754a5/"]
 +++

@@ -1,13 +1,13 @@
 {{ define "main" }}
 <section>
 
-  {{ with .Params.image }}
-    <div class="bio-pic">
-      <img src="/images/people/{{ . }}">
-    </div>
-  {{ end }}
+  <div class="bio-pic">
+    <img src="/images/people/{{ .Params.image }}">
+    {{ .Params.Name }} ({{ .Params.Pronouns }})
+  </div>
 
   {{ .Content }}
+
   {{ if .Params.aboutUrls }}
     <h2>More about {{ or .Params.givenName .Params.name }}</h2>
     <ul>
