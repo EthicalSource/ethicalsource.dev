@@ -1,6 +1,5 @@
 +++
 title = "Our Bylaws"
-kicker = "Lorem ipsum"
 +++
 
 ## NAME

@@ -449,23 +449,25 @@ input[type="checkbox"] {
 }
 
 button {
-  background-color: #1e1a33;
+  background-color: var(--color-purple);
   padding: .25rem 1rem;
   color: #fff;
   border-radius: 5px;
 }
 
 button:hover {
-  background-color: #6bcccc;
+  background-color: var(--color-blue-tint);
 }
 
 button {
   transition: background-color 0.5s;
 }
+
 input {
   margin-top: 1rem;
   height: 3rem;
 }
+
 input,
 textarea {
   width: 100%;
