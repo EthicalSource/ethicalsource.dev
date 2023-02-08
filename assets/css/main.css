@@ -603,8 +603,9 @@ section img {
   text-decoration: none;
   font-family: "Backlash Script";
   text-transform: lowercase;
-  font-size: 4.75rem;
-  margin-top: 3.25rem;
+  font-size: 4.25rem;
+  line-height: 3.25rem;
+  margin-top: 2.75rem;
 }
 
 .call-to-action-link::after {

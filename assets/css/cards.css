@@ -158,8 +158,8 @@ article.media h3 a {
 /* Floating Cards */
 
 ul.floating-cards {
-  margin-left: -6rem;
-  margin-right: -12rem;
+  /* margin-left: -6rem;
+  margin-right: -12rem; */
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -173,24 +173,34 @@ ul.floating-cards li {
   width: calc(49% - 3rem);
   font-size: 1rem;
   padding-top: 1.25rem;
-  padding-bottom: 23rem;
+  /* padding-bottom: 23rem; */
   position: relative;
+  text-align: center;
 }
 
-ul.floating-cards li:nth-child(even) div.thumbnail {
-  margin-top: 3rem;
+ul.floating-cards li:nth-child(odd) {
+  margin-top: -13rem;
+}
+
+ul.floating-cards li:first-child {
+  margin-top: 0rem;
+}
+
+ul.floating-cards li:nth-child(even) {
+  margin-top: 13rem;
 }
 
 .floating-card article div.thumbnail {
   position: relative;
-  margin-bottom: 1.8rem;
-  margin-right: 1.8rem;
+  /* margin-bottom: 1.8rem;
+  margin-right: 1.8rem; */
+  margin: 0 auto;
   border: 1px solid var(--color-light-grey);
   border-radius: 20px;
   font-size: 1rem;
   padding-top: 1.25rem;
-  width: calc(100% - 3rem);
-  height: calc(120%);
+  width: 17rem;
+  height: 17rem;
   background: linear-gradient(var(--color-blue-tint), var(--color-blue));
   background-position: top left;
   background-repeat: no-repeat;
@@ -219,7 +229,7 @@ ul.floating-cards li:nth-child(even) div.thumbnail {
 
 .floating-card article h3 {
   font-family: "Coco Sharp Extra Bold";
-  line-height: 3.755rem;
+  line-height: 3.25rem;
   letter-spacing: .125rem;  text-transform: lowercase;
   margin: 0rem auto 1.25rem auto;
   font-size: 2.75rem;
