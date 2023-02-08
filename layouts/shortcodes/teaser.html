@@ -1,7 +1,10 @@
-{{ $thumbnail := or .Params.thumbnail "generic-square.jpg" }}
+{{ $thumbnails := readDir "/static/images/blog/thumbnails_greyscale" | shuffle }}
+{{ $randomThumbnail := index $thumbnails 0 }}
+{{ $offset := index (seq 30 | shuffle) 0 | mul 20 }}
+
 <li>
   <article id="{{ .Params.slug }}" class="teaser">
-    <img src="/images/blog/thumbnails/{{ $thumbnail }}" class="thumbnail">
+    <div class="thumbnail" style="background-image: url('/images/blog/thumbnails_greyscale/{{ $randomThumbnail.Name }}'); background-position: -{{ $offset }}px -{{ $offset}}px"></div>
     <h3>
       <a href="{{ .Params.slug }}">
         {{ .Params.anchor }}

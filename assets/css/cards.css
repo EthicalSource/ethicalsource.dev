@@ -75,7 +75,9 @@ ul.teasers li {
   background-size: 38% 100%;
 }
 
-article.teaser img.thumbnail {
+article.teaser div.thumbnail {
+  background-image: url('/images/blog/thumbnails/fireworks_1.jpg');
+  /* background-repeat: no-repeat; */
   height: 100%;
   width: 38%;
   position: absolute;
@@ -84,6 +86,16 @@ article.teaser img.thumbnail {
   opacity: .5;
 }
 
+
+/* article.teaser img.thumbnail {
+  height: 100%;
+  width: 38%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .5;
+}
+ */
 article.teaser time {
   font-size: 0.6rem;
   position: absolute;
@@ -189,10 +201,13 @@ ul.floating-cards li:nth-child(even) {
   margin-top: 13rem;
 }
 
+.floating-card article {
+  position: relative;
+  height: 100%;
+}
+
 .floating-card article div.thumbnail {
   position: relative;
-  /* margin-bottom: 1.8rem;
-  margin-right: 1.8rem; */
   margin: 0 auto;
   border: 1px solid var(--color-light-grey);
   border-radius: 20px;
@@ -202,28 +217,7 @@ ul.floating-cards li:nth-child(even) {
   height: 17rem;
   background: linear-gradient(var(--color-blue-tint), var(--color-blue));
   background-position: top left;
-  background-repeat: no-repeat;
   background-size: 100% 100%;
-  filter: brightness(1.75);
-}
-
-.floating-card article {
-  position: relative;
-  height: 100%;
-}
-
-.floating-card article img.thumbnail {
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: .3;
-  filter: grayscale(1);
-  height: 100%;
-  width: 100%;
-  border: 1px solid var(--color-light-grey);
-  border-radius: 20px;
-  object-fit: cover;
-  overflow: hidden;
 }
 
 .floating-card article h3 {
