@@ -11,7 +11,7 @@ ul.heroes li {
   margin-right: 1.25rem;
   margin-bottom: 1rem;
   width: calc(33% - 1.25rem);
-  height: 23rem;
+  height: 17rem;
   border: 1px solid var(--color-gold);
   border-radius: 12px;
   padding: 1rem;
@@ -159,8 +159,6 @@ article.media h3 a {
 /* Floating Cards */
 
 ul.floating-cards {
-  /* margin-left: -6rem;
-  margin-right: -12rem; */
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -199,7 +197,7 @@ ul.floating-cards li:nth-child(even) {
   border: 1px solid var(--color-light-grey);
   border-radius: 20px;
   font-size: 1rem;
-  padding-top: 1.25rem;
+  padding: 1.25rem;
   width: 17rem;
   height: 17rem;
   background: linear-gradient(var(--color-blue-tint), var(--color-blue));

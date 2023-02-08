@@ -1,6 +1,6 @@
 +++
 title = "Ethical EdTech"
-summary = "Promoting open, ethical tools and technologies for students and educators."
+summary = "Open, ethical tools and technologies for students and educators."
 slug = "ethical-edtech"
 type = "projects"
 targetUrl = ""

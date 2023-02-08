@@ -3,7 +3,9 @@
 <li class="floating-card">
   <article>
     <div class="thumbnail">
-      <img src="/images/heroes/{{ $thumbnail }}" class="thumbnail" />
+      <a href="{{ .Params.targetUrl }}">
+        <img src="/images/heroes/{{ $thumbnail }}" class="thumbnail" />
+      </a>      
     </div>
     <h3>
       {{ .Params.title}}
