@@ -1,5 +1,5 @@
 +++
-title = "Our Bylaws"
+title = "Bylaws of the Organization for Ethical Source"
 +++
 
 ## NAME
