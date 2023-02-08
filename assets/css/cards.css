@@ -1,17 +1,17 @@
 /* Heroes */
 
 ul.heroes {
-  margin-left: 0rem;
+  margin-left: 1.75rem;
   list-style: none;
   display: flex;
   justify-content: center;
-  height: 26rem;
 }
 
 ul.heroes li {
+  margin-right: 1.25rem;
   margin-bottom: 1rem;
   width: calc(33% - 1.25rem);
-  margin-right: 1.25rem;
+  height: 23rem;
   border: 1px solid var(--color-gold);
   border-radius: 12px;
   padding: 1rem;
@@ -22,7 +22,8 @@ ul.heroes li {
   background-image: url("/images/heroes/generic-horizontal.jpg");
   background-position: top left;
   background-repeat: no-repeat;
-  background-size: 100% 3.125rem;
+  background-size: 100% 4.125rem;
+  padding-top: 4.125rem;
   position: relative;
 }
 
