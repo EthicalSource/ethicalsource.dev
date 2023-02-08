@@ -1,10 +1,15 @@
 +++
-title = "Ethical Source Licensure Incubator"
-summary = ""
+title = "Ethical Licensure Incubator"
+summary = "OES is uniquely positioned to foster innovation by supporting the development of new ethical source licenses."
 slug = "ethical-licensure-incubator"
-anchor = "Learn More"
-thumbnail = "justice-scales.jpg"
 type = "projects"
+targetUrl = "/projects/ethical-licensure-incubator"
+targetAnchor = "Learn more"
+thumbnail = "justice-scales.jpg"
 +++
 
-Ethical licensure is in its early stages, and through our partnership with Corporate Accountability Lab (CAL), OES is uniquely positioned to foster innovation in this space by supporting the development of new ethical source licenses.
+Ethical licensure is in its early stages, and through our partnership with [Corporate Accountability Lab](https://corpaccountabilitylab.org) (CAL), OES is uniquely positioned to foster innovation in this space. Our collaboration has been funded through a collaborative grant shared between CAL and OES. Supplemental funding will help us augment CAL’s expertise at the intersection of intellectual property and human rights with legal experts who have specific experience in the use of IP in the open source ecosystem. 
+
+In addition to developing additional modules and other future developments for the Hippocratic License, our Ethical Licensure Incubator also supports the development of other Ethical Source licenses, including the [At The Root Anti-Racist License](https://attheroot.dev) currently under development by OES member [Dawn Wages](https://dawnwages.info).
+
+Are you interested in shaping the future of ethical licenses? [Become an OES member](/join) and join the Ethical Licensure working group.
