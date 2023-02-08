@@ -1,0 +1,18 @@
+{{ $thumbnail := or .Params.thumbnail "geometric.jpg" }}
+
+<li class="floating-card">
+  <article>
+    <div class="thumbnail">
+      <img src="/images/heroes/{{ $thumbnail }}" class="thumbnail" />
+    </div>
+    <h3>
+      {{ .Params.title}}
+    </h3>
+    <p>
+      {{ .Params.summary }}
+    </p>
+    <a href="{{ .Params.externalUrl }}" class="call-to-action-link">
+      {{ .Params.externalAnchor }}
+    </a>
+  </article>
+</li>

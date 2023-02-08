@@ -1,7 +1,10 @@
 +++
 title = "Ethical Source Licensure Incubator"
-summary = "Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit."
-slug = "ethical-source-license-incubator"
+summary = ""
+slug = "ethical-licensure-incubator"
+anchor = "Learn More"
+thumbnail = "justice-scales.jpg"
 type = "projects"
 +++
 
+Ethical licensure is in its early stages, and through our partnership with Corporate Accountability Lab (CAL), OES is uniquely positioned to foster innovation in this space by supporting the development of new ethical source licenses.

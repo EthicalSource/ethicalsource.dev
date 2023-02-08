@@ -1,17 +1,6 @@
-{{ $thumbnail := or .Params.thumbnail "geometric.jpg" }}
-<li class="floating-card">
-  <article>
-    <div class="thumbnail">
-      <img src="/images/heroes/{{ $thumbnail }}" class="thumbnail" />
-    </div>
-    <h3>
-      {{ .Params.title}}
-    </h3>
-    <p>
-      {{ .Params.text }}
-    </p>
-    <a href="{{ .Params.slug }}" class="call-to-action-link">
-      {{ .Params.anchor }}
-    </a>
-  </article>
-</li>
+{{ $directory := .Params.type }}
+{{ with .Get "slug" }}
+  {{ range (where (where $.Site.Pages "Section" $directory ) ".Params.slug" . ) | first 1 }}
+    {{ partial "floating-card" . }}
+  {{ end }}
+{{ end }}
