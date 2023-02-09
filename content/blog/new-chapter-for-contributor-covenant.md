@@ -17,5 +17,3 @@ In the early 2010s, when Coraline Ada Ehmke [joined the chorus](https://modelvie
 Today, this historic document enters the next phase of its evolution. Coraline has transferred stewardship to the Organization for Ethical Source. This milestone marks its "[exit to community](https://www.colorado.edu/lab/medlab/exit-to-community)," as Contributor Covenant graduates from a passion project into a community-owned asset.
 
 Contributor Covenant, the [Ethical Source Principles](/principles), and a growing number of  [Ethical Source licenses](https://ethicalsource.dev/licenses) are key components of an “ethical stack”—a set of tools for technologists to help ensure their creations are a force for good in the world.
-
-</div>
