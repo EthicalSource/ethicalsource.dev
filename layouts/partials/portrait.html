@@ -1,7 +1,7 @@
 {{ $image := or .Params.image "geometric.jpg" }}
 <li>
   <div class="portrait">
-    <img src="/images/people/{{ $image }}" />
+    <a href="/who-we-are/people/{{ .Params.slug }}"><img src="/images/people/{{ $image }}" /></a>
   </div>
   <h3>
     <a href="/who-we-are/people/{{ .Params.slug }}" class="bio-link">{{ .Params.name }}</a>
