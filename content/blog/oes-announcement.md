@@ -2,6 +2,7 @@
 title = "Announcing a New Kind of Open Source Organization"
 summary = "Creators of the Hippocratic License establish a nonprofit to empower developers to use their technology talents for social good and to prevent harm."
 slug = "oes-announcement"
+type = "blog"
 bylineDate = "January 19, 2021"
 +++
 

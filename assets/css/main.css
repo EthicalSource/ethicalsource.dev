@@ -563,22 +563,6 @@ section img {
   height: 100%;
 }
 
-.banner-takeover div.thumbnail {
-  position: relative;
-  height: 12rem;
-  width: 12rem;
-  margin: 1.8rem auto;
-  border: 1px solid var(--color-purple);
-  border-radius: 25px;
-  font-size: 1rem;
-  background: linear-gradient(var(--color-blue-tint), var(--color-blue));
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  filter: brightness(1.75);
-  object-fit: cover;
-}
-
 .banner-takeover div.thumbnail img {
   position: absolute;
   left: 0;

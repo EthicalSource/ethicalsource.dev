@@ -4,6 +4,7 @@ summary = "How to get involved, and how Active Members drive what the OES does."
 slug = "paths-to-membership"
 bylineAuthor = ""
 bylineDate = "May 10, 2021"
+type = "blog"
 +++
 
 Welcome to Part 1 of our practical guide to how the OES operates, and how you can get involved. In this first part, we want to explain how membership works: What the various forms of membership mean, and how membership is determined. We want you to feel welcome to participate in the Organization for Ethical Source (OES) at whatever level of involvement works best for you, and this guide will help you understand how that works.

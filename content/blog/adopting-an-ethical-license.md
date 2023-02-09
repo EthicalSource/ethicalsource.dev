@@ -2,6 +2,7 @@
 title = "Adopting an Ethical License"
 summary = ""
 slug = "adopting-an-ethical-license"
+type = "blog"
 bylineDate = "May 2020"
 +++
 

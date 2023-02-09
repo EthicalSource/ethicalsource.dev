@@ -2,6 +2,7 @@
 title = "AI in the Future of Work"
 summary = "Technological systems always have a differential impact on communities who have unequal access to resources and skills. In the world of work, they could either enhance access to economic opportunities, or amplify socioeconomic inequality."
 slug = "ai-in-the-future-of-work"
+type = "blog"
 bylineAuthor = "Ambika Tandon"
 bylineDate = "May 11, 2021"
 +++

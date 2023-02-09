@@ -1,6 +1,7 @@
 +++
 title = "Organization for Ethical Source Takes on Stewardship of Contributor Covenant"
-summary = "The Ethical Source community will draw on global voices and perspectives to evolve and reimagine Contributor Covenant."
+summary = "OES will draw on global voices and perspectives to evolve and reimagine Contributor Covenant."
+type = "blog"
 slug = "contributor-covenant-stewardship"
 bylineDate = "May 27, 2021"
 bylineAuthor = ""

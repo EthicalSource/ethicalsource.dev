@@ -2,6 +2,7 @@
 title = "Statement on Richard Stallman's Return to the FSF Board"
 summary = "Stallman’s \"that’s how it is\" is not how it has to be."
 slug = "statement-on-richard-stallman"
+type = "blog"
 bylineAuthor = ""
 bylineDate = "March 22, 2021"
 +++

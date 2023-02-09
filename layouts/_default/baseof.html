@@ -3,9 +3,8 @@
 {{- $fontStyles := resources.Get "css/fonts.css" -}}
 {{- $cardStyles := resources.Get "css/cards.css" -}}
 {{- $flexStyles := resources.Get "css/flex.css" -}}
-{{- $galleryStyle := resources.Get "css/gallery.css" -}}
 
-{{- $css := slice $fontStyles $cardStyles $flexStyles $mainStyles $galleryStyle| resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint -}}
+{{- $css := slice $fontStyles $cardStyles $flexStyles $mainStyles | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint -}}
 
 {{- $mainJs := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint -}}
 

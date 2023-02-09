@@ -4,6 +4,7 @@ summary = "Understanding the Organization for Ethical Source’s structure and g
 slug = "how-we-work"
 bylineAuthor = "Tobie Langel"
 bylineDate = "May 3, 2021"
+type = "blog"
 +++
 
 The Ethical Source movement [organized into a legal entity](/blog/oes-announcement/) in late January. We had some goals when creating this structure that we took great care to reflect in its [bylaws](/bylaws). We wanted a lightweight and simple structure that reflects our existing ad hoc practices, limits bureaucracy, and empowers our community to drive industry-wide change. We wanted active members to steer the direction of the organization. And we wanted to sustainably anchor our work around our mission to promote ethical practices and outcomes in free and open source software and other digital commons.

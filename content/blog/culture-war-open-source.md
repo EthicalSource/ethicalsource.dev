@@ -2,6 +2,7 @@
 title = "The Culture War in Open Source is On"
 summary = ""
 slug = "culture-war-open-source"
+type = "blog"
 bylineDate = "April 15, 2020"
 bylineAuthor = "Nathan Schneider"
 +++
