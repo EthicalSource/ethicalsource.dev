@@ -1,6 +1,6 @@
 {{ $thumbnails := readDir "/static/images/blog/thumbnails_greyscale" | shuffle }}
 {{ $randomThumbnail := index $thumbnails 0 }}
-{{ $offset := index (seq 30 | shuffle) 0 | mul 20 }}
+{{ $offset := index (seq 20 | shuffle) 0 | mul 20 }}
 
 <div class="thumbnail" style="background-image: url('/images/blog/thumbnails_greyscale/{{ $randomThumbnail.Name }}'); background-position: -{{ $offset }}px -{{ $offset}}px"></div>
 
