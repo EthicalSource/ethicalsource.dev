@@ -277,7 +277,8 @@ div.bio-pic img {
   position: relative;
   border-top: var(--color-purple);
   border-radius: 12px;
+  height: 18rem;
   object-fit: cover;
   filter: grayscale(1);
-  opacity: .8;
+  opacity: .6;
 }
