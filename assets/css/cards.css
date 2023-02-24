@@ -182,25 +182,37 @@ ul.floating-cards {
 ul.floating-cards li {
   margin-bottom: 5rem;
   margin-right: 3rem;
-  width: calc(49% - 3rem);
+  width: calc(40% - 3rem);
   font-size: 1rem;
-  padding-top: 1.25rem;
+  padding: 1.25rem;
   /* padding-bottom: 23rem; */
   position: relative;
   text-align: center;
 }
 
-ul.floating-cards li:nth-child(odd) {
+ul.floating-cards li {
+  margin-top: 0rem;
+}
+
+/* ul.floating-cards li:nth-child(odd) {
   margin-top: -13rem;
+}
+
+ul.floating-cards li:nth-child(even) {
+  margin-top: 13rem;
 }
 
 ul.floating-cards li:first-child {
   margin-top: 0rem;
 }
 
-ul.floating-cards li:nth-child(even) {
-  margin-top: 13rem;
+ul.floating-cards li:nth-last-child(odd) {
+  margin-top: 0rem;
 }
+
+ul.floating-cards li:nth-last-child(even) {
+  margin-top: 0rem;
+} */
 
 .floating-card article {
   position: relative;
@@ -240,11 +252,15 @@ ul.floating-cards li:nth-child(even) {
 
 .floating-card article h3 {
   font-family: "Coco Sharp Extra Bold";
-  line-height: 3.25rem;
+  line-height: 2.75rem;
   letter-spacing: .125rem;  text-transform: lowercase;
-  margin: 0rem auto 1.25rem auto;
+  margin: 1.25rem auto 1.25rem auto;
   font-size: 2.75rem;
   text-transform: lowercase;
+}
+
+.floating-card article h3 a {
+  text-decoration: none;
 }
 
 /* Bio pages */

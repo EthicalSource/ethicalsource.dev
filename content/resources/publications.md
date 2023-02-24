@@ -3,7 +3,7 @@ title = "Publications"
 slug = "publications"
 type = "resources"
 targetUrl = "/resources/publications"
-targetAnchor = "Read our latest papers"
+targetAnchor = "Our latest papers"
 thumbnail = ""
 +++
 
