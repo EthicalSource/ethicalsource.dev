@@ -1,13 +1,12 @@
 +++
 title = "FAQs"
-summary = "TODO"
-slug = "faq"
+slug = "faqs"
 type = "resources"
-targetUrl = "/faq"
+targetUrl = "/resources/faqs"
 targetAnchor = "Learn more"
 thumbnail = ""
 +++
 
 Content here!
 
-{{< call-to-action-bottom heading="Pledge your support for Contributor Covenant" anchor="donate now" url="https://opencollective.com/contributor-covenant" >}}
+{{< call-to-action-bottom heading="Other Ethical Source Resources" anchor="learn more" url="/resources" >}}
