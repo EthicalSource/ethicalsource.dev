@@ -5,5 +5,5 @@ slug = "contributor-covenant"
 type = "projects"
 targetUrl = "https://contributor-covenant.org"
 targetAnchor = "Visit the Contributor Covenant website"
-thumbnail = "contributor-covenant-logo.svg"
+thumbnail = "heroes/contributor-covenant-logo.svg"
 +++

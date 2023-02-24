@@ -5,7 +5,7 @@ slug = "contributor-covenant-3"
 type = "projects"
 targetUrl = ""
 targetAnchor = ""
-thumbnail = "contributor-covenant-logo.svg"
+thumbnail = "heroes/contributor-covenant-logo.svg"
 +++
 
 Contributor Covenant is more than a code of conduct—- it's a foundational document that has transformed the practice of open source around the world. Contributor Covenant promotes diversity, equity, and inclusivity in open source communities, which have traditionally excluded marginalized contributors and been dominated by white American men.

@@ -5,5 +5,5 @@ slug = "hippocratic-license-3"
 type = "projects"
 targetUrl = "https://firstdonoharm.dev"
 targetAnchor = "Visit the Hippocratic License website"
-thumbnail = "hl3-logo.png"
+thumbnail = "heroes/hl3-logo.png"
 +++

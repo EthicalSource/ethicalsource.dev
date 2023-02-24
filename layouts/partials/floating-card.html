@@ -1,11 +1,14 @@
-{{ $thumbnail := or .Params.thumbnail "geometric.jpg" }}
+{{ $thumbnails := readDir "/static/images/thumbnails/thumbnails_greyscale" | shuffle }}
+{{ $randomThumbnail := index $thumbnails 0 }}
+{{ $randomThumbnailWithPath := printf "%s%s" "thumbnails/thumbnails_greyscale/" $randomThumbnail.Name }}
+{{ $thumbnail := or .Params.thumbnail $randomThumbnailWithPath }}
 
 <li class="floating-card">
   <article>
     <div class="thumbnail">
       <a href="{{ .Params.targetUrl }}">
-        <img src="/images/heroes/{{ $thumbnail }}" class="thumbnail" />
-      </a>      
+        <img src="/images/{{ $thumbnail }}" class="thumbnail" />
+      </a>
     </div>
     <h3>
       {{ .Params.title}}
