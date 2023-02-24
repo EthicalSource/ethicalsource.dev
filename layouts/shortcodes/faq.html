@@ -1,6 +1,9 @@
 
 <dl class="faq-block">
   <dt id={{ .Get "question-id" }} class="question"><h4>{{ .Get "question" }}</h4></dt>
-  <db class="answer">{{ .Get "answer" }}<a href= "#top-of-page" class="back-to-top">Back to top.</a></db>
+  <db class="answer">
+    {{ .Inner|markdownify }}
+    <a href= "#top-of-page" class="back-to-top">Back to top.</a>
+  </db>
 </dl>
 
