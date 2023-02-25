@@ -23,7 +23,36 @@ thumbnail = "/thumbnails/talks.svg"
 
 ## Talks and Workshops
 
-* [The World Set Free](https://www.youtube.com/watch?v=SG759w1qfpI), RubyConf Australia (February 17, 2023)
+<ul class="teasers">
+
+{{< teaser slug="https://www.youtube.com/watch?v=SG759w1qfpI" anchor="The World Set Free" summary="RubyConf Australia" bylineAuthor="Coraline Ada Ehmke" bylineDate="February 17, 2023" >}}
+
+{{< teaser slug="https://archive.org/details/ehmke-metagov-20221130" anchor="Introducing the Open Social Compact" summary="Metagovernance Seminar" bylineDate="November 30, 2022" >}}
+
+{{< teaser slug="/video/will_behave_for_code.mp4" anchor="Will Behave For Code: How Ethical Software Licensing Can Combat Human Rights Abuses by Corporations" summary="RightsCon, 2022" bylineAuthor="Sameeul Haque, Coraline Ada Ehmke" bylineDate="June 8, 2022" >}}
+
+{{< teaser slug="https://www.youtube.com/watch?v=9Z98OVawxI4&list=PLPDjhzarwzCiXe3nmpJJpyTyGoG3SIsKR&index=13" anchor="Emerging Trends in Open" summary="Creative Commons, 2021 Global Summit panel discussion" bylineDate="September 24, 2021" >}}
+
+{{< teaser slug="https://www.youtube.com/playlist?list=PL5k3dDDhwiFSqQ28peRRtMqJVbxLNeOl-" anchor="The Future of Open Source" summary="Panel series in collaboration with the UCLA Institute for Technology Law and Practice and Corporate Accountability Lab" bylineDate="October 18, 2021" >}}
+
+{{< teaser slug="https://www.youtube.com/watch?v=sbbOvptDgu4" anchor="The Social Responsibility of Software Engineers" summary="Keynote, Cloud Foundry Summit" bylineAuthor="Coraline Ada Ehmke" bylineDate="July 21, 2021" >}}
+
+{{< teaser slug="https://www.youtube.com/watch?v=1tpPQ1fYW5Y" anchor="Beyond Code: Centering People in Open Source" summary="Open Source Lisbon" bylineAuthor="Tobie Langel, Coraline Ada Ehmke" bylineDate="June 18, 2021" >}}
+
+{{< teaser slug="https://www.colorado.edu/center/demtech/coraline-ada-ehmke-ethical-open-source" anchor="Workshop on Ethical Open Source" summary="Colorado Research Center for Democracy & Technology" bylineAuthor="Coraline Ada Ehmke" bylineDate="February 22, 2021" >}}
+
+{{< teaser slug="https://www.youtube.com/watch?v=lweK7hOD5TU" anchor="Ethical Source, Strong Copyleft, and Open Software Business Models" summary="" bylineDate="Aug 17, 2020" >}}
+
+{{< teaser slug="https://fosdem.org/2020/schedule/event/ethicsoss/" anchor="The Ethics of Open Source: A Critical Reflection" summary="FOSSDEM" bylineAuthor="Don Goodman-Wilson" bylineDate="February 2, 2020" >}}
+
+{{< teaser slug="https://fosdem.org/2020/schedule/event/ethicsbackinoss/" anchor="Bringing Back Ethics to Open Source" summary="FOSSDEM" bylineAuthor="Toby Langel" bylineDate="February 2, 2020" >}}
+
+{{< teaser slug="https://archive.org/details/copyleftconf2020-ehmke" anchor="The Rising Ethical Storm in Open Source" summary="CopyleftConf" bylineAuthor="Coraline Ada Ehmke" bylineDate="February 3, 2020" >}}
+
+
+</ul>
+
+<!-- * [The World Set Free](https://www.youtube.com/watch?v=SG759w1qfpI), RubyConf Australia (February 17, 2023)
 * [Introducing the Open Social Compact](https://archive.org/details/ehmke-metagov-20221130), Metagovernance Seminar (November 30, 2022)
 * [Will Behave For Code: How Ethical Software Licensing Can Combat Human Rights Abuses by Corporations](/video/will_behave_for_code.mp4), RightsCon 2022 (June 8, 2022)
 * [Emerging Trends in Open](https://www.youtube.com/watch?v=9Z98OVawxI4&list=PLPDjhzarwzCiXe3nmpJJpyTyGoG3SIsKR&index=13) Creative Commons 2021 Global Summit panel discussion (September 24 2021)
@@ -34,7 +63,7 @@ thumbnail = "/thumbnails/talks.svg"
 * [Ethical Source, Strong Copyleft, and Open Software Business Models](https://www.youtube.com/watch?v=lweK7hOD5TU)
 * [The Ethics of Open Source: A Critical Reflection](https://fosdem.org/2020/schedule/event/ethicsoss/) by Don Goodman-Wilson (FOSDEM, February 2 2020)
 * [Bringing Back Ethics to Open Source](https://fosdem.org/2020/schedule/event/ethicsbackinoss/) by Tobie Langel (FOSDEM, February 2 2020)
-* [The Rising Ethical Storm in Open Source](https://where.coraline.codes/talks/ethical-open-source/) by Coraline Ada Ehmke (CopyleftConf, February 3 2020)
+* [The Rising Ethical Storm in Open Source](https://where.coraline.codes/talks/ethical-open-source/) by Coraline Ada Ehmke (CopyleftConf, February 3 2020) -->
 
 ## Podcasts
 * [Ethics in Open Source](https://anchor.fm/ethicsinopensource)

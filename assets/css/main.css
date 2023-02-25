@@ -381,10 +381,10 @@ ul.teasers {
 ul.teasers li {
   margin-bottom: 1.8rem;
   margin-right: 1.8rem;
-  width: calc(49% - 1.8rem);
   border: 1px solid var(--color-light-grey);
   border-radius: 6px;
   font-size: 1rem;
+  width: 100%;
   padding-top: 1.25rem;
   position: relative;
   background: linear-gradient(var(--color-gold-tint), var(--color-gold));
@@ -392,6 +392,7 @@ ul.teasers li {
   background-repeat: no-repeat;
   object-fit: cover;
   background-size: 38% 100%;
+  padding-bottom: 1.25rem;
 }
 
 article.teaser div.thumbnail {
@@ -410,10 +411,17 @@ article.teaser time {
   bottom: 0px;
 }
 
+article.teaser .byline-author {
+  font-size: 0.75rem;
+  position: absolute;
+  bottom: 1rem;
+}
+
 article.teaser {
   margin-left: 40%;
+  padding-right: 1rem;
   height: 100%;
-  min-height: 7rem;
+  min-height: 11rem;
 }
 
 article.teaser h3 a {
@@ -424,7 +432,12 @@ article.teaser h3 {
   font-family: "Source Code Pro Bold";
   font-size: 1rem;
   line-height: 1.25rem;
-  margin: 0rem auto 1.25rem;
+  margin: 0rem auto 0rem;
+}
+
+article.teaser p {
+  margin: 1rem 0rem;
+  line-height: 1.25rem;
 }
 
 /* Press/Media */
@@ -1358,6 +1371,10 @@ ul.portraits li p {
     left: 51%;
   }
 
+  ul.teasers li {
+    width: calc(49% - 1.8rem);
+  }
+
   ul.floating-cards li {
     width: calc(49% - 3rem);
   }
@@ -1366,7 +1383,6 @@ ul.portraits li p {
     width: calc(30% - 3rem);
     min-height: 23rem;
   }
-
 
   ul.portraits {
     grid-template-columns: repeat(auto-fit, calc(25% - 3rem));

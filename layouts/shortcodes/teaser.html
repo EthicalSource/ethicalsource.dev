@@ -10,6 +10,10 @@
         {{ .Params.anchor }}
       </a>
     </h3>
+    {{ with .Params.summary }}
+      <p>{{ . }}</p>
+    {{ end }}
+    <span class="byline-author">{{ .Params.bylineAuthor }}</span>
     <time>{{ .Params.bylineDate }}</time>
   </article>
 </li>
