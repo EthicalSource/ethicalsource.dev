@@ -2,11 +2,9 @@
 title = "Frequently Asked Questions"
 slug = "faqs"
 type = "resources"
-targetUrl = "/resources/faqs"
+targetUrl = "/faq"
 targetAnchor = "Learn more"
 thumbnail = "/thumbnails/faqs.svg"
 +++
 
-Content here!
-
-{{< call-to-action-bottom heading="Other Ethical Source Resources" anchor="learn more" url="/resources" >}}
+{{< call-to-action-bottom heading="More Ethical Source Resources" anchor="learn more" url="/resources" >}}

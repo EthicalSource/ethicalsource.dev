@@ -7,5 +7,3 @@ targetUrl = "/video/will_behave_for_code.mp4"
 targetAnchor = "Watch the Video"
 thumbnail = ""
 +++
-
-* [](/video/will_behave_for_code.mp4),

@@ -4,4 +4,8 @@ summary = "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum ni
 slug = "digital-coercion"
 bylineAuthor = "Coraline Ada Ehmke"
 bylineDate = "May 11, 2021"
+targetAnchor = "Read the paper"
+targetUrl = "/publications/digital-coercion"
 +++
+
+{{< call-to-action-bottom heading="PDF available" anchor="download now" url="/publications/digital-coercion.pdf" >}}
