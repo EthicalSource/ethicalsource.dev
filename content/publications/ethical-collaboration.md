@@ -7,6 +7,7 @@ bylineDate = "May 11, 2021"
 targetAnchor = "Read the paper"
 targetUrl = "/publications/ethical-collaboration"
 downloadUrl = "/publications/ethical-collaboration.pdf"
+thumbnail = "/thumbnails/ethical-collaboration.svg"
 +++
 
 Open source communities and technologies bring tremendous potential for transforming our world for the better. But with their use in racially-biased policing and sentencing, surveillance capitalism, unethical data collection, and protester identification and suppression, we’re seeing that open source can also deepen divides and compound existing inequities. And, unfortunately, it’s often the most vulnerable and marginalized communities that are impacted.

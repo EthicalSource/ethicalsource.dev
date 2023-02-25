@@ -7,6 +7,7 @@ bylineDate = "February 24, 2023"
 targetAnchor = "Read the paper"
 targetUrl = "/publications/digital-coercion"
 downloadUrl = "/publications/digital-coercion.pdf"
+thumbnail = "thumbnails/digital-coercion.svg"
 +++
 
 We are increasingly dependent on the internet to fulfill our basic personal, social, cultural, and political needs. But with the rapid pace of change in online spaces, the broader impact of technological innovation can be difficult to predict or identify. Many advances in technology ultimately reflect and sustain systems of inequity and oppression, whether directly or indirectly, deliberately or unintentionally. And the lack of accountability for how these technologies are deployed, by both public and private actors, makes us particularly vulnerable to coercive forces online.
