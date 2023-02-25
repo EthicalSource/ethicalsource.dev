@@ -4,7 +4,7 @@ slug = "media"
 type = "resources"
 targetUrl = "/resources/media"
 targetAnchor = "In the news"
-thumbnail = ""
+thumbnail = "/thumbnails/media-2.svg"
 +++
 
 <ul class="media-list">

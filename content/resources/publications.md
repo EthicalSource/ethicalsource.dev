@@ -4,7 +4,7 @@ slug = "publications"
 type = "resources"
 targetUrl = "/resources/publications"
 targetAnchor = "Our latest papers"
-thumbnail = ""
+thumbnail = "/thumbnails/papers.svg"
 +++
 
 Content here!

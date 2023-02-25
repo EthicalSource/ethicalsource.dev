@@ -1,10 +1,10 @@
 +++
-title = "FAQs"
+title = "Frequently Asked Questions"
 slug = "faqs"
 type = "resources"
 targetUrl = "/resources/faqs"
 targetAnchor = "Learn more"
-thumbnail = ""
+thumbnail = "/thumbnails/faqs.svg"
 +++
 
 Content here!

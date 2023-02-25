@@ -1,11 +1,11 @@
 +++
-title = "Conferences and Podcasts"
+title = "Conference Videos and Podcasts"
 summary = ""
 slug = "talks"
 type = "resources"
 targetUrl = "/resources/talks"
 targetAnchor = "Watch or listen"
-thumbnail = ""
+thumbnail = "/thumbnails/talks.svg"
 +++
 
 <h2>Featured Videos</h2>

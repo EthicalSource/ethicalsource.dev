@@ -5,21 +5,21 @@
 
 <li class="floating-card">
   <article>
-    <div class="thumbnail">
-      <a href="{{ .Params.targetUrl }}">
-        <img src="/images/{{ $thumbnail }}" class="thumbnail" />
-      </a>
-    </div>
-    <h3>
-      <a href="{{ .Params.targetUrl }}">
-        {{ .Params.title}}
-      </a>
-    </h3>
-    <p>
-      {{ .Params.summary }}
-    </p>
-    <a href="{{ .Params.targetUrl }}" class="call-to-action-link">
-      {{ .Params.targetAnchor }}
+  <div class="thumbnail">
+    <a href="{{ .Params.targetUrl }}">
+    <img src="/images/{{ $thumbnail }}" class="thumbnail" />
     </a>
+  </div>
+  <h3>
+    <a href="{{ .Params.targetUrl }}">
+    {{ .Params.title}}
+    </a>
+  </h3>
+  <p>
+    {{ .Params.summary }}
+  </p>
+  <a href="{{ .Params.targetUrl }}" class="call-to-action-link">
+    {{ .Params.targetAnchor }}
+  </a>
   </article>
 </li>
