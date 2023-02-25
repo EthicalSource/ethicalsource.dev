@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<section{{ with .Language.Get "writingDirection" }} dir="{{ . }}"{{ end }}>
+<article>
+  <address class="byline">
+    {{ with .Params.bylineAuthor }}
+      by {{ . }}
+    {{ end }}
+    <br />
+    <time>{{ .Params.bylineDate }}</time>
+  </address>
+
+  {{ .Content }}
+
+  {{ if .Params.bylineAuthorBio }}
+    <h2>About {{ .Params.bylineAuthor }}</h2>
+    {{ .Params.bylineAuthorBio | markdownify }}
+  {{ end }}
+
+  <h2>About the Organization for Ethical Source</h2>
+  <p>
+    The Organization for Ethical Source (OES) is a diverse, multidisciplinary, and global community that is revolutionizing how tech culture works. We are investing in tools like Contributor Covenant as part of our commitment to creating a better future for open source communities around the world. If you’d like to help us shape that future, consider <a href="/join">becoming an OES member</a>.
+  </p>
+
+</article>
+
+<a href="{{ .Params.downloadUrl }}" class="call-to-action-link">download this PDF</a>
+
+<section class="call-to-action-bottom">
+  <h2>Want to learn more?</h2>
+  <a href="/publications" class="call-to-action-link">Our Other Publications</a>
+</section>
+
+</section>
+
+{{ end }}
