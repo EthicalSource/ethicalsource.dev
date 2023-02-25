@@ -3,4 +3,5 @@
 .hugo_build.lock
 /resources/
 /netlify/*.dist*
-/.nova/*
+.nova/*
+,editorconfig
