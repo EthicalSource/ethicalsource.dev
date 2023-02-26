@@ -925,31 +925,17 @@ section img {
   margin-left: 0rem;
 }
 
-.call-to-action::after {
-  content: "";
-  background-color: var(--color-gold);
-  -webkit-mask: url("/images/decorations/svg/arrow-right.svg") no-repeat 50% 50%;
-  mask: url("/images/decorations/svg/arrow-right.svg") no-repeat 50% 50%;
-  -webkit-mask-size: cover;
-  mask-size: cover;
-  background-size: 100% 100%;
-  display: inline-block;
-  height: 1.5rem;
-  width: 5rem;
-  transform: scale(.5);
-  margin-left: -.5rem;
-}
-
 .call-to-action-bottom h2 {
-  margin: 0rem auto 3rem auto;
-  padding-top: 4rem;
-  width: 75%;
-  font-family: "Coco Sharp Extra Bold";
-  font-size: 2.75rem;
   text-decoration: none;
-  line-height: 2.75rem;
-  letter-spacing: .1rem;
+  font-family: "Coco Sharp Extra Bold";
+  line-height: 3.755rem;
+  padding-top: 4rem;
+  letter-spacing: .125rem;
   text-align: center;
+  text-transform: lowercase;
+  width: 75%;
+  margin: 0rem auto 1.25rem auto;
+  font-size: 3.75rem;
   text-transform: lowercase;
 }
 
