@@ -1,10 +1,11 @@
 +++
 title = "Active members & paths to membership"
-heading = "How to get involved, and how Active Members drive what the OES does."
-summary = "There are two ways to get involved: By offering time & energy, or by offering money. All Members may participate in decision-making conversations, but only Members who contribute work earn the right to vote."
+summary = "How to get involved, and how Active Members drive what the OES does."
+slug = "paths-to-membership"
+bylineAuthor = ""
+bylineDate = "May 10, 2021"
+type = "blog"
 +++
-
-<time>May 10, 2021</time>
 
 Welcome to Part 1 of our practical guide to how the OES operates, and how you can get involved. In this first part, we want to explain how membership works: What the various forms of membership mean, and how membership is determined. We want you to feel welcome to participate in the Organization for Ethical Source (OES) at whatever level of involvement works best for you, and this guide will help you understand how that works.
 
@@ -34,7 +35,7 @@ That’s a lot of moving parts! We’re trying to keep the focus on one aspect a
 
 Here’s a flowchart to help you navigate the different options for participation in the OES:
 
-![A flowchart of the membership flow.](/img/blog/membershipflowchart.svg)
+![A flowchart of the membership flow.](/images/blog/membershipflowchart.svg)
 
 **Active Members** are folks who are actively contributing to one or more Working Groups, and are the backbone of the OES. They have full voting rights, because we want the people doing the work to make the decisions.
 

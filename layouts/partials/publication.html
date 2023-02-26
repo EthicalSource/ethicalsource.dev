@@ -1,0 +1,13 @@
+<article id="{{ .Params.slug }}" class="hero">
+  {{ $alt := .Params.title }}
+  <h3>
+    <a href="/publication/{{ .Params.slug }}">
+      {{ .Params.title }}
+    </a>
+  </h3>
+  <p>
+    Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+    by {{ .Params.bylineAuthor }}<br />
+    <a href="/blog/{{ .Params.slug }}">Read the Article</a>
+  </p>
+</article>

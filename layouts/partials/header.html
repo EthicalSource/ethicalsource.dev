@@ -1,0 +1,14 @@
+{{- $level := or .Params.Level "subpage" -}}
+{{- $kicker := .Params.Kicker -}}
+
+<header class="banner banner-{{ $level }}">
+  {{ partial "logo" $level }}
+  <div class="page-title page-title-{{ $level }}">
+  <h1>{{ .Params.Title }}</h1>
+  {{ with or .Params.Kicker .Params.Summary .Params.Subhead }}
+    <div class="kicker kicker-{{ $level }}">
+      {{ . }}
+    </div>
+  {{ end }}
+  </div>
+</header>

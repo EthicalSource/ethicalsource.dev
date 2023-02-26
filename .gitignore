@@ -1,5 +1,7 @@
 /public
-.DS_Store
-*.lock
-/resources/_gen
+*.DS_Store
+.hugo_build.lock
+/resources/
+/netlify/*.dist*
 .nova/*
+,editorconfig

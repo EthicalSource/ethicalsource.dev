@@ -21,6 +21,9 @@ disableHugoGeneratorInject = true
   home = ["html", "rss"]
   page = ["html", "rss"]
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 # Add all translated languages here.
 [Languages]
   [Languages.en]

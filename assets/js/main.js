@@ -44,5 +44,7 @@ function formDidSubmit(event) {
   });
 }
 
-const fontLink = document.getElementById('font-stylesheet');
-fontLink.rel = 'stylesheet';
+// const fontLink = document.getElementById('font-stylesheet');
+// fontLink.rel = 'stylesheet';
+
+ 

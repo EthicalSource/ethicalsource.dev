@@ -1,12 +1,12 @@
 +++
 title = "Adopting an Ethical License"
-heading = "Adopting an Ethical License"
+summary = ""
+slug = "adopting-an-ethical-license"
+type = "blog"
+bylineDate = "May 2020"
 +++
 
-[The Ethical Source Working Group](https://ethicalsource.dev), <time>May,
-2020</time>
-
-This guide is not legal advice. We are not lawyers. It's a guide to help
+> This guide is not legal advice. We are not lawyers. It's a guide to help
 maintainers think through adopting an ethical license without taking on
 unnecessary risk.
 

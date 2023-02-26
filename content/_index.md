@@ -1,23 +1,16 @@
 +++
-title = "Ethical Source: Open Source, Evolved"
-heading = "Social Good, Source Available."
+title = "Ethical Source: Open Source, Evolved."
+heading = "Ethical Source: Open Source, Evolved."
+level = "main"
+kicker = "The true measure of the success of open source is its real-world impact: how the technologies we develop can help promote positive social, cultural, and political change."
 +++
 
-Christine Peterson coined the term “open source” in 1998.
+## Our Mission
 
-Coalescing around the ideal of software freedom, over the past 20 years the open source community has come to thrive, enjoying wild success and permanently changing the technology landscape. But the world has also changed in the past two decades. It’s time for open source to evolve to meet the magnitude and complexity of today’s social, political and technological challenges.
+Open source provides the technological foundation of the internet, and an estimated 78% of all businesses globally leverage open source software in some form. The practice of open source involves working collaboratively and in the open, drawing on contributions from around the globe to create innovative new tools and technologies.
 
-Today, the same open source software that enriches the commons and powers innovation also plays a critical role in mass surveillance, anti-immigrant violence, protester suppression, racist policing, the deployment of cruel and inhumane weapons, and other human rights abuses all over the world.
+But its success has come with a price. Today, open source technologies are also being abused to sustain systems of inequity, violence, and oppression. It plays an increasingly critical role in surveillance capitalism, data harvesting, anti-immigrant violence, protester suppression, racist policing, the deployment of cruel and inhumane weapons, and other human rights abuses all over the world. And a growing number of open source developers want to do something about this abuse of their work.
 
-We want to do something about this misuse of our software. But as developers we don’t seem to have any recourse, no way to prevent our work from being used to harm others.
+The Organization for Ethical Source (OES) was founded to help open source communities ensure that their work is being used for social good and in service of human rights. We develop tools and standards to promote fair, ethical, and equitable outcomes for everyone who contributes to, benefits from, or is impacted by open source technologies.
 
-### We want to change that.
-
-We are creating ways to empower developers, giving us the freedom and agency to ensure that our work is being used for social good and in service of human rights.
-
-We are building tools to enforce fair, ethical, and community-minded terms for those who benefit from or are affected by our work.
-
-We are united in our conviction that software freedom must always be in service of human freedom.
-
-### We are the Ethical Source Movement.
-Will you [support us financially](https://opencollective.com/ethical-source) or [join us](/apply)?
+{{< call-to-action-bottom heading="Our work is volunteer-led and member-driven." anchor="Who we are" url="/who-we-are" >}}

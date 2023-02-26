@@ -1,0 +1,9 @@
+ {{ $level := or .Params.Level "subpage" }}
+ <nav class="{{ $level }}">
+  <ul>
+    <li><a href="/who-we-are">Who We Are</a></li>
+    <li><a href="/what-we-believe">What We Believe</a></li>
+    <li><a href="/what-we-do">What We Do</a></li>
+    <li><a href="#navigation">More</a></li>
+  </ul>
+</nav>

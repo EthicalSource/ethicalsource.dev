@@ -1,0 +1,26 @@
+{{ $thumbnails := readDir "/static/images/thumbnails/thumbnails_greyscale" | shuffle }}
+{{ $randomThumbnail := index $thumbnails 0 }}
+{{ $offset := index (seq 20 | shuffle) 0 | mul 20 }}
+
+{{ $targetAnchor := or .Params.targetAnchor "Read More" }}
+{{ $slugWithPath := printf "/%s/%s" .Params.type .Params.slug }}
+{{ $targetUrl := or .Params.targetUrl $slugWithPath }}
+
+<div class="thumbnail" style="background-image: url('/images/thumbnails/thumbnails_color/{{ $randomThumbnail.Name }}'); background-position: -{{ $offset }}px -{{ $offset}}px"></div>
+
+<article id="{{ .Params.slug }}" class="hero">
+  <h3>
+    <a href="{{ $targetUrl }}">
+      {{ .Params.title }}
+    </a>
+  </h3>
+  {{ with .Params.summary }}
+    <p class="hero-summary">
+      {{ . }}
+    </p>
+  {{ end }}
+  <p class="more-link">
+    <time>{{ .Params.bylineDate}}</time><br />
+    <a href="{{ $targetUrl }}">{{ $targetAnchor }}</a>
+  </p>
+</article>

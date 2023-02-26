@@ -1,0 +1,6 @@
+{{ $directory := .Params.type }}
+{{ with .Get "slug" }}
+  {{ range (where (where $.Site.Pages "Section" $directory ) ".Params.slug" . ) | first 1 }}
+    {{ partial "floating-card" . }}
+  {{ end }}
+{{ end }}

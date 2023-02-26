@@ -1,9 +1,11 @@
 +++
 title = "Organization for Ethical Source Takes on Stewardship of Contributor Covenant"
-summary = "The Ethical Source community will draw on global voices and perspectives to evolve and reimagine Contributor Covenant."
+summary = "OES will draw on global voices and perspectives to evolve and reimagine Contributor Covenant."
+type = "blog"
+slug = "contributor-covenant-stewardship"
+bylineDate = "May 27, 2021"
+bylineAuthor = ""
 +++
-
-<time>May 27, 2021</time>
 
 GENEVA, Switzerland, May 27, 2021 --- [The Organization for Ethical Source](https://ethicalsource.dev/) (OES), the nonprofit helping open source developers ensure that their work is being used for social good and in service of human rights, today announced that it is taking on the stewardship of [Contributor Covenant](https://www.contributor-covenant.org/), the preeminent code of conduct for open source communities.
 

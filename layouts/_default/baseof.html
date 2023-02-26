@@ -1,7 +1,11 @@
-{{- $fontStyle := resources.Get "css/fonts.css" -}}
-{{- $mainStyle := resources.Get "css/main.css" -}}
-{{- $css := slice $fontStyle $mainStyle | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint -}}
+
+{{- $mainStyles := resources.Get "css/main.css" -}}
+{{- $fontStyles := resources.Get "css/fonts.css" -}}
+
+{{- $css := slice $fontStyles $mainStyles | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint -}}
+
 {{- $mainJs := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint -}}
+
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
   <head>
@@ -17,53 +21,20 @@
     {{ end }}
     <meta property="og:image" content="https://ethicalsource.dev/img/ethical_source.jpg">
     <meta property="og:description" content="{{ .Params.Summary}}">
-    
-    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-    {{ with .OutputFormats.Get "rss" -}}
-      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-    {{ end -}}
   </head>
 
   <body{{ with .Section }} id="{{ . }}"{{ end }}>
-    <div>
-      <header>
-        <figure>
-          <a href="/">
-            <img class="logo" src="/img/ethical_source.jpg" alt="Organization for Ethical Source Logo">
-          </a>
-        </figure>
-        <div class="page-title">
-          <h1>{{ .Title }}</h1>
-        </div>
-      </header>
-    </div>
+    {{ partial "header" . }}
     <div id="veil">
-      <h2>{{ .Params.Heading }}</h2>
       {{ block "main" . }}
       {{ end }}
-      <footer>
-        <p>
-          &copy; Copyright {{ now.Format "2006" }} Organization for Ethical Source. 
-           Follow us on Twitter at <a href="https://twitter.com/ethicaloss">@EthicalOSS</a>.
-          Support this initiative through <a href="https://opencollective.com/ethical-source">Open Collective</a>. This site does not use cookies.
-        </p>
-      </footer>
+      {{ partial "footer" }}
     </div>
 
-    <nav id="navigation">
-      <ul>
-        <li><a href="/principles">Ethical Source Principles</a></li>
-        <!--li><a href="/translations">Definition Translations</a></li-->
-        <li><a href="/licenses">Ethical Licenses</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/media">In the Media</a></li>
-        <li><a href="/resources">Further Reading</a></li>
-        <li><a href="/governance">Governance</a></li>
-        <li><a href="/join">Join Us</a></li>
-        <li><a href="/contact">Contact Us</a></li>
-      </ul>
-    </nav>
+    {{ partial "navigation" . }}
 
     <script src="{{ $mainJs.RelPermalink }}" integrity="{{ $mainJs.Data.Integrity }}"></script>
   </body>

@@ -1,0 +1,19 @@
+{{ $publogo := or .Params.logo "generic-press-logo.jpg" }}
+<li>
+  <article class="media">
+    <svg class="media-node">
+      <use xlink:href="/images/decorations/svg/media-node.svg#circle"></use>
+    </svg>
+    <img src="/images/logos/media/{{ $publogo }}" class="media-logo" />
+    <h3>
+      <a href="{{ .Params.url }}">
+        {{ .Params.title }}
+      </a>
+    </h3>
+    <p>
+      {{ .Params.publication }}<br />
+      <time>{{ .Params.bylineDate }}</time><br />
+      <a href="{{ .Params.url }}">Read the Article</a>
+    </p>
+  </article>
+</li>

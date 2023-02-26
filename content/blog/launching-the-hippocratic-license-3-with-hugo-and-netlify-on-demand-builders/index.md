@@ -1,6 +1,10 @@
 +++
-title = "Deploying over 393000 URLs under 26 seconds using Hugo and Netlify on-demand builders"
-summary = "In this technical writeup I share how we built and launched version 3.0 of the Hippocratic License using the Hugo framework in combination with Netlify on-demand builders."
+title = "The Technology Behind the Hippocratic License 3 License Builder"
+summary = "Deploying 39,3000 URLs in under 26 seconds with Hugo and Netlify on-demand builders"
+slug = "launching-the-hippocratic-license-3-with-hugo-and-netlify-on-demand-builders"
+type = "blog"
+bylineDate = "July 21, 2022"
+bylineAuthor = "Nils Norman Haukås"
 +++
 
 _This article was first published on [nilsnh.no](https://nilsnh.no/2022/07/21/deploying-over-393000-urls-under-26-seconds-using-hugo-and-netlify-on-demand-builders/)._

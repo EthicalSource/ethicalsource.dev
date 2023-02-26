@@ -1,0 +1,5 @@
+{{ with .Get "slug" }}
+  {{ range (where (where $.Site.Pages "Params.category" "board" ) ".Params.slug" . ) | first 1 }}
+    {{ partial "portrait" . }}
+  {{ end }}
+{{ end }}

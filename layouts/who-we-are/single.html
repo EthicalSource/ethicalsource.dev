@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section>
+
+  <div class="bio-pic">
+    <img src="/images/people/{{ .Params.image }}">
+    <p>{{ .Params.Name }} ({{ .Params.Pronouns }})</p>
+  </div>
+
+  {{ .Content }}
+
+  {{ if .Params.aboutUrls }}
+    <h2>More about {{ or .Params.givenName .Params.name }}</h2>
+    <ul>
+      {{ with .Params.aboutUrls }}
+        {{ range . | }}
+          <li>
+          <a href="{{ . }}" rel="noreferer nofollow"{{ if or (strings.HasPrefix . "http") (strings.HasPrefix . "https") }} target="_blank"{{ end }} >
+              {{ . | safeHTML }}
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  {{ end }}
+</section>
+
+{{ end }}

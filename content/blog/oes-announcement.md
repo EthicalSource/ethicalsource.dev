@@ -1,10 +1,12 @@
 +++
 title = "Announcing a New Kind of Open Source Organization"
+summary = "Creators of the Hippocratic License establish a nonprofit to empower developers to use their technology talents for social good and to prevent harm."
+slug = "oes-announcement"
+type = "blog"
+bylineDate = "January 19, 2021"
 +++
 
-### Creators of the Hippocratic License establish a nonprofit to empower developers to use their technology talents for social good and to prevent harm
-
-Geneva, Switzerland, January 19, 2021 – The creator of the [Hippocratic License](https://firstdonoharm.dev/), an ethical license for open source, and [Contributor Covenant](https://contributor-covenant.org), the first and most popular code of conduct for open source projects, today announced the establishment of a new nonprofit, the Organization for Ethical Source (OES).
+Geneva, Switzerland - The creator of the [Hippocratic License](https://firstdonoharm.dev/), an ethical license for open source, and [Contributor Covenant](https://contributor-covenant.org), the first and most popular code of conduct for open source projects, today announced the establishment of a new nonprofit, the Organization for Ethical Source (OES).
 
 Central to the philosophy of open source is the notion of software freedom, referred to as “Freedom Zero”: that open source software can be used for any purpose without restriction, [even for explicitly “evil” purposes](https://opensource.org/faq#evil). The world has changed since the Open Source Definition was created — open source has become ubiquitous, and is now being leveraged by bad actors for mass surveillance, racist policing, and other human rights abuses all over the world. The OES believes that the open source community must evolve to address the magnitude and complexity of today’s social, political and technological challenges.
 
@@ -22,4 +24,4 @@ The Organization for Ethical Source brings together open source maintainers and 
 
 ### About the Organization for Ethical Source
 
-The movement to promote ethics and social responsibility in open source was founded in October 2019 by Coraline Ada Ehmke, and led to the establishment of the nonprofit Organization for Ethical Source under Swiss law in December 2020. The organization is dedicated to giving technologists tools and resources to ensure that their work is being used for social good and to minimize harm. It develops tools to promote fair, ethical, and pro-social outcomes for those who contribute to, or are affected by, open source technologies. https://ethicalsource.dev/ 
+The movement to promote ethics and social responsibility in open source was founded in October 2019 by Coraline Ada Ehmke, and led to the establishment of the nonprofit Organization for Ethical Source under Swiss law in December 2020. The organization is dedicated to giving technologists tools and resources to ensure that their work is being used for social good and to minimize harm. It develops tools to promote fair, ethical, and pro-social outcomes for those who contribute to, or are affected by, open source technologies. https://ethicalsource.dev/
