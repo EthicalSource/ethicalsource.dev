@@ -12,9 +12,9 @@
     <meta charset="utf-8">
     <title>{{ .Site.Title }} | {{ .Title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:url" content="{{ .Permalink }}">
-    <meta property="og:image" content="{{ .Permalink }}images/oes-logo-color.jpg">
     <meta property="og:title" content="{{ .Site.Title }}">
+    <meta property="og:image" content="{{ .baseURL }}images/oes-logo-color.jpg">
+    <meta property="og:url" content="{{ .Permalink }}">
     {{ if .Params.Summary }}
       <meta property="og:description" content="{{ .Params.Summary}}">
     {{ else }}
