@@ -240,7 +240,6 @@ a:focus,
 a:hover {
   color: var(--color-black);
   text-decoration: underline;
-   /* text-underline-offset: 50%; */
 }
 
 a span {
