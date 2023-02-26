@@ -396,7 +396,7 @@ ul.teasers li {
 }
 
 article.teaser div.thumbnail {
-  background-image: url('/images/blog/thumbnails/fireworks_1.jpg');
+  background-image: url('/images/thumbnails/thumbnails_color/fireworks_1.jpg');
   height: 100%;
   width: 38%;
   position: absolute;

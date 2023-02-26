@@ -78,7 +78,7 @@ Here are some questions to get you started:
 
 ## What goes into ethical collaboration?
 
-Julia Nguyen, founder of the open source mental health collective [if-me.org](www.if-me.org), has spent most of her life online. She was an adolescent in the 2000s, navigating emerging digital communities like Neopets and MySpace. These websites allowed users to design and customize their own profile pages. As a result, she quickly learned how to code different elements, webpages and more, joining groups of similar designers who focused on attribution and recognizing and respecting each other’s work.
+Julia Nguyen, founder of the open source mental health collective [if-me.org](https://www.if-me.org), has spent most of her life online. She was an adolescent in the 2000s, navigating emerging digital communities like Neopets and MySpace. These websites allowed users to design and customize their own profile pages. As a result, she quickly learned how to code different elements, webpages and more, joining groups of similar designers who focused on attribution and recognizing and respecting each other’s work.
 
 However, when she went to college, she began to see another side of the technology world. For example, when she would look for help, people would often tell her to just “read the directions” (a call to the widespread use of [“RTFM”](https://en.wikipedia.org/wiki/RTFM#:~:text=RTFM%20is%20an%20initialism%20and,software%20documentation%20or%20FAQ%20etc.), or “read the fucking manual”). She saw that open source communities could be hostile even to people like her who had deep technical backgrounds.
 
@@ -146,7 +146,7 @@ Julia’s policy also helps the end user. By reducing the likelihood of burnout,
 
 Providing contributors with the time and resources they need has been shown again and again to result in better, more inclusive and safer projects.
 
-André Arko, founder of [Ruby Together](www.rubytogether.org) (now part of Ruby Central) and lead developer of [Bundler](https://bundler.io/), the dependency manager for the Ruby programming language, is another leader who prioritizes creating welcoming spaces. He knows firsthand how individual and even systemic biases that shape our general culture can be exaggerated in open source projects because manydepend on work from volunteers, who put in significant time  implementing new features, answering user tickets, and fixing bugs without any promise of compensation.
+André Arko, founder of [Ruby Together](https://www.rubytogether.org) (now part of Ruby Central) and lead developer of [Bundler](https://bundler.io/), the dependency manager for the Ruby programming language, is another leader who prioritizes creating welcoming spaces. He knows firsthand how individual and even systemic biases that shape our general culture can be exaggerated in open source projects because manydepend on work from volunteers, who put in significant time  implementing new features, answering user tickets, and fixing bugs without any promise of compensation.
 
 André said that armed with this knowledge, he knew it was critical to pay core contributors and, as a result, he saw the biggest difference in participation, retention, output and overall satisfaction:
 
@@ -218,4 +218,3 @@ And it’s critical to understand that this work is never done. The world is con
 ## Notes
 
 1. Noble, S. U. (2018). In Algorithms of oppression: how search engines reinforce racism (p. 18). essay, New York University Press.
-

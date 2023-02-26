@@ -122,7 +122,7 @@
   font-style: normal;
   font-weight: 900;
   src: local("Source Code Pro Semibold"), local("Source Code Pro Semibold"),
-       url(/fonts/source-code-pro/SourceCodePro-Semibold.ttf) format("truetype");
+       url(/fonts/source-code-pro/SourceCodePro-SemiBold.ttf) format("truetype");
 }
 
 @font-face {
@@ -130,6 +130,6 @@
   font-style: normal;
   font-weight: 900;
   src: local("Source Code Pro SemiboldItalic"), local("Source Code Pro SemiboldItalic"),
-       url(/fonts/source-code-pro/SourceCodePro-SemiboldItalic.ttf) format("truetype");
+       url(/fonts/source-code-pro/SourceCodePro-SemiBoldItalic.ttf) format("truetype");
 }
 
