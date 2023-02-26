@@ -306,7 +306,8 @@ abbr {
 
 
 ul.heroes {
-  margin-left: 1.75rem;
+  margin-right: auto;
+  margin-left: auto;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -1380,7 +1381,7 @@ ul.portraits li p {
   }
 
   ul.heroes li {
-    width: calc(30% - 3rem);
+    width: calc(30% - 1.75rem);
     min-height: 23rem;
   }
 
