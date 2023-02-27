@@ -240,7 +240,6 @@ a:focus,
 a:hover {
   color: var(--color-black);
   text-decoration: underline;
-  text-underline-offset: 50%;
 }
 
 a span {
@@ -906,7 +905,7 @@ section img {
   font-family: "Backlash Script";
   text-transform: lowercase;
   font-size: 4.25rem;
-  line-height: 3.25rem;
+  line-height: 1.25rem;
   margin-top: 2.75rem;
 }
 
@@ -917,12 +916,14 @@ section img {
   mask: url("/images/decorations/svg/arrow-right.svg") no-repeat 50% 50%;
   -webkit-mask-size: cover;
   mask-size: contain;
-  background-size: 100% 00%;
+  padding-right: 3rem;
+  background-size: 100% 50%;
   display: inline-block;
   height: 2.5rem;
   width: 5rem;
-  transform: scale(.75);
-  margin-left: 0rem;
+  border: 1px solid #990000;
+  transform: scale(.5);
+  margin-left: -1.75rem;
 }
 
 .call-to-action-bottom h2 {
