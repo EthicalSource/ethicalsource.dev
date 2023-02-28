@@ -19,7 +19,7 @@ Sean (they/them) is a passionate educator and creative web developer working at 
 <br />
 
 ## Will Barton
-Will (he/him) has made a career of service through civic technology. He has been participating in open source for nearly 2 decades, and was drawn to OES by a desire to contribute to the [Ethical Source Principles](https://ethicalsource.dev/what-we-believe]. With a background in political theory, Will is passionate about interrogating questions of power through software and finding ways to help governments and civic organizations better serve their communities. Will's belief that the intention of software developers matters drives him to create more ways for himself and those like him to make a difference through software.
+Will (he/him) has made a career of service through civic technology. He has been participating in open source for nearly 2 decades, and was drawn to OES by a desire to contribute to the [Ethical Source Principles](/what-we-believe). With a background in political theory, Will is passionate about interrogating questions of power through software and finding ways to help governments and civic organizations better serve their communities. Will's belief that the intention of software developers matters drives him to create more ways for himself and those like him to make a difference through software.
 
 {{< call-to-action anchor="Learn more about Will" url="/who-we-are/people/will-barton/" >}}
 
