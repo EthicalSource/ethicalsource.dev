@@ -4,7 +4,6 @@ summary = "RightsCon 2022 (June 8, 2022)"
 slug = "will-behave-for-code-rightscon"
 type = "talks"
 targetUrl = "https://archive.org/details/oes-will-behave-for-code"
-aliases = ["/video/will_behave_for_code.mp4"]
 targetAnchor = "Watch the Video"
 thumbnail = ""
 +++
