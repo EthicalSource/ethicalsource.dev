@@ -129,6 +129,10 @@ ol {
   margin: 1.5rem 1.5rem 1.5rem 0;
 }
 
+em {
+  font-family: "Source Code Pro Black Italic";
+}
+
 li {
   margin-bottom: .375rem;
 }
