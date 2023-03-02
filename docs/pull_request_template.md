@@ -1,15 +1,12 @@
-# Milestone
-What does the PR accomplish?
+# What does this PR accomplish?
+* 
 
 # Getting there
 * Describe the approach you took.
 
 # Interesting bits
-* What parts of the implementation are particularly interesting, or need a bit of explanation?
+* Is there something that you feel particularly proud of?
 
-# What I need help with
-* What are you looking for from your reviewers?
-
-# What's next
-After merging, this PR should allow us to:
-* Do the next thing
+# Notes for reviewers
+* Does anything need a bit of explanation?
+* Is there something you'd like a second opinion on?
