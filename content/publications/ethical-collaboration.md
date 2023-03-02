@@ -1,5 +1,5 @@
 +++
-title = "A Guide to Ethical Collaboration in Open Source Communities"
+title = "Ethical Collaboration in Open Source Communities"
 summary = ""
 slug = "ethical-collaboration"
 bylineAuthor = "Tianna Mañon. Edited by Stephanie Morillo."
