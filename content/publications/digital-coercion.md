@@ -17,35 +17,35 @@ Coercion is using the threat of harm as an incentive for obedience or cooperatio
 
 # What is digital coercion?
 
-Digital coercion is simply the manifestation of mechanisms of control in online environments. There are four general dimensions of digital coercion: **attention**, **ergonomic**, **trust**, and **cultural**. Each of these dimensions can be understood by examining its aims, scope, threats, incentives, and impact.
+Digital coercion is simply the manifestation of mechanisms of control in online environments. There are four general dimensions of digital coercion: *attention*, *ergonomic*, *trust*, and *cultural*. Each of these dimensions can be understood by examining its aims, scope, threats, incentives, and impact.
 
 
 ## Attention coercion
 
 Attention coercion is the demand for more time or cognitive load than a person would voluntarily or consciously consent to otherwise.
 
-Its **intent** is to force users to spend more time “engaging” or interacting with an app, platform, tool, or technology in a way that is secondary to what they are actually trying to accomplish. The **threats** that attention coercion relies on for compliance may include loss of access; loss of social, cultural, or professional status; and “FOMO” (“fear of missing out”). Its **impact** can manifest as hypervigilance, cognitive exhaustion, addiction, erosion of free time, or even radicalization.
+Its *intent* is to force users to spend more time “engaging” or interacting with an app, platform, tool, or technology in a way that is secondary to what they are actually trying to accomplish. The *threats* that attention coercion relies on for compliance may include loss of access; loss of social, cultural, or professional status; and “FOMO” (“fear of missing out”). Its *impact* can manifest as hypervigilance, cognitive exhaustion, addiction, erosion of free time, or even radicalization.
 
 
 ## Ergonomic coercion
 
-Ergonomics are the product of design and ethical decisions. Ergonomic coercion** **involves forcing users to trade their autonomy, safety, privacy, time, or effort in exchange for usability.
+Ergonomics are the product of design and ethical decisions. Ergonomic coercion involves forcing users to trade their autonomy, safety, privacy, time, or effort in exchange for usability.
 
-Its **intent** is to restrict access to fundamental features that make a platform attractive, accessible, or useful. **Compliance** is incentivized through a platform’s ubiquity, withholding or willfully violating basic usability and accessibility norms, or an embrace-extend-extinguish approach to open standards. The** impact** of ergonomic coercion includes forcing users to work in ways that best serve the provider, but not the users themselves. This can result in inequitable access for those who are unwilling or unable to satisfy unreasonable requirements imposed by a platform or provider.
+Its *intent* is to restrict access to fundamental features that make a platform attractive, accessible, or useful. *Compliance* is incentivized through a platform’s ubiquity, withholding or willfully violating basic usability and accessibility norms, or an embrace-extend-extinguish approach to open standards. The *impact* of ergonomic coercion includes forcing users to work in ways that best serve the provider, but not the users themselves. This can result in inequitable access for those who are unwilling or unable to satisfy unreasonable requirements imposed by a platform or provider.
 
 
 ## Trust coercion
 
 Trust coercion demands an assumption of benign intentions on the part of a provider or community, without any corresponding accountability for its trustworthiness.
 
-Its **aim** is to encourage participation or adoption by instilling a sense of safety that may not actually be present. **Compliance** relies on pressure to conform to Western trust models, performative commitments to diversity/equity/inclusion, insisting on a presumption of “good intent”, and obscuring or minimizing evidence of harm when it occurs. The** impact** of trust coercion is that vulnerable people may be exposed to threats to their safety or well-being, with little or no recourse when harm is caused.
+Its *aim* is to encourage participation or adoption by instilling a sense of safety that may not actually be present. *Compliance* relies on pressure to conform to Western trust models, performative commitments to diversity/equity/inclusion, insisting on a presumption of “good intent”, and obscuring or minimizing evidence of harm when it occurs. The *impact* of trust coercion is that vulnerable people may be exposed to threats to their safety or well-being, with little or no recourse when harm is caused.
 
 
 ## Cultural coercion
 
 Cultural coercion involves the imposition or prioritization of (predominantly white and Western) norms and values in exchange for the "privilege" of participation.
 
-Its **aim** is to artificially homogenize a platform’s user base by prioritizing the comfort and convenience of participants from the dominant culture. **Compliance** is ensured by a platform’s ubiquity; forcing acceptance of inequitable power structures as a precondition for participation; the absence of representative governance; and lack of culturally appropriate alternatives. Its** Impact** can include the erasure of identity, social status, gender, race, religion, or other distinguishing characteristics of diverse participants, in turn propagating systems of exclusion that sustain digital colonization and other forms of slow violence against already vulnerable participants.
+Its *aim* is to artificially homogenize a platform’s user base by prioritizing the comfort and convenience of participants from the dominant culture. *Compliance* is ensured by a platform’s ubiquity; forcing acceptance of inequitable power structures as a precondition for participation; the absence of representative governance; and lack of culturally appropriate alternatives. Its *impact* can include the erasure of identity, social status, gender, race, religion, or other distinguishing characteristics of diverse participants, in turn propagating systems of exclusion that sustain digital colonization and other forms of slow violence against already vulnerable participants.
 
 
 # Digital coercion on the commercial internet
