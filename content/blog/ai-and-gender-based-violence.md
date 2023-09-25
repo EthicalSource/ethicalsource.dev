@@ -2,12 +2,12 @@
 title = "How AI Exacerbates Online Gender-Based Violence"
 summary = "AI makes combatting online gender-based violence more difficult and complex."
 slug = "ai-and-gender-based-violence"
-bylineAuthor = "Seerat Kahn"
-bylineDate = "September 20, 2023"
+bylineAuthor = "Seerat Khan"
+bylineDate = "September 25, 2023"
 type = "blog"
 +++
 
-*Trigger Warning: Gender-based violence*
+*Content Warning: Discussion of gender-based violence*
 
 Artificial Intelligence (AI) has greatly contributed to the world we're living in today. The integration of AI where computer operated mechanics are controlling and performing all sorts of tasks that are linked with human beings has changed the very outlook of technology we see today. AI and new forms of technology are making tasks more efficient and quicker for all of us. The scope of AI is not only limited to one particular field and has expanded across all sectors and markets which has made its  integration into our lives more robust. However, on one hand, while AI has made our lives easier and efficient, it has also contributed to new problems for humans that we perhaps hadn't anticipated while developing or using this new technology. Like the manifestations of the physical world where patriarchal structures lead to suppressing certain marginalized groups, particularly gendered minorities in society, AI has led not only to the reinforcement of these structures but has also led to making them more complex and nuanced issues.
 
@@ -37,4 +37,4 @@ Maas Misha'ari Weerabangsa, Co-lead Programmes from [Delete Nothing (Sri Lanka)]
 
 ### About Seerat Khan
 
-[Seerat Khan](https://www.linkedin.com/in/seerat-khan-557949144/) is the Programs and Comms Lead at the [Digital Rights Foundation](https://digitalrightsfoundation.pk) in Pakistan, and has done extensive work on gender and technology over the past 7 years. She mostly works with women human rights defenders and women journalists on key themes like data protection, online safety, gender, privacy and misinformation.
+[Seerat Khan](https://www.linkedin.com/in/seerat-khan-557949144/) is the Programs Lead at the [Digital Rights Foundation](https://digitalrightsfoundation.pk) in Pakistan, and has done extensive work on gender and technology over the past 7 years. She mostly works with women human rights defenders and women journalists on key themes like data protection, online safety, gender, privacy and misinformation.
