@@ -224,10 +224,10 @@ h4 {
 }
 
 p {
-  -moz-hyphens: auto;
+  /* -moz-hyphens: auto;
   -ms-hyphens: auto;
   -webkit-hyphens: auto;
-  hyphens: auto;
+  hyphens: auto; */
   margin: 1.5rem 0;
 }
 
