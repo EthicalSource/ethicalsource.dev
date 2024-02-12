@@ -6,13 +6,13 @@ kicker = "The true measure of success for open technologies is real-world impact
 todo = "TODO: link 'institutional funding' to funders page when complete."
 +++
 
-The Organization for Ethical Source (OES) is a 501(c)(3) nonprofit public charity organization focusing on ethical outcomes in open source, the digital commons, and other public interest technologies. 
+The Organization for Ethical Source (OES) is a 501(c)(3) nonprofit public charity focusing on ethical outcomes in open source and other public interest technologies. 
 
-OES is the steward of <a href="https://contributor-covenant.org">Contributor Covenant</a>, the first and most popular code of conduct for digital communities. Contributor Covenant has been adopted by thousands of technology communities, including 9 of the 10 largest open source projects in the world. We are also the creators of the <a href="https://firstdonoharm.dev">Hippocratic License</a>, the leading ethical open source license, and other tools in the <a href="/what-we-do">Ethical Stack</a>.
+OES is the steward of <a href="https://contributor-covenant.org">Contributor Covenant</a>, the first and most popular code of conduct for digital communities. Contributor Covenant has been adopted by thousands of technology communities, including 9 of the 10 largest open source projects in the world.
 
 We are a community of technologists, social scientists, activists, legal experts, and human rights workers, united in our conviction that centering valu es of diversity, equity, and justice in the digital commons, we can create technology that promotes the well-being and the fundamental human rights of all.
 
-OES relies on <a href="https://opencollective.com/ethical-source">individual giving</a> and institutional funding to support the work that we do. Can you help?
+OES relies on individual giving and institutional funding to support our work. Will you help by <a href="https://opencollective.com/ethical-source">making a one-time or recurring donation</a>?
  
 {{< call-to-action-bottom heading="Learn how we're meeting the changing needs of digital communities." anchor="What We Do" url="/what-we-do" >}}
 
