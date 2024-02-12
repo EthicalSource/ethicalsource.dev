@@ -14,7 +14,7 @@ We are a community of technologists, social scientists, activists, legal experts
 
 OES relies on individual giving and institutional funding to support our work. Will you help us by <a href="https://opencollective.com/ethical-source">making a one-time or recurring donation</a>?
  
-{{< call-to-action-bottom heading="Learn how we're meeting the changing needs of digital communities." anchor="What We Do" url="/what-we-do" >}}
+{{< call-to-action-bottom heading="Learn how we're meeting the changing needs of technology communities." anchor="What We Do" url="/what-we-do" >}}
 
 
 
