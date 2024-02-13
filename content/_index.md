@@ -2,15 +2,19 @@
 title = "Ethical Source: Open Source, Evolved."
 heading = "Ethical Source: Open Source, Evolved."
 level = "main"
-kicker = "The true measure of the success of open source is its real-world impact: how the technologies we develop can help promote positive social, cultural, and political change."
+kicker = "The true measure of success for open source technologies is real-world impact: how what we co-create promotes positive social, cultural, and political change."
+todo = "TODO: link 'institutional funding' to funders page when complete."
 +++
 
-## Our Mission
+The Organization for Ethical Source (OES) is a 501\(c\)(3) nonprofit public charity focusing on ethical outcomes in open source and other public interest technologies. 
 
-Open source provides the technological foundation of the internet, and an estimated 78% of all businesses globally leverage open source software in some form. The practice of open source involves working collaboratively and in the open, drawing on contributions from around the globe to create innovative new tools and technologies.
+OES is the steward of <a href="https://contributor-covenant.org" target="_blank">Contributor Covenant</a>, the first and most popular code of conduct for digital spaces. Contributor Covenant has been adopted by thousands of technology communities, including 9 of the 10 largest open source projects in the world.
 
-But its success has come with a price. Today, open source technologies are also being abused to sustain systems of inequity, violence, and oppression. It plays an increasingly critical role in surveillance capitalism, data harvesting, anti-immigrant violence, protester suppression, racist policing, the deployment of cruel and inhumane weapons, and other human rights abuses all over the world. And a growing number of open source developers want to do something about this abuse of their work.
+We are a community of technologists, social scientists, activists, legal experts, and human rights workers. We are united in our conviction that centering shared values of diversity, equity, inclusion, and justice in open source communities can promote the well-being and fundamental human rights of everyone.
 
-The Organization for Ethical Source (OES) was founded to help open source communities ensure that their work is being used for social good and in service of human rights. We develop tools and standards to promote fair, ethical, and equitable outcomes for everyone who contributes to, benefits from, or is impacted by open source technologies.
+OES relies on individual giving and institutional funding to support our mission. Will you help us by <a href="https://opencollective.com/ethical-source" target="_blank">making a one-time or recurring donation?</a>
+ 
+{{< call-to-action-bottom heading="Learn how we're meeting the needs of open source communities." anchor="What We Do" url="/what-we-do" >}}
 
-{{< call-to-action-bottom heading="Our work is volunteer-led and member-driven." anchor="Who we are" url="/who-we-are" >}}
+
+
