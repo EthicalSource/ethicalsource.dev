@@ -1,6 +1,6 @@
 +++
 title = "The Technology Behind the Hippocratic License 3 License Builder"
-summary = "Deploying 39,3000 URLs in under 26 seconds with Hugo and Netlify on-demand builders"
+summary = "Deploying 39,300 URLs in under 26 seconds with Hugo and Netlify on-demand builders"
 slug = "launching-the-hippocratic-license-3-with-hugo-and-netlify-on-demand-builders"
 type = "blog"
 bylineDate = "July 21, 2022"
