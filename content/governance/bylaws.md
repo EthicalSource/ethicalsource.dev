@@ -39,7 +39,7 @@ The funds shall be used in accordance with the Organization’s social aims.
 
 <h3 class="fancy-subtitle">article 5</h3>
 
-Any natural person or legal entity, with the exception of organizations pursuing commercial goals, may become a member if they have demonstrated their dedication to the goals of the Organization through their commitments or actions, and agree to abide by the Organization’s [Code of Conduct](https://ethicalsource.dev/community-code-of-conduct/).
+Any natural person or legal entity, with the exception of organizations pursuing commercial goals, may become a member if they have demonstrated their dedication to the goals of the Organization through their commitments or actions, and agree to abide by the Organization’s [Code of Conduct](/governance/code-of-conduct/).
 
 The Organization comprises:
 
