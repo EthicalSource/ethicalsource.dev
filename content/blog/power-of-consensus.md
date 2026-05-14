@@ -4,6 +4,7 @@ summary = "How We Built Contributor Covenant 3"
 slug = "power-of-consensus"
 type = "blog"
 bylineDate = "May 2026"
+bylineAuthor = "Mo McElaney, Rynn Mancuso, Maryblessing Okolie, Greg Cassel"
 +++
 
 [Contributor Covenant 3.0](https://www.contributor-covenant.org/version/3/0/code_of_conduct/) marks a notable change in the way this globally adopted code of conduct was operated and maintained. This is by far the most open and collaborative process that the [Organization for Ethical Source](https://ethicalsource.dev/) has ever overseen to make changes to the Contributor Covenant, with diverse feedback loops. It was a global effort, spanning countries and industries, and we wanted to write about the process of writing version 3 because we felt like it was very special, not just to the project itself but to the open source movement. You’ll hear directly from Version 3 Working Group (WG) members like Maryblessing Okolie, who said, “This new version also emphasizes restorative justice, and we were keen on using inclusive language.”
