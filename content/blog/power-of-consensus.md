@@ -21,7 +21,7 @@ Through surveys, conducting interviews, and gathering feedback on shared drafts,
 
 > “It took us a year and six months to complete the entire draft while making sure people were available. It took that long because we wanted to make sure that we were incorporating every bit of feedback,” Maryblessing Okolie said.
 
-The WG persevered through unexpected creative challenges and delays to ensure that everyone in the WG agreed with every word and change in the final draft of version 3. Everything was discussed and weighed against the needs of the whole. The WG utilized google docs for draft version control, instead of GitHub. We wanted to ensure that contributors to the Contributor Covenant felt safe in providing their feedback in an environment that was protected from bad actors in the public. 
+The WG persevered through unexpected creative challenges and delays to ensure that everyone in the WG agreed with every word and change in the final draft of version 3. Everything was discussed and weighed against the needs of the whole. The working group decided against using GitHub for version control of the draft, opting to work in a shared document instead. This was to ensure that participants felt safe contributing to the sensitive drafting process in an environment that was kept safe from bad actors.
 
 > “We do not always do everything in the open on GitHub. One reason is structural - GitHub is not great at document management... Another reason that we did that is... we've received a lot of harassment from groups on the internet that were frankly invested in being able to cause trouble for a lot of people, ” said Rynn Mancuso.
 
