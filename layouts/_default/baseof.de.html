@@ -1,0 +1,70 @@
+{{- $fontStyle := resources.Get "css/fonts.css" -}}
+{{- $mainStyle := resources.Get "css/main.css" -}}
+{{- $css := slice $fontStyle $mainStyle | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint -}}
+{{- $mainJs := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint -}}
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ .Site.Title }} | {{ .Title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:url" content="https://ethicalsource.dev/de">
+    {{ if .Params.Summary }}
+      <meta property="og:description" content="{{ .Params.Summary}}">
+    {{ else }}
+      <meta property="og:title" content="Die Organization for Ethical Source unterstützt eine globale und multidisziplinäre Gemeinschaft, die sich für Gerechtigkeit und Gleichberechtigung in der Praxis von Open Source einsetzt.">
+    {{ end }}
+    <meta property="og:image" content="https://ethicalsource.dev/img/ethical_source.jpg">
+    <meta property="og:description" content="{{ .Params.Summary}}">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+    {{ with .OutputFormats.Get "rss" -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+  </head>
+
+  <body{{ with .Section }} id="{{ . }}"{{ end }}>
+    <div>
+      <header>
+        <figure>
+          <a href="/">
+            <img class="logo" src="/img/ethical_source.jpg" alt="Logo der Organization for Ethical Source">
+          </a>
+        </figure>
+        <div class="page-title">
+          <h1>{{ .Title }}</h1>
+        </div>
+      </header>
+    </div>
+    <div id="veil">
+      <h2>{{ .Params.Heading }}</h2>
+      {{ block "main" . }}
+      {{ end }}
+      <footer>
+        <p>
+          &copy; Copyright {{ now.Format "2006" }} Organization for Ethical Source.
+           Folge uns auf Twitter unter <a href="https://twitter.com/ethicaloss">@EthicalOSS</a>.
+          Unterstütze diese Initiative über <a href="https://opencollective.com/ethical-source">Open Collective</a>. Diese Seite verwendet keine Cookies.
+        </p>
+      </footer>
+    </div>
+
+    <nav id="navigation">
+      <ul>
+        <li><a href="/de/principles">Ethical-Source-Prinzipien</a></li>
+        <!--li><a href="/translations">Definition Translations</a></li-->
+        <li><a href="/de/licenses">Ethische Lizenzen</a></li>
+        <li><a href="/de/blog">Blog</a></li>
+        <li><a href="/de/media">In den Medien</a></li>
+        <li><a href="/de/resources">Weitere Lektüre</a></li>
+        <li><a href="/de/governance">Verwaltung</a></li>
+        <li><a href="/de/join">Beitreten</a></li>
+        <li><a href="/de/contact">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <script src="{{ $mainJs.RelPermalink }}" integrity="{{ $mainJs.Data.Integrity }}"></script>
+  </body>
+</html>

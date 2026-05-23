@@ -1,12 +1,8 @@
 {{ define "main" }}
 <section>
     <ul>
-      {{ range .Site.Home.AllTranslations }}
-        {{ if eq .Language.Lang "en" }}
-        {{ else }}
-          <li><a href="/{{ .Language.Lang }}/definition">{{ .Language.LanguageName }}</a></li>
-        {{ end }}
-      {{ end }}
+      <li><a href="/de/principles">Deutsch</a></li>
+      <li><a href="/en/principles">English</a></li>
     </ul>
   <br />
   {{ .Content }}
