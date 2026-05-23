@@ -9,25 +9,31 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
   <head>
-    <meta charset="utf-8">
-    <title>{{ .Site.Title }} | {{ .Title }}</title>
+    <title>
+      {{/* If not home page, add use site title + page title */}}
+      {{ if ne page.IsHome true }}
+        {{ .Site.Title }} | {{ .Page.Title }}{{ else }}
+        {{ .Page.Title }}
+      {{ end }}
+    </title>
+
+    {{/* setup base meta tags */}}
+    <meta charset="utf-8" />
+    <meta name="description" content="{{ if .Params.Summary }}{{ .Params.Summary }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    {{ if .Params.title }}
-      <meta property="og:title" content="{{ .Params.Title }}">
-    {{ else }}
-      <meta property="og:title" content="{{ .Site.Title }}">
-    {{ end }}
+    {{/* setup opengraph meta tags - https://ogp.me/ */}} 
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Organization for Ethical Source">
+    <meta property="og:locale" content="en_US">
     <meta property="og:image" content="https://ethicalsource.dev/images/oes-logo-color.jpg">
+    <meta property-="og:title" content="{{ if ne page.IsHome true }}{{ .Site.Title }} | {{ .Page.Title }}{{ else }}{{ .Page.Title }}{{ end }}">
     <meta property="og:url" content="{{ .Permalink }}">
-    {{ if .Params.Summary }}
-      <meta property="og:description" content="{{ .Params.Summary }}">
-    {{ else }}
-      <meta property="og:description" content="The Organization for Ethical Source is a global, multidisciplinary community devoted to centering justice, equity, and human rights in the practice of open source.">
-    {{ end }}
+    <meta property="og:description" content="{{ if .Params.Summary }}{{ .Params.Summary }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
 
+    {{/* setup link tags for stylesheets and icons */}}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ .Site.Params.favicon }}" />
+    <link rel="icon" hreg="{{ .Site.Params.favicon }}">
  </head>
 
   <body{{ with .Section }} id="{{ . }}"{{ end }}>
@@ -37,8 +43,6 @@
       {{ end }}
       {{ partial "footer" }}
     </div>
-
-    {{ partial "navigation" . }}
 
     <script src="{{ $mainJs.RelPermalink }}" integrity="{{ $mainJs.Data.Integrity }}"></script>
   </body>

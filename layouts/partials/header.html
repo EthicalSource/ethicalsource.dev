@@ -12,3 +12,19 @@
   {{ end }}
   </div>
 </header>
+<nav class="{{ $level }} navigation">
+  <input type="checkbox" id="menu-toggle" />
+  <label class="menu-button float-right" for="menu-toggle">
+    <svg viewBox="0 0 100 80">
+      <rect width="100" height="20"></rect>
+      <rect y="30" width="100" height="20"></rect>
+      <rect y="60" width="100" height="20"></rect>
+    </svg>
+  </label>
+  <ul class="navigation-list">
+    <li class="navigation-item"><a class="navigation-link" href="/what-we-do">What We Do</a></li>
+    <li class="navigation-item"><a class="navigation-link" href="/what-we-believe">What We Believe</a></li>
+    <li class="navigation-item"><a class="navigation-link" href="/who-we-are">Who We Are</a></li>
+    <li class="navigation-item"><a class="navigation-link" href="#navigation">More</a></li>
+  </ul>
+</nav>

@@ -2,6 +2,10 @@ baseURL = "https://ethicalsource.dev"
 languageCode = "en-us"
 title = "Organization for Ethical Source"
 
+[params]
+description = "The Organization for Ethical Source is a global, multidisciplinary community devoted to centering justice, equity, and human rights in the practice of open source."
+favicon = "/images/favicon.ico"
+
 DefaultContentLanguage = "en"
 hasCJKLanguage = true
 EnableMissingTranslationPlaceholders = true
